@@ -59,23 +59,23 @@ void Sn112_Target::Construct(G4ThreeVector global_coordinates) {
   G4double container_outer_radius = 11. * mm;
   G4double container_lid_thickness = 2. * mm;
 
-  G4double co59_I_density = 8.90 * g / cm3; // Density of natural cobalt from Wikipedia
+  G4double co59_I_density = 0.987 * g / cm3; // Density of natural cobalt from Wikipedia = 8.90 * g / cm3.
   G4double co59_I_mass = 0.7689 * g; // +- 0.0003 g
   co59_I_thickness = co59_I_mass / (co59_I_density * pi * container_inner_radius * container_inner_radius);
 
-  G4double al27_II_density = 2.70 * g / cm3; // Density of natural aluminium from Wikipedia
+  G4double al27_II_density = 2.65 * g / cm3; // Density of natural aluminium from Wikipedia = 2.70 * g / cm3.
   G4double al27_II_mass = 1.7055 * g; // +- 0.0003 g
   al27_II_thickness = al27_II_mass / (al27_II_density * pi * container_inner_radius * container_inner_radius);
 
-  G4double sn112_III_density = 7.265 * g / cm3; // Density of natural beta-tin from Wikipedia.
+  G4double sn112_III_density = 7.05 * g / cm3; // Density of natural beta-tin from Wikipedia = 7.265 * g / cm3.
   G4double sn112_III_mass = 4.4285 * g; // +- 0.0003 g
   sn112_III_thickness = sn112_III_mass / (sn112_III_density * pi * container_inner_radius * container_inner_radius);
 
-  G4double al27_IV_density = 2.70 * g / cm3; // Density of natural aluminium from Wikipedia
+  G4double al27_IV_density = 2.65 * g / cm3; // Density of natural aluminium from Wikipedia = 2.70 * g / cm3.
   G4double al27_IV_mass = 1.7067 * g; // +- 0.0003 g
   al27_IV_thickness = al27_IV_mass / (al27_IV_density * pi * container_inner_radius * container_inner_radius);
 
-  G4double co59_V_density = 8.90 * g / cm3; // Density of natural cobalt from Wikipedia
+  G4double co59_V_density = 0.987 * g / cm3; // Density of natural cobalt from Wikipedia = 8.90 * g / cm3.
   G4double co59_V_mass = 0.7511 * g; // +- 0.0003 g
   co59_V_thickness = co59_V_mass / (co59_V_density * pi * container_inner_radius * container_inner_radius);
 
@@ -116,7 +116,7 @@ void Sn112_Target::Construct(G4ThreeVector global_coordinates) {
   new G4PVPlacement(0, global_coordinates + G4ThreeVector(0., 0., 0.5 * container_lid_thickness + 0.5 * container_inner_length), container_top_logical, "container_top", World_Logical, false, 0);
 
   // Construct targets in a loop
-  vector<G4String> target_names = {"Co59_I", "Al27_II", "Sn112_III", "Al27_IV", "Co59_V"};
+  vector<G4String> target_names = {"Co59_1", "Al27_2", "Sn112_1", "Al27_1", "Co59_2"};
   vector<G4Material *> target_materials = {nat_Co, nat_Al, sn112_material, nat_Al, nat_Co};
   vector<G4Tubs *> target_solids;
   vector<G4LogicalVolume *> target_logicals;

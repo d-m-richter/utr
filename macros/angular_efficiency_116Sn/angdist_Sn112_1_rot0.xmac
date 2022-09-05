@@ -1,12 +1,12 @@
 #!/usr/bin/env utrwrapper.py
 
 #[generalConfig]
-#outputDir=/home/mbeuschlein/utr/output/angular_efficiency/angdist_Sn112_1_rot180
+#outputDir=/home/mbeuschlein/utr/output/angular_efficieny_116Sn/angdist_Sn112_1_rot0
 #niceness=19
 #threads=80
 
 #[environmentVariables]
-#filenamePrefix=angdist_Sn112_1_rot180
+#filenamePrefix=angdist_Sn112_1_rot0
 #filenameSuffix=
 #filenameTemplate={filenamePrefix}
 
@@ -18,7 +18,11 @@
 #USE_TARGETS=ON
 #USE_ZERODEGREE=OFF
 #ZERODEGREE_OFFSET=0.0
-#ROTATE_TARGET=ON
+#ROTATE_TARGET=OFF
+#EVENT_EKIN=OFF
+#EVENT_EDEP=ON
+#EVENT_ID=OFF
+#EVENT_PARTICLE=ON
 
 #[getHistogramArgs]
 #maxenergy=10
@@ -32,7 +36,7 @@
 #START_OF_MACRO
 
 /control/alias beamOnStatistics 100000000
-#/control/alias beamOnStatistics 50000
+#/control/alias beamOnStatistics 500000
 
 # Get the filenamePrefix and filenameSuffix variables defined in the configuration header as GEANT4 aliases
 /control/getEnv filenamePrefix
@@ -59,7 +63,7 @@
 
 /ang/sourceX 0. mm
 /ang/sourceY 0. mm
-/ang/sourceZ -6.90206 mm
+/ang/sourceZ 6.90206 mm
 
 /ang/sourceDX 10.0000 mm
 /ang/sourceDY 10.0000 mm
