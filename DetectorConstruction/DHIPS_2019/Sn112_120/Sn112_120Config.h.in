@@ -1,0 +1,14 @@
+/*
+ *
+ * Sn112_120Config.h is created automatically by cmake.
+ * To change settings of Sn112_120Config.h, edit
+ * the Sn112_120Config.h.in file in the include
+ * directory and execute cmake again.
+ * Note that this notice is copied from
+ * Sn112_120Config.h.in to Sn112_120Config.h.
+ *
+ */
+
+#pragma once
+
+#cmakedefine ROTATE_TARGET

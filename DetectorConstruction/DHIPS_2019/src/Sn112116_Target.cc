@@ -140,25 +140,25 @@ void Sn112116_Target::Construct(G4RotationMatrix *rotation, G4ThreeVector global
 
   G4Tubs *Sn116_2_solid = new G4Tubs("Sn116_2_solid", 0., target_radius, Sn116_2_thickness * 0.5, 0., twopi);
   G4LogicalVolume *Sn116_2_logical = new G4LogicalVolume(Sn116_2_solid, Sn116_material, "Sn116_2_logical");
-  Sn116_2_logical->SetVisAttributes(G4Color::Yellow());
+  Sn116_2_logical->SetVisAttributes(G4Color::Magenta());
   Sn116_2_pos = G4ThreeVector(0., 0., -0.5 * Sn112116_Container_InnerHeight + 0.5 * Sn116_2_thickness);
   new G4PVPlacement(0, Sn116_2_pos, Sn116_2_logical, "Sn116_2", Sn112116_Mother_Logical, false, 0);
 
   G4Tubs *Sn112_2_solid = new G4Tubs("Sn112_2_solid", 0., target_radius, Sn112_2_thickness * 0.5, 0., twopi);
   G4LogicalVolume *Sn112_2_logical = new G4LogicalVolume(Sn112_2_solid, Sn112_material, "Sn112_2_logical");
-  Sn112_2_logical->SetVisAttributes(G4Color::Red());
+  Sn112_2_logical->SetVisAttributes(G4Color::Green());
   Sn112_2_pos = G4ThreeVector(0., 0., -0.5 * Sn112116_Container_InnerHeight + 1. * target_spacing + Sn116_2_thickness + 0.5 * Sn112_2_thickness);
   new G4PVPlacement(0, Sn112_2_pos, Sn112_2_logical, "Sn112_2", Sn112116_Mother_Logical, false, 0);
 
   G4Tubs *Sn116_3_solid = new G4Tubs("Sn116_3_solid", 0., target_radius, Sn116_3_thickness * 0.5, 0., twopi);
   G4LogicalVolume *Sn116_3_logical = new G4LogicalVolume(Sn116_3_solid, Sn116_material, "Sn116_3_logical");
-  Sn116_3_logical->SetVisAttributes(G4Color::Yellow());
+  Sn116_3_logical->SetVisAttributes(G4Color::Magenta());
   Sn116_3_pos = G4ThreeVector(0., 0., -0.5 * Sn112116_Container_InnerHeight + 2. * target_spacing + Sn116_2_thickness + Sn112_2_thickness + 0.5 * Sn116_3_thickness);
   new G4PVPlacement(0, Sn116_3_pos, Sn116_3_logical, "Sn116_3", Sn112116_Mother_Logical, false, 0);
 
   G4Tubs *Sn112_1_solid = new G4Tubs("Sn112_1_solid", 0., target_radius, Sn112_1_thickness * 0.5, 0., twopi);
   G4LogicalVolume *Sn112_1_logical = new G4LogicalVolume(Sn112_1_solid, Sn112_material, "Sn112_1_logical");
-  Sn112_1_logical->SetVisAttributes(G4Color::Red());
+  Sn112_1_logical->SetVisAttributes(G4Color::Green());
   Sn112_1_pos = G4ThreeVector(0., 0., -0.5 * Sn112116_Container_InnerHeight + 3. * target_spacing + Sn116_2_thickness + Sn112_2_thickness + Sn116_3_thickness + 0.5 * Sn112_1_thickness);
   new G4PVPlacement(0, Sn112_1_pos, Sn112_1_logical, "Sn112_1", Sn112116_Mother_Logical, false, 0);
 

@@ -1,7 +1,7 @@
 #!/usr/bin/env utrwrapper.py
 
 #[generalConfig]
-#outputDir=/home/mbeuschlein/utr/output/angular_efficieny_112Sn/angdist_Al27_1_rot0    ## <---
+#outputDir=/home/mbeuschlein/utr/output/angular_efficiency_112Sn/angdist_Al27_1_rot0    ## <---
 #niceness=19
 #threads=80
 
