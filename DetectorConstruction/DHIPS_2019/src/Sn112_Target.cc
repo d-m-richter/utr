@@ -116,7 +116,7 @@ void Sn112_Target::Construct(G4ThreeVector global_coordinates) {
   new G4PVPlacement(0, global_coordinates + G4ThreeVector(0., 0., 0.5 * container_lid_thickness + 0.5 * container_inner_length), container_top_logical, "container_top", World_Logical, false, 0);
 
   // Construct targets in a loop
-  vector<G4String> target_names = {"Co59_1", "Al27_2", "Sn112_1", "Al27_1", "Co59_2"};
+  vector<G4String> target_names = {"Co59_1", "Al27_1", "Sn112_1", "Al27_2", "Co59_2"};
   vector<G4Material *> target_materials = {nat_Co, nat_Al, sn112_material, nat_Al, nat_Co};
   vector<G4Tubs *> target_solids;
   vector<G4LogicalVolume *> target_logicals;
