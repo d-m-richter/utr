@@ -1,12 +1,12 @@
 #!/usr/bin/env utrwrapper.py
 
 #[generalConfig]
-#outputDir=/home/mbeuschlein/utr/output/angular_efficiency_120Sn/angdist_Sn112_1_rot0   ## <---
+#outputDir=/home/mbeuschlein/utr/output/angular_efficiency_120Sn/angdist_Sn112_2_rot0   ## <---
 #niceness=19
 #threads=80
 
 #[environmentVariables]
-#filenamePrefix=angdist_Sn112_1_rot0   ## <---
+#filenamePrefix=angdist_Sn112_2_rot0   ## <---
 #filenameSuffix=
 #filenameTemplate={filenamePrefix}
 
@@ -63,13 +63,13 @@
 
 /ang/sourceX 0. mm
 /ang/sourceY 0. mm
-/ang/sourceZ -6.83811 mm    ## <---
+/ang/sourceZ 2.28328 mm    ## <---
 
 /ang/sourceDX 10.0000 mm
 /ang/sourceDY 10.0000 mm
-/ang/sourceDZ 4.32378 mm   ## <---
+/ang/sourceDZ 4.34184 mm   ## <---
 
-/ang/sourcePV Sn112_1      ## <---
+/ang/sourcePV Sn112_2      ## <---
 
 
 /control/getEnv filenameTemplate

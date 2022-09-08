@@ -1,12 +1,12 @@
 #!/usr/bin/env utrwrapper.py
 
 #[generalConfig]
-#outputDir=/home/mbeuschlein/utr/output/angular_efficiency_120Sn/angdist_Sn112_1_rot0   ## <---
+#outputDir=/home/mbeuschlein/utr/output/angular_efficiency_120Sn/angdist_Sn120_2_rot0     ## <---
 #niceness=19
 #threads=80
 
 #[environmentVariables]
-#filenamePrefix=angdist_Sn112_1_rot0   ## <---
+#filenamePrefix=angdist_Sn120_2_rot0    ## <---
 #filenameSuffix=
 #filenameTemplate={filenamePrefix}
 
@@ -50,7 +50,7 @@
 /run/initialize
 
 /ang/particle gamma
-/ang/energy 1.25668 MeV    ## <---
+/ang/energy 1.17125 MeV    ## <---
 
 /ang/nstates 3
 /ang/state1 0.
@@ -63,13 +63,13 @@
 
 /ang/sourceX 0. mm
 /ang/sourceY 0. mm
-/ang/sourceZ -6.83811 mm    ## <---
+/ang/sourceZ 6.85599 mm    ## <---
 
 /ang/sourceDX 10.0000 mm
 /ang/sourceDY 10.0000 mm
-/ang/sourceDZ 4.32378 mm   ## <---
+/ang/sourceDZ 4.28802 mm   ## <---
 
-/ang/sourcePV Sn112_1      ## <---
+/ang/sourcePV Sn120_2      ## <---
 
 
 /control/getEnv filenameTemplate

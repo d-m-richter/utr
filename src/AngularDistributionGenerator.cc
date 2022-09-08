@@ -143,6 +143,7 @@ void AngularDistributionGenerator::check_momentum_generator() {
   G4int momentum_success = 0;
   unsigned int max_w_overflow_counter = 0;
   G4double occurred_max_w = -1.;
+  G4double occurred_min_w = 6.;
   double p_max_w = 0.;
 
   G4cout << "========================================================================" << G4endl;
@@ -176,6 +177,14 @@ void AngularDistributionGenerator::check_momentum_generator() {
       if (occurred_max_w < (angdist->AngDist(random_theta, random_phi, states, nstates, mixing_ratios) + angdist->AngDist(random_theta, random_phi, alt_states, nstates, mixing_ratios)) / 2.)
         occurred_max_w = (angdist->AngDist(random_theta, random_phi, states, nstates, mixing_ratios) + angdist->AngDist(random_theta, random_phi, alt_states, nstates, mixing_ratios)) / 2.;
     }
+
+    if (is_polarized) {
+      if (occurred_min_w > angdist->AngDist(random_theta, random_phi, states, nstates, mixing_ratios))
+        occurred_min_w = angdist->AngDist(random_theta, random_phi, states, nstates, mixing_ratios);
+    } else {
+      if (occurred_min_w > (angdist->AngDist(random_theta, random_phi, states, nstates, mixing_ratios) + angdist->AngDist(random_theta, random_phi, alt_states, nstates, mixing_ratios)) / 2.)
+        occurred_min_w = (angdist->AngDist(random_theta, random_phi, states, nstates, mixing_ratios) + angdist->AngDist(random_theta, random_phi, alt_states, nstates, mixing_ratios)) / 2.;
+    }
   }
 
   G4double p = (double)momentum_success / MAX_TRIES_MOMENTUM;
@@ -193,7 +202,7 @@ void AngularDistributionGenerator::check_momentum_generator() {
     throw std::exception();
   }
   if (max_w_overflow_counter == 0) {
-    G4cout << "MAX_W == " << MAX_W << " seems to be high enough as the maximal occurred value of the angular distribution was " << occurred_max_w << G4endl;
+    G4cout << "MAX_W == " << MAX_W << " seems to be high enough as the maximal occurred value of the angular distribution was " << occurred_max_w << ", and minimum is " << occurred_min_w << G4endl;
   } else {
     p_max_w = (double)max_w_overflow_counter / MAX_TRIES_MOMENTUM;
     G4cout << G4endl;
