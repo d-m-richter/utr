@@ -1,12 +1,12 @@
 #!/usr/bin/env utrwrapper.py
 
 #[generalConfig]
-#outputDir=/home/mbeuschlein/utr/output/angular_efficiency_112Sn/angdist_Al27_2_rot0    ## <---
+#outputDir=/home/mbeuschlein/utr/output/angular_efficiency_112Sn_wrongDelta/angdist_Co59_2_rot0    ## <---
 #niceness=19
 #threads=80
 
 #[environmentVariables]
-#filenamePrefix=angdist_Al27_2_rot0     ## <---
+#filenamePrefix=angdist_Co59_2_rot0     ## <---
 #filenameSuffix=
 #filenameTemplate={filenamePrefix}
 
@@ -50,26 +50,26 @@
 /run/initialize
 
 /ang/particle gamma
-/ang/energy 2.21201 MeV         ## <----
+/ang/energy 1.1897 MeV         ## <----
 
 /ang/nstates 3                 ## <---
-/ang/state1 2.5
-/ang/state2 3.5
-/ang/state3 2.5
+/ang/state1 -3.5
+/ang/state2 -4.5
+/ang/state3 -3.5
 /ang/polarized false
 
-/ang/delta12 -0.468             ## <---- sign convention KSW?
-/ang/delta23 0.468
+/ang/delta12 0.21             ## <---- sign convention KSW?
+/ang/delta23 -0.21
 
 /ang/sourceX 0. mm
 /ang/sourceY 0. mm
-/ang/sourceZ 2.05274 mm        ## <----
+/ang/sourceZ 4.28892 mm        ## <----
 
 /ang/sourceDX 20.0000 mm
 /ang/sourceDY 20.0000 mm
-/ang/sourceDZ 2.05004 mm        ## <----
+/ang/sourceDZ 2.42232 mm        ## <----
 
-/ang/sourcePV Al27_2            ## <----
+/ang/sourcePV Co59_2            ## <----
 
 
 /control/getEnv filenameTemplate
