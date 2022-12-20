@@ -120,7 +120,7 @@ void Sn112_Target::Construct(G4ThreeVector global_coordinates) {
   vector<G4Material *> target_materials = {nat_Co, nat_Al, sn112_material, nat_Al, nat_Co};
   vector<G4Tubs *> target_solids;
   vector<G4LogicalVolume *> target_logicals;
-  vector<G4Color> target_colors = {G4Color::Green(), G4Color::Cyan(), G4Color::Yellow(), G4Color::Cyan(), G4Color::Green()};
+  vector<G4Color> target_colors = {G4Color::Brown(), G4Color::Blue(), G4Color::Green(), G4Color::Blue(), G4Color::Brown()};
   vector<double> target_thicknesses = {co59_I_thickness, al27_II_thickness, sn112_III_thickness, al27_IV_thickness, co59_V_thickness};
 
   stringstream name;
