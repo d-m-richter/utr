@@ -50,28 +50,11 @@ along with utr.  If not, see <http://www.gnu.org/licenses/>.
 
 
 /*
- * Simple geometry to study the evolution of the photon flux when a particle beam traverses a target.
- * To get a snapshot of the kinetic energy distribution of the photon beam at a given penetration depth,
- * the target is segmented along the z-axis into n layers.
+ * Simple geometry to determine the attenuation of a given material when penetrated by a photon beam.
  *
  * The simulation uses the ParticleSD detector type, which records particle information at any time when a
  * particle propagates into a new target segment for the first time (or when it is created there).
- *
- * It is recommended to record the following information in the output file, to be able to filter out
- * backward-propagating particles or particles which come from outside the target:
- *
- * EVENT_EKIN
- * EVENT_MOMX
- * EVENT_MOMY
- * EVENT_MOMZ
- * EVENT_POSX
- * EVENT_POSY
- * EVENT_POSZ
- * EVENT_PARTICLE
- * EVENT_VOLUME
  */
-
-const size_t n_target_layers = 1; // Determines the number of layers of the target.
 
 DetectorConstruction::DetectorConstruction() {}
 
