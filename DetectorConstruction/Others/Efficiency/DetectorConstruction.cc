@@ -38,6 +38,7 @@ along with utr.  If not, see <http://www.gnu.org/licenses/>.
 #include "EnergyDepositionSD.hh"
 #include "ParticleSD.hh"
 
+#include "HPGe_Coaxial.hh"               // <- ?
 #include "HPGe_Coaxial_Properties.hh"    // <- ?
 #include "Units.hh"                      // <- ?
 
@@ -56,8 +57,7 @@ along with utr.  If not, see <http://www.gnu.org/licenses/>.
 /*
  * Simple geometry to determine the efficiency of a detector implemented in this DetectorConstruction.
  * 
- * The simulation uses the ParticleSD detector type, which records particle information at any time when a
- * particle propagates into a new target segment for the first time (or when it is created there).
+ * The simulation uses the ParticleSD detector type, which records particle information at any time when a particle propagates into a new target segment for the first time (or when it is created there).
  *
  */
 
@@ -66,84 +66,98 @@ G4VPhysicalVolume *DetectorConstruction::Construct() {
 
   /***************** Setup Properties *****************/
 
-  const double distance_source_detector = 10. * mm;           // <------ adjust distance from source to detector
-  
-  /***************** Detector Properties *****************/
-
-  HPGe_Coaxial_Properties HPGe_jonny;
-
-  HPGe_jonny.detector_radius = 0.5 * 63.2 * mm; // (A) in ORTEC data sheet
-  HPGe_jonny.detector_length = 84.8 * mm; // (B) in ORTEC data sheet
-  HPGe_jonny.detector_face_radius = 8. * mm; // (J) in ORTEC data sheet
-  HPGe_jonny.hole_radius = 0.5 * 9.2 * mm; // (C) in ORTEC data sheet
-  HPGe_jonny.hole_depth = 73.1 * mm; // (D) in ORTEC data sheet
-  HPGe_jonny.mount_cup_thickness = 0.8 * mm; // (K) in ORTEC data sheet
-  HPGe_jonny.mount_cup_base_thickness = 3. * mm; // ORTEC data sheet
-  HPGe_jonny.mount_cup_material = "G4_Al"; // ORTEC data sheet
-  HPGe_jonny.end_cap_outer_radius = 0.5 * 80. * mm; // Estimated
-  HPGe_jonny.end_cap_to_crystal_gap_front = 4. * mm; // (G) in ORTEC data sheet
-  HPGe_jonny.end_cap_thickness = 1. * mm; // (L) in ORTEC data sheet
-  HPGe_jonny.end_cap_window_thickness = 0.5 * mm; // (I) in ORTEC data sheet
-  HPGe_jonny.end_cap_length = 6.5 * inch; // Measured at the detector
-  HPGe_jonny.end_cap_material = "G4_Al"; // ORTEC data sheet
-  HPGe_jonny.end_cap_window_material = "G4_Be"; // ORTEC data sheet
-  HPGe_jonny.cold_finger_radius = 0.5 * 4. * mm; // Suggestion by B. Fallin, Duke University. Not in ORTEC data sheet
-  HPGe_jonny.cold_finger_material = "G4_Cu"; // Estimated
-  HPGe_jonny.connection_length = 1.5 * inch; // Measured
-  HPGe_jonny.connection_radius = 0.75 * inch; // Estimated
-  HPGe_jonny.dewar_offset = 0. * inch; // Measured
-  HPGe_jonny.connection_material = "G4_Al"; // Estimated
-  HPGe_jonny.dewar_length = 12.5 * inch; // Measured
-  HPGe_jonny.dewar_outer_radius = 4.5 * inch; // Measured
-  HPGe_jonny.dewar_wall_thickness = 5. * mm; // Estimated
-  HPGe_jonny.dewar_material = "G4_Al"; // Estimated
-  HPGe_jonny.hole_face_radius = HPGe_jonny.hole_radius; // Estimated to be the same as hole radius
-  HPGe_jonny.cold_finger_penetration_depth = HPGe_jonny.hole_depth - 5. * mm; // Estimated
-  HPGe_jonny.end_cap_to_crystal_gap_side =
-      HPGe_jonny.end_cap_outer_radius -
-      HPGe_jonny.end_cap_thickness -
-      HPGe_jonny.mount_cup_thickness -
-      HPGe_jonny.detector_radius; // Calculated from outer radius and other given dimensions
-  HPGe_jonny.mount_cup_length =
-      HPGe_jonny.end_cap_length -
-      HPGe_jonny.end_cap_window_thickness -
-      HPGe_jonny.end_cap_to_crystal_gap_front; // Calculated from end cap length
-
+  const double distance_source_detector = 100. * mm;    // <------ adjust distance from source to detector
+  const G4String filter_material_name = "G4_Pb";     // <------ adjust filter material
+  const double filter_thickness = 0.5 * mm;           // <------ adjust filter thickness
 
   /***************** Materials *****************/
 
   G4NistManager *nist = G4NistManager::Instance();
   G4Material *air = nist->FindOrBuildMaterial("G4_AIR");
   //G4Material *vacuum = nist->FindOrBuildMaterial("G4_Galactic");
+  
+  /***************** Detector Properties *****************/
+
+  HPGe_Coaxial_Properties HPGe_jonny_props;
+
+  HPGe_jonny_props.detector_radius = 0.5 * 63.2 * mm; // (A) in ORTEC data sheet
+  HPGe_jonny_props.detector_length = 84.8 * mm; // (B) in ORTEC data sheet
+  HPGe_jonny_props.detector_face_radius = 8. * mm; // (J) in ORTEC data sheet
+  HPGe_jonny_props.hole_radius = 0.5 * 9.2 * mm; // (C) in ORTEC data sheet
+  HPGe_jonny_props.hole_depth = 73.1 * mm; // (D) in ORTEC data sheet
+  HPGe_jonny_props.mount_cup_thickness = 0.8 * mm; // (K) in ORTEC data sheet
+  HPGe_jonny_props.mount_cup_base_thickness = 3. * mm; // ORTEC data sheet
+  HPGe_jonny_props.mount_cup_material = "G4_Al"; // ORTEC data sheet
+  HPGe_jonny_props.end_cap_outer_radius = 0.5 * 80. * mm; // Estimated
+  HPGe_jonny_props.end_cap_to_crystal_gap_front = 4. * mm; // (G) in ORTEC data sheet
+  HPGe_jonny_props.end_cap_thickness = 1. * mm; // (L) in ORTEC data sheet
+  HPGe_jonny_props.end_cap_window_thickness = 0.5 * mm; // (I) in ORTEC data sheet
+  HPGe_jonny_props.end_cap_length = 6.5 * inch; // Measured at the detector
+  HPGe_jonny_props.end_cap_material = "G4_Al"; // ORTEC data sheet
+  HPGe_jonny_props.end_cap_window_material = "G4_Be"; // ORTEC data sheet
+  HPGe_jonny_props.cold_finger_radius = 0.5 * 4. * mm; // Suggestion by B. Fallin, Duke University. Not in ORTEC data sheet
+  HPGe_jonny_props.cold_finger_material = "G4_Cu"; // Estimated
+  HPGe_jonny_props.connection_length = 1.5 * inch; // Measured
+  HPGe_jonny_props.connection_radius = 0.75 * inch; // Estimated
+  HPGe_jonny_props.dewar_offset = 0. * inch; // Measured
+  HPGe_jonny_props.connection_material = "G4_Al"; // Estimated
+  HPGe_jonny_props.dewar_length = 12.5 * inch; // Measured
+  HPGe_jonny_props.dewar_outer_radius = 4.5 * inch; // Measured
+  HPGe_jonny_props.dewar_wall_thickness = 5. * mm; // Estimated
+  HPGe_jonny_props.dewar_material = "G4_Al"; // Estimated
+  HPGe_jonny_props.hole_face_radius = HPGe_jonny_props.hole_radius; // Estimated to be the same as hole radius
+  HPGe_jonny_props.cold_finger_penetration_depth = HPGe_jonny_props.hole_depth - 5. * mm; // Estimated
+  HPGe_jonny_props.end_cap_to_crystal_gap_side =
+      HPGe_jonny_props.end_cap_outer_radius -
+      HPGe_jonny_props.end_cap_thickness -
+      HPGe_jonny_props.mount_cup_thickness -
+      HPGe_jonny_props.detector_radius; // Calculated from outer radius and other given dimensions
+  HPGe_jonny_props.mount_cup_length =
+      HPGe_jonny_props.end_cap_length -
+      HPGe_jonny_props.end_cap_window_thickness -
+      HPGe_jonny_props.end_cap_to_crystal_gap_front; // Calculated from end cap length
+
 
   /***************** World Volume *****************/
 
-  const double world_x =  HPGe_jonny.detector_radius;
-  const double world_y =  HPGe_jonny.detector_radius;
-  const double world_z = 2 * HPGe_jonny.detector_length + distance_source_detector;
+  const double world_x =  HPGe_jonny_props.dewar_outer_radius;
+  const double world_y =  HPGe_jonny_props.dewar_outer_radius;
+  const double world_z = 2 * HPGe_jonny_props.dewar_length + distance_source_detector;
 
   G4Box *world_solid = new G4Box("world_solid", world_x, world_y, world_z);
   G4LogicalVolume *world_logical = new G4LogicalVolume(world_solid, air, "world_logical");
   G4VPhysicalVolume *world_physical = new G4PVPlacement(0, G4ThreeVector(), world_logical, "world", 0, false, 0);
 
+
   /******************** Detector ******************/
 
+  HPGe_Coaxial *HPGe_jonny= new HPGe_Coaxial(world_logical, "Detector_logical");
+  (*HPGe_jonny).setProperties(HPGe_jonny_props);
+  //HPGe_jonny.useDewar();
+  (*HPGe_jonny).Add_Filter(filter_material_name, filter_thickness, HPGe_jonny_props.detector_radius + 2 *HPGe_jonny_props.dewar_wall_thickness);
+  (*HPGe_jonny).Construct(G4ThreeVector(0., 0., 0), 0, twopi, distance_source_detector, 0);
 
 
+
+
+  /***************** Filters for Tests
+    
+  const double filter_radius = HPGe_jonny_props.detector_radius ;           
+  const double distance_filter_detector = 2. * mm;
+  G4Material *filter_material = nist->FindOrBuildMaterial(filter_material_name);  // material with natural density
+
+
+  auto *filter_solid = new G4Tubs("filter_solid", 0., filter_radius, 0.5 * filter_thickness, 0., twopi);
+  auto *filter_logical = new G4LogicalVolume(filter_solid, filter_material, "filter_logical");
+
+  filter_logical->SetVisAttributes(new G4VisAttributes(G4Color::Yellow()));
+  new G4PVPlacement(0, G4ThreeVector(0., 0., 0), filter_logical,  "Filter", world_logical, false, 0);
   
-
-	G4Tubs *Detector_solid = new G4Tubs("Detector_solid", 0, 10. *mm, HPGe_jonny.detector_length/2, 0, twopi);
-	G4LogicalVolume *Detector_logical = new G4LogicalVolume(Detector_solid, air, "Detector_logical", 0, 0, 0);
-
-	//Visualisierung (Farbe)
-	Detector_logical->SetVisAttributes(new G4VisAttributes(G4Color::Blue()));
-	new G4PVPlacement(0, G4ThreeVector(0, 0, distance_source_detector + HPGe_jonny.detector_length/2), Detector_logical, "Detector", world_logical, false, 0);
-	
-
-
+  *****************/
 
 
   return world_physical;
+
 }
 
 // Definiere das Detektorvolumen als Detektor/sensitives Volumen in Geant4
@@ -151,7 +165,7 @@ void DetectorConstruction::ConstructSDandField() {
 
 	// Use ParticleSD instead of EnergyDepositionSD, as ParticleSD records the hits of each particle within a event individually regardless whether the particle actually deposited energy in the detector or not.
 	// An EnergyDepositionSD however only records a single particle per event and only if it actually left some energy in the detector
-	ParticleSD *DetectorSD = new ParticleSD("Detector_logical", "Detector_logical");
+	EnergyDepositionSD *DetectorSD = new EnergyDepositionSD("Detector_logical", "Detector_logical");
 	G4SDManager::GetSDMpointer()->AddNewDetector(DetectorSD);
 	DetectorSD->SetDetectorID(0);
 	SetSensitiveDetector("Detector_logical", DetectorSD, true);
