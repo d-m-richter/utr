@@ -61,7 +61,6 @@ along with utr.  If not, see <http://www.gnu.org/licenses/>.
  *
  */
 
-
 G4VPhysicalVolume *DetectorConstruction::Construct() {
 
   /***************** Setup Properties *****************/
@@ -136,24 +135,6 @@ G4VPhysicalVolume *DetectorConstruction::Construct() {
   //HPGe_jonny.useDewar();
   (*HPGe_jonny).Add_Filter(filter_material_name, filter_thickness, HPGe_jonny_props.detector_radius + 2 *HPGe_jonny_props.dewar_wall_thickness);
   (*HPGe_jonny).Construct(G4ThreeVector(0., 0., 0), 0, twopi, distance_source_detector, 0);
-
-
-
-
-  /***************** Filters for Tests
-    
-  const double filter_radius = HPGe_jonny_props.detector_radius ;           
-  const double distance_filter_detector = 2. * mm;
-  G4Material *filter_material = nist->FindOrBuildMaterial(filter_material_name);  // material with natural density
-
-
-  auto *filter_solid = new G4Tubs("filter_solid", 0., filter_radius, 0.5 * filter_thickness, 0., twopi);
-  auto *filter_logical = new G4LogicalVolume(filter_solid, filter_material, "filter_logical");
-
-  filter_logical->SetVisAttributes(new G4VisAttributes(G4Color::Yellow()));
-  new G4PVPlacement(0, G4ThreeVector(0., 0., 0), filter_logical,  "Filter", world_logical, false, 0);
-  
-  *****************/
 
 
   return world_physical;
