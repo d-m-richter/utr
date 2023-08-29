@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<gdml xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://service-spi.web.cern.ch/service-spi/app/releases/GDML/schema/gdml.xsd"> 
+ <define>
+ <position name="testgeometrie_v0" unit="mm" x="-20.5" y="8.0" z="0.0"/>
+ <position name="testgeometrie_v1" unit="mm" x="-20.5" y="-8.0" z="0.0"/>
+ <position name="testgeometrie_v2" unit="mm" x="-8.0" y="-8.0" z="0.0"/>
+ <position name="testgeometrie_v3" unit="mm" x="-4.0" y="-8.25" z="0.0"/>
+ <position name="testgeometrie_v4" unit="mm" x="-8.0" y="-20.3124998869543" z="0.0"/>
+ <position name="testgeometrie_v5" unit="mm" x="8.0" y="-20.3124998869543" z="0.0"/>
+ <position name="testgeometrie_v6" unit="mm" x="-4.0" y="-2.25" z="0.0"/>
+ <position name="testgeometrie_v7" unit="mm" x="4.0" y="-8.25" z="0.0"/>
+ <position name="testgeometrie_v8" unit="mm" x="-1.0" y="-2.25" z="0.0"/>
+ <position name="testgeometrie_v9" unit="mm" x="-1.0" y="-5.75" z="0.0"/>
+ <position name="testgeometrie_v10" unit="mm" x="1.0" y="-5.75" z="0.0"/>
+ <position name="testgeometrie_v11" unit="mm" x="-4.0" y="2.25" z="0.0"/>
+ <position name="testgeometrie_v12" unit="mm" x="1.0" y="-2.25" z="0.0"/>
+ <position name="testgeometrie_v13" unit="mm" x="-8.0" y="8.0" z="0.0"/>
+ <position name="testgeometrie_v14" unit="mm" x="8.0" y="-8.0" z="0.0"/>
+ <position name="testgeometrie_v15" unit="mm" x="-1.0" y="2.25" z="0.0"/>
+ <position name="testgeometrie_v16" unit="mm" x="4.0" y="-2.25" z="0.0"/>
+ <position name="testgeometrie_v17" unit="mm" x="1.0" y="2.25" z="0.0"/>
+ <position name="testgeometrie_v18" unit="mm" x="-4.0" y="8.25" z="0.0"/>
+ <position name="testgeometrie_v19" unit="mm" x="4.0" y="2.25" z="0.0"/>
+ <position name="testgeometrie_v20" unit="mm" x="1.0" y="5.75" z="0.0"/>
+ <position name="testgeometrie_v21" unit="mm" x="-1.0" y="5.75" z="0.0"/>
+ <position name="testgeometrie_v22" unit="mm" x="-8.0" y="20.3124998869543" z="0.0"/>
+ <position name="testgeometrie_v23" unit="mm" x="8.0" y="8.0" z="0.0"/>
+ <position name="testgeometrie_v24" unit="mm" x="4.0" y="8.25" z="0.0"/>
+ <position name="testgeometrie_v25" unit="mm" x="8.0" y="20.3124998869543" z="0.0"/>
+ <position name="testgeometrie_v26" unit="mm" x="20.5" y="8.0" z="0.0"/>
+ <position name="testgeometrie_v27" unit="mm" x="20.5" y="-8.0" z="0.0"/>
+ <position name="testgeometrie_v28" unit="mm" x="-20.5" y="8.0" z="-20.0"/>
+ <position name="testgeometrie_v29" unit="mm" x="-8.0" y="8.0" z="-20.0"/>
+ <position name="testgeometrie_v30" unit="mm" x="-20.5" y="-8.0" z="-20.0"/>
+ <position name="testgeometrie_v31" unit="mm" x="-8.0" y="-8.0" z="-20.0"/>
+ <position name="testgeometrie_v32" unit="mm" x="20.5" y="-8.0" z="-20.0"/>
+ <position name="testgeometrie_v33" unit="mm" x="20.5" y="8.0" z="-20.0"/>
+ <position name="testgeometrie_v34" unit="mm" x="8.0" y="-8.0" z="-20.0"/>
+ <position name="testgeometrie_v35" unit="mm" x="-8.0" y="-20.3124998869543" z="-20.0"/>
+ <position name="testgeometrie_v36" unit="mm" x="8.0" y="-20.3124998869543" z="-20.0"/>
+ <position name="testgeometrie_v37" unit="mm" x="8.0" y="8.0" z="-20.0"/>
+ <position name="testgeometrie_v38" unit="mm" x="-8.0" y="20.3124998869543" z="-20.0"/>
+ <position name="testgeometrie_v39" unit="mm" x="8.0" y="20.3124998869543" z="-20.0"/>
+ <position name="testgeometrie_v40" unit="mm" x="4.0" y="8.25" z="23.5"/>
+ <position name="testgeometrie_v41" unit="mm" x="-4.0" y="8.25" z="23.5"/>
+ <position name="testgeometrie_v42" unit="mm" x="-4.0" y="2.25" z="23.5"/>
+ <position name="testgeometrie_v43" unit="mm" x="-1.0" y="2.25" z="23.5"/>
+ <position name="testgeometrie_v44" unit="mm" x="-1.0" y="5.75" z="23.5"/>
+ <position name="testgeometrie_v45" unit="mm" x="1.0" y="5.75" z="23.5"/>
+ <position name="testgeometrie_v46" unit="mm" x="1.0" y="2.25" z="23.5"/>
+ <position name="testgeometrie_v47" unit="mm" x="4.0" y="2.25" z="23.5"/>
+ <position name="testgeometrie_v48" unit="mm" x="-4.0" y="-8.25" z="23.5"/>
+ <position name="testgeometrie_v49" unit="mm" x="-4.0" y="-2.25" z="23.5"/>
+ <position name="testgeometrie_v50" unit="mm" x="4.0" y="-8.25" z="23.5"/>
+ <position name="testgeometrie_v51" unit="mm" x="4.0" y="-2.25" z="23.5"/>
+ <position name="testgeometrie_v52" unit="mm" x="1.0" y="-2.25" z="23.5"/>
+ <position name="testgeometrie_v53" unit="mm" x="1.0" y="-5.75" z="23.5"/>
+ <position name="testgeometrie_v54" unit="mm" x="-1.0" y="-5.75" z="23.5"/>
+ <position name="testgeometrie_v55" unit="mm" x="-1.0" y="-2.25" z="23.5"/>
+ </define>
+ <materials>
+ <element Z="1" formula="H" name="Hydrogen">
+ 	<atom value="1.01"/>
+ </element>
+  <element Z="6" formula="C" name="Carbon">
+ 	<atom value="12.01"/>
+ </element>
+  <element Z="8" formula="O" name="Oxygen">
+ 	<atom value="16"/>
+ </element>
+ <material name="PLA" formula="C3H4O2">
+ 	<D value="1.32"/>
+ 	<composite n="3" ref="Carbon"/>
+ 	<composite n="4" ref="Hydrogen"/>
+ 	<composite n="2" ref="Oxygen"/>
+ </material>
+ </materials>
+ <solids>
+ <tessellated aunit="deg" lunit="mm" name="testgeometrie_solid">
+ <triangular vertex1="testgeometrie_v0" vertex2="testgeometrie_v1" vertex3="testgeometrie_v2"/>
+ <triangular vertex1="testgeometrie_v3" vertex2="testgeometrie_v2" vertex3="testgeometrie_v4"/>
+ <triangular vertex1="testgeometrie_v3" vertex2="testgeometrie_v4" vertex3="testgeometrie_v5"/>
+ <triangular vertex1="testgeometrie_v6" vertex2="testgeometrie_v2" vertex3="testgeometrie_v3"/>
+ <triangular vertex1="testgeometrie_v7" vertex2="testgeometrie_v3" vertex3="testgeometrie_v5"/>
+ <triangular vertex1="testgeometrie_v8" vertex2="testgeometrie_v9" vertex3="testgeometrie_v10"/>
+ <triangular vertex1="testgeometrie_v11" vertex2="testgeometrie_v2" vertex3="testgeometrie_v6"/>
+ <triangular vertex1="testgeometrie_v12" vertex2="testgeometrie_v8" vertex3="testgeometrie_v10"/>
+ <triangular vertex1="testgeometrie_v13" vertex2="testgeometrie_v0" vertex3="testgeometrie_v2"/>
+ <triangular vertex1="testgeometrie_v13" vertex2="testgeometrie_v2" vertex3="testgeometrie_v11"/>
+ <triangular vertex1="testgeometrie_v14" vertex2="testgeometrie_v7" vertex3="testgeometrie_v5"/>
+ <triangular vertex1="testgeometrie_v15" vertex2="testgeometrie_v6" vertex3="testgeometrie_v8"/>
+ <triangular vertex1="testgeometrie_v15" vertex2="testgeometrie_v11" vertex3="testgeometrie_v6"/>
+ <triangular vertex1="testgeometrie_v16" vertex2="testgeometrie_v7" vertex3="testgeometrie_v14"/>
+ <triangular vertex1="testgeometrie_v17" vertex2="testgeometrie_v8" vertex3="testgeometrie_v12"/>
+ <triangular vertex1="testgeometrie_v17" vertex2="testgeometrie_v15" vertex3="testgeometrie_v8"/>
+ <triangular vertex1="testgeometrie_v18" vertex2="testgeometrie_v13" vertex3="testgeometrie_v11"/>
+ <triangular vertex1="testgeometrie_v19" vertex2="testgeometrie_v12" vertex3="testgeometrie_v16"/>
+ <triangular vertex1="testgeometrie_v19" vertex2="testgeometrie_v17" vertex3="testgeometrie_v12"/>
+ <triangular vertex1="testgeometrie_v20" vertex2="testgeometrie_v21" vertex3="testgeometrie_v15"/>
+ <triangular vertex1="testgeometrie_v20" vertex2="testgeometrie_v15" vertex3="testgeometrie_v17"/>
+ <triangular vertex1="testgeometrie_v22" vertex2="testgeometrie_v13" vertex3="testgeometrie_v18"/>
+ <triangular vertex1="testgeometrie_v23" vertex2="testgeometrie_v24" vertex3="testgeometrie_v19"/>
+ <triangular vertex1="testgeometrie_v23" vertex2="testgeometrie_v19" vertex3="testgeometrie_v16"/>
+ <triangular vertex1="testgeometrie_v23" vertex2="testgeometrie_v16" vertex3="testgeometrie_v14"/>
+ <triangular vertex1="testgeometrie_v25" vertex2="testgeometrie_v18" vertex3="testgeometrie_v24"/>
+ <triangular vertex1="testgeometrie_v25" vertex2="testgeometrie_v24" vertex3="testgeometrie_v23"/>
+ <triangular vertex1="testgeometrie_v25" vertex2="testgeometrie_v22" vertex3="testgeometrie_v18"/>
+ <triangular vertex1="testgeometrie_v26" vertex2="testgeometrie_v14" vertex3="testgeometrie_v27"/>
+ <triangular vertex1="testgeometrie_v26" vertex2="testgeometrie_v23" vertex3="testgeometrie_v14"/>
+ <triangular vertex1="testgeometrie_v0" vertex2="testgeometrie_v13" vertex3="testgeometrie_v28"/>
+ <triangular vertex1="testgeometrie_v28" vertex2="testgeometrie_v13" vertex3="testgeometrie_v29"/>
+ <triangular vertex1="testgeometrie_v2" vertex2="testgeometrie_v30" vertex3="testgeometrie_v31"/>
+ <triangular vertex1="testgeometrie_v2" vertex2="testgeometrie_v1" vertex3="testgeometrie_v30"/>
+ <triangular vertex1="testgeometrie_v32" vertex2="testgeometrie_v26" vertex3="testgeometrie_v27"/>
+ <triangular vertex1="testgeometrie_v33" vertex2="testgeometrie_v26" vertex3="testgeometrie_v32"/>
+ <triangular vertex1="testgeometrie_v0" vertex2="testgeometrie_v30" vertex3="testgeometrie_v1"/>
+ <triangular vertex1="testgeometrie_v0" vertex2="testgeometrie_v28" vertex3="testgeometrie_v30"/>
+ <triangular vertex1="testgeometrie_v30" vertex2="testgeometrie_v28" vertex3="testgeometrie_v31"/>
+ <triangular vertex1="testgeometrie_v28" vertex2="testgeometrie_v29" vertex3="testgeometrie_v31"/>
+ <triangular vertex1="testgeometrie_v31" vertex2="testgeometrie_v34" vertex3="testgeometrie_v35"/>
+ <triangular vertex1="testgeometrie_v35" vertex2="testgeometrie_v34" vertex3="testgeometrie_v36"/>
+ <triangular vertex1="testgeometrie_v29" vertex2="testgeometrie_v37" vertex3="testgeometrie_v31"/>
+ <triangular vertex1="testgeometrie_v31" vertex2="testgeometrie_v37" vertex3="testgeometrie_v34"/>
+ <triangular vertex1="testgeometrie_v38" vertex2="testgeometrie_v39" vertex3="testgeometrie_v29"/>
+ <triangular vertex1="testgeometrie_v29" vertex2="testgeometrie_v39" vertex3="testgeometrie_v37"/>
+ <triangular vertex1="testgeometrie_v34" vertex2="testgeometrie_v33" vertex3="testgeometrie_v32"/>
+ <triangular vertex1="testgeometrie_v37" vertex2="testgeometrie_v33" vertex3="testgeometrie_v34"/>
+ <triangular vertex1="testgeometrie_v27" vertex2="testgeometrie_v14" vertex3="testgeometrie_v34"/>
+ <triangular vertex1="testgeometrie_v27" vertex2="testgeometrie_v34" vertex3="testgeometrie_v32"/>
+ <triangular vertex1="testgeometrie_v23" vertex2="testgeometrie_v26" vertex3="testgeometrie_v37"/>
+ <triangular vertex1="testgeometrie_v37" vertex2="testgeometrie_v26" vertex3="testgeometrie_v33"/>
+ <triangular vertex1="testgeometrie_v36" vertex2="testgeometrie_v5" vertex3="testgeometrie_v35"/>
+ <triangular vertex1="testgeometrie_v35" vertex2="testgeometrie_v5" vertex3="testgeometrie_v4"/>
+ <triangular vertex1="testgeometrie_v14" vertex2="testgeometrie_v36" vertex3="testgeometrie_v34"/>
+ <triangular vertex1="testgeometrie_v14" vertex2="testgeometrie_v5" vertex3="testgeometrie_v36"/>
+ <triangular vertex1="testgeometrie_v4" vertex2="testgeometrie_v2" vertex3="testgeometrie_v35"/>
+ <triangular vertex1="testgeometrie_v35" vertex2="testgeometrie_v2" vertex3="testgeometrie_v31"/>
+ <triangular vertex1="testgeometrie_v23" vertex2="testgeometrie_v37" vertex3="testgeometrie_v39"/>
+ <triangular vertex1="testgeometrie_v25" vertex2="testgeometrie_v23" vertex3="testgeometrie_v39"/>
+ <triangular vertex1="testgeometrie_v13" vertex2="testgeometrie_v22" vertex3="testgeometrie_v29"/>
+ <triangular vertex1="testgeometrie_v29" vertex2="testgeometrie_v22" vertex3="testgeometrie_v38"/>
+ <triangular vertex1="testgeometrie_v25" vertex2="testgeometrie_v38" vertex3="testgeometrie_v22"/>
+ <triangular vertex1="testgeometrie_v25" vertex2="testgeometrie_v39" vertex3="testgeometrie_v38"/>
+ <triangular vertex1="testgeometrie_v40" vertex2="testgeometrie_v24" vertex3="testgeometrie_v18"/>
+ <triangular vertex1="testgeometrie_v40" vertex2="testgeometrie_v18" vertex3="testgeometrie_v41"/>
+ <triangular vertex1="testgeometrie_v42" vertex2="testgeometrie_v41" vertex3="testgeometrie_v11"/>
+ <triangular vertex1="testgeometrie_v11" vertex2="testgeometrie_v41" vertex3="testgeometrie_v18"/>
+ <triangular vertex1="testgeometrie_v43" vertex2="testgeometrie_v42" vertex3="testgeometrie_v15"/>
+ <triangular vertex1="testgeometrie_v15" vertex2="testgeometrie_v42" vertex3="testgeometrie_v11"/>
+ <triangular vertex1="testgeometrie_v44" vertex2="testgeometrie_v43" vertex3="testgeometrie_v21"/>
+ <triangular vertex1="testgeometrie_v21" vertex2="testgeometrie_v43" vertex3="testgeometrie_v15"/>
+ <triangular vertex1="testgeometrie_v21" vertex2="testgeometrie_v45" vertex3="testgeometrie_v44"/>
+ <triangular vertex1="testgeometrie_v20" vertex2="testgeometrie_v45" vertex3="testgeometrie_v21"/>
+ <triangular vertex1="testgeometrie_v46" vertex2="testgeometrie_v20" vertex3="testgeometrie_v17"/>
+ <triangular vertex1="testgeometrie_v46" vertex2="testgeometrie_v45" vertex3="testgeometrie_v20"/>
+ <triangular vertex1="testgeometrie_v47" vertex2="testgeometrie_v17" vertex3="testgeometrie_v19"/>
+ <triangular vertex1="testgeometrie_v47" vertex2="testgeometrie_v46" vertex3="testgeometrie_v17"/>
+ <triangular vertex1="testgeometrie_v40" vertex2="testgeometrie_v19" vertex3="testgeometrie_v24"/>
+ <triangular vertex1="testgeometrie_v40" vertex2="testgeometrie_v47" vertex3="testgeometrie_v19"/>
+ <triangular vertex1="testgeometrie_v44" vertex2="testgeometrie_v41" vertex3="testgeometrie_v42"/>
+ <triangular vertex1="testgeometrie_v44" vertex2="testgeometrie_v42" vertex3="testgeometrie_v43"/>
+ <triangular vertex1="testgeometrie_v45" vertex2="testgeometrie_v46" vertex3="testgeometrie_v47"/>
+ <triangular vertex1="testgeometrie_v40" vertex2="testgeometrie_v44" vertex3="testgeometrie_v45"/>
+ <triangular vertex1="testgeometrie_v40" vertex2="testgeometrie_v41" vertex3="testgeometrie_v44"/>
+ <triangular vertex1="testgeometrie_v40" vertex2="testgeometrie_v45" vertex3="testgeometrie_v47"/>
+ <triangular vertex1="testgeometrie_v48" vertex2="testgeometrie_v6" vertex3="testgeometrie_v3"/>
+ <triangular vertex1="testgeometrie_v48" vertex2="testgeometrie_v49" vertex3="testgeometrie_v6"/>
+ <triangular vertex1="testgeometrie_v7" vertex2="testgeometrie_v50" vertex3="testgeometrie_v48"/>
+ <triangular vertex1="testgeometrie_v7" vertex2="testgeometrie_v48" vertex3="testgeometrie_v3"/>
+ <triangular vertex1="testgeometrie_v51" vertex2="testgeometrie_v50" vertex3="testgeometrie_v16"/>
+ <triangular vertex1="testgeometrie_v16" vertex2="testgeometrie_v50" vertex3="testgeometrie_v7"/>
+ <triangular vertex1="testgeometrie_v52" vertex2="testgeometrie_v51" vertex3="testgeometrie_v12"/>
+ <triangular vertex1="testgeometrie_v12" vertex2="testgeometrie_v51" vertex3="testgeometrie_v16"/>
+ <triangular vertex1="testgeometrie_v53" vertex2="testgeometrie_v52" vertex3="testgeometrie_v10"/>
+ <triangular vertex1="testgeometrie_v10" vertex2="testgeometrie_v52" vertex3="testgeometrie_v12"/>
+ <triangular vertex1="testgeometrie_v53" vertex2="testgeometrie_v10" vertex3="testgeometrie_v54"/>
+ <triangular vertex1="testgeometrie_v54" vertex2="testgeometrie_v10" vertex3="testgeometrie_v9"/>
+ <triangular vertex1="testgeometrie_v55" vertex2="testgeometrie_v9" vertex3="testgeometrie_v8"/>
+ <triangular vertex1="testgeometrie_v55" vertex2="testgeometrie_v54" vertex3="testgeometrie_v9"/>
+ <triangular vertex1="testgeometrie_v49" vertex2="testgeometrie_v8" vertex3="testgeometrie_v6"/>
+ <triangular vertex1="testgeometrie_v49" vertex2="testgeometrie_v55" vertex3="testgeometrie_v8"/>
+ <triangular vertex1="testgeometrie_v49" vertex2="testgeometrie_v48" vertex3="testgeometrie_v54"/>
+ <triangular vertex1="testgeometrie_v50" vertex2="testgeometrie_v53" vertex3="testgeometrie_v54"/>
+ <triangular vertex1="testgeometrie_v50" vertex2="testgeometrie_v54" vertex3="testgeometrie_v48"/>
+ <triangular vertex1="testgeometrie_v55" vertex2="testgeometrie_v49" vertex3="testgeometrie_v54"/>
+ <triangular vertex1="testgeometrie_v51" vertex2="testgeometrie_v52" vertex3="testgeometrie_v53"/>
+ <triangular vertex1="testgeometrie_v51" vertex2="testgeometrie_v53" vertex3="testgeometrie_v50"/>
+ </tessellated>
+ <box lunit="mm" name="worldsolid" x="1000" y="1000" z="1000"/>
+ </solids>
+ <structure>
+ <volume name="testgeometrie">
+ <materialref ref="PLA"/>
+ <solidref ref="testgeometrie_solid"/>
+ </volume>
+ </structure>
+ <setup name="Default" version="1.0">
+ <world ref="testgeometrie"/>
+ </setup>
+</gdml>
