@@ -53,17 +53,19 @@ class Quellenhalter {
   Quellenhalter(G4LogicalVolume *world_Logical) {
 
     // color of Quellenhalter
-    G4Colour grey(0.5, 0.5, 0.5);
+    G4Colour blue(0., 0., 1.);
 
     World_Logical = world_Logical;
 
+    //gdmlFileName = "../utr-jonny/DetectorConstruction/Others/Efficiency/Volumes/Quellenhalter.gdml";
     gdmlFileName = "../DetectorConstruction/Others/Efficiency/Volumes/Quellenhalter.gdml";
+    
     parser.Read(gdmlFileName);
     G4VPhysicalVolume* gdmlWorld = parser.GetWorldVolume();
 
     Quellenhalter_Logical = gdmlWorld->GetLogicalVolume();
     
-    Quellenhalter_Logical->SetVisAttributes(new G4VisAttributes(grey));
+    Quellenhalter_Logical->SetVisAttributes(new G4VisAttributes(blue));
    
     rot = new G4RotationMatrix();
   }

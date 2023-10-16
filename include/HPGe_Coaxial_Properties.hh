@@ -40,6 +40,9 @@ struct HPGe_Coaxial_Properties {
   G4double hole_depth; // Depth of the hole, measured from the base of the crystal, including the rounded part
   G4double hole_face_radius; // Rounding radius of the tip of the hole. Most probably the same as the hole radius
 
+  // Dead layer
+  G4double dead_layer_side; // Here not neglected
+  G4double dead_layer_top; // Here not neglected
   // The contact layers on the surface of the crystal are neglected at the moment, since they usually have a thickness of less than a millimeter and are made of very light materials
 
   // Mount cup
