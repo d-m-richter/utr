@@ -4168,7 +4168,7 @@
  </solids>
  <structure>
  <volume name="Quellenhalter">
- <materialref ref="G4_Si"/>
+ <materialref ref="G4_POLYVINYL_CHLORIDE"/>
  <solidref ref="Quellenhalter_solid"/>
  </volume>
  </structure>

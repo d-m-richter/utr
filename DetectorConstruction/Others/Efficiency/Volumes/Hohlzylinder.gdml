@@ -1522,7 +1522,7 @@
  </solids>
  <structure>
  <volume name="Hohlzylinder">
- <materialref ref="G4_Si"/>
+ <materialref ref="G4_POLYVINYL_CHLORIDE"/>
  <solidref ref="Hohlzylinder_solid"/>
  </volume>
  </structure>

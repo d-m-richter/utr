@@ -2274,7 +2274,7 @@
  </solids>
  <structure>
  <volume name="Filterhalter">
- <materialref ref="G4_Si"/>
+ <materialref ref="G4_POLYVINYL_CHLORIDE"/>
  <solidref ref="Filterhalter_solid"/>
  </volume>
  </structure>

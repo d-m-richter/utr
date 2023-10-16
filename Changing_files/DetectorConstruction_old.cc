@@ -123,21 +123,21 @@ G4VPhysicalVolume *DetectorConstruction::Construct() {
   HPGe_Coaxial_Properties HPGe_jonny_props;
   // Volume of Ge Crystal = 166 * cm3
   // Dead layer of Ge Crystal = 1mmGe
-  HPGe_jonny_props.detector_radius = 0.5 * 63.888188818881886 * mm; // 64 mm in EurisysMesure data sheet
-  HPGe_jonny_props.detector_length = 52.39038903890389 * mm; // 53 mm in EurisysMesure data sheet
+  HPGe_jonny_props.detector_radius = 0.5 * {{cystal_diameter}} * mm; // 64 mm in EurisysMesure data sheet
+  HPGe_jonny_props.detector_length = {{crystal_length}} * mm; // 53 mm in EurisysMesure data sheet
   HPGe_jonny_props.detector_face_radius = 0. * mm;
-  HPGe_jonny_props.hole_radius = 0.5 * 7.44014401440144 * mm; // 11.35 * mm; 
-  HPGe_jonny_props.hole_depth = 46.115614360250575 * mm; // 44.5 * mm;
-  HPGe_jonny_props.dead_layer_side = 0.05590559055905591 * mm; // in EurisysMesure data sheet
-  HPGe_jonny_props.dead_layer_top = 0.6096109610961096 * mm; // in EurisysMesure data sheet
+  HPGe_jonny_props.hole_radius = 0.5 * {{hole_diameter}} * mm; // 11.35 * mm; 
+  HPGe_jonny_props.hole_depth = {{hole_depth}} * mm; // 44.5 * mm;
+  HPGe_jonny_props.dead_layer_side = {{dead_layer_side}} * mm; // in EurisysMesure data sheet
+  HPGe_jonny_props.dead_layer_top = {{dead_layer_top}} * mm; // in EurisysMesure data sheet
   HPGe_jonny_props.mount_cup_thickness = 0.8 * mm;
   HPGe_jonny_props.mount_cup_base_thickness = 3. * mm;
   HPGe_jonny_props.mount_cup_material = "G4_Al";
   HPGe_jonny_props.end_cap_outer_radius = 0.5 * 80. * mm; // in EurisysMesure data sheet
-  HPGe_jonny_props.end_cap_to_crystal_gap_front = 4. * mm; // in EurisysMesure data sheet
+  HPGe_jonny_props.end_cap_to_crystal_gap_front = {{distance_detector_end_cap}} * mm; // in EurisysMesure data sheet
   HPGe_jonny_props.end_cap_thickness = 1. * mm; // in EurisysMesure data sheet
-  HPGe_jonny_props.end_cap_window_thickness = 0.5 * mm;
-  HPGe_jonny_props.end_cap_length = 135. *mm; // gemessen 132. * mm; // 135 mm in EurisysMesure data sheet
+  HPGe_jonny_props.end_cap_window_thickness = {{end_cap_face_thickness}} * mm;
+  HPGe_jonny_props.end_cap_length = {{end_cap_stand_out}} + 3 *mm; // gemessen 132. * mm; // 135 mm in EurisysMesure data sheet
   HPGe_jonny_props.end_cap_material = "G4_Al"; // in EurisysMesure data sheet
   HPGe_jonny_props.end_cap_window_material = "G4_Al"; // in EurisysMesure data sheet
   HPGe_jonny_props.cold_finger_radius = 0.5 * 4. * mm; // Suggestion by B. Fallin, Duke University. Not in ORTEC data sheet
@@ -225,7 +225,7 @@ G4VPhysicalVolume *DetectorConstruction::Construct() {
 
   /***************** Plastikzylinder für Kalibrierquelle P-1030 *********************************/
 
-  G4Tubs *plastikzylinder_solid = new G4Tubs("Plastikzylinder_Solid", 0 *mm, 0.5 * 25.03 *mm, 0.5 * 2.94 *mm, 0. *deg, 360. *deg);
+  G4Tubs *plastikzylinder_solid = new G4Tubs("Plastikzylinder_Solid", 0 *mm, 0.5 * 25.03 *mm, 0.5 * {{source_thickness}} *mm, 0. *deg, 360. *deg);
   G4LogicalVolume *plastikzylinder_logical = new G4LogicalVolume(plastikzylinder_solid, Epoxy, "Plastikzylinder_Logical");
   G4PVPlacement *plastikzylinder_phys = new G4PVPlacement(0, G4ThreeVector(0, 0, -12.), plastikzylinder_logical, "Plastikzylinder", world_logical, false, 0);
 

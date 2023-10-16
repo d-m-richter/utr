@@ -19,6 +19,9 @@ along with utr.  If not, see <http://www.gnu.org/licenses/>.
 */
 #pragma once
 
+#include <iostream>
+#include <fstream>
+
 #include "G4LogicalVolume.hh"
 #include "G4PVPlacement.hh"
 #include "G4RotationMatrix.hh"
@@ -53,17 +56,19 @@ class Hohlzylinder {
   Hohlzylinder(G4LogicalVolume *world_Logical) {
 
     // color of Hohlzylinder
-    G4Colour grey(0.5, 0.5, 0.5);
+    G4Colour blue(0., 0., 1.);
 
     World_Logical = world_Logical;
 
+    //gdmlFileName = "../utr-jonny/DetectorConstruction/Others/Efficiency/Volumes/Hohlzylinder.gdml";
     gdmlFileName = "../DetectorConstruction/Others/Efficiency/Volumes/Hohlzylinder.gdml";
+    
     parser.Read(gdmlFileName);
     G4VPhysicalVolume* gdmlWorld = parser.GetWorldVolume();
 
     Hohlzylinder_Logical = gdmlWorld->GetLogicalVolume();
     
-    Hohlzylinder_Logical->SetVisAttributes(new G4VisAttributes(grey));
+    Hohlzylinder_Logical->SetVisAttributes(new G4VisAttributes(blue));
    
     rot = new G4RotationMatrix();
   }
