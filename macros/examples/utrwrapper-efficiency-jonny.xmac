@@ -6,7 +6,7 @@
 ## This macro is an example of using utrwrapper.py to prepare utr for and execute an efficiency simulation looping over the source energy
 
 #[generalConfig]
-#outputDir=output/Efficiency_11
+#outputDir=output/Efficiency_00_01
 
 #[environmentVariables]
 #filenamePrefix=Efficiency_
@@ -37,7 +37,7 @@
 
 # Never simulate more than 2^32= 4294967296 particles using /run/beamOn, since this causes an overflow in the random number seed, giving you in principle the same results over and over again.
 # In such cases execute the same simulation multiple times instead.
-/control/alias beamOnStatistics 200000 # 10000000
+/control/alias beamOnStatistics 48835137 # 10000000
 
 # Get the filenamePrefix and filenameSuffix variables defined in the configuration header as GEANT4 aliases
 /control/getEnv filenamePrefix
@@ -58,7 +58,7 @@
 /gps/ene/type Gauss
 
 /gps/pos/confine Plastikzylinder
-/gps/pos/centre 0. 0. -12. mm
+/gps/pos/centre 0. 0. -11.819845065243559 mm #-12. mm
 
 # Run the generic macro in a loop
 # loop Syntax: /control/loop MacroFile Variable Start End Increment

@@ -19,6 +19,10 @@ along with utr.  If not, see <http://www.gnu.org/licenses/>.
 */
 #pragma once
 
+#include <iostream>
+#include <fstream>
+#include <filesystem>
+
 #include "G4Box.hh"
 #include "G4LogicalVolume.hh"
 #include "G4PVPlacement.hh"
@@ -71,7 +75,15 @@ class Rundflasche {
 
     World_Logical = world_Logical;
 
-    gdmlFileName = "../utr-jonny/DetectorConstruction/Others/Efficiency/Volumes/Rundflasche.gdml";
+    std::filesystem::path currentPath = std::filesystem::current_path();
+    std::string currentPathString = currentPath.string();
+    if (currentPathString == "/home/drichter/HOME/local/utr-jonny") {
+      gdmlFileName = "../utr-jonny/DetectorConstruction/Others/Efficiency/Volumes/Rundflasche.gdml";
+    }
+    else if (currentPathString == "/home/drichter/HOME/local/utr-jonny/build") {
+      gdmlFileName = "../DetectorConstruction/Others/Efficiency/Volumes/Rundflasche.gdml";
+    } 
+
     parser.Read(gdmlFileName);
     G4VPhysicalVolume* gdmlWorld = parser.GetWorldVolume();
 

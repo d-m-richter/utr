@@ -21,6 +21,7 @@ along with utr.  If not, see <http://www.gnu.org/licenses/>.
 
 #include <iostream>
 #include <fstream>
+#include <filesystem>
 
 #include "G4LogicalVolume.hh"
 #include "G4PVPlacement.hh"
@@ -60,9 +61,15 @@ class Hohlzylinder {
 
     World_Logical = world_Logical;
 
-    //gdmlFileName = "../utr-jonny/DetectorConstruction/Others/Efficiency/Volumes/Hohlzylinder.gdml";
-    gdmlFileName = "../DetectorConstruction/Others/Efficiency/Volumes/Hohlzylinder.gdml";
-    
+    std::filesystem::path currentPath = std::filesystem::current_path();
+    std::string currentPathString = currentPath.string();
+    if (currentPathString == "/home/drichter/HOME/local/utr-jonny") {
+      gdmlFileName = "../utr-jonny/DetectorConstruction/Others/Efficiency/Volumes/Hohlzylinder_new.gdml";
+    }
+    else if (currentPathString == "/home/drichter/HOME/local/utr-jonny/build") {
+      gdmlFileName = "../DetectorConstruction/Others/Efficiency/Volumes/Hohlzylinder_new.gdml";
+    } 
+
     parser.Read(gdmlFileName);
     G4VPhysicalVolume* gdmlWorld = parser.GetWorldVolume();
 
