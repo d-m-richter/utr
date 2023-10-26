@@ -127,8 +127,8 @@ G4VPhysicalVolume *DetectorConstruction::Construct() {
   HPGe_jonny_props.detector_radius = 0.5 * 64.0 * mm; // 64 mm in EurisysMesure data sheet
   HPGe_jonny_props.detector_length = 52.0 * mm; // 53 mm in EurisysMesure data sheet
   HPGe_jonny_props.detector_face_radius = 0. * mm;
-  HPGe_jonny_props.hole_radius = 0.5 * 9.754748353162425 * mm; // 11.35 * mm; 
-  HPGe_jonny_props.hole_depth = 18.80022879910343 * mm; // 44.5 * mm;
+  HPGe_jonny_props.hole_radius = 0.5 * 6.283817099165528 * mm; // 11.35 * mm; 
+  HPGe_jonny_props.hole_depth = 42.43464987778742 * mm; // 44.5 * mm;
   HPGe_jonny_props.dead_layer_side = 0.0 * mm; // in EurisysMesure data sheet
   HPGe_jonny_props.dead_layer_top = 1.0 * mm; // in EurisysMesure data sheet
   HPGe_jonny_props.mount_cup_thickness = 0.8 * mm;
@@ -137,8 +137,8 @@ G4VPhysicalVolume *DetectorConstruction::Construct() {
   HPGe_jonny_props.end_cap_outer_radius = 0.5 * 80. * mm; // in EurisysMesure data sheet
   HPGe_jonny_props.end_cap_to_crystal_gap_front = 4.0 * mm; // in EurisysMesure data sheet
   HPGe_jonny_props.end_cap_thickness = 1. * mm; // in EurisysMesure data sheet
-  HPGe_jonny_props.end_cap_window_thickness = 0.8479812521456102 * mm;
-  HPGe_jonny_props.end_cap_length = 132.28287211217128 + 3 *mm; // gemessen 132. * mm; // 135 mm in EurisysMesure data sheet
+  HPGe_jonny_props.end_cap_window_thickness = 0.25829141621775636 * mm;
+  HPGe_jonny_props.end_cap_length = 132.18065563410505 + 3 *mm; // gemessen 132. * mm; // 135 mm in EurisysMesure data sheet
   HPGe_jonny_props.end_cap_material = "G4_Al"; // in EurisysMesure data sheet
   HPGe_jonny_props.end_cap_window_material = "G4_Al"; // in EurisysMesure data sheet
   HPGe_jonny_props.cold_finger_radius = 0.5 * 4. * mm; // Suggestion by B. Fallin, Duke University. Not in ORTEC data sheet
@@ -229,9 +229,9 @@ G4VPhysicalVolume *DetectorConstruction::Construct() {
 
   /***************** Plastikzylinder für Kalibrierquelle P-1030 *********************************/
 
-  G4double plastikzylinder_position = -17.35761899802374 * mm;
+  G4double plastikzylinder_position = -11.819845065243559 * mm;
 
-  G4Tubs *plastikzylinder_solid = new G4Tubs("Plastikzylinder_Solid", 0 *mm, 0.5 * 25.03 *mm, 0.5 * 2.9456748792863694 *mm, 0. *deg, 360. *deg);
+  G4Tubs *plastikzylinder_solid = new G4Tubs("Plastikzylinder_Solid", 0 *mm, 0.5 * 25.03 *mm, 0.5 * 2.941001398697189 *mm, 0. *deg, 360. *deg);
   G4LogicalVolume *plastikzylinder_logical = new G4LogicalVolume(plastikzylinder_solid, Epoxy, "Plastikzylinder_Logical");
   G4PVPlacement *plastikzylinder_phys = new G4PVPlacement(0, G4ThreeVector(0, 0, plastikzylinder_position), plastikzylinder_logical, "Plastikzylinder", world_logical, false, 0);
 

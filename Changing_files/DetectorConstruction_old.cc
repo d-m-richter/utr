@@ -95,6 +95,7 @@ G4VPhysicalVolume *DetectorConstruction::Construct() {
   /***************** Setup Properties *****************/
   // There is no filter
 
+  // In this case distance_source_detector describes the distance between end cap and zero point
   const double distance_source_detector = 100. * mm;    // <------ adjust distance from source to detector
  // const double distance_adapter_detector = 10. * mm;
 //  const G4String filter_material_name = "G4_Pb";     // <------ adjust filter material
@@ -215,19 +216,24 @@ G4VPhysicalVolume *DetectorConstruction::Construct() {
 
   /***************** Quellenhalter *********************************/
 
+  G4double hohlzylinder_position = 232.;
+  G4double quellenhalter_position = hohlzylinder_position - {{hollow_cylinder}};
+
   Quellenhalter *quellenhalter = new Quellenhalter(world_logical);
-  quellenhalter->Put(0., 0., 106.934, 180. *deg, 0., 0.);
+  quellenhalter->Put(0., 0., quellenhalter_position, 180. *deg, 0., 0.);
 
   /***************** Hohlzylinder *********************************/
 
   Hohlzylinder *hohlzylinder = new Hohlzylinder(world_logical);
-  hohlzylinder->Put(0., 0., 202.49415, 180. *deg, 0., 0.);
+  hohlzylinder->Put(0., 0., hohlzylinder_position, 180. *deg, 0., 0.);
 
   /***************** Plastikzylinder für Kalibrierquelle P-1030 *********************************/
 
+  G4double plastikzylinder_position = -{{source_placement}} * mm;
+
   G4Tubs *plastikzylinder_solid = new G4Tubs("Plastikzylinder_Solid", 0 *mm, 0.5 * 25.03 *mm, 0.5 * {{source_thickness}} *mm, 0. *deg, 360. *deg);
   G4LogicalVolume *plastikzylinder_logical = new G4LogicalVolume(plastikzylinder_solid, Epoxy, "Plastikzylinder_Logical");
-  G4PVPlacement *plastikzylinder_phys = new G4PVPlacement(0, G4ThreeVector(0, 0, -12.), plastikzylinder_logical, "Plastikzylinder", world_logical, false, 0);
+  G4PVPlacement *plastikzylinder_phys = new G4PVPlacement(0, G4ThreeVector(0, 0, plastikzylinder_position), plastikzylinder_logical, "Plastikzylinder", world_logical, false, 0);
 
   /***************** Bleiburg *********************************/
 

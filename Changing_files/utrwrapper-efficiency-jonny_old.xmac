@@ -58,7 +58,7 @@
 /gps/ene/type Gauss
 
 /gps/pos/confine Plastikzylinder
-/gps/pos/centre 0. 0. -12. mm
+/gps/pos/centre 0. 0. -{{source_placement}} mm #-12. mm
 
 # Run the generic macro in a loop
 # loop Syntax: /control/loop MacroFile Variable Start End Increment

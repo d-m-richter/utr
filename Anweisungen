@@ -1,0 +1,28 @@
+Anweisungen utr (einfache Simulation):
+
+1. Zum erstelle von "build"-Ordnern und verwenden der "Efficiency"-Detektor-Konstruktion  und Durchführung der Simulation führe folgende Zeile in Terminal aus (im utr Ordner):
+	./OutputProcessing/utrwarpper.py macros/example/utrwrapper-efficiency-jonny.xmac
+
+2. Wird hier an der "DetectorConstruction" oder so geändert reicht es den folgenden Befehl auszuführen:
+	cmake --build build 	
+
+3. Zum Visualisieren des Aufbaus und Simulation wechsel in den "build"-Ordner und führe aus:
+	./utr 
+
+Achtung: Alle Bauteile, die mit gdml in die DetectorConstruction eingefügt werden müssen in ihrem jeweiligen File richtig gesourced werden.
+	Bsp.: Quellenhalter
+	In Quellenhalter.hh muss für Punkt 1. der folgende Weg verwendet werden:
+		gdmlFileName = "../utr-jonny/DetectorConstruction/Others/Efficiency/		Volumes/Quellenhalter.gdml";
+	und für Punkt 2. und Punkt 3.
+		gdmlFileName = "../DetectorConstruction/Others/Efficiency/Volumes/Quellenhalter.gdml";
+(Das Problem werde ich noch versuchen zu lösen.)
+
+
+
+Anweisungen für utr (Simulation mit Unsicherheiten):
+
+1. Zum erstelle von "build"-Ordnern und verwenden der "Efficiency"-Detektor-Konstruktion und Durchführung der Simulation führe folgende Zeile in Terminal aus (im utr Ordner):
+	python3 utr_variation.py
+
+
+

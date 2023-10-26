@@ -164,6 +164,10 @@ class MarinelliBeaker {
   }
 };
 
+//class MarinelliBeaker_Filling {
+//
+//}
+
 class MarinelliDeckel {
   private:
   G4LogicalVolume *World_Logical;
