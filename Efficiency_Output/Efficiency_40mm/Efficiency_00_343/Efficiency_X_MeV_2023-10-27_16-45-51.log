@@ -1,0 +1,1622 @@
+utrwrapper.py> Started processing extended macro file '/nfs/ldas02/zh02/home/drichter/utr/macros/examples/utrwrapper-efficiency-jonny.xmac' at 2023-10-27 16-45-51
+utrwrapper.py> Contents of extended macro file '/nfs/ldas02/zh02/home/drichter/utr/macros/examples/utrwrapper-efficiency-jonny.xmac':
+Dump of utrwrapper-efficiency-jonny.xmac> #!/usr/bin/env utrwrapper.py
+Dump of utrwrapper-efficiency-jonny.xmac> ## An (utrwrapper.py) extended macro starts with a configuration header embedded in comment lines (preceded by a single '#')
+Dump of utrwrapper-efficiency-jonny.xmac> ## For real comment lines in the header use multiple '#'s
+Dump of utrwrapper-efficiency-jonny.xmac> ## Run utrwrapper.py -h for a list of all available configuration options and their effects
+Dump of utrwrapper-efficiency-jonny.xmac> 
+Dump of utrwrapper-efficiency-jonny.xmac> ## This macro is an example of using utrwrapper.py to prepare utr for and execute an efficiency simulation looping over the source energy
+Dump of utrwrapper-efficiency-jonny.xmac> 
+Dump of utrwrapper-efficiency-jonny.xmac> #[generalConfig]
+Dump of utrwrapper-efficiency-jonny.xmac> #outputDir=output/Efficiency_00_343
+Dump of utrwrapper-efficiency-jonny.xmac> 
+Dump of utrwrapper-efficiency-jonny.xmac> #[environmentVariables]
+Dump of utrwrapper-efficiency-jonny.xmac> #filenamePrefix=Efficiency_
+Dump of utrwrapper-efficiency-jonny.xmac> #filenameSuffix=_MeV
+Dump of utrwrapper-efficiency-jonny.xmac> #filenameTemplate={filenamePrefix}{loopVar}{filenameSuffix}
+Dump of utrwrapper-efficiency-jonny.xmac> #setterCmd=/gps/ene/mono {loopVar} MeV
+Dump of utrwrapper-efficiency-jonny.xmac> 
+Dump of utrwrapper-efficiency-jonny.xmac> #[utrBuildOptions]
+Dump of utrwrapper-efficiency-jonny.xmac> #CAMPAIGN=Others
+Dump of utrwrapper-efficiency-jonny.xmac> #DETECTOR_CONSTRUCTION=Efficiency
+Dump of utrwrapper-efficiency-jonny.xmac> #USE_TARGETS=OFF
+Dump of utrwrapper-efficiency-jonny.xmac> #GENERATOR_ANGCORR=OFF
+Dump of utrwrapper-efficiency-jonny.xmac> #GENERATOR_ANGDIST=OFF
+Dump of utrwrapper-efficiency-jonny.xmac> #EVENT_EDEP=ON 
+Dump of utrwrapper-efficiency-jonny.xmac> #EVENT_EKIN=OFF
+Dump of utrwrapper-efficiency-jonny.xmac> #EVENT_EVENTWISE=OFF
+Dump of utrwrapper-efficiency-jonny.xmac> 
+Dump of utrwrapper-efficiency-jonny.xmac> #[getHistogramArgs]
+Dump of utrwrapper-efficiency-jonny.xmac> #quantity=edep
+Dump of utrwrapper-efficiency-jonny.xmac> #maxenergy=10
+Dump of utrwrapper-efficiency-jonny.xmac> #maxid=0
+Dump of utrwrapper-efficiency-jonny.xmac> 
+Dump of utrwrapper-efficiency-jonny.xmac> #[histogramToTxtArgs]
+Dump of utrwrapper-efficiency-jonny.xmac> #end=0
+Dump of utrwrapper-efficiency-jonny.xmac> 
+Dump of utrwrapper-efficiency-jonny.xmac> ## The required magic string signals the end of the configuration header
+Dump of utrwrapper-efficiency-jonny.xmac> #START_OF_MACRO
+Dump of utrwrapper-efficiency-jonny.xmac> 
+Dump of utrwrapper-efficiency-jonny.xmac> # Never simulate more than 2^32= 4294967296 particles using /run/beamOn, since this causes an overflow in the random number seed, giving you in principle the same results over and over again.
+Dump of utrwrapper-efficiency-jonny.xmac> # In such cases execute the same simulation multiple times instead.
+Dump of utrwrapper-efficiency-jonny.xmac> /control/alias beamOnStatistics 44517693 # 10000000
+Dump of utrwrapper-efficiency-jonny.xmac> 
+Dump of utrwrapper-efficiency-jonny.xmac> # Get the filenamePrefix and filenameSuffix variables defined in the configuration header as GEANT4 aliases
+Dump of utrwrapper-efficiency-jonny.xmac> /control/getEnv filenamePrefix
+Dump of utrwrapper-efficiency-jonny.xmac> /control/getEnv filenameSuffix
+Dump of utrwrapper-efficiency-jonny.xmac> 
+Dump of utrwrapper-efficiency-jonny.xmac> # Disable appendage of additional IDs to filenames (as unique filenames containing the simulated energy will be used for each beamOn)
+Dump of utrwrapper-efficiency-jonny.xmac> /utr/setUseFilenameID False
+Dump of utrwrapper-efficiency-jonny.xmac> # Set the number of required decimal places for padding of loopVar
+Dump of utrwrapper-efficiency-jonny.xmac> /control/alias appendZerosToVarPadding 2
+Dump of utrwrapper-efficiency-jonny.xmac> 
+Dump of utrwrapper-efficiency-jonny.xmac> 
+Dump of utrwrapper-efficiency-jonny.xmac> # Do the usual initialization steps for an efficiency simulation
+Dump of utrwrapper-efficiency-jonny.xmac> /run/initialize
+Dump of utrwrapper-efficiency-jonny.xmac> 
+Dump of utrwrapper-efficiency-jonny.xmac> /gps/particle gamma
+Dump of utrwrapper-efficiency-jonny.xmac> /gps/pos/type Point
+Dump of utrwrapper-efficiency-jonny.xmac> /gps/ang/type iso
+Dump of utrwrapper-efficiency-jonny.xmac> /gps/ene/type Gauss
+Dump of utrwrapper-efficiency-jonny.xmac> 
+Dump of utrwrapper-efficiency-jonny.xmac> /gps/pos/confine Plastikzylinder
+Dump of utrwrapper-efficiency-jonny.xmac> /gps/pos/centre 0. 0. 46.933776609286156 mm #-12. mm
+Dump of utrwrapper-efficiency-jonny.xmac> 
+Dump of utrwrapper-efficiency-jonny.xmac> # Run the generic macro in a loop
+Dump of utrwrapper-efficiency-jonny.xmac> # loop Syntax: /control/loop MacroFile Variable Start End Increment
+Dump of utrwrapper-efficiency-jonny.xmac> # for each Syntax: /control/foreach MacroFile Variable ValueList
+Dump of utrwrapper-efficiency-jonny.xmac> # To use the variable in the macro to be looped refer to it wrapped in {} as {Variable} in the macro
+Dump of utrwrapper-efficiency-jonny.xmac> # Remember that due to the numerical inaccuracies when adding float numbers, a loop might generate a run more or less than expected!
+Dump of utrwrapper-efficiency-jonny.xmac> /control/foreach macros/examples/genericLoopable.mac loopVar 0.661657 #0.5 1. 2. 3. 4. 5. 
+Dump of utrwrapper-efficiency-jonny.xmac> #/control/loop macros/examples/genericLoopable.mac loopVar 10. 15. 2.5
+utrwrapper.py> End of extended macro file '/nfs/ldas02/zh02/home/drichter/utr/macros/examples/utrwrapper-efficiency-jonny.xmac'
+utrwrapper.py> Contents of referred macro file 'macros/examples/genericLoopable.mac':
+Dump of genericLoopable.mac> # A very minimal and generic macro to be used with /control/loop or /control/foreach commands in other macros.
+Dump of genericLoopable.mac> # Using environment variables which can be easily set with the utrwrapper, this macro can be used for virtually
+Dump of genericLoopable.mac> # any type of simulation (efficiency and angular distribution), by packing the relevant commands and variables
+Dump of genericLoopable.mac> # in a environment variable, whose alias values are resolved when /control/getEnv is used.
+Dump of genericLoopable.mac> # Without using environment variables one can still achieve most of the functionality but with each possibility
+Dump of genericLoopable.mac> # hard-coded in strdoif statements or by forgoing additional parameters, see below for three possible implementations
+Dump of genericLoopable.mac> 
+Dump of genericLoopable.mac> # Execute a very generic setter command (stored in an environment variable e.g. $setterCmd=/gps/ene/mono {loopVar} MeV
+Dump of genericLoopable.mac> # This is however a bit buggy and requires a meaningless '/control/alias loopVar {loopVar}' to get rid of an "Alias <loopVar> not found -- command ignored" message
+Dump of genericLoopable.mac> /control/alias loopVar {loopVar}
+Dump of genericLoopable.mac> /control/getEnv setterCmd
+Dump of genericLoopable.mac> {setterCmd}
+Dump of genericLoopable.mac> 
+Dump of genericLoopable.mac> ## Execute a very generic setter command, but without the possibility of other parameters (like MeV unit)
+Dump of genericLoopable.mac> ## (Note that /gps/ene/mono uses keV as the default unit when the unit is not specified)
+Dump of genericLoopable.mac> #{setterCmd} {loopVar}
+Dump of genericLoopable.mac> 
+Dump of genericLoopable.mac> ## Execute only known commands in a rather explicit way (does not warn about unknown commands however!)
+Dump of genericLoopable.mac> #/control/strdoif {setterCmd} == /ang/delta23 /ang/delta23 {loopVar}
+Dump of genericLoopable.mac> #/control/strdoif {setterCmd} == /gps/ene/mono /gps/ene/mono {loopVar} MeV
+Dump of genericLoopable.mac> 
+Dump of genericLoopable.mac> 
+Dump of genericLoopable.mac> # Set the output filename to contain the simulated energy in an uniform number format
+Dump of genericLoopable.mac> /utr/appendZerosToVar loopVar {loopVar} {appendZerosToVarPadding}
+Dump of genericLoopable.mac> /control/getEnv filenameTemplate
+Dump of genericLoopable.mac> /utr/setFilename {filenameTemplate}
+Dump of genericLoopable.mac> 
+Dump of genericLoopable.mac> ## Example of an alternative way to set the output filename not using environment variables:
+Dump of genericLoopable.mac> ## For this to work, however, all GEANT4 aliases must still be defined (e.g. just set filenameSuffix=NOTUSED)
+Dump of genericLoopable.mac> #/control/strdoif {filenameStyle} == full /utr/setFilename {filenamePrefix}{loopVar}{filenameSuffix}
+Dump of genericLoopable.mac> #/control/strdoif {filenameStyle} == noSuffix /utr/setFilename {filenamePrefix}{loopVar}
+Dump of genericLoopable.mac> 
+Dump of genericLoopable.mac> # Never simulate more than 2^32= 4294967296 particles using /run/beamOn, since this causes an overflow in the random number seed, giving you in principle the same results over and over again.
+Dump of genericLoopable.mac> # In such cases execute the same simulation multiple times instead.
+Dump of genericLoopable.mac> /run/beamOn {beamOnStatistics}
+utrwrapper.py> End of referred macro file 'macros/examples/genericLoopable.mac'
+utrwrapper.py> Running cmake on utr  at 2023-10-27 16-45-51 (current runtime: 0h 00m 00s)
+cmake on utr> -- Configuring done
+cmake on utr> -- Generating done
+cmake on utr> -- Build files have been written to: /home/drichter/utr/build
+utrwrapper.py> Running buildsystem on utr  at 2023-10-27 16-45-51 (current runtime: 0h 00m 00s)
+buildsystem on utr> Consolidate compiler generated dependencies of target utr
+buildsystem on utr> [  2%] Building CXX object CMakeFiles/utr.dir/DetectorConstruction/Others/Efficiency/DetectorConstruction.cc.o
+buildsystem on utr> [  4%] Linking CXX executable utr
+buildsystem on utr> /usr/bin/ld: CMakeFiles/utr.dir/src/utrFilenameTools.cc.o: in function `utrFilenameTools::getMasterFilename[abi:cxx11]()':
+buildsystem on utr> utrFilenameTools.cc:(.text+0x10ae): warning: the use of `tmpnam' is dangerous, better use `mkstemp'
+buildsystem on utr> [100%] Built target utr
+utrwrapper.py> Running cmake on OutputProcessing scripts  at 2023-10-27 16-45-54 (current runtime: 0h 00m 03s)
+cmake on OutputProcessing scripts> -- Configuring done
+cmake on OutputProcessing scripts> -- Generating done
+cmake on OutputProcessing scripts> -- Build files have been written to: /home/drichter/utr/build/OutputProcessing
+utrwrapper.py> Running buildsystem on OutputProcessing scripts  at 2023-10-27 16-45-54 (current runtime: 0h 00m 03s)
+buildsystem on OutputProcessing scripts> Consolidate compiler generated dependencies of target getHistogram
+buildsystem on OutputProcessing scripts> Consolidate compiler generated dependencies of target rootToTxt
+buildsystem on OutputProcessing scripts> Consolidate compiler generated dependencies of target getHistogram-Eventwise
+buildsystem on OutputProcessing scripts> Consolidate compiler generated dependencies of target getSolidAngleCoverage
+buildsystem on OutputProcessing scripts> Consolidate compiler generated dependencies of target histogramToTxt
+buildsystem on OutputProcessing scripts> Consolidate compiler generated dependencies of target mergeFiles
+buildsystem on OutputProcessing scripts> [ 41%] Built target getSolidAngleCoverage
+buildsystem on OutputProcessing scripts> [ 41%] Built target getHistogram-Eventwise
+buildsystem on OutputProcessing scripts> [ 66%] Built target mergeFiles
+buildsystem on OutputProcessing scripts> [ 91%] Built target histogramToTxt
+buildsystem on OutputProcessing scripts> [ 91%] Built target getHistogram
+buildsystem on OutputProcessing scripts> [100%] Built target rootToTxt
+utrwrapper.py> Running utr  at 2023-10-27 16-45-55 (current runtime: 0h 00m 03s)
+utr> Using file name prefix 'utr0' ...
+utr> 
+utr> **************************************************************
+utr>  Geant4 version Name: geant4-10-07-patch-04 [MT]   (9-September-2022)
+utr>   << in Multi-threaded mode >> 
+utr>                        Copyright : Geant4 Collaboration
+utr>                       References : NIM A 506 (2003), 250-303
+utr>                                  : IEEE-TNS 53 (2006), 270-278
+utr>                                  : NIM A 835 (2016), 186-225
+utr>                              WWW : http://geant4.org/
+utr> **************************************************************
+utr> 
+utr> Initializing DetectorConstruction...
+utr> Initializing PhysicsList...
+utr> ================================================================================
+utr> Using the following physics lists:
+utr> 	G4EmLivermorePolarizedPhysics ...
+utr> 	G4HadronElasticPhysics ...
+utr> 	G4HadronPhysicsFTFP_BERT ...
+utr> ================================================================================
+utr> ActionInitialization...
+utr> Executing macro file /nfs/ldas02/zh02/home/drichter/utr/macros/examples/utrwrapper-efficiency-jonny.xmac
+utr> Turning off appendage of sequential IDs to the filename prefix
+utr> Polycone Detector_logical_cold_finger_solid optimized.
+utr>   Using 96.4 percent less points than uniform Polycone.
+utr>   Geometrical resolution: -0.229464mm
+utr> Polycone Detector_logical_crystal_solid optimized.
+utr>   Using 87.2 percent less points than uniform Polycone.
+utr>   Geometrical resolution: -0.104mm
+utr> /nfs/ldas02/zh02/home/drichter/utr
+utr> G4GDML: Reading '../utr/DetectorConstruction/Others/Efficiency/Volumes/Quellenhalter.gdml'...
+utr> G4GDML: VALIDATION ERROR! element 'solids' is not allowed for content model '(define,materials,solids,structure,userinfo?,setup+)' at line: 4178
+utr> G4GDML: VALIDATION ERROR! ID attribute 'G4_POLYVINYL_CHLORIDE' is referenced but was never declared at line: 4178
+utr> G4GDML: Reading definitions...
+utr> G4GDML: Reading solids...
+utr> G4GDML: Reading structure...
+utr> G4GDML: Reading setup...
+utr> G4GDML: Reading '../utr/DetectorConstruction/Others/Efficiency/Volumes/Quellenhalter.gdml' done!
+utr> Stripping off GDML names of materials, solids and volumes ...
+utr> G4GDML: Reading '../utr/DetectorConstruction/Others/Efficiency/Volumes/Hohlzylinder.gdml'...
+utr> G4GDML: VALIDATION ERROR! element 'solids' is not allowed for content model '(define,materials,solids,structure,userinfo?,setup+)' at line: 1532
+utr> G4GDML: VALIDATION ERROR! ID attribute 'G4_POLYVINYL_CHLORIDE' is referenced but was never declared at line: 1532
+utr> G4GDML: Reading definitions...
+utr> G4GDML: Reading solids...
+utr> G4GDML: Reading structure...
+utr> G4GDML: Reading setup...
+utr> G4GDML: Reading '../utr/DetectorConstruction/Others/Efficiency/Volumes/Hohlzylinder.gdml' done!
+utr> Stripping off GDML names of materials, solids and volumes ...
+utr> 
+utr>  hInelastic FTFP_BERT : threshold between BERT and FTFP is over the interval 
+utr>  for pions :   3 to 6 GeV
+utr>  for kaons :   3 to 6 GeV
+utr>  for proton :  3 to 6 GeV
+utr>  for neutron : 3 to 6 GeV
+utr> 
+utr> 
+utr> ### ===  Deexcitation model UAtomDeexcitation is activated for 1 region:
+utr>           DefaultRegionForTheWorld  1  0  0
+utr> ### ===  Ignore cuts flag:   0
+utr> 
+utr> phot:  for gamma SubType=12 BuildTable=0
+utr>       LambdaPrime table from 200 keV to 100 TeV in 174 bins 
+utr>       ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+utr>  LivermorePhElectric : Emin=    0 eV  Emax=  100 TeV  AngularGenSauterGavrilaPolarized Fluo
+utr> 
+utr> compt:  for gamma SubType=13 BuildTable=1
+utr>       Lambda table from 100 eV  to 1 MeV, 20 bins/decade, spline: 1
+utr>       LambdaPrime table from 1 MeV to 100 TeV in 160 bins 
+utr>       ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+utr> LivermorePolarizedCompton : Emin=    0 eV  Emax=    1 GeV Fluo
+utr>         KleinNishina : Emin=    1 GeV Emax=  100 TeV Fluo
+utr> 
+utr> conv:  for gamma SubType=14 BuildTable=1
+utr>       Lambda table from 1.022 MeV to 100 TeV, 20 bins/decade, spline: 1
+utr>       ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+utr> LivermorePolarizedGammaConversion : Emin=    0 eV  Emax=    1 GeV
+utr> Livermore5DConversion : Emin=    1 GeV Emax=  100 TeV  ModifiedTsai
+utr> 
+utr> Rayl:  for gamma SubType=11 BuildTable=1
+utr>       Lambda table from 100 eV  to 100 keV, 20 bins/decade, spline: 0
+utr>       LambdaPrime table from 100 keV to 100 TeV in 180 bins 
+utr>       ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+utr> LivermorePolarizedRayleigh : Emin=    0 eV  Emax=  100 TeV
+utr> 
+utr> msc:  for e-  SubType= 10
+utr>       ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+utr>   GoudsmitSaunderson : Emin=    0 eV  Emax=  100 MeV Nbins=120 100 eV  - 100 MeV
+utr>               StepLim=SafetyPlus Rfact=0.08 Gfact=2.5 Sfact=0.6 DispFlag:1 Skin=3 Llimit=1
+utr>         WentzelVIUni : Emin=  100 MeV Emax=  100 TeV Nbins=120 100 MeV - 100 TeV
+utr>               StepLim=SafetyPlus Rfact=0.08 Gfact=2.5 Sfact=0.6 DispFlag:1 Skin=3 Llimit=1
+utr> 
+utr> eIoni:  for e-  SubType=2
+utr>       dE/dx and range tables from 100 eV  to 100 TeV in 240 bins
+utr>       Lambda tables from threshold to 100 TeV, 20 bins/decade, spline: 1
+utr>       StepFunction=(0.2, 0.01 mm), integ: 1, fluct: 1, linLossLim= 0.01
+utr>       ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+utr>        LowEnergyIoni : Emin=    0 eV  Emax=  100 keV  deltaVI
+utr>         MollerBhabha : Emin=  100 keV Emax=  100 TeV  deltaVI
+utr> 
+utr> eBrem:  for e-  SubType=3
+utr>       dE/dx and range tables from 100 eV  to 100 TeV in 240 bins
+utr>       Lambda tables from threshold to 100 TeV, 20 bins/decade, spline: 1
+utr>       LPM flag: 1 for E > 1 GeV,  VertexHighEnergyTh(GeV)= 100000
+utr>       ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+utr>              eBremSB : Emin=    0 eV  Emax=    1 GeV  AngularGen2BS
+utr>             eBremLPM : Emin=    1 GeV Emax=  100 TeV  AngularGen2BS
+utr> 
+utr> ePairProd:  for e-  SubType=4
+utr>       dE/dx and range tables from 100 eV  to 100 TeV in 240 bins
+utr>       Lambda tables from threshold to 100 TeV, 20 bins/decade, spline: 1
+utr>       Sampling table 25x1001; from 0.1 GeV to 100 TeV 
+utr>       ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+utr>            ePairProd : Emin=    0 eV  Emax=  100 TeV  ModifiedMephi
+utr> 
+utr> CoulombScat:  for e-, integral:1  SubType=1 BuildTable=1
+utr>       Lambda table from 100 MeV to 100 TeV, 20 bins/decade, spline: 1
+utr>       ThetaMin(p) < Theta(degree) < 180; pLimit(GeV^1)= 0.139531
+utr>       ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+utr>   eCoulombScattering : Emin=  100 MeV Emax=  100 TeV
+utr> 
+utr> msc:  for e+  SubType= 10
+utr>       ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+utr>   GoudsmitSaunderson : Emin=    0 eV  Emax=  100 MeV Nbins=120 100 eV  - 100 MeV
+utr>               StepLim=SafetyPlus Rfact=0.08 Gfact=2.5 Sfact=0.6 DispFlag:1 Skin=3 Llimit=1
+utr>         WentzelVIUni : Emin=  100 MeV Emax=  100 TeV Nbins=120 100 MeV - 100 TeV
+utr>               StepLim=SafetyPlus Rfact=0.08 Gfact=2.5 Sfact=0.6 DispFlag:1 Skin=3 Llimit=1
+utr> 
+utr> eIoni:  for e+  SubType=2
+utr>       dE/dx and range tables from 100 eV  to 100 TeV in 240 bins
+utr>       Lambda tables from threshold to 100 TeV, 20 bins/decade, spline: 1
+utr>       StepFunction=(0.2, 0.01 mm), integ: 1, fluct: 1, linLossLim= 0.01
+utr>       ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+utr>         MollerBhabha : Emin=    0 eV  Emax=  100 TeV  deltaVI
+utr> 
+utr> eBrem:  for e+  SubType=3
+utr>       dE/dx and range tables from 100 eV  to 100 TeV in 240 bins
+utr>       Lambda tables from threshold to 100 TeV, 20 bins/decade, spline: 1
+utr>       LPM flag: 1 for E > 1 GeV,  VertexHighEnergyTh(GeV)= 100000
+utr>       ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+utr>              eBremSB : Emin=    0 eV  Emax=    1 GeV  AngularGen2BS
+utr>             eBremLPM : Emin=    1 GeV Emax=  100 TeV  AngularGen2BS
+utr> 
+utr> ePairProd:  for e+  SubType=4
+utr>       dE/dx and range tables from 100 eV  to 100 TeV in 240 bins
+utr>       Lambda tables from threshold to 100 TeV, 20 bins/decade, spline: 1
+utr>       Sampling table 25x1001; from 0.1 GeV to 100 TeV 
+utr>       ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+utr>            ePairProd : Emin=    0 eV  Emax=  100 TeV  ModifiedMephi
+utr> 
+utr> annihil:  for e+, integral:1  SubType=5 BuildTable=0
+utr>       ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+utr>             eplus2gg : Emin=    0 eV  Emax=  100 TeV
+utr> 
+utr> CoulombScat:  for e+, integral:1  SubType=1 BuildTable=1
+utr>       Lambda table from 100 MeV to 100 TeV, 20 bins/decade, spline: 1
+utr>       ThetaMin(p) < Theta(degree) < 180; pLimit(GeV^1)= 0.139531
+utr>       ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+utr>   eCoulombScattering : Emin=  100 MeV Emax=  100 TeV
+utr> 
+utr> msc:  for proton  SubType= 10
+utr>       ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+utr>         WentzelVIUni : Emin=    0 eV  Emax=  100 TeV Nbins=240 100 eV  - 100 TeV
+utr>               StepLim=Minimal Rfact=0.2 Gfact=2.5 Sfact=0.6 DispFlag:1 Skin=3 Llimit=1
+utr> 
+utr> hIoni:  for proton  SubType=2
+utr>       dE/dx and range tables from 100 eV  to 100 TeV in 240 bins
+utr>       Lambda tables from threshold to 100 TeV, 20 bins/decade, spline: 1
+utr>       StepFunction=(0.1, 0.05 mm), integ: 1, fluct: 1, linLossLim= 0.01
+utr>       ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+utr>                Bragg : Emin=    0 eV  Emax=    2 MeV  deltaVI
+utr>           BetheBloch : Emin=    2 MeV Emax=  100 TeV  deltaVI
+utr> 
+utr> hBrems:  for proton  SubType=3
+utr>       dE/dx and range tables from 100 eV  to 100 TeV in 240 bins
+utr>       Lambda tables from threshold to 100 TeV, 20 bins/decade, spline: 1
+utr>       ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+utr>                hBrem : Emin=    0 eV  Emax=  100 TeV  ModifiedMephi
+utr> 
+utr> hPairProd:  for proton  SubType=4
+utr>       dE/dx and range tables from 100 eV  to 100 TeV in 240 bins
+utr>       Lambda tables from threshold to 100 TeV, 20 bins/decade, spline: 1
+utr>       Sampling table 17x1001; from 7.50618 GeV to 100 TeV 
+utr>       ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+utr>            hPairProd : Emin=    0 eV  Emax=  100 TeV  ModifiedMephi
+utr> 
+utr> CoulombScat:  for proton, integral:1  SubType=1 BuildTable=1
+utr>       Lambda table from threshold  to 100 TeV, 20 bins/decade, spline: 1
+utr>       ThetaMin(p) < Theta(degree) < 180; pLimit(GeV^1)= 0.139531
+utr>       ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+utr>   eCoulombScattering : Emin=    0 eV  Emax=  100 TeV
+utr> 
+utr> nuclearStopping:  for proton SubType=8 BuildTable=0
+utr>       ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+utr>    ICRU49NucStopping : Emin=    0 eV  Emax=    1 MeV
+utr> 
+utr> msc:  for GenericIon  SubType= 10
+utr>       ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+utr>             UrbanMsc : Emin=    0 eV  Emax=  100 TeV
+utr>               StepLim=Minimal Rfact=0.2 Gfact=2.5 Sfact=0.6 DispFlag:1 Skin=3 Llimit=1
+utr> 
+utr> ionIoni:  for GenericIon  SubType=2
+utr>       dE/dx and range tables from 100 eV  to 100 TeV in 240 bins
+utr>       Lambda tables from threshold to 100 TeV, 20 bins/decade, spline: 1
+utr>       StepFunction=(0.1, 0.001 mm), integ: 1, fluct: 1, linLossLim= 0.02
+utr>       ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+utr>          ParamICRU73 : Emin=    0 eV  Emax=  100 TeV  deltaVI
+utr> 
+utr> nuclearStopping:  for GenericIon SubType=8 BuildTable=0
+utr>       ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+utr>    ICRU49NucStopping : Emin=    0 eV  Emax=    1 MeV
+utr> 
+utr> msc:  for alpha  SubType= 10
+utr>       ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+utr>             UrbanMsc : Emin=    0 eV  Emax=  100 TeV Nbins=240 100 eV  - 100 TeV
+utr>               StepLim=Minimal Rfact=0.2 Gfact=2.5 Sfact=0.6 DispFlag:1 Skin=3 Llimit=1
+utr> 
+utr> ionIoni:  for alpha  SubType=2
+utr>       dE/dx and range tables from 100 eV  to 100 TeV in 240 bins
+utr>       Lambda tables from threshold to 100 TeV, 20 bins/decade, spline: 1
+utr>       StepFunction=(0.1, 0.02 mm), integ: 1, fluct: 1, linLossLim= 0.02
+utr>       ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+utr>             BraggIon : Emin=    0 eV  Emax=7.9452 MeV  deltaVI
+utr>           BetheBloch : Emin=7.9452 MeV Emax=  100 TeV  deltaVI
+utr> 
+utr> nuclearStopping:  for alpha SubType=8 BuildTable=0
+utr>       ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+utr>    ICRU49NucStopping : Emin=    0 eV  Emax=    1 MeV
+utr> 
+utr> msc:  for anti_proton  SubType= 10
+utr>       ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+utr>         WentzelVIUni : Emin=    0 eV  Emax=  100 TeV Nbins=240 100 eV  - 100 TeV
+utr>               StepLim=Minimal Rfact=0.2 Gfact=2.5 Sfact=0.6 DispFlag:1 Skin=3 Llimit=1
+utr> 
+utr> hIoni:  for anti_proton  SubType=2
+utr>       dE/dx and range tables from 100 eV  to 100 TeV in 240 bins
+utr>       Lambda tables from threshold to 100 TeV, 20 bins/decade, spline: 1
+utr>       StepFunction=(0.1, 0.05 mm), integ: 1, fluct: 1, linLossLim= 0.01
+utr>       ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+utr>             ICRU73QO : Emin=    0 eV  Emax=    2 MeV  deltaVI
+utr>           BetheBloch : Emin=    2 MeV Emax=  100 TeV  deltaVI
+utr> 
+utr> hBrems:  for anti_proton  SubType=3
+utr>       dE/dx and range tables from 100 eV  to 100 TeV in 240 bins
+utr>       Lambda tables from threshold to 100 TeV, 20 bins/decade, spline: 1
+utr>       ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+utr>                hBrem : Emin=    0 eV  Emax=  100 TeV  ModifiedMephi
+utr> 
+utr> hPairProd:  for anti_proton  SubType=4
+utr>       dE/dx and range tables from 100 eV  to 100 TeV in 240 bins
+utr>       Lambda tables from threshold to 100 TeV, 20 bins/decade, spline: 1
+utr>       Sampling table 17x1001; from 7.50618 GeV to 100 TeV 
+utr>       ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+utr>            hPairProd : Emin=    0 eV  Emax=  100 TeV  ModifiedMephi
+utr> 
+utr> CoulombScat:  for anti_proton, integral:1  SubType=1 BuildTable=1
+utr>       Lambda table from threshold  to 100 TeV, 20 bins/decade, spline: 1
+utr>       ThetaMin(p) < Theta(degree) < 180; pLimit(GeV^1)= 0.139531
+utr>       ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+utr>   eCoulombScattering : Emin=    0 eV  Emax=  100 TeV
+utr> 
+utr> msc:  for kaon+  SubType= 10
+utr>       ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+utr>         WentzelVIUni : Emin=    0 eV  Emax=  100 TeV Nbins=240 100 eV  - 100 TeV
+utr>               StepLim=Minimal Rfact=0.2 Gfact=2.5 Sfact=0.6 DispFlag:1 Skin=3 Llimit=1
+utr> 
+utr> hIoni:  for kaon+  SubType=2
+utr>       dE/dx and range tables from 100 eV  to 100 TeV in 240 bins
+utr>       Lambda tables from threshold to 100 TeV, 20 bins/decade, spline: 1
+utr>       StepFunction=(0.1, 0.05 mm), integ: 1, fluct: 1, linLossLim= 0.01
+utr>       ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+utr>                Bragg : Emin=    0 eV  Emax=1.05231 MeV  deltaVI
+utr>           BetheBloch : Emin=1.05231 MeV Emax=  100 TeV  deltaVI
+utr> 
+utr> hBrems:  for kaon+  SubType=3
+utr>       dE/dx and range tables from 100 eV  to 100 TeV in 240 bins
+utr>       Lambda tables from threshold to 100 TeV, 20 bins/decade, spline: 1
+utr>       ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+utr>                hBrem : Emin=    0 eV  Emax=  100 TeV  ModifiedMephi
+utr> 
+utr> hPairProd:  for kaon+  SubType=4
+utr>       dE/dx and range tables from 100 eV  to 100 TeV in 240 bins
+utr>       Lambda tables from threshold to 100 TeV, 20 bins/decade, spline: 1
+utr>       Sampling table 18x1001; from 3.94942 GeV to 100 TeV 
+utr>       ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+utr>            hPairProd : Emin=    0 eV  Emax=  100 TeV  ModifiedMephi
+utr> 
+utr> CoulombScat:  for kaon+, integral:1  SubType=1 BuildTable=1
+utr>       Lambda table from threshold  to 100 TeV, 20 bins/decade, spline: 1
+utr>       ThetaMin(p) < Theta(degree) < 180; pLimit(GeV^1)= 0.139531
+utr>       ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+utr>   eCoulombScattering : Emin=    0 eV  Emax=  100 TeV
+utr> 
+utr> msc:  for kaon-  SubType= 10
+utr>       ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+utr>         WentzelVIUni : Emin=    0 eV  Emax=  100 TeV Nbins=240 100 eV  - 100 TeV
+utr>               StepLim=Minimal Rfact=0.2 Gfact=2.5 Sfact=0.6 DispFlag:1 Skin=3 Llimit=1
+utr> 
+utr> hIoni:  for kaon-  SubType=2
+utr>       dE/dx and range tables from 100 eV  to 100 TeV in 240 bins
+utr>       Lambda tables from threshold to 100 TeV, 20 bins/decade, spline: 1
+utr>       StepFunction=(0.1, 0.05 mm), integ: 1, fluct: 1, linLossLim= 0.01
+utr>       ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+utr>             ICRU73QO : Emin=    0 eV  Emax=1.05231 MeV  deltaVI
+utr>           BetheBloch : Emin=1.05231 MeV Emax=  100 TeV  deltaVI
+utr> 
+utr> hBrems:  for kaon-  SubType=3
+utr>       dE/dx and range tables from 100 eV  to 100 TeV in 240 bins
+utr>       Lambda tables from threshold to 100 TeV, 20 bins/decade, spline: 1
+utr>       ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+utr>                hBrem : Emin=    0 eV  Emax=  100 TeV  ModifiedMephi
+utr> 
+utr> hPairProd:  for kaon-  SubType=4
+utr>       dE/dx and range tables from 100 eV  to 100 TeV in 240 bins
+utr>       Lambda tables from threshold to 100 TeV, 20 bins/decade, spline: 1
+utr>       Sampling table 18x1001; from 3.94942 GeV to 100 TeV 
+utr>       ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+utr>            hPairProd : Emin=    0 eV  Emax=  100 TeV  ModifiedMephi
+utr> 
+utr> CoulombScat:  for kaon-, integral:1  SubType=1 BuildTable=1
+utr>       Used Lambda table of kaon+
+utr>       ThetaMin(p) < Theta(degree) < 180; pLimit(GeV^1)= 0.139531
+utr>       ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+utr>   eCoulombScattering : Emin=    0 eV  Emax=  100 TeV
+utr> 
+utr> msc:  for mu+  SubType= 10
+utr>       ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+utr>         WentzelVIUni : Emin=    0 eV  Emax=  100 TeV Nbins=240 100 eV  - 100 TeV
+utr>               StepLim=Minimal Rfact=0.2 Gfact=2.5 Sfact=0.6 DispFlag:1 Skin=3 Llimit=1
+utr> 
+utr> muIoni:  for mu+  SubType=2
+utr>       dE/dx and range tables from 100 eV  to 100 TeV in 240 bins
+utr>       Lambda tables from threshold to 100 TeV, 20 bins/decade, spline: 1
+utr>       StepFunction=(0.1, 0.05 mm), integ: 1, fluct: 1, linLossLim= 0.01
+utr>       ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+utr>                Bragg : Emin=    0 eV  Emax=  200 keV  deltaVI
+utr>           BetheBloch : Emin=  200 keV Emax=    1 GeV  deltaVI
+utr>         MuBetheBloch : Emin=    1 GeV Emax=  100 TeV
+utr> 
+utr> muBrems:  for mu+  SubType=3
+utr>       dE/dx and range tables from 100 eV  to 100 TeV in 240 bins
+utr>       Lambda tables from threshold to 100 TeV, 20 bins/decade, spline: 1
+utr>       ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+utr>               MuBrem : Emin=    0 eV  Emax=  100 TeV  ModifiedMephi
+utr> 
+utr> muPairProd:  for mu+  SubType=4
+utr>       dE/dx and range tables from 100 eV  to 100 TeV in 240 bins
+utr>       Lambda tables from threshold to 100 TeV, 20 bins/decade, spline: 1
+utr>       Sampling table 21x1001; from 1 GeV to 100 TeV 
+utr>       ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+utr>           muPairProd : Emin=    0 eV  Emax=  100 TeV  ModifiedMephi
+utr> 
+utr> CoulombScat:  for mu+, integral:1  SubType=1 BuildTable=1
+utr>       Lambda table from threshold  to 100 TeV, 20 bins/decade, spline: 1
+utr>       ThetaMin(p) < Theta(degree) < 180; pLimit(GeV^1)= 0.139531
+utr>       ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+utr>   eCoulombScattering : Emin=    0 eV  Emax=  100 TeV
+utr> 
+utr> msc:  for mu-  SubType= 10
+utr>       ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+utr>         WentzelVIUni : Emin=    0 eV  Emax=  100 TeV Nbins=240 100 eV  - 100 TeV
+utr>               StepLim=Minimal Rfact=0.2 Gfact=2.5 Sfact=0.6 DispFlag:1 Skin=3 Llimit=1
+utr> 
+utr> muIoni:  for mu-  SubType=2
+utr>       dE/dx and range tables from 100 eV  to 100 TeV in 240 bins
+utr>       Lambda tables from threshold to 100 TeV, 20 bins/decade, spline: 1
+utr>       StepFunction=(0.1, 0.05 mm), integ: 1, fluct: 1, linLossLim= 0.01
+utr>       ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+utr>             ICRU73QO : Emin=    0 eV  Emax=  200 keV  deltaVI
+utr>           BetheBloch : Emin=  200 keV Emax=    1 GeV  deltaVI
+utr>         MuBetheBloch : Emin=    1 GeV Emax=  100 TeV
+utr> 
+utr> muBrems:  for mu-  SubType=3
+utr>       dE/dx and range tables from 100 eV  to 100 TeV in 240 bins
+utr>       Lambda tables from threshold to 100 TeV, 20 bins/decade, spline: 1
+utr>       ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+utr>               MuBrem : Emin=    0 eV  Emax=  100 TeV  ModifiedMephi
+utr> 
+utr> muPairProd:  for mu-  SubType=4
+utr>       dE/dx and range tables from 100 eV  to 100 TeV in 240 bins
+utr>       Lambda tables from threshold to 100 TeV, 20 bins/decade, spline: 1
+utr>       Sampling table 21x1001; from 1 GeV to 100 TeV 
+utr>       ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+utr>           muPairProd : Emin=    0 eV  Emax=  100 TeV  ModifiedMephi
+utr> 
+utr> CoulombScat:  for mu-, integral:1  SubType=1 BuildTable=1
+utr>       Used Lambda table of mu+
+utr>       ThetaMin(p) < Theta(degree) < 180; pLimit(GeV^1)= 0.139531
+utr>       ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+utr>   eCoulombScattering : Emin=    0 eV  Emax=  100 TeV
+utr> 
+utr> msc:  for pi+  SubType= 10
+utr>       ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+utr>         WentzelVIUni : Emin=    0 eV  Emax=  100 TeV Nbins=240 100 eV  - 100 TeV
+utr>               StepLim=Minimal Rfact=0.2 Gfact=2.5 Sfact=0.6 DispFlag:1 Skin=3 Llimit=1
+utr> 
+utr> hIoni:  for pi+  SubType=2
+utr>       dE/dx and range tables from 100 eV  to 100 TeV in 240 bins
+utr>       Lambda tables from threshold to 100 TeV, 20 bins/decade, spline: 1
+utr>       StepFunction=(0.1, 0.05 mm), integ: 1, fluct: 1, linLossLim= 0.01
+utr>       ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+utr>                Bragg : Emin=    0 eV  Emax=297.505 keV  deltaVI
+utr>           BetheBloch : Emin=297.505 keV Emax=  100 TeV  deltaVI
+utr> 
+utr> hBrems:  for pi+  SubType=3
+utr>       dE/dx and range tables from 100 eV  to 100 TeV in 240 bins
+utr>       Lambda tables from threshold to 100 TeV, 20 bins/decade, spline: 1
+utr>       ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+utr>                hBrem : Emin=    0 eV  Emax=  100 TeV  ModifiedMephi
+utr> 
+utr> hPairProd:  for pi+  SubType=4
+utr>       dE/dx and range tables from 100 eV  to 100 TeV in 240 bins
+utr>       Lambda tables from threshold to 100 TeV, 20 bins/decade, spline: 1
+utr>       Sampling table 20x1001; from 1.11656 GeV to 100 TeV 
+utr>       ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+utr>            hPairProd : Emin=    0 eV  Emax=  100 TeV  ModifiedMephi
+utr> 
+utr> CoulombScat:  for pi+, integral:1  SubType=1 BuildTable=1
+utr>       Lambda table from threshold  to 100 TeV, 20 bins/decade, spline: 1
+utr>       ThetaMin(p) < Theta(degree) < 180; pLimit(GeV^1)= 0.139531
+utr>       ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+utr>   eCoulombScattering : Emin=    0 eV  Emax=  100 TeV
+utr> 
+utr> msc:  for pi-  SubType= 10
+utr>       ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+utr>         WentzelVIUni : Emin=    0 eV  Emax=  100 TeV Nbins=240 100 eV  - 100 TeV
+utr>               StepLim=Minimal Rfact=0.2 Gfact=2.5 Sfact=0.6 DispFlag:1 Skin=3 Llimit=1
+utr> 
+utr> hIoni:  for pi-  SubType=2
+utr>       dE/dx and range tables from 100 eV  to 100 TeV in 240 bins
+utr>       Lambda tables from threshold to 100 TeV, 20 bins/decade, spline: 1
+utr>       StepFunction=(0.1, 0.05 mm), integ: 1, fluct: 1, linLossLim= 0.01
+utr>       ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+utr>             ICRU73QO : Emin=    0 eV  Emax=297.505 keV  deltaVI
+utr>           BetheBloch : Emin=297.505 keV Emax=  100 TeV  deltaVI
+utr> 
+utr> hBrems:  for pi-  SubType=3
+utr>       dE/dx and range tables from 100 eV  to 100 TeV in 240 bins
+utr>       Lambda tables from threshold to 100 TeV, 20 bins/decade, spline: 1
+utr>       ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+utr>                hBrem : Emin=    0 eV  Emax=  100 TeV  ModifiedMephi
+utr> 
+utr> hPairProd:  for pi-  SubType=4
+utr>       dE/dx and range tables from 100 eV  to 100 TeV in 240 bins
+utr>       Lambda tables from threshold to 100 TeV, 20 bins/decade, spline: 1
+utr>       Sampling table 20x1001; from 1.11656 GeV to 100 TeV 
+utr>       ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+utr>            hPairProd : Emin=    0 eV  Emax=  100 TeV  ModifiedMephi
+utr> 
+utr> CoulombScat:  for pi-, integral:1  SubType=1 BuildTable=1
+utr>       Used Lambda table of pi+
+utr>       ThetaMin(p) < Theta(degree) < 180; pLimit(GeV^1)= 0.139531
+utr>       ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+utr>   eCoulombScattering : Emin=    0 eV  Emax=  100 TeV
+utr> 
+utr> ====================================================================
+utr>                   HADRONIC PROCESSES SUMMARY (verbose level 1)
+utr> 
+utr> ---------------------------------------------------
+utr>                            Hadronic Processes for B-
+utr> 
+utr>   Process: hadElastic
+utr>         Model:              hElasticLHEP: 0 eV  ---> 100 TeV
+utr>      Cr_sctns:            Glauber-Gribov: 0 eV  ---> 100 TeV
+utr> 
+utr>   Process: B-Inelastic
+utr>         Model:                      FTFP: 0 eV  ---> 100 TeV
+utr>      Cr_sctns:            Glauber-Gribov: 0 eV  ---> 100 TeV
+utr> 
+utr> ---------------------------------------------------
+utr>                            Hadronic Processes for D-
+utr> 
+utr>   Process: hadElastic
+utr>         Model:              hElasticLHEP: 0 eV  ---> 100 TeV
+utr>      Cr_sctns:            Glauber-Gribov: 0 eV  ---> 100 TeV
+utr> 
+utr>   Process: D-Inelastic
+utr>         Model:                      FTFP: 0 eV  ---> 100 TeV
+utr>      Cr_sctns:            Glauber-Gribov: 0 eV  ---> 100 TeV
+utr> 
+utr> ---------------------------------------------------
+utr>                            Hadronic Processes for He3
+utr> 
+utr>   Process: hadElastic
+utr>         Model:              hElasticLHEP: 0 eV /n ---> 100 TeV/n
+utr>      Cr_sctns:  Glauber-Gribov Nucl-nucl: 0 eV  ---> 25.6 PeV
+utr> 
+utr> ---------------------------------------------------
+utr>                            Hadronic Processes for alpha
+utr> 
+utr>   Process: hadElastic
+utr>         Model:              hElasticLHEP: 0 eV /n ---> 100 TeV/n
+utr>      Cr_sctns:  Glauber-Gribov Nucl-nucl: 0 eV  ---> 25.6 PeV
+utr> 
+utr> ---------------------------------------------------
+utr>                            Hadronic Processes for anti_He3
+utr> 
+utr>   Process: hadElastic
+utr>         Model:              hElasticLHEP: 0 eV /n ---> 100.1 MeV/n
+utr>         Model:              AntiAElastic: 100 MeV/n ---> 100 TeV/n
+utr>      Cr_sctns:              AntiAGlauber: 0 eV  ---> 25.6 PeV
+utr> 
+utr>   Process: anti_He3Inelastic
+utr>         Model:                      FTFP: 0 eV /n ---> 100 TeV/n
+utr>      Cr_sctns:              AntiAGlauber: 0 eV  ---> 25.6 PeV
+utr> 
+utr> ---------------------------------------------------
+utr>                            Hadronic Processes for anti_alpha
+utr> 
+utr>   Process: hadElastic
+utr>         Model:              hElasticLHEP: 0 eV /n ---> 100.1 MeV/n
+utr>         Model:              AntiAElastic: 100 MeV/n ---> 100 TeV/n
+utr>      Cr_sctns:              AntiAGlauber: 0 eV  ---> 25.6 PeV
+utr> 
+utr>   Process: anti_alphaInelastic
+utr>         Model:                      FTFP: 0 eV /n ---> 100 TeV/n
+utr>      Cr_sctns:              AntiAGlauber: 0 eV  ---> 25.6 PeV
+utr> 
+utr> ---------------------------------------------------
+utr>                            Hadronic Processes for anti_deuteron
+utr> 
+utr>   Process: hadElastic
+utr>         Model:              hElasticLHEP: 0 eV /n ---> 100.1 MeV/n
+utr>         Model:              AntiAElastic: 100 MeV/n ---> 100 TeV/n
+utr>      Cr_sctns:              AntiAGlauber: 0 eV  ---> 25.6 PeV
+utr> 
+utr>   Process: anti_deuteronInelastic
+utr>         Model:                      FTFP: 0 eV /n ---> 100 TeV/n
+utr>      Cr_sctns:              AntiAGlauber: 0 eV  ---> 25.6 PeV
+utr> 
+utr> ---------------------------------------------------
+utr>                            Hadronic Processes for anti_lambda
+utr> 
+utr>   Process: hadElastic
+utr>         Model:              hElasticLHEP: 0 eV  ---> 100 TeV
+utr>      Cr_sctns:            Glauber-Gribov: 0 eV  ---> 100 TeV
+utr> 
+utr>   Process: anti_lambdaInelastic
+utr>         Model:                      FTFP: 0 eV  ---> 100 TeV
+utr>      Cr_sctns:            Glauber-Gribov: 0 eV  ---> 100 TeV
+utr> 
+utr> ---------------------------------------------------
+utr>                            Hadronic Processes for anti_neutron
+utr> 
+utr>   Process: hadElastic
+utr>         Model:              hElasticLHEP: 0 eV  ---> 100.1 MeV
+utr>         Model:              AntiAElastic: 100 MeV ---> 100 TeV
+utr>      Cr_sctns:              AntiAGlauber: 0 eV  ---> 25.6 PeV
+utr> 
+utr>   Process: anti_neutronInelastic
+utr>         Model:                      FTFP: 0 eV  ---> 100 TeV
+utr>      Cr_sctns:              AntiAGlauber: 0 eV  ---> 25.6 PeV
+utr> 
+utr> ---------------------------------------------------
+utr>                            Hadronic Processes for anti_proton
+utr> 
+utr>   Process: hadElastic
+utr>         Model:              hElasticLHEP: 0 eV  ---> 100.1 MeV
+utr>         Model:              AntiAElastic: 100 MeV ---> 100 TeV
+utr>      Cr_sctns:              AntiAGlauber: 0 eV  ---> 25.6 PeV
+utr> 
+utr>   Process: anti_protonInelastic
+utr>         Model:                      FTFP: 0 eV  ---> 100 TeV
+utr>      Cr_sctns:              AntiAGlauber: 0 eV  ---> 25.6 PeV
+utr> 
+utr> ---------------------------------------------------
+utr>                            Hadronic Processes for anti_triton
+utr> 
+utr>   Process: hadElastic
+utr>         Model:              hElasticLHEP: 0 eV /n ---> 100.1 MeV/n
+utr>         Model:              AntiAElastic: 100 MeV/n ---> 100 TeV/n
+utr>      Cr_sctns:              AntiAGlauber: 0 eV  ---> 25.6 PeV
+utr> 
+utr>   Process: anti_tritonInelastic
+utr>         Model:                      FTFP: 0 eV /n ---> 100 TeV/n
+utr>      Cr_sctns:              AntiAGlauber: 0 eV  ---> 25.6 PeV
+utr> 
+utr> ---------------------------------------------------
+utr>                            Hadronic Processes for deuteron
+utr> 
+utr>   Process: hadElastic
+utr>         Model:              hElasticLHEP: 0 eV /n ---> 100 TeV/n
+utr>      Cr_sctns:  Glauber-Gribov Nucl-nucl: 0 eV  ---> 25.6 PeV
+utr> 
+utr> ---------------------------------------------------
+utr>                            Hadronic Processes for kaon+
+utr> 
+utr>   Process: hadElastic
+utr>         Model:              hElasticLHEP: 0 eV  ---> 100 TeV
+utr>      Cr_sctns:            Glauber-Gribov: 0 eV  ---> 100 TeV
+utr> 
+utr>   Process: kaon+Inelastic
+utr>         Model:                      FTFP: 3 GeV ---> 100 TeV
+utr>         Model:            BertiniCascade: 0 eV  ---> 6 GeV
+utr>      Cr_sctns:            Glauber-Gribov: 0 eV  ---> 100 TeV
+utr> 
+utr> ---------------------------------------------------
+utr>                            Hadronic Processes for kaon-
+utr> 
+utr>   Process: hadElastic
+utr>         Model:              hElasticLHEP: 0 eV  ---> 100 TeV
+utr>      Cr_sctns:            Glauber-Gribov: 0 eV  ---> 100 TeV
+utr> 
+utr>   Process: kaon-Inelastic
+utr>         Model:                      FTFP: 3 GeV ---> 100 TeV
+utr>         Model:            BertiniCascade: 0 eV  ---> 6 GeV
+utr>      Cr_sctns:            Glauber-Gribov: 0 eV  ---> 100 TeV
+utr> 
+utr> ---------------------------------------------------
+utr>                            Hadronic Processes for lambda
+utr> 
+utr>   Process: hadElastic
+utr>         Model:              hElasticLHEP: 0 eV  ---> 100 TeV
+utr>      Cr_sctns:            Glauber-Gribov: 0 eV  ---> 100 TeV
+utr> 
+utr>   Process: lambdaInelastic
+utr>         Model:                      FTFP: 3 GeV ---> 100 TeV
+utr>         Model:            BertiniCascade: 0 eV  ---> 6 GeV
+utr>      Cr_sctns:            Glauber-Gribov: 0 eV  ---> 100 TeV
+utr> 
+utr> ---------------------------------------------------
+utr>                            Hadronic Processes for neutron
+utr> 
+utr>   Process: hadElastic
+utr>         Model:             hElasticCHIPS: 0 eV  ---> 100 TeV
+utr>      Cr_sctns:        G4NeutronElasticXS: 0 eV  ---> 100 TeV
+utr> 
+utr>   Process: neutronInelastic
+utr>         Model:                      FTFP: 3 GeV ---> 100 TeV
+utr>         Model:            BertiniCascade: 0 eV  ---> 6 GeV
+utr>      Cr_sctns:      G4NeutronInelasticXS: 0 eV  ---> 100 TeV
+utr> 
+utr>   Process: nCapture
+utr>         Model:               nRadCapture: 0 eV  ---> 100 TeV
+utr>      Cr_sctns:        G4NeutronCaptureXS: 0 eV  ---> 100 TeV
+utr> 
+utr> ---------------------------------------------------
+utr>                            Hadronic Processes for pi+
+utr> 
+utr>   Process: hadElastic
+utr>         Model:           hElasticGlauber: 0 eV  ---> 100 TeV
+utr>      Cr_sctns:  BarashenkovGlauberGribov: 0 eV  ---> 100 TeV
+utr> 
+utr>   Process: pi+Inelastic
+utr>         Model:                      FTFP: 3 GeV ---> 100 TeV
+utr>         Model:            BertiniCascade: 0 eV  ---> 6 GeV
+utr>      Cr_sctns:  BarashenkovGlauberGribov: 0 eV  ---> 100 TeV
+utr> 
+utr> ---------------------------------------------------
+utr>                            Hadronic Processes for pi-
+utr> 
+utr>   Process: hadElastic
+utr>         Model:           hElasticGlauber: 0 eV  ---> 100 TeV
+utr>      Cr_sctns:  BarashenkovGlauberGribov: 0 eV  ---> 100 TeV
+utr> 
+utr>   Process: pi-Inelastic
+utr>         Model:                      FTFP: 3 GeV ---> 100 TeV
+utr>         Model:            BertiniCascade: 0 eV  ---> 6 GeV
+utr>      Cr_sctns:  BarashenkovGlauberGribov: 0 eV  ---> 100 TeV
+utr> 
+utr> ---------------------------------------------------
+utr>                            Hadronic Processes for proton
+utr> 
+utr>   Process: hadElastic
+utr>         Model:             hElasticCHIPS: 0 eV  ---> 100 TeV
+utr>      Cr_sctns:  BarashenkovGlauberGribov: 0 eV  ---> 100 TeV
+utr> 
+utr>   Process: protonInelastic
+utr>         Model:                      FTFP: 3 GeV ---> 100 TeV
+utr>         Model:            BertiniCascade: 0 eV  ---> 6 GeV
+utr>      Cr_sctns:  BarashenkovGlauberGribov: 0 eV  ---> 100 TeV
+utr> 
+utr> ---------------------------------------------------
+utr>                            Hadronic Processes for sigma-
+utr> 
+utr>   Process: hadElastic
+utr>         Model:              hElasticLHEP: 0 eV  ---> 100 TeV
+utr>      Cr_sctns:            Glauber-Gribov: 0 eV  ---> 100 TeV
+utr> 
+utr>   Process: sigma-Inelastic
+utr>         Model:                      FTFP: 3 GeV ---> 100 TeV
+utr>         Model:            BertiniCascade: 0 eV  ---> 6 GeV
+utr>      Cr_sctns:            Glauber-Gribov: 0 eV  ---> 100 TeV
+utr> 
+utr> ---------------------------------------------------
+utr>                            Hadronic Processes for triton
+utr> 
+utr>   Process: hadElastic
+utr>         Model:              hElasticLHEP: 0 eV /n ---> 100 TeV/n
+utr>      Cr_sctns:  Glauber-Gribov Nucl-nucl: 0 eV  ---> 25.6 PeV
+utr> 
+utr> ================================================================
+utr> =======================================================================
+utr> ======       Pre-compound/De-excitation Physics Parameters     ========
+utr> =======================================================================
+utr> Type of pre-compound inverse x-section              3
+utr> Pre-compound model active                           1
+utr> Pre-compound excitation low energy (MeV)            0.1
+utr> Pre-compound excitation high energy (MeV)           30
+utr> Type of de-excitation inverse x-section             3
+utr> Type of de-excitation factory                       Evaporation+GEM
+utr> Number of de-excitation channels                    68
+utr> Min excitation energy (keV)                         0.01
+utr> Min energy per nucleon for multifragmentation (MeV) 2e+05
+utr> Limit excitation energy for Fermi BreakUp (MeV)     20
+utr> Level density (1/MeV)                               0.075
+utr> Use simple level density model                      1
+utr> Use discrete excitation energy of the residual      0
+utr> Time limit for long lived isomeres (ns)             1
+utr> Isomer production flag                              1
+utr> Internal e- conversion flag                         1
+utr> Store e- internal conversion data                   0
+utr> Electron internal conversion ID                     2
+utr> Correlated gamma emission flag                      0
+utr> Max 2J for sampling of angular correlations         10
+utr> =======================================================================
+utr> G4VDecayChannel::FillDaughters() - [ anti_neutron ]1:nu_e is not defined !!
+utr>  The BR of this decay mode is set to zero.
+utr> G4VDecayChannel::FillDaughters() - [ kaon+ ]1:nu_mu is not defined !!
+utr>  The BR of this decay mode is set to zero.
+utr> G4VDecayChannel::FillDaughters() - [ kaon+ ]2:nu_e is not defined !!
+utr>  The BR of this decay mode is set to zero.
+utr> G4VDecayChannel::FillDaughters() - [ kaon+ ]2:nu_mu is not defined !!
+utr>  The BR of this decay mode is set to zero.
+utr> G4VDecayChannel::FillDaughters() - [ kaon- ]1:anti_nu_mu is not defined !!
+utr>  The BR of this decay mode is set to zero.
+utr> G4VDecayChannel::FillDaughters() - [ kaon- ]2:anti_nu_e is not defined !!
+utr>  The BR of this decay mode is set to zero.
+utr> G4VDecayChannel::FillDaughters() - [ kaon- ]2:anti_nu_mu is not defined !!
+utr>  The BR of this decay mode is set to zero.
+utr> G4VDecayChannel::FillDaughters() - [ kaon0L ]2:nu_e is not defined !!
+utr>  The BR of this decay mode is set to zero.
+utr> G4VDecayChannel::FillDaughters() - [ kaon0L ]2:anti_nu_e is not defined !!
+utr>  The BR of this decay mode is set to zero.
+utr> G4VDecayChannel::FillDaughters() - [ kaon0L ]2:nu_mu is not defined !!
+utr>  The BR of this decay mode is set to zero.
+utr> G4VDecayChannel::FillDaughters() - [ kaon0L ]2:anti_nu_mu is not defined !!
+utr>  The BR of this decay mode is set to zero.
+utr> G4VDecayChannel::FillDaughters() - [ mu+ ]1:nu_e is not defined !!
+utr>  The BR of this decay mode is set to zero.
+utr> G4VDecayChannel::FillDaughters() - [ mu- ]1:anti_nu_e is not defined !!
+utr>  The BR of this decay mode is set to zero.
+utr> G4VDecayChannel::FillDaughters() - [ neutron ]1:anti_nu_e is not defined !!
+utr>  The BR of this decay mode is set to zero.
+utr> G4VDecayChannel::FillDaughters() - [ pi+ ]1:nu_mu is not defined !!
+utr>  The BR of this decay mode is set to zero.
+utr> G4VDecayChannel::FillDaughters() - [ pi- ]1:anti_nu_mu is not defined !!
+utr>  The BR of this decay mode is set to zero.
+utr> 
+utr> =======================================================================
+utr> --> G4MTRunManager::CreateAndStartWorkers() --> Initializing workers...
+utr> =======================================================================
+utr> 
+utr> G4WT0 > ================================================================================
+utr> G4WT0 > ActionInitialization: The following quantities will be saved to the output file:
+utr> G4WT0 > EDEP
+utr> G4WT0 > PARTICLE
+utr> G4WT0 > VOLUME
+utr> G4WT0 > ================================================================================
+utr> Setting new filename prefix : 'Efficiency_0.661657_MeV'
+utr> G4WT120 > Progress: [               0/44517693]  0.00 %	Running time:   0d  0h   0mn  11s
+utr> G4WT128 > Progress: [          100000/44517693]  0.22 %	Running time:   0d  0h   0mn  11s
+utr> G4WT80 >  Progress: [          200000/44517693]  0.45 %	Running time:   0d  0h   0mn  11s
+utr> G4WT129 > Progress: [          300000/44517693]  0.67 %	Running time:   0d  0h   0mn  11s
+utr> G4WT247 > Progress: [          400000/44517693]  0.90 %	Running time:   0d  0h   0mn  12s
+utr> G4WT120 > Progress: [          500000/44517693]  1.12 %	Running time:   0d  0h   0mn  12s
+utr> G4WT139 > Progress: [          600000/44517693]  1.35 %	Running time:   0d  0h   0mn  12s
+utr> G4WT42 >  Progress: [          700000/44517693]  1.57 %	Running time:   0d  0h   0mn  12s
+utr> G4WT88 >  Progress: [          800000/44517693]  1.80 %	Running time:   0d  0h   0mn  12s
+utr> G4WT38 >  Progress: [          900000/44517693]  2.02 %	Running time:   0d  0h   0mn  13s
+utr> G4WT68 >  Progress: [         1000000/44517693]  2.25 %	Running time:   0d  0h   0mn  13s
+utr> G4WT227 > Progress: [         1100000/44517693]  2.47 %	Running time:   0d  0h   0mn  13s
+utr> G4WT70 >  Progress: [         1200000/44517693]  2.70 %	Running time:   0d  0h   0mn  13s
+utr> G4WT233 > Progress: [         1300000/44517693]  2.92 %	Running time:   0d  0h   0mn  14s
+utr> G4WT7 >   Progress: [         1400000/44517693]  3.14 %	Running time:   0d  0h   0mn  14s
+utr> G4WT134 > Progress: [         1500000/44517693]  3.37 %	Running time:   0d  0h   0mn  14s
+utr> G4WT197 > Progress: [         1600000/44517693]  3.59 %	Running time:   0d  0h   0mn  14s
+utr> G4WT164 > Progress: [         1700000/44517693]  3.82 %	Running time:   0d  0h   0mn  14s
+utr> G4WT178 > Progress: [         1800000/44517693]  4.04 %	Running time:   0d  0h   0mn  14s
+utr> G4WT228 > Progress: [         1900000/44517693]  4.27 %	Running time:   0d  0h   0mn  15s
+utr> G4WT81 >  Progress: [         2000000/44517693]  4.49 %	Running time:   0d  0h   0mn  15s
+utr> G4WT43 >  Progress: [         2100000/44517693]  4.72 %	Running time:   0d  0h   0mn  15s
+utr> G4WT155 > Progress: [         2200000/44517693]  4.94 %	Running time:   0d  0h   0mn  15s
+utr> G4WT49 >  Progress: [         2300000/44517693]  5.17 %	Running time:   0d  0h   0mn  15s
+utr> G4WT190 > Progress: [         2400000/44517693]  5.39 %	Running time:   0d  0h   0mn  15s
+utr> G4WT107 > Progress: [         2500000/44517693]  5.62 %	Running time:   0d  0h   0mn  16s
+utr> G4WT32 >  Progress: [         2600000/44517693]  5.84 %	Running time:   0d  0h   0mn  16s
+utr> G4WT68 >  Progress: [         2700000/44517693]  6.07 %	Running time:   0d  0h   0mn  16s
+utr> G4WT31 >  Progress: [         2800000/44517693]  6.29 %	Running time:   0d  0h   0mn  16s
+utr> G4WT250 > Progress: [         2900000/44517693]  6.51 %	Running time:   0d  0h   0mn  16s
+utr> G4WT195 > Progress: [         3000000/44517693]  6.74 %	Running time:   0d  0h   0mn  17s
+utr> G4WT61 >  Progress: [         3100000/44517693]  6.96 %	Running time:   0d  0h   0mn  17s
+utr> G4WT107 > Progress: [         3200000/44517693]  7.19 %	Running time:   0d  0h   0mn  17s
+utr> G4WT115 > Progress: [         3300000/44517693]  7.41 %	Running time:   0d  0h   0mn  17s
+utr> G4WT92 >  Progress: [         3400000/44517693]  7.64 %	Running time:   0d  0h   0mn  17s
+utr> G4WT196 > Progress: [         3500000/44517693]  7.86 %	Running time:   0d  0h   0mn  18s
+utr> G4WT53 >  Progress: [         3600000/44517693]  8.09 %	Running time:   0d  0h   0mn  18s
+utr> G4WT86 >  Progress: [         3700000/44517693]  8.31 %	Running time:   0d  0h   0mn  18s
+utr> G4WT203 > Progress: [         3800000/44517693]  8.54 %	Running time:   0d  0h   0mn  18s
+utr> G4WT188 > Progress: [         3900000/44517693]  8.76 %	Running time:   0d  0h   0mn  18s
+utr> G4WT118 > Progress: [         4000000/44517693]  8.99 %	Running time:   0d  0h   0mn  18s
+utr> G4WT235 > Progress: [         4100000/44517693]  9.21 %	Running time:   0d  0h   0mn  19s
+utr> G4WT51 >  Progress: [         4200000/44517693]  9.43 %	Running time:   0d  0h   0mn  19s
+utr> G4WT49 >  Progress: [         4300000/44517693]  9.66 %	Running time:   0d  0h   0mn  19s
+utr> G4WT249 > Progress: [         4400000/44517693]  9.88 %	Running time:   0d  0h   0mn  19s
+utr> G4WT46 >  Progress: [         4500000/44517693]  10.11 %	Running time:   0d  0h   0mn  19s
+utr> G4WT196 > Progress: [         4600000/44517693]  10.33 %	Running time:   0d  0h   0mn  20s
+utr> G4WT0 >   Progress: [         4700000/44517693]  10.56 %	Running time:   0d  0h   0mn  20s
+utr> G4WT40 >  Progress: [         4800000/44517693]  10.78 %	Running time:   0d  0h   0mn  20s
+utr> G4WT51 >  Progress: [         4900000/44517693]  11.01 %	Running time:   0d  0h   0mn  20s
+utr> G4WT225 > Progress: [         5100000/44517693]  11.46 %	Running time:   0d  0h   0mn  21s
+utr> G4WT153 > Progress: [         5000000/44517693]  11.23 %	Running time:   0d  0h   0mn  21s
+utr> G4WT47 >  Progress: [         5200000/44517693]  11.68 %	Running time:   0d  0h   0mn  21s
+utr> G4WT208 > Progress: [         5300000/44517693]  11.91 %	Running time:   0d  0h   0mn  21s
+utr> G4WT153 > Progress: [         5400000/44517693]  12.13 %	Running time:   0d  0h   0mn  21s
+utr> G4WT245 > Progress: [         5500000/44517693]  12.35 %	Running time:   0d  0h   0mn  21s
+utr> G4WT233 > Progress: [         5600000/44517693]  12.58 %	Running time:   0d  0h   0mn  22s
+utr> G4WT218 > Progress: [         5700000/44517693]  12.80 %	Running time:   0d  0h   0mn  22s
+utr> G4WT56 >  Progress: [         5800000/44517693]  13.03 %	Running time:   0d  0h   0mn  22s
+utr> G4WT238 > Progress: [         5900000/44517693]  13.25 %	Running time:   0d  0h   0mn  22s
+utr> G4WT1 >   Progress: [         6000000/44517693]  13.48 %	Running time:   0d  0h   0mn  22s
+utr> G4WT149 > Progress: [         6100000/44517693]  13.70 %	Running time:   0d  0h   0mn  22s
+utr> G4WT103 > Progress: [         6200000/44517693]  13.93 %	Running time:   0d  0h   0mn  23s
+utr> G4WT47 >  Progress: [         6300000/44517693]  14.15 %	Running time:   0d  0h   0mn  23s
+utr> G4WT130 > Progress: [         6400000/44517693]  14.38 %	Running time:   0d  0h   0mn  23s
+utr> G4WT16 >  Progress: [         6500000/44517693]  14.60 %	Running time:   0d  0h   0mn  23s
+utr> G4WT38 >  Progress: [         6600000/44517693]  14.83 %	Running time:   0d  0h   0mn  23s
+utr> G4WT255 > Progress: [         6700000/44517693]  15.05 %	Running time:   0d  0h   0mn  24s
+utr> G4WT47 >  Progress: [         6800000/44517693]  15.27 %	Running time:   0d  0h   0mn  24s
+utr> G4WT96 >  Progress: [         6900000/44517693]  15.50 %	Running time:   0d  0h   0mn  24s
+utr> G4WT40 >  Progress: [         7000000/44517693]  15.72 %	Running time:   0d  0h   0mn  24s
+utr> G4WT246 > Progress: [         7100000/44517693]  15.95 %	Running time:   0d  0h   0mn  24s
+utr> G4WT51 >  Progress: [         7200000/44517693]  16.17 %	Running time:   0d  0h   0mn  24s
+utr> G4WT6 >   Progress: [         7300000/44517693]  16.40 %	Running time:   0d  0h   0mn  25s
+utr> G4WT245 > Progress: [         7400000/44517693]  16.62 %	Running time:   0d  0h   0mn  25s
+utr> G4WT98 >  Progress: [         7500000/44517693]  16.85 %	Running time:   0d  0h   0mn  25s
+utr> G4WT245 > Progress: [         7600000/44517693]  17.07 %	Running time:   0d  0h   0mn  25s
+utr> G4WT170 > Progress: [         7700000/44517693]  17.30 %	Running time:   0d  0h   0mn  25s
+utr> G4WT116 > Progress: [         7800000/44517693]  17.52 %	Running time:   0d  0h   0mn  26s
+utr> G4WT92 >  Progress: [         7900000/44517693]  17.75 %	Running time:   0d  0h   0mn  26s
+utr> G4WT100 > Progress: [         8000000/44517693]  17.97 %	Running time:   0d  0h   0mn  26s
+utr> G4WT131 > Progress: [         8100000/44517693]  18.20 %	Running time:   0d  0h   0mn  26s
+utr> G4WT205 > Progress: [         8200000/44517693]  18.42 %	Running time:   0d  0h   0mn  26s
+utr> G4WT175 > Progress: [         8300000/44517693]  18.64 %	Running time:   0d  0h   0mn  27s
+utr> G4WT227 > Progress: [         8400000/44517693]  18.87 %	Running time:   0d  0h   0mn  27s
+utr> G4WT104 > Progress: [         8500000/44517693]  19.09 %	Running time:   0d  0h   0mn  27s
+utr> G4WT231 > Progress: [         8600000/44517693]  19.32 %	Running time:   0d  0h   0mn  27s
+utr> G4WT116 > Progress: [         8700000/44517693]  19.54 %	Running time:   0d  0h   0mn  27s
+utr> G4WT22 >  Progress: [         8800000/44517693]  19.77 %	Running time:   0d  0h   0mn  28s
+utr> G4WT134 > Progress: [         8900000/44517693]  19.99 %	Running time:   0d  0h   0mn  28s
+utr> G4WT26 >  Progress: [         9100000/44517693]  20.44 %	Running time:   0d  0h   0mn  28s
+utr> G4WT18 >  Progress: [         9000000/44517693]  20.22 %	Running time:   0d  0h   0mn  28s
+utr> G4WT99 >  Progress: [         9200000/44517693]  20.67 %	Running time:   0d  0h   0mn  28s
+utr> G4WT248 > Progress: [         9300000/44517693]  20.89 %	Running time:   0d  0h   0mn  28s
+utr> G4WT46 >  Progress: [         9500000/44517693]  21.34 %	Running time:   0d  0h   0mn  29s
+utr> G4WT255 > Progress: [         9400000/44517693]  21.12 %	Running time:   0d  0h   0mn  29s
+utr> G4WT5 >   Progress: [         9600000/44517693]  21.56 %	Running time:   0d  0h   0mn  29s
+utr> G4WT5 >   Progress: [         9700000/44517693]  21.79 %	Running time:   0d  0h   0mn  29s
+utr> G4WT244 > Progress: [         9800000/44517693]  22.01 %	Running time:   0d  0h   0mn  29s
+utr> G4WT18 >  Progress: [         9900000/44517693]  22.24 %	Running time:   0d  0h   0mn  30s
+utr> G4WT240 > Progress: [        10000000/44517693]  22.46 %	Running time:   0d  0h   0mn  30s
+utr> G4WT86 >  Progress: [        10100000/44517693]  22.69 %	Running time:   0d  0h   0mn  30s
+utr> G4WT117 > Progress: [        10200000/44517693]  22.91 %	Running time:   0d  0h   0mn  30s
+utr> G4WT83 >  Progress: [        10300000/44517693]  23.14 %	Running time:   0d  0h   0mn  30s
+utr> G4WT161 > Progress: [        10400000/44517693]  23.36 %	Running time:   0d  0h   0mn  31s
+utr> G4WT250 > Progress: [        10500000/44517693]  23.59 %	Running time:   0d  0h   0mn  31s
+utr> G4WT214 > Progress: [        10600000/44517693]  23.81 %	Running time:   0d  0h   0mn  31s
+utr> G4WT161 > Progress: [        10700000/44517693]  24.04 %	Running time:   0d  0h   0mn  31s
+utr> G4WT194 > Progress: [        10800000/44517693]  24.26 %	Running time:   0d  0h   0mn  31s
+utr> G4WT110 > Progress: [        10900000/44517693]  24.48 %	Running time:   0d  0h   0mn  31s
+utr> G4WT228 > Progress: [        11000000/44517693]  24.71 %	Running time:   0d  0h   0mn  32s
+utr> G4WT140 > Progress: [        11100000/44517693]  24.93 %	Running time:   0d  0h   0mn  32s
+utr> G4WT111 > Progress: [        11200000/44517693]  25.16 %	Running time:   0d  0h   0mn  32s
+utr> G4WT65 >  Progress: [        11300000/44517693]  25.38 %	Running time:   0d  0h   0mn  32s
+utr> G4WT214 > Progress: [        11400000/44517693]  25.61 %	Running time:   0d  0h   0mn  32s
+utr> G4WT141 > Progress: [        11500000/44517693]  25.83 %	Running time:   0d  0h   0mn  33s
+utr> G4WT34 >  Progress: [        11600000/44517693]  26.06 %	Running time:   0d  0h   0mn  33s
+utr> G4WT96 >  Progress: [        11700000/44517693]  26.28 %	Running time:   0d  0h   0mn  33s
+utr> G4WT151 > Progress: [        11800000/44517693]  26.51 %	Running time:   0d  0h   0mn  33s
+utr> G4WT15 >  Progress: [        11900000/44517693]  26.73 %	Running time:   0d  0h   0mn  33s
+utr> G4WT14 >  Progress: [        12000000/44517693]  26.96 %	Running time:   0d  0h   0mn  34s
+utr> G4WT157 > Progress: [        12100000/44517693]  27.18 %	Running time:   0d  0h   0mn  34s
+utr> G4WT203 > Progress: [        12200000/44517693]  27.40 %	Running time:   0d  0h   0mn  34s
+utr> G4WT246 > Progress: [        12300000/44517693]  27.63 %	Running time:   0d  0h   0mn  34s
+utr> G4WT167 > Progress: [        12400000/44517693]  27.85 %	Running time:   0d  0h   0mn  34s
+utr> G4WT187 > Progress: [        12500000/44517693]  28.08 %	Running time:   0d  0h   0mn  34s
+utr> G4WT127 > Progress: [        12600000/44517693]  28.30 %	Running time:   0d  0h   0mn  35s
+utr> G4WT100 > Progress: [        12700000/44517693]  28.53 %	Running time:   0d  0h   0mn  35s
+utr> G4WT186 > Progress: [        12800000/44517693]  28.75 %	Running time:   0d  0h   0mn  35s
+utr> G4WT110 > Progress: [        12900000/44517693]  28.98 %	Running time:   0d  0h   0mn  35s
+utr> G4WT133 > Progress: [        13000000/44517693]  29.20 %	Running time:   0d  0h   0mn  35s
+utr> G4WT146 > Progress: [        13100000/44517693]  29.43 %	Running time:   0d  0h   0mn  36s
+utr> G4WT133 > Progress: [        13200000/44517693]  29.65 %	Running time:   0d  0h   0mn  36s
+utr> G4WT129 > Progress: [        13300000/44517693]  29.88 %	Running time:   0d  0h   0mn  36s
+utr> G4WT116 > Progress: [        13400000/44517693]  30.10 %	Running time:   0d  0h   0mn  36s
+utr> G4WT229 > Progress: [        13500000/44517693]  30.33 %	Running time:   0d  0h   0mn  36s
+utr> G4WT113 > Progress: [        13700000/44517693]  30.77 %	Running time:   0d  0h   0mn  37s
+utr> G4WT62 >  Progress: [        13600000/44517693]  30.55 %	Running time:   0d  0h   0mn  37s
+utr> G4WT182 > Progress: [        13800000/44517693]  31.00 %	Running time:   0d  0h   0mn  37s
+utr> G4WT148 > Progress: [        13900000/44517693]  31.22 %	Running time:   0d  0h   0mn  37s
+utr> G4WT117 > Progress: [        14000000/44517693]  31.45 %	Running time:   0d  0h   0mn  37s
+utr> G4WT183 > Progress: [        14100000/44517693]  31.67 %	Running time:   0d  0h   0mn  38s
+utr> G4WT135 > Progress: [        14200000/44517693]  31.90 %	Running time:   0d  0h   0mn  38s
+utr> G4WT55 >  Progress: [        14300000/44517693]  32.12 %	Running time:   0d  0h   0mn  38s
+utr> G4WT202 > Progress: [        14400000/44517693]  32.35 %	Running time:   0d  0h   0mn  38s
+utr> G4WT229 > Progress: [        14500000/44517693]  32.57 %	Running time:   0d  0h   0mn  38s
+utr> G4WT96 >  Progress: [        14600000/44517693]  32.80 %	Running time:   0d  0h   0mn  39s
+utr> G4WT112 > Progress: [        14700000/44517693]  33.02 %	Running time:   0d  0h   0mn  39s
+utr> G4WT103 > Progress: [        14800000/44517693]  33.25 %	Running time:   0d  0h   0mn  39s
+utr> G4WT114 > Progress: [        14900000/44517693]  33.47 %	Running time:   0d  0h   0mn  39s
+utr> G4WT251 > Progress: [        15000000/44517693]  33.69 %	Running time:   0d  0h   0mn  39s
+utr> G4WT92 >  Progress: [        15100000/44517693]  33.92 %	Running time:   0d  0h   0mn  39s
+utr> G4WT231 > Progress: [        15200000/44517693]  34.14 %	Running time:   0d  0h   0mn  40s
+utr> G4WT218 > Progress: [        15300000/44517693]  34.37 %	Running time:   0d  0h   0mn  40s
+utr> G4WT190 > Progress: [        15400000/44517693]  34.59 %	Running time:   0d  0h   0mn  40s
+utr> G4WT97 >  Progress: [        15500000/44517693]  34.82 %	Running time:   0d  0h   0mn  40s
+utr> G4WT0 >   Progress: [        15600000/44517693]  35.04 %	Running time:   0d  0h   0mn  40s
+utr> G4WT135 > Progress: [        15700000/44517693]  35.27 %	Running time:   0d  0h   0mn  41s
+utr> G4WT1 >   Progress: [        15800000/44517693]  35.49 %	Running time:   0d  0h   0mn  41s
+utr> G4WT97 >  Progress: [        15900000/44517693]  35.72 %	Running time:   0d  0h   0mn  41s
+utr> G4WT154 > Progress: [        16000000/44517693]  35.94 %	Running time:   0d  0h   0mn  41s
+utr> G4WT92 >  Progress: [        16100000/44517693]  36.17 %	Running time:   0d  0h   0mn  41s
+utr> G4WT14 >  Progress: [        16200000/44517693]  36.39 %	Running time:   0d  0h   0mn  42s
+utr> G4WT184 > Progress: [        16300000/44517693]  36.61 %	Running time:   0d  0h   0mn  42s
+utr> G4WT85 >  Progress: [        16400000/44517693]  36.84 %	Running time:   0d  0h   0mn  42s
+utr> G4WT180 > Progress: [        16500000/44517693]  37.06 %	Running time:   0d  0h   0mn  42s
+utr> G4WT7 >   Progress: [        16600000/44517693]  37.29 %	Running time:   0d  0h   0mn  42s
+utr> G4WT105 > Progress: [        16700000/44517693]  37.51 %	Running time:   0d  0h   0mn  43s
+utr> G4WT176 > Progress: [        16800000/44517693]  37.74 %	Running time:   0d  0h   0mn  43s
+utr> G4WT43 >  Progress: [        16900000/44517693]  37.96 %	Running time:   0d  0h   0mn  43s
+utr> G4WT87 >  Progress: [        17000000/44517693]  38.19 %	Running time:   0d  0h   0mn  43s
+utr> G4WT147 > Progress: [        17100000/44517693]  38.41 %	Running time:   0d  0h   0mn  43s
+utr> G4WT197 > Progress: [        17200000/44517693]  38.64 %	Running time:   0d  0h   0mn  43s
+utr> G4WT138 > Progress: [        17300000/44517693]  38.86 %	Running time:   0d  0h   0mn  44s
+utr> G4WT47 >  Progress: [        17400000/44517693]  39.09 %	Running time:   0d  0h   0mn  44s
+utr> G4WT29 >  Progress: [        17500000/44517693]  39.31 %	Running time:   0d  0h   0mn  44s
+utr> G4WT62 >  Progress: [        17600000/44517693]  39.53 %	Running time:   0d  0h   0mn  44s
+utr> G4WT42 >  Progress: [        17700000/44517693]  39.76 %	Running time:   0d  0h   0mn  44s
+utr> G4WT152 > Progress: [        17800000/44517693]  39.98 %	Running time:   0d  0h   0mn  45s
+utr> G4WT53 >  Progress: [        17900000/44517693]  40.21 %	Running time:   0d  0h   0mn  45s
+utr> G4WT128 > Progress: [        18000000/44517693]  40.43 %	Running time:   0d  0h   0mn  45s
+utr> G4WT82 >  Progress: [        18100000/44517693]  40.66 %	Running time:   0d  0h   0mn  45s
+utr> G4WT125 > Progress: [        18200000/44517693]  40.88 %	Running time:   0d  0h   0mn  45s
+utr> G4WT42 >  Progress: [        18300000/44517693]  41.11 %	Running time:   0d  0h   0mn  46s
+utr> G4WT250 > Progress: [        18400000/44517693]  41.33 %	Running time:   0d  0h   0mn  46s
+utr> G4WT40 >  Progress: [        18500000/44517693]  41.56 %	Running time:   0d  0h   0mn  46s
+utr> G4WT59 >  Progress: [        18600000/44517693]  41.78 %	Running time:   0d  0h   0mn  46s
+utr> G4WT79 >  Progress: [        18700000/44517693]  42.01 %	Running time:   0d  0h   0mn  46s
+utr> G4WT248 > Progress: [        18800000/44517693]  42.23 %	Running time:   0d  0h   0mn  46s
+utr> G4WT118 > Progress: [        18900000/44517693]  42.46 %	Running time:   0d  0h   0mn  47s
+utr> G4WT69 >  Progress: [        19000000/44517693]  42.68 %	Running time:   0d  0h   0mn  47s
+utr> G4WT206 > Progress: [        19100000/44517693]  42.90 %	Running time:   0d  0h   0mn  47s
+utr> G4WT98 >  Progress: [        19200000/44517693]  43.13 %	Running time:   0d  0h   0mn  47s
+utr> G4WT41 >  Progress: [        19300000/44517693]  43.35 %	Running time:   0d  0h   0mn  47s
+utr> G4WT115 > Progress: [        19400000/44517693]  43.58 %	Running time:   0d  0h   0mn  48s
+utr> G4WT134 > Progress: [        19500000/44517693]  43.80 %	Running time:   0d  0h   0mn  48s
+utr> G4WT171 > Progress: [        19600000/44517693]  44.03 %	Running time:   0d  0h   0mn  48s
+utr> G4WT236 > Progress: [        19700000/44517693]  44.25 %	Running time:   0d  0h   0mn  48s
+utr> G4WT204 > Progress: [        19800000/44517693]  44.48 %	Running time:   0d  0h   0mn  48s
+utr> G4WT198 > Progress: [        19900000/44517693]  44.70 %	Running time:   0d  0h   0mn  49s
+utr> G4WT140 > Progress: [        20000000/44517693]  44.93 %	Running time:   0d  0h   0mn  49s
+utr> G4WT119 > Progress: [        20100000/44517693]  45.15 %	Running time:   0d  0h   0mn  49s
+utr> G4WT178 > Progress: [        20200000/44517693]  45.38 %	Running time:   0d  0h   0mn  49s
+utr> G4WT16 >  Progress: [        20300000/44517693]  45.60 %	Running time:   0d  0h   0mn  49s
+utr> G4WT148 > Progress: [        20400000/44517693]  45.82 %	Running time:   0d  0h   0mn  50s
+utr> G4WT173 > Progress: [        20500000/44517693]  46.05 %	Running time:   0d  0h   0mn  50s
+utr> G4WT192 > Progress: [        20600000/44517693]  46.27 %	Running time:   0d  0h   0mn  50s
+utr> G4WT208 > Progress: [        20700000/44517693]  46.50 %	Running time:   0d  0h   0mn  50s
+utr> G4WT119 > Progress: [        20800000/44517693]  46.72 %	Running time:   0d  0h   0mn  50s
+utr> G4WT93 >  Progress: [        20900000/44517693]  46.95 %	Running time:   0d  0h   0mn  50s
+utr> G4WT218 > Progress: [        21000000/44517693]  47.17 %	Running time:   0d  0h   0mn  51s
+utr> G4WT8 >   Progress: [        21100000/44517693]  47.40 %	Running time:   0d  0h   0mn  51s
+utr> G4WT106 > Progress: [        21200000/44517693]  47.62 %	Running time:   0d  0h   0mn  51s
+utr> G4WT67 >  Progress: [        21300000/44517693]  47.85 %	Running time:   0d  0h   0mn  51s
+utr> G4WT138 > Progress: [        21400000/44517693]  48.07 %	Running time:   0d  0h   0mn  51s
+utr> G4WT26 >  Progress: [        21500000/44517693]  48.30 %	Running time:   0d  0h   0mn  51s
+utr> G4WT182 > Progress: [        21600000/44517693]  48.52 %	Running time:   0d  0h   0mn  52s
+utr> G4WT223 > Progress: [        21700000/44517693]  48.74 %	Running time:   0d  0h   0mn  52s
+utr> G4WT6 >   Progress: [        21800000/44517693]  48.97 %	Running time:   0d  0h   0mn  52s
+utr> G4WT217 > Progress: [        21900000/44517693]  49.19 %	Running time:   0d  0h   0mn  52s
+utr> G4WT113 > Progress: [        22000000/44517693]  49.42 %	Running time:   0d  0h   0mn  52s
+utr> G4WT203 > Progress: [        22100000/44517693]  49.64 %	Running time:   0d  0h   0mn  53s
+utr> G4WT156 > Progress: [        22200000/44517693]  49.87 %	Running time:   0d  0h   0mn  53s
+utr> G4WT12 >  Progress: [        22300000/44517693]  50.09 %	Running time:   0d  0h   0mn  53s
+utr> G4WT84 >  Progress: [        22400000/44517693]  50.32 %	Running time:   0d  0h   0mn  53s
+utr> G4WT201 > Progress: [        22500000/44517693]  50.54 %	Running time:   0d  0h   0mn  53s
+utr> G4WT148 > Progress: [        22600000/44517693]  50.77 %	Running time:   0d  0h   0mn  54s
+utr> G4WT20 >  Progress: [        22700000/44517693]  50.99 %	Running time:   0d  0h   0mn  54s
+utr> G4WT7 >   Progress: [        22800000/44517693]  51.22 %	Running time:   0d  0h   0mn  54s
+utr> G4WT133 > Progress: [        22900000/44517693]  51.44 %	Running time:   0d  0h   0mn  54s
+utr> G4WT237 > Progress: [        23000000/44517693]  51.66 %	Running time:   0d  0h   0mn  54s
+utr> G4WT124 > Progress: [        23100000/44517693]  51.89 %	Running time:   0d  0h   0mn  55s
+utr> G4WT169 > Progress: [        23200000/44517693]  52.11 %	Running time:   0d  0h   0mn  55s
+utr> G4WT17 >  Progress: [        23300000/44517693]  52.34 %	Running time:   0d  0h   0mn  55s
+utr> G4WT77 >  Progress: [        23400000/44517693]  52.56 %	Running time:   0d  0h   0mn  55s
+utr> G4WT134 > Progress: [        23500000/44517693]  52.79 %	Running time:   0d  0h   0mn  55s
+utr> G4WT118 > Progress: [        23600000/44517693]  53.01 %	Running time:   0d  0h   0mn  56s
+utr> G4WT63 >  Progress: [        23700000/44517693]  53.24 %	Running time:   0d  0h   0mn  56s
+utr> G4WT196 > Progress: [        23800000/44517693]  53.46 %	Running time:   0d  0h   0mn  56s
+utr> G4WT79 >  Progress: [        23900000/44517693]  53.69 %	Running time:   0d  0h   0mn  56s
+utr> G4WT62 >  Progress: [        24000000/44517693]  53.91 %	Running time:   0d  0h   0mn  56s
+utr> G4WT1 >   Progress: [        24100000/44517693]  54.14 %	Running time:   0d  0h   0mn  56s
+utr> G4WT136 > Progress: [        24200000/44517693]  54.36 %	Running time:   0d  0h   0mn  57s
+utr> G4WT120 > Progress: [        24300000/44517693]  54.59 %	Running time:   0d  0h   0mn  57s
+utr> G4WT32 >  Progress: [        24400000/44517693]  54.81 %	Running time:   0d  0h   0mn  57s
+utr> G4WT92 >  Progress: [        24500000/44517693]  55.03 %	Running time:   0d  0h   0mn  57s
+utr> G4WT198 > Progress: [        24600000/44517693]  55.26 %	Running time:   0d  0h   0mn  57s
+utr> G4WT227 > Progress: [        24700000/44517693]  55.48 %	Running time:   0d  0h   0mn  58s
+utr> G4WT231 > Progress: [        24800000/44517693]  55.71 %	Running time:   0d  0h   0mn  58s
+utr> G4WT170 > Progress: [        24900000/44517693]  55.93 %	Running time:   0d  0h   0mn  58s
+utr> G4WT27 >  Progress: [        25000000/44517693]  56.16 %	Running time:   0d  0h   0mn  58s
+utr> G4WT41 >  Progress: [        25100000/44517693]  56.38 %	Running time:   0d  0h   0mn  58s
+utr> G4WT244 > Progress: [        25200000/44517693]  56.61 %	Running time:   0d  0h   0mn  59s
+utr> G4WT248 > Progress: [        25300000/44517693]  56.83 %	Running time:   0d  0h   0mn  59s
+utr> G4WT150 > Progress: [        25400000/44517693]  57.06 %	Running time:   0d  0h   0mn  59s
+utr> G4WT60 >  Progress: [        25500000/44517693]  57.28 %	Running time:   0d  0h   0mn  59s
+utr> G4WT107 > Progress: [        25600000/44517693]  57.51 %	Running time:   0d  0h   0mn  59s
+utr> G4WT1 >   Progress: [        25700000/44517693]  57.73 %	Running time:   0d  0h   0mn  59s
+utr> G4WT209 > Progress: [        25800000/44517693]  57.95 %	Running time:   0d  0h   1mn   0s
+utr> G4WT208 > Progress: [        25900000/44517693]  58.18 %	Running time:   0d  0h   1mn   0s
+utr> G4WT249 > Progress: [        26000000/44517693]  58.40 %	Running time:   0d  0h   1mn   0s
+utr> G4WT42 >  Progress: [        26100000/44517693]  58.63 %	Running time:   0d  0h   1mn   0s
+utr> G4WT128 > Progress: [        26200000/44517693]  58.85 %	Running time:   0d  0h   1mn   0s
+utr> G4WT112 > Progress: [        26300000/44517693]  59.08 %	Running time:   0d  0h   1mn   1s
+utr> G4WT210 > Progress: [        26400000/44517693]  59.30 %	Running time:   0d  0h   1mn   1s
+utr> G4WT140 > Progress: [        26500000/44517693]  59.53 %	Running time:   0d  0h   1mn   1s
+utr> G4WT1 >   Progress: [        26600000/44517693]  59.75 %	Running time:   0d  0h   1mn   1s
+utr> G4WT77 >  Progress: [        26700000/44517693]  59.98 %	Running time:   0d  0h   1mn   1s
+utr> G4WT161 > Progress: [        26800000/44517693]  60.20 %	Running time:   0d  0h   1mn   1s
+utr> G4WT161 > Progress: [        26900000/44517693]  60.43 %	Running time:   0d  0h   1mn   2s
+utr> G4WT220 > Progress: [        27000000/44517693]  60.65 %	Running time:   0d  0h   1mn   2s
+utr> G4WT164 > Progress: [        27100000/44517693]  60.87 %	Running time:   0d  0h   1mn   2s
+utr> G4WT168 > Progress: [        27200000/44517693]  61.10 %	Running time:   0d  0h   1mn   2s
+utr> G4WT147 > Progress: [        27300000/44517693]  61.32 %	Running time:   0d  0h   1mn   2s
+utr> G4WT142 > Progress: [        27400000/44517693]  61.55 %	Running time:   0d  0h   1mn   3s
+utr> G4WT238 > Progress: [        27500000/44517693]  61.77 %	Running time:   0d  0h   1mn   3s
+utr> G4WT109 > Progress: [        27600000/44517693]  62.00 %	Running time:   0d  0h   1mn   3s
+utr> G4WT199 > Progress: [        27700000/44517693]  62.22 %	Running time:   0d  0h   1mn   3s
+utr> G4WT131 > Progress: [        27800000/44517693]  62.45 %	Running time:   0d  0h   1mn   3s
+utr> G4WT243 > Progress: [        27900000/44517693]  62.67 %	Running time:   0d  0h   1mn   4s
+utr> G4WT32 >  Progress: [        28000000/44517693]  62.90 %	Running time:   0d  0h   1mn   4s
+utr> G4WT19 >  Progress: [        28100000/44517693]  63.12 %	Running time:   0d  0h   1mn   4s
+utr> G4WT74 >  Progress: [        28200000/44517693]  63.35 %	Running time:   0d  0h   1mn   4s
+utr> G4WT146 > Progress: [        28300000/44517693]  63.57 %	Running time:   0d  0h   1mn   4s
+utr> G4WT232 > Progress: [        28400000/44517693]  63.79 %	Running time:   0d  0h   1mn   5s
+utr> G4WT215 > Progress: [        28500000/44517693]  64.02 %	Running time:   0d  0h   1mn   5s
+utr> G4WT226 > Progress: [        28600000/44517693]  64.24 %	Running time:   0d  0h   1mn   5s
+utr> G4WT92 >  Progress: [        28700000/44517693]  64.47 %	Running time:   0d  0h   1mn   5s
+utr> G4WT255 > Progress: [        28800000/44517693]  64.69 %	Running time:   0d  0h   1mn   5s
+utr> G4WT221 > Progress: [        28900000/44517693]  64.92 %	Running time:   0d  0h   1mn   5s
+utr> G4WT131 > Progress: [        29000000/44517693]  65.14 %	Running time:   0d  0h   1mn   6s
+utr> G4WT33 >  Progress: [        29100000/44517693]  65.37 %	Running time:   0d  0h   1mn   6s
+utr> G4WT182 > Progress: [        29200000/44517693]  65.59 %	Running time:   0d  0h   1mn   6s
+utr> G4WT38 >  Progress: [        29300000/44517693]  65.82 %	Running time:   0d  0h   1mn   6s
+utr> G4WT124 > Progress: [        29400000/44517693]  66.04 %	Running time:   0d  0h   1mn   6s
+utr> G4WT237 > Progress: [        29500000/44517693]  66.27 %	Running time:   0d  0h   1mn   7s
+utr> G4WT68 >  Progress: [        29600000/44517693]  66.49 %	Running time:   0d  0h   1mn   7s
+utr> G4WT68 >  Progress: [        29700000/44517693]  66.72 %	Running time:   0d  0h   1mn   7s
+utr> G4WT236 > Progress: [        29800000/44517693]  66.94 %	Running time:   0d  0h   1mn   7s
+utr> G4WT134 > Progress: [        29900000/44517693]  67.16 %	Running time:   0d  0h   1mn   7s
+utr> G4WT7 >   Progress: [        30000000/44517693]  67.39 %	Running time:   0d  0h   1mn   7s
+utr> G4WT171 > Progress: [        30100000/44517693]  67.61 %	Running time:   0d  0h   1mn   8s
+utr> G4WT138 > Progress: [        30200000/44517693]  67.84 %	Running time:   0d  0h   1mn   8s
+utr> G4WT38 >  Progress: [        30300000/44517693]  68.06 %	Running time:   0d  0h   1mn   8s
+utr> G4WT117 > Progress: [        30400000/44517693]  68.29 %	Running time:   0d  0h   1mn   8s
+utr> G4WT99 >  Progress: [        30500000/44517693]  68.51 %	Running time:   0d  0h   1mn   8s
+utr> G4WT196 > Progress: [        30600000/44517693]  68.74 %	Running time:   0d  0h   1mn   9s
+utr> G4WT43 >  Progress: [        30700000/44517693]  68.96 %	Running time:   0d  0h   1mn   9s
+utr> G4WT83 >  Progress: [        30900000/44517693]  69.41 %	Running time:   0d  0h   1mn   9s
+utr> G4WT161 > Progress: [        30800000/44517693]  69.19 %	Running time:   0d  0h   1mn   9s
+utr> G4WT105 > Progress: [        31000000/44517693]  69.64 %	Running time:   0d  0h   1mn   9s
+utr> G4WT110 > Progress: [        31100000/44517693]  69.86 %	Running time:   0d  0h   1mn  10s
+utr> G4WT9 >   Progress: [        31200000/44517693]  70.08 %	Running time:   0d  0h   1mn  10s
+utr> G4WT99 >  Progress: [        31300000/44517693]  70.31 %	Running time:   0d  0h   1mn  10s
+utr> G4WT24 >  Progress: [        31400000/44517693]  70.53 %	Running time:   0d  0h   1mn  10s
+utr> G4WT38 >  Progress: [        31500000/44517693]  70.76 %	Running time:   0d  0h   1mn  10s
+utr> G4WT2 >   Progress: [        31600000/44517693]  70.98 %	Running time:   0d  0h   1mn  11s
+utr> G4WT244 > Progress: [        31700000/44517693]  71.21 %	Running time:   0d  0h   1mn  11s
+utr> G4WT104 > Progress: [        31800000/44517693]  71.43 %	Running time:   0d  0h   1mn  11s
+utr> G4WT21 >  Progress: [        31900000/44517693]  71.66 %	Running time:   0d  0h   1mn  11s
+utr> G4WT138 > Progress: [        32000000/44517693]  71.88 %	Running time:   0d  0h   1mn  11s
+utr> G4WT85 >  Progress: [        32100000/44517693]  72.11 %	Running time:   0d  0h   1mn  11s
+utr> G4WT71 >  Progress: [        32200000/44517693]  72.33 %	Running time:   0d  0h   1mn  12s
+utr> G4WT103 > Progress: [        32300000/44517693]  72.56 %	Running time:   0d  0h   1mn  12s
+utr> G4WT220 > Progress: [        32400000/44517693]  72.78 %	Running time:   0d  0h   1mn  12s
+utr> G4WT192 > Progress: [        32500000/44517693]  73.00 %	Running time:   0d  0h   1mn  12s
+utr> G4WT140 > Progress: [        32600000/44517693]  73.23 %	Running time:   0d  0h   1mn  12s
+utr> G4WT254 > Progress: [        32700000/44517693]  73.45 %	Running time:   0d  0h   1mn  13s
+utr> G4WT143 > Progress: [        32800000/44517693]  73.68 %	Running time:   0d  0h   1mn  13s
+utr> G4WT218 > Progress: [        32900000/44517693]  73.90 %	Running time:   0d  0h   1mn  13s
+utr> G4WT88 >  Progress: [        33000000/44517693]  74.13 %	Running time:   0d  0h   1mn  13s
+utr> G4WT11 >  Progress: [        33100000/44517693]  74.35 %	Running time:   0d  0h   1mn  13s
+utr> G4WT78 >  Progress: [        33200000/44517693]  74.58 %	Running time:   0d  0h   1mn  14s
+utr> G4WT80 >  Progress: [        33300000/44517693]  74.80 %	Running time:   0d  0h   1mn  14s
+utr> G4WT60 >  Progress: [        33400000/44517693]  75.03 %	Running time:   0d  0h   1mn  14s
+utr> G4WT200 > Progress: [        33500000/44517693]  75.25 %	Running time:   0d  0h   1mn  14s
+utr> G4WT110 > Progress: [        33600000/44517693]  75.48 %	Running time:   0d  0h   1mn  14s
+utr> G4WT212 > Progress: [        33700000/44517693]  75.70 %	Running time:   0d  0h   1mn  14s
+utr> G4WT194 > Progress: [        33800000/44517693]  75.92 %	Running time:   0d  0h   1mn  15s
+utr> G4WT86 >  Progress: [        33900000/44517693]  76.15 %	Running time:   0d  0h   1mn  15s
+utr> G4WT13 >  Progress: [        34000000/44517693]  76.37 %	Running time:   0d  0h   1mn  15s
+utr> G4WT85 >  Progress: [        34100000/44517693]  76.60 %	Running time:   0d  0h   1mn  15s
+utr> G4WT78 >  Progress: [        34200000/44517693]  76.82 %	Running time:   0d  0h   1mn  15s
+utr> G4WT83 >  Progress: [        34300000/44517693]  77.05 %	Running time:   0d  0h   1mn  16s
+utr> G4WT240 > Progress: [        34400000/44517693]  77.27 %	Running time:   0d  0h   1mn  16s
+utr> G4WT183 > Progress: [        34600000/44517693]  77.72 %	Running time:   0d  0h   1mn  16s
+utr> G4WT29 >  Progress: [        34700000/44517693]  77.95 %	Running time:   0d  0h   1mn  16s
+utr> G4WT111 > Progress: [        34500000/44517693]  77.50 %	Running time:   0d  0h   1mn  16s
+utr> G4WT30 >  Progress: [        34800000/44517693]  78.17 %	Running time:   0d  0h   1mn  16s
+utr> G4WT145 > Progress: [        34900000/44517693]  78.40 %	Running time:   0d  0h   1mn  17s
+utr> G4WT117 > Progress: [        35000000/44517693]  78.62 %	Running time:   0d  0h   1mn  17s
+utr> G4WT40 >  Progress: [        35100000/44517693]  78.85 %	Running time:   0d  0h   1mn  17s
+utr> G4WT178 > Progress: [        35200000/44517693]  79.07 %	Running time:   0d  0h   1mn  17s
+utr> G4WT56 >  Progress: [        35300000/44517693]  79.29 %	Running time:   0d  0h   1mn  17s
+utr> G4WT121 > Progress: [        35400000/44517693]  79.52 %	Running time:   0d  0h   1mn  18s
+utr> G4WT214 > Progress: [        35500000/44517693]  79.74 %	Running time:   0d  0h   1mn  18s
+utr> G4WT61 >  Progress: [        35600000/44517693]  79.97 %	Running time:   0d  0h   1mn  18s
+utr> G4WT216 > Progress: [        35700000/44517693]  80.19 %	Running time:   0d  0h   1mn  18s
+utr> G4WT79 >  Progress: [        35800000/44517693]  80.42 %	Running time:   0d  0h   1mn  18s
+utr> G4WT53 >  Progress: [        35900000/44517693]  80.64 %	Running time:   0d  0h   1mn  19s
+utr> G4WT189 > Progress: [        36000000/44517693]  80.87 %	Running time:   0d  0h   1mn  19s
+utr> G4WT104 > Progress: [        36100000/44517693]  81.09 %	Running time:   0d  0h   1mn  19s
+utr> G4WT118 > Progress: [        36200000/44517693]  81.32 %	Running time:   0d  0h   1mn  19s
+utr> G4WT8 >   Progress: [        36300000/44517693]  81.54 %	Running time:   0d  0h   1mn  19s
+utr> G4WT195 > Progress: [        36400000/44517693]  81.77 %	Running time:   0d  0h   1mn  19s
+utr> G4WT79 >  Progress: [        36500000/44517693]  81.99 %	Running time:   0d  0h   1mn  20s
+utr> G4WT77 >  Progress: [        36600000/44517693]  82.21 %	Running time:   0d  0h   1mn  20s
+utr> G4WT8 >   Progress: [        36700000/44517693]  82.44 %	Running time:   0d  0h   1mn  20s
+utr> G4WT126 > Progress: [        36800000/44517693]  82.66 %	Running time:   0d  0h   1mn  20s
+utr> G4WT194 > Progress: [        36900000/44517693]  82.89 %	Running time:   0d  0h   1mn  20s
+utr> G4WT183 > Progress: [        37000000/44517693]  83.11 %	Running time:   0d  0h   1mn  21s
+utr> G4WT18 >  Progress: [        37100000/44517693]  83.34 %	Running time:   0d  0h   1mn  21s
+utr> G4WT34 >  Progress: [        37200000/44517693]  83.56 %	Running time:   0d  0h   1mn  21s
+utr> G4WT57 >  Progress: [        37300000/44517693]  83.79 %	Running time:   0d  0h   1mn  21s
+utr> G4WT65 >  Progress: [        37400000/44517693]  84.01 %	Running time:   0d  0h   1mn  21s
+utr> G4WT148 > Progress: [        37500000/44517693]  84.24 %	Running time:   0d  0h   1mn  22s
+utr> G4WT77 >  Progress: [        37600000/44517693]  84.46 %	Running time:   0d  0h   1mn  22s
+utr> G4WT54 >  Progress: [        37700000/44517693]  84.69 %	Running time:   0d  0h   1mn  22s
+utr> G4WT83 >  Progress: [        37800000/44517693]  84.91 %	Running time:   0d  0h   1mn  22s
+utr> G4WT96 >  Progress: [        37900000/44517693]  85.13 %	Running time:   0d  0h   1mn  22s
+utr> G4WT2 >   Progress: [        38000000/44517693]  85.36 %	Running time:   0d  0h   1mn  22s
+utr> G4WT2 >   Progress: [        38100000/44517693]  85.58 %	Running time:   0d  0h   1mn  23s
+utr> G4WT49 >  Progress: [        38200000/44517693]  85.81 %	Running time:   0d  0h   1mn  23s
+utr> G4WT61 >  Progress: [        38300000/44517693]  86.03 %	Running time:   0d  0h   1mn  23s
+utr> G4WT112 > Progress: [        38400000/44517693]  86.26 %	Running time:   0d  0h   1mn  23s
+utr> G4WT79 >  Progress: [        38500000/44517693]  86.48 %	Running time:   0d  0h   1mn  23s
+utr> G4WT113 > Progress: [        38700000/44517693]  86.93 %	Running time:   0d  0h   1mn  24s
+utr> G4WT69 >  Progress: [        38800000/44517693]  87.16 %	Running time:   0d  0h   1mn  24s
+utr> G4WT144 > Progress: [        38600000/44517693]  86.71 %	Running time:   0d  0h   1mn  24s
+utr> G4WT42 >  Progress: [        38900000/44517693]  87.38 %	Running time:   0d  0h   1mn  24s
+utr> G4WT44 >  Progress: [        39000000/44517693]  87.61 %	Running time:   0d  0h   1mn  24s
+utr> G4WT51 >  Progress: [        39100000/44517693]  87.83 %	Running time:   0d  0h   1mn  25s
+utr> G4WT127 > Progress: [        39200000/44517693]  88.05 %	Running time:   0d  0h   1mn  25s
+utr> G4WT172 > Progress: [        39300000/44517693]  88.28 %	Running time:   0d  0h   1mn  25s
+utr> G4WT158 > Progress: [        39400000/44517693]  88.50 %	Running time:   0d  0h   1mn  25s
+utr> G4WT192 > Progress: [        39500000/44517693]  88.73 %	Running time:   0d  0h   1mn  25s
+utr> G4WT232 > Progress: [        39600000/44517693]  88.95 %	Running time:   0d  0h   1mn  25s
+utr> G4WT12 >  Progress: [        39700000/44517693]  89.18 %	Running time:   0d  0h   1mn  26s
+utr> G4WT64 >  Progress: [        39800000/44517693]  89.40 %	Running time:   0d  0h   1mn  26s
+utr> G4WT137 > Progress: [        39900000/44517693]  89.63 %	Running time:   0d  0h   1mn  26s
+utr> G4WT203 > Progress: [        40000000/44517693]  89.85 %	Running time:   0d  0h   1mn  26s
+utr> G4WT216 > Progress: [        40100000/44517693]  90.08 %	Running time:   0d  0h   1mn  26s
+utr> G4WT165 > Progress: [        40200000/44517693]  90.30 %	Running time:   0d  0h   1mn  27s
+utr> G4WT150 > Progress: [        40300000/44517693]  90.53 %	Running time:   0d  0h   1mn  27s
+utr> G4WT233 > Progress: [        40400000/44517693]  90.75 %	Running time:   0d  0h   1mn  27s
+utr> G4WT210 > Progress: [        40500000/44517693]  90.98 %	Running time:   0d  0h   1mn  27s
+utr> G4WT44 >  Progress: [        40600000/44517693]  91.20 %	Running time:   0d  0h   1mn  27s
+utr> G4WT55 >  Progress: [        40700000/44517693]  91.42 %	Running time:   0d  0h   1mn  28s
+utr> G4WT38 >  Progress: [        40800000/44517693]  91.65 %	Running time:   0d  0h   1mn  28s
+utr> G4WT95 >  Progress: [        40900000/44517693]  91.87 %	Running time:   0d  0h   1mn  28s
+utr> G4WT83 >  Progress: [        41000000/44517693]  92.10 %	Running time:   0d  0h   1mn  28s
+utr> G4WT93 >  Progress: [        41100000/44517693]  92.32 %	Running time:   0d  0h   1mn  28s
+utr> G4WT64 >  Progress: [        41200000/44517693]  92.55 %	Running time:   0d  0h   1mn  29s
+utr> G4WT206 > Progress: [        41300000/44517693]  92.77 %	Running time:   0d  0h   1mn  29s
+utr> G4WT206 > Progress: [        41400000/44517693]  93.00 %	Running time:   0d  0h   1mn  29s
+utr> G4WT52 >  Progress: [        41500000/44517693]  93.22 %	Running time:   0d  0h   1mn  29s
+utr> G4WT158 > Progress: [        41600000/44517693]  93.45 %	Running time:   0d  0h   1mn  29s
+utr> G4WT17 >  Progress: [        41700000/44517693]  93.67 %	Running time:   0d  0h   1mn  29s
+utr> G4WT224 > Progress: [        41800000/44517693]  93.90 %	Running time:   0d  0h   1mn  30s
+utr> G4WT15 >  Progress: [        41900000/44517693]  94.12 %	Running time:   0d  0h   1mn  30s
+utr> G4WT227 > Progress: [        42000000/44517693]  94.34 %	Running time:   0d  0h   1mn  30s
+utr> G4WT70 >  Progress: [        42100000/44517693]  94.57 %	Running time:   0d  0h   1mn  30s
+utr> G4WT151 > Progress: [        42200000/44517693]  94.79 %	Running time:   0d  0h   1mn  30s
+utr> G4WT47 >  Progress: [        42300000/44517693]  95.02 %	Running time:   0d  0h   1mn  31s
+utr> G4WT65 >  Progress: [        42400000/44517693]  95.24 %	Running time:   0d  0h   1mn  31s
+utr> G4WT203 > Progress: [        42500000/44517693]  95.47 %	Running time:   0d  0h   1mn  31s
+utr> G4WT134 > Progress: [        42600000/44517693]  95.69 %	Running time:   0d  0h   1mn  31s
+utr> G4WT7 >   Progress: [        42700000/44517693]  95.92 %	Running time:   0d  0h   1mn  31s
+utr> G4WT12 >  Progress: [        42800000/44517693]  96.14 %	Running time:   0d  0h   1mn  32s
+utr> G4WT240 > Progress: [        42900000/44517693]  96.37 %	Running time:   0d  0h   1mn  32s
+utr> G4WT66 >  Progress: [        43000000/44517693]  96.59 %	Running time:   0d  0h   1mn  32s
+utr> G4WT46 >  Progress: [        43100000/44517693]  96.82 %	Running time:   0d  0h   1mn  32s
+utr> G4WT146 > Progress: [        43200000/44517693]  97.04 %	Running time:   0d  0h   1mn  32s
+utr> G4WT157 > Progress: [        43300000/44517693]  97.26 %	Running time:   0d  0h   1mn  33s
+utr> G4WT164 > Progress: [        43400000/44517693]  97.49 %	Running time:   0d  0h   1mn  33s
+utr> G4WT105 > Progress: [        43500000/44517693]  97.71 %	Running time:   0d  0h   1mn  33s
+utr> G4WT136 > Progress: [        43600000/44517693]  97.94 %	Running time:   0d  0h   1mn  33s
+utr> G4WT224 > Progress: [        43700000/44517693]  98.16 %	Running time:   0d  0h   1mn  33s
+utr> G4WT101 > Progress: [        43800000/44517693]  98.39 %	Running time:   0d  0h   1mn  34s
+utr> G4WT97 >  Progress: [        43900000/44517693]  98.61 %	Running time:   0d  0h   1mn  34s
+utr> G4WT27 >  Progress: [        44000000/44517693]  98.84 %	Running time:   0d  0h   1mn  34s
+utr> G4WT68 >  Progress: [        44100000/44517693]  99.06 %	Running time:   0d  0h   1mn  34s
+utr> G4WT157 > Progress: [        44200000/44517693]  99.29 %	Running time:   0d  0h   1mn  34s
+utr> G4WT153 > Progress: [        44300000/44517693]  99.51 %	Running time:   0d  0h   1mn  34s
+utr> G4WT122 > Progress: [        44400000/44517693]  99.74 %	Running time:   0d  0h   1mn  35s
+utr> G4WT54 >  Progress: [        44500000/44517693]  99.96 %	Running time:   0d  0h   1mn  35s
+utrwrapper.py> Processing output at 2023-10-27 16-47-31 (current runtime: 0h 01m 40s)
+utrwrapper.py> Found 1 output files to process
+utrwrapper.py> Processing output file 'output/Efficiency_00_343/Raw_Events/Efficiency_0.661657_MeV'...
+getHistogram> #############################################
+getHistogram> > getHistogram
+getHistogram> > TREENAME     : utr
+getHistogram> > FILES        : *Efficiency_0.661657_MeV_t*.root*
+getHistogram> > INPUTDIR     : output/Efficiency_00_343/Raw_Events
+getHistogram> > OUTPUTFILE   : Efficiency_0.661657_MeV_hist.root
+getHistogram> > OUTPUTDIR    : output/Efficiency_00_343/Event_Histograms
+getHistogram> > QUANTITY     : edep
+getHistogram> > BINNING      : 1 keV
+getHistogram> > EMAX         : 10 MeV
+getHistogram> > MAXID        : 0
+getHistogram> > MULTIPLICITY : 1
+getHistogram> > ADDBACK      : FALSE
+getHistogram> #############################################
+getHistogram> > Joining all files in 'output/Efficiency_00_343/Raw_Events' that contain 'Efficiency_0.661657_MeV_t' and '.root':
+getHistogram> output/Efficiency_00_343/Raw_Events/Efficiency_0.661657_MeV_t191.root
+getHistogram> output/Efficiency_00_343/Raw_Events/Efficiency_0.661657_MeV_t70.root
+getHistogram> output/Efficiency_00_343/Raw_Events/Efficiency_0.661657_MeV_t99.root
+getHistogram> output/Efficiency_00_343/Raw_Events/Efficiency_0.661657_MeV_t178.root
+getHistogram> output/Efficiency_00_343/Raw_Events/Efficiency_0.661657_MeV_t133.root
+getHistogram> output/Efficiency_00_343/Raw_Events/Efficiency_0.661657_MeV_t102.root
+getHistogram> output/Efficiency_00_343/Raw_Events/Efficiency_0.661657_MeV_t149.root
+getHistogram> output/Efficiency_00_343/Raw_Events/Efficiency_0.661657_MeV_t247.root
+getHistogram> output/Efficiency_00_343/Raw_Events/Efficiency_0.661657_MeV_t41.root
+getHistogram> output/Efficiency_00_343/Raw_Events/Efficiency_0.661657_MeV_t160.root
+getHistogram> output/Efficiency_00_343/Raw_Events/Efficiency_0.661657_MeV_t81.root
+getHistogram> output/Efficiency_00_343/Raw_Events/Efficiency_0.661657_MeV_t23.root
+getHistogram> output/Efficiency_00_343/Raw_Events/Efficiency_0.661657_MeV_t68.root
+getHistogram> output/Efficiency_00_343/Raw_Events/Efficiency_0.661657_MeV_t189.root
+getHistogram> output/Efficiency_00_343/Raw_Events/Efficiency_0.661657_MeV_t225.root
+getHistogram> output/Efficiency_00_343/Raw_Events/Efficiency_0.661657_MeV_t59.root
+getHistogram> output/Efficiency_00_343/Raw_Events/Efficiency_0.661657_MeV_t12.root
+getHistogram> output/Efficiency_00_343/Raw_Events/Efficiency_0.661657_MeV_t214.root
+getHistogram> output/Efficiency_00_343/Raw_Events/Efficiency_0.661657_MeV_t151.root
+getHistogram> output/Efficiency_00_343/Raw_Events/Efficiency_0.661657_MeV_t6.root
+getHistogram> output/Efficiency_00_343/Raw_Events/Efficiency_0.661657_MeV_t106.root
+getHistogram> output/Efficiency_00_343/Raw_Events/Efficiency_0.661657_MeV_t243.root
+getHistogram> output/Efficiency_00_343/Raw_Events/Efficiency_0.661657_MeV_t208.root
+getHistogram> output/Efficiency_00_343/Raw_Events/Efficiency_0.661657_MeV_t45.root
+getHistogram> output/Efficiency_00_343/Raw_Events/Efficiency_0.661657_MeV_t239.root
+getHistogram> output/Efficiency_00_343/Raw_Events/Efficiency_0.661657_MeV_t195.root
+getHistogram> output/Efficiency_00_343/Raw_Events/Efficiency_0.661657_MeV_t74.root
+getHistogram> output/Efficiency_00_343/Raw_Events/Efficiency_0.661657_MeV_t137.root
+getHistogram> output/Efficiency_00_343/Raw_Events/Efficiency_0.661657_MeV_t16.root
+getHistogram> output/Efficiency_00_343/Raw_Events/Efficiency_0.661657_MeV_t210.root
+getHistogram> output/Efficiency_00_343/Raw_Events/Efficiency_0.661657_MeV_t2.root
+getHistogram> output/Efficiency_00_343/Raw_Events/Efficiency_0.661657_MeV_t155.root
+getHistogram> output/Efficiency_00_343/Raw_Events/Efficiency_0.661657_MeV_t164.root
+getHistogram> output/Efficiency_00_343/Raw_Events/Efficiency_0.661657_MeV_t85.root
+getHistogram> output/Efficiency_00_343/Raw_Events/Efficiency_0.661657_MeV_t27.root
+getHistogram> output/Efficiency_00_343/Raw_Events/Efficiency_0.661657_MeV_t221.root
+getHistogram> output/Efficiency_00_343/Raw_Events/Efficiency_0.661657_MeV_t89.root
+getHistogram> output/Efficiency_00_343/Raw_Events/Efficiency_0.661657_MeV_t123.root
+getHistogram> output/Efficiency_00_343/Raw_Events/Efficiency_0.661657_MeV_t168.root
+getHistogram> output/Efficiency_00_343/Raw_Events/Efficiency_0.661657_MeV_t181.root
+getHistogram> output/Efficiency_00_343/Raw_Events/Efficiency_0.661657_MeV_t60.root
+getHistogram> output/Efficiency_00_343/Raw_Events/Efficiency_0.661657_MeV_t51.root
+getHistogram> output/Efficiency_00_343/Raw_Events/Efficiency_0.661657_MeV_t159.root
+getHistogram> output/Efficiency_00_343/Raw_Events/Efficiency_0.661657_MeV_t112.root
+getHistogram> output/Efficiency_00_343/Raw_Events/Efficiency_0.661657_MeV_t78.root
+getHistogram> output/Efficiency_00_343/Raw_Events/Efficiency_0.661657_MeV_t33.root
+getHistogram> output/Efficiency_00_343/Raw_Events/Efficiency_0.661657_MeV_t235.root
+getHistogram> output/Efficiency_00_343/Raw_Events/Efficiency_0.661657_MeV_t199.root
+getHistogram> output/Efficiency_00_343/Raw_Events/Efficiency_0.661657_MeV_t170.root
+getHistogram> output/Efficiency_00_343/Raw_Events/Efficiency_0.661657_MeV_t91.root
+getHistogram> output/Efficiency_00_343/Raw_Events/Efficiency_0.661657_MeV_t141.root
+getHistogram> output/Efficiency_00_343/Raw_Events/Efficiency_0.661657_MeV_t49.root
+getHistogram> output/Efficiency_00_343/Raw_Events/Efficiency_0.661657_MeV_t204.root
+getHistogram> output/Efficiency_00_343/Raw_Events/Efficiency_0.661657_MeV_t218.root
+getHistogram> output/Efficiency_00_343/Raw_Events/Efficiency_0.661657_MeV_t253.root
+getHistogram> output/Efficiency_00_343/Raw_Events/Efficiency_0.661657_MeV_t55.root
+getHistogram> output/Efficiency_00_343/Raw_Events/Efficiency_0.661657_MeV_t116.root
+getHistogram> output/Efficiency_00_343/Raw_Events/Efficiency_0.661657_MeV_t127.root
+getHistogram> output/Efficiency_00_343/Raw_Events/Efficiency_0.661657_MeV_t185.root
+getHistogram> output/Efficiency_00_343/Raw_Events/Efficiency_0.661657_MeV_t229.root
+getHistogram> output/Efficiency_00_343/Raw_Events/Efficiency_0.661657_MeV_t64.root
+getHistogram> output/Efficiency_00_343/Raw_Events/Efficiency_0.661657_MeV_t145.root
+getHistogram> output/Efficiency_00_343/Raw_Events/Efficiency_0.661657_MeV_t200.root
+getHistogram> output/Efficiency_00_343/Raw_Events/Efficiency_0.661657_MeV_t37.root
+getHistogram> output/Efficiency_00_343/Raw_Events/Efficiency_0.661657_MeV_t231.root
+getHistogram> output/Efficiency_00_343/Raw_Events/Efficiency_0.661657_MeV_t174.root
+getHistogram> output/Efficiency_00_343/Raw_Events/Efficiency_0.661657_MeV_t95.root
+getHistogram> output/Efficiency_00_343/Raw_Events/Efficiency_0.661657_MeV_t169.root
+getHistogram> output/Efficiency_00_343/Raw_Events/Efficiency_0.661657_MeV_t122.root
+getHistogram> output/Efficiency_00_343/Raw_Events/Efficiency_0.661657_MeV_t88.root
+getHistogram> output/Efficiency_00_343/Raw_Events/Efficiency_0.661657_MeV_t61.root
+getHistogram> output/Efficiency_00_343/Raw_Events/Efficiency_0.661657_MeV_t180.root
+getHistogram> output/Efficiency_00_343/Raw_Events/Efficiency_0.661657_MeV_t50.root
+getHistogram> output/Efficiency_00_343/Raw_Events/Efficiency_0.661657_MeV_t113.root
+getHistogram> output/Efficiency_00_343/Raw_Events/Efficiency_0.661657_MeV_t158.root
+getHistogram> output/Efficiency_00_343/Raw_Events/Efficiency_0.661657_MeV_t234.root
+getHistogram> output/Efficiency_00_343/Raw_Events/Efficiency_0.661657_MeV_t198.root
+getHistogram> output/Efficiency_00_343/Raw_Events/Efficiency_0.661657_MeV_t32.root
+getHistogram> output/Efficiency_00_343/Raw_Events/Efficiency_0.661657_MeV_t79.root
+getHistogram> output/Efficiency_00_343/Raw_Events/Efficiency_0.661657_MeV_t90.root
+getHistogram> output/Efficiency_00_343/Raw_Events/Efficiency_0.661657_MeV_t171.root
+getHistogram> output/Efficiency_00_343/Raw_Events/Efficiency_0.661657_MeV_t140.root
+getHistogram> output/Efficiency_00_343/Raw_Events/Efficiency_0.661657_MeV_t205.root
+getHistogram> output/Efficiency_00_343/Raw_Events/Efficiency_0.661657_MeV_t48.root
+getHistogram> output/Efficiency_00_343/Raw_Events/Efficiency_0.661657_MeV_t54.root
+getHistogram> output/Efficiency_00_343/Raw_Events/Efficiency_0.661657_MeV_t252.root
+getHistogram> output/Efficiency_00_343/Raw_Events/Efficiency_0.661657_MeV_t219.root
+getHistogram> output/Efficiency_00_343/Raw_Events/Efficiency_0.661657_MeV_t117.root
+getHistogram> output/Efficiency_00_343/Raw_Events/Efficiency_0.661657_MeV_t126.root
+getHistogram> output/Efficiency_00_343/Raw_Events/Efficiency_0.661657_MeV_t65.root
+getHistogram> output/Efficiency_00_343/Raw_Events/Efficiency_0.661657_MeV_t184.root
+getHistogram> output/Efficiency_00_343/Raw_Events/Efficiency_0.661657_MeV_t228.root
+getHistogram> output/Efficiency_00_343/Raw_Events/Efficiency_0.661657_MeV_t144.root
+getHistogram> output/Efficiency_00_343/Raw_Events/Efficiency_0.661657_MeV_t201.root
+getHistogram> output/Efficiency_00_343/Raw_Events/Efficiency_0.661657_MeV_t230.root
+getHistogram> output/Efficiency_00_343/Raw_Events/Efficiency_0.661657_MeV_t36.root
+getHistogram> output/Efficiency_00_343/Raw_Events/Efficiency_0.661657_MeV_t94.root
+getHistogram> output/Efficiency_00_343/Raw_Events/Efficiency_0.661657_MeV_t175.root
+getHistogram> output/Efficiency_00_343/Raw_Events/Efficiency_0.661657_MeV_t71.root
+getHistogram> output/Efficiency_00_343/Raw_Events/Efficiency_0.661657_MeV_t190.root
+getHistogram> output/Efficiency_00_343/Raw_Events/Efficiency_0.661657_MeV_t132.root
+getHistogram> output/Efficiency_00_343/Raw_Events/Efficiency_0.661657_MeV_t179.root
+getHistogram> output/Efficiency_00_343/Raw_Events/Efficiency_0.661657_MeV_t98.root
+getHistogram> output/Efficiency_00_343/Raw_Events/Efficiency_0.661657_MeV_t148.root
+getHistogram> output/Efficiency_00_343/Raw_Events/Efficiency_0.661657_MeV_t103.root
+getHistogram> output/Efficiency_00_343/Raw_Events/Efficiency_0.661657_MeV_t40.root
+getHistogram> output/Efficiency_00_343/Raw_Events/Efficiency_0.661657_MeV_t246.root
+getHistogram> output/Efficiency_00_343/Raw_Events/Efficiency_0.661657_MeV_t80.root
+getHistogram> output/Efficiency_00_343/Raw_Events/Efficiency_0.661657_MeV_t161.root
+getHistogram> output/Efficiency_00_343/Raw_Events/Efficiency_0.661657_MeV_t188.root
+getHistogram> output/Efficiency_00_343/Raw_Events/Efficiency_0.661657_MeV_t224.root
+getHistogram> output/Efficiency_00_343/Raw_Events/Efficiency_0.661657_MeV_t69.root
+getHistogram> output/Efficiency_00_343/Raw_Events/Efficiency_0.661657_MeV_t22.root
+getHistogram> output/Efficiency_00_343/Raw_Events/Efficiency_0.661657_MeV_t215.root
+getHistogram> output/Efficiency_00_343/Raw_Events/Efficiency_0.661657_MeV_t13.root
+getHistogram> output/Efficiency_00_343/Raw_Events/Efficiency_0.661657_MeV_t58.root
+getHistogram> output/Efficiency_00_343/Raw_Events/Efficiency_0.661657_MeV_t150.root
+getHistogram> output/Efficiency_00_343/Raw_Events/Efficiency_0.661657_MeV_t7.root
+getHistogram> output/Efficiency_00_343/Raw_Events/Efficiency_0.661657_MeV_t107.root
+getHistogram> output/Efficiency_00_343/Raw_Events/Efficiency_0.661657_MeV_t44.root
+getHistogram> output/Efficiency_00_343/Raw_Events/Efficiency_0.661657_MeV_t209.root
+getHistogram> output/Efficiency_00_343/Raw_Events/Efficiency_0.661657_MeV_t242.root
+getHistogram> output/Efficiency_00_343/Raw_Events/Efficiency_0.661657_MeV_t75.root
+getHistogram> output/Efficiency_00_343/Raw_Events/Efficiency_0.661657_MeV_t238.root
+getHistogram> output/Efficiency_00_343/Raw_Events/Efficiency_0.661657_MeV_t194.root
+getHistogram> output/Efficiency_00_343/Raw_Events/Efficiency_0.661657_MeV_t136.root
+getHistogram> output/Efficiency_00_343/Raw_Events/Efficiency_0.661657_MeV_t211.root
+getHistogram> output/Efficiency_00_343/Raw_Events/Efficiency_0.661657_MeV_t17.root
+getHistogram> output/Efficiency_00_343/Raw_Events/Efficiency_0.661657_MeV_t3.root
+getHistogram> output/Efficiency_00_343/Raw_Events/Efficiency_0.661657_MeV_t154.root
+getHistogram> output/Efficiency_00_343/Raw_Events/Efficiency_0.661657_MeV_t84.root
+getHistogram> output/Efficiency_00_343/Raw_Events/Efficiency_0.661657_MeV_t165.root
+getHistogram> output/Efficiency_00_343/Raw_Events/Efficiency_0.661657_MeV_t220.root
+getHistogram> output/Efficiency_00_343/Raw_Events/Efficiency_0.661657_MeV_t26.root
+getHistogram> output/Efficiency_00_343/Raw_Events/Efficiency_0.661657_MeV_t182.root
+getHistogram> output/Efficiency_00_343/Raw_Events/Efficiency_0.661657_MeV_t28.root
+getHistogram> output/Efficiency_00_343/Raw_Events/Efficiency_0.661657_MeV_t63.root
+getHistogram> output/Efficiency_00_343/Raw_Events/Efficiency_0.661657_MeV_t120.root
+getHistogram> output/Efficiency_00_343/Raw_Events/Efficiency_0.661657_MeV_t111.root
+getHistogram> output/Efficiency_00_343/Raw_Events/Efficiency_0.661657_MeV_t254.root
+getHistogram> output/Efficiency_00_343/Raw_Events/Efficiency_0.661657_MeV_t52.root
+getHistogram> output/Efficiency_00_343/Raw_Events/Efficiency_0.661657_MeV_t19.root
+getHistogram> output/Efficiency_00_343/Raw_Events/Efficiency_0.661657_MeV_t173.root
+getHistogram> output/Efficiency_00_343/Raw_Events/Efficiency_0.661657_MeV_t138.root
+getHistogram> output/Efficiency_00_343/Raw_Events/Efficiency_0.661657_MeV_t92.root
+getHistogram> output/Efficiency_00_343/Raw_Events/Efficiency_0.661657_MeV_t30.root
+getHistogram> output/Efficiency_00_343/Raw_Events/Efficiency_0.661657_MeV_t236.root
+getHistogram> output/Efficiency_00_343/Raw_Events/Efficiency_0.661657_MeV_t207.root
+getHistogram> output/Efficiency_00_343/Raw_Events/Efficiency_0.661657_MeV_t109.root
+getHistogram> output/Efficiency_00_343/Raw_Events/Efficiency_0.661657_MeV_t142.root
+getHistogram> output/Efficiency_00_343/Raw_Events/Efficiency_0.661657_MeV_t9.root
+getHistogram> output/Efficiency_00_343/Raw_Events/Efficiency_0.661657_MeV_t115.root
+getHistogram> output/Efficiency_00_343/Raw_Events/Efficiency_0.661657_MeV_t250.root
+getHistogram> output/Efficiency_00_343/Raw_Events/Efficiency_0.661657_MeV_t56.root
+getHistogram> output/Efficiency_00_343/Raw_Events/Efficiency_0.661657_MeV_t186.root
+getHistogram> output/Efficiency_00_343/Raw_Events/Efficiency_0.661657_MeV_t67.root
+getHistogram> output/Efficiency_00_343/Raw_Events/Efficiency_0.661657_MeV_t124.root
+getHistogram> output/Efficiency_00_343/Raw_Events/Efficiency_0.661657_MeV_t248.root
+getHistogram> output/Efficiency_00_343/Raw_Events/Efficiency_0.661657_MeV_t203.root
+getHistogram> output/Efficiency_00_343/Raw_Events/Efficiency_0.661657_MeV_t146.root
+getHistogram> output/Efficiency_00_343/Raw_Events/Efficiency_0.661657_MeV_t177.root
+getHistogram> output/Efficiency_00_343/Raw_Events/Efficiency_0.661657_MeV_t96.root
+getHistogram> output/Efficiency_00_343/Raw_Events/Efficiency_0.661657_MeV_t34.root
+getHistogram> output/Efficiency_00_343/Raw_Events/Efficiency_0.661657_MeV_t232.root
+getHistogram> output/Efficiency_00_343/Raw_Events/Efficiency_0.661657_MeV_t130.root
+getHistogram> output/Efficiency_00_343/Raw_Events/Efficiency_0.661657_MeV_t192.root
+getHistogram> output/Efficiency_00_343/Raw_Events/Efficiency_0.661657_MeV_t73.root
+getHistogram> output/Efficiency_00_343/Raw_Events/Efficiency_0.661657_MeV_t38.root
+getHistogram> output/Efficiency_00_343/Raw_Events/Efficiency_0.661657_MeV_t244.root
+getHistogram> output/Efficiency_00_343/Raw_Events/Efficiency_0.661657_MeV_t42.root
+getHistogram> output/Efficiency_00_343/Raw_Events/Efficiency_0.661657_MeV_t101.root
+getHistogram> output/Efficiency_00_343/Raw_Events/Efficiency_0.661657_MeV_t20.root
+getHistogram> output/Efficiency_00_343/Raw_Events/Efficiency_0.661657_MeV_t226.root
+getHistogram> output/Efficiency_00_343/Raw_Events/Efficiency_0.661657_MeV_t128.root
+getHistogram> output/Efficiency_00_343/Raw_Events/Efficiency_0.661657_MeV_t163.root
+getHistogram> output/Efficiency_00_343/Raw_Events/Efficiency_0.661657_MeV_t82.root
+getHistogram> output/Efficiency_00_343/Raw_Events/Efficiency_0.661657_MeV_t152.root
+getHistogram> output/Efficiency_00_343/Raw_Events/Efficiency_0.661657_MeV_t5.root
+getHistogram> output/Efficiency_00_343/Raw_Events/Efficiency_0.661657_MeV_t119.root
+getHistogram> output/Efficiency_00_343/Raw_Events/Efficiency_0.661657_MeV_t11.root
+getHistogram> output/Efficiency_00_343/Raw_Events/Efficiency_0.661657_MeV_t217.root
+getHistogram> output/Efficiency_00_343/Raw_Events/Efficiency_0.661657_MeV_t240.root
+getHistogram> output/Efficiency_00_343/Raw_Events/Efficiency_0.661657_MeV_t46.root
+getHistogram> output/Efficiency_00_343/Raw_Events/Efficiency_0.661657_MeV_t105.root
+getHistogram> output/Efficiency_00_343/Raw_Events/Efficiency_0.661657_MeV_t134.root
+getHistogram> output/Efficiency_00_343/Raw_Events/Efficiency_0.661657_MeV_t196.root
+getHistogram> output/Efficiency_00_343/Raw_Events/Efficiency_0.661657_MeV_t77.root
+getHistogram> output/Efficiency_00_343/Raw_Events/Efficiency_0.661657_MeV_t1.root
+getHistogram> output/Efficiency_00_343/Raw_Events/Efficiency_0.661657_MeV_t156.root
+getHistogram> output/Efficiency_00_343/Raw_Events/Efficiency_0.661657_MeV_t15.root
+getHistogram> output/Efficiency_00_343/Raw_Events/Efficiency_0.661657_MeV_t213.root
+getHistogram> output/Efficiency_00_343/Raw_Events/Efficiency_0.661657_MeV_t24.root
+getHistogram> output/Efficiency_00_343/Raw_Events/Efficiency_0.661657_MeV_t222.root
+getHistogram> output/Efficiency_00_343/Raw_Events/Efficiency_0.661657_MeV_t167.root
+getHistogram> output/Efficiency_00_343/Raw_Events/Efficiency_0.661657_MeV_t86.root
+getHistogram> output/Efficiency_00_343/Raw_Events/Efficiency_0.661657_MeV_t131.root
+getHistogram> output/Efficiency_00_343/Raw_Events/Efficiency_0.661657_MeV_t39.root
+getHistogram> output/Efficiency_00_343/Raw_Events/Efficiency_0.661657_MeV_t72.root
+getHistogram> output/Efficiency_00_343/Raw_Events/Efficiency_0.661657_MeV_t193.root
+getHistogram> output/Efficiency_00_343/Raw_Events/Efficiency_0.661657_MeV_t43.root
+getHistogram> output/Efficiency_00_343/Raw_Events/Efficiency_0.661657_MeV_t245.root
+getHistogram> output/Efficiency_00_343/Raw_Events/Efficiency_0.661657_MeV_t100.root
+getHistogram> output/Efficiency_00_343/Raw_Events/Efficiency_0.661657_MeV_t227.root
+getHistogram> output/Efficiency_00_343/Raw_Events/Efficiency_0.661657_MeV_t21.root
+getHistogram> output/Efficiency_00_343/Raw_Events/Efficiency_0.661657_MeV_t83.root
+getHistogram> output/Efficiency_00_343/Raw_Events/Efficiency_0.661657_MeV_t162.root
+getHistogram> output/Efficiency_00_343/Raw_Events/Efficiency_0.661657_MeV_t129.root
+getHistogram> output/Efficiency_00_343/Raw_Events/Efficiency_0.661657_MeV_t118.root
+getHistogram> output/Efficiency_00_343/Raw_Events/Efficiency_0.661657_MeV_t153.root
+getHistogram> output/Efficiency_00_343/Raw_Events/Efficiency_0.661657_MeV_t4.root
+getHistogram> output/Efficiency_00_343/Raw_Events/Efficiency_0.661657_MeV_t216.root
+getHistogram> output/Efficiency_00_343/Raw_Events/Efficiency_0.661657_MeV_t10.root
+getHistogram> output/Efficiency_00_343/Raw_Events/Efficiency_0.661657_MeV_t47.root
+getHistogram> output/Efficiency_00_343/Raw_Events/Efficiency_0.661657_MeV_t241.root
+getHistogram> output/Efficiency_00_343/Raw_Events/Efficiency_0.661657_MeV_t104.root
+getHistogram> output/Efficiency_00_343/Raw_Events/Efficiency_0.661657_MeV_t135.root
+getHistogram> output/Efficiency_00_343/Raw_Events/Efficiency_0.661657_MeV_t76.root
+getHistogram> output/Efficiency_00_343/Raw_Events/Efficiency_0.661657_MeV_t197.root
+getHistogram> output/Efficiency_00_343/Raw_Events/Efficiency_0.661657_MeV_t0.root
+getHistogram> output/Efficiency_00_343/Raw_Events/Efficiency_0.661657_MeV_t157.root
+getHistogram> output/Efficiency_00_343/Raw_Events/Efficiency_0.661657_MeV_t212.root
+getHistogram> output/Efficiency_00_343/Raw_Events/Efficiency_0.661657_MeV_t14.root
+getHistogram> output/Efficiency_00_343/Raw_Events/Efficiency_0.661657_MeV_t223.root
+getHistogram> output/Efficiency_00_343/Raw_Events/Efficiency_0.661657_MeV_t25.root
+getHistogram> output/Efficiency_00_343/Raw_Events/Efficiency_0.661657_MeV_t87.root
+getHistogram> output/Efficiency_00_343/Raw_Events/Efficiency_0.661657_MeV_t166.root
+getHistogram> output/Efficiency_00_343/Raw_Events/Efficiency_0.661657_MeV_t62.root
+getHistogram> output/Efficiency_00_343/Raw_Events/Efficiency_0.661657_MeV_t29.root
+getHistogram> output/Efficiency_00_343/Raw_Events/Efficiency_0.661657_MeV_t183.root
+getHistogram> output/Efficiency_00_343/Raw_Events/Efficiency_0.661657_MeV_t121.root
+getHistogram> output/Efficiency_00_343/Raw_Events/Efficiency_0.661657_MeV_t110.root
+getHistogram> output/Efficiency_00_343/Raw_Events/Efficiency_0.661657_MeV_t18.root
+getHistogram> output/Efficiency_00_343/Raw_Events/Efficiency_0.661657_MeV_t53.root
+getHistogram> output/Efficiency_00_343/Raw_Events/Efficiency_0.661657_MeV_t255.root
+getHistogram> output/Efficiency_00_343/Raw_Events/Efficiency_0.661657_MeV_t93.root
+getHistogram> output/Efficiency_00_343/Raw_Events/Efficiency_0.661657_MeV_t139.root
+getHistogram> output/Efficiency_00_343/Raw_Events/Efficiency_0.661657_MeV_t172.root
+getHistogram> output/Efficiency_00_343/Raw_Events/Efficiency_0.661657_MeV_t237.root
+getHistogram> output/Efficiency_00_343/Raw_Events/Efficiency_0.661657_MeV_t31.root
+getHistogram> output/Efficiency_00_343/Raw_Events/Efficiency_0.661657_MeV_t206.root
+getHistogram> output/Efficiency_00_343/Raw_Events/Efficiency_0.661657_MeV_t143.root
+getHistogram> output/Efficiency_00_343/Raw_Events/Efficiency_0.661657_MeV_t108.root
+getHistogram> output/Efficiency_00_343/Raw_Events/Efficiency_0.661657_MeV_t114.root
+getHistogram> output/Efficiency_00_343/Raw_Events/Efficiency_0.661657_MeV_t8.root
+getHistogram> output/Efficiency_00_343/Raw_Events/Efficiency_0.661657_MeV_t57.root
+getHistogram> output/Efficiency_00_343/Raw_Events/Efficiency_0.661657_MeV_t251.root
+getHistogram> output/Efficiency_00_343/Raw_Events/Efficiency_0.661657_MeV_t66.root
+getHistogram> output/Efficiency_00_343/Raw_Events/Efficiency_0.661657_MeV_t187.root
+getHistogram> output/Efficiency_00_343/Raw_Events/Efficiency_0.661657_MeV_t125.root
+getHistogram> output/Efficiency_00_343/Raw_Events/Efficiency_0.661657_MeV_t202.root
+getHistogram> output/Efficiency_00_343/Raw_Events/Efficiency_0.661657_MeV_t249.root
+getHistogram> output/Efficiency_00_343/Raw_Events/Efficiency_0.661657_MeV_t147.root
+getHistogram> output/Efficiency_00_343/Raw_Events/Efficiency_0.661657_MeV_t97.root
+getHistogram> output/Efficiency_00_343/Raw_Events/Efficiency_0.661657_MeV_t176.root
+getHistogram> output/Efficiency_00_343/Raw_Events/Efficiency_0.661657_MeV_t233.root
+getHistogram> output/Efficiency_00_343/Raw_Events/Efficiency_0.661657_MeV_t35.root
+getHistogram> > Rounded up EMAX from 10 MeV to 10.0005 MeV in order to match the requested BINNING of 0.001 MeV
+getHistogram> > Processed 2001330 entries
+getHistogram> > Created output file Efficiency_0.661657_MeV_hist.root
+histogramToTxt> Converting histogram det0 ...	Output file output/Efficiency_00_343/Event_Histograms/Efficiency_0.661657_MeV_hist_det0.txt created.
+utrwrapper.py> Finished processing extended macro file '/nfs/ldas02/zh02/home/drichter/utr/macros/examples/utrwrapper-efficiency-jonny.xmac' at 2023-10-27 16-47-33 (took 0h 01m 42s)

@@ -229,7 +229,7 @@ G4VPhysicalVolume *DetectorConstruction::Construct() {
 
   /***************** Plastikzylinder für Kalibrierquelle P-1030 *********************************/
 
-  G4double plastikzylinder_position = -{{source_placement}} * mm;
+  G4double plastikzylinder_position = {{source_placement}} * mm;
 
   G4Tubs *plastikzylinder_solid = new G4Tubs("Plastikzylinder_Solid", 0 *mm, 0.5 * 25.03 *mm, 0.5 * {{source_thickness}} *mm, 0. *deg, 360. *deg);
   G4LogicalVolume *plastikzylinder_logical = new G4LogicalVolume(plastikzylinder_solid, Epoxy, "Plastikzylinder_Logical");

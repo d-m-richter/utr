@@ -27,9 +27,9 @@ for i in range(len(limit_deviation)): # ----------------------------- calculatio
 ################################################################################################################################################################
 
 ###### by mechanic produced objects ######
-hollow_cylinder_default = 100 # mm ---------------------------------- heigth of the hollow cylinder (deutsch: Hohlzylinder)
-hollow_cylidner_20mm_default = 20 # mm ------------------------------ heigth of second hollow cylinder to achive a greater distance between source and crystal 
-hollow_cylidner_40mm_default = 40 # mm ------------------------------ heigth of third hollow cylinder to achive a greater distance between source and crystal 
+#hollow_cylinder_default = 100 # mm ---------------------------------- heigth of the hollow cylinder (deutsch: Hohlzylinder)
+#hollow_cylidner_default = 60 # mm ------------------------------ heigth of second hollow cylinder to achive a greater distance between source and crystal 
+hollow_cylinder_default = 40 # mm ------------------------------ heigth of third hollow cylinder to achive a greater distance between source and crystal 
 source_holder_default = 144.03 # mm --------------------------------- heigth of the source holder (deutsch: Quellenhalter)
 notch_default = 1.5 # mm -------------------------------------------- (deutsch: Einkerbung) heigth of the notch in source holder
 
