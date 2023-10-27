@@ -5,17 +5,17 @@ import numpy as np
 
 # search for path to files that have place holders in them and that have to be changed into
 
-DetectorConstruction_old_file_path = Path().resolve()/Path('Changing_files/DetectorConstruction_old.cc')
+DetectorConstruction_old_file_path = Path().resolve()/Path('Changing_files/DetectorConstruction_Template.cc')
 DetectorConstruction_new_file_path = Path().resolve()/Path('DetectorConstruction/Others/Efficiency/DetectorConstruction.cc')
 
-utrwrapper_efficiency_jonny_old_file_path = Path().resolve()/Path('Changing_files/utrwrapper-efficiency-jonny_old.xmac')
+utrwrapper_efficiency_jonny_old_file_path = Path().resolve()/Path('Changing_files/utrwrapper-efficiency-jonny_Template.xmac')
 utrwrapper_efficiency_jonny_new_file_path = Path().resolve()/Path('macros/examples/utrwrapper-efficiency-jonny.xmac')
 
-Hohlzylinder_old_file_path = Path().resolve()/Path('Changing_files/Hohlzylinder_old.gdml')
-Hohlzylinder_new_file_path = Path().resolve()/Path('DetectorConstruction/Others/Efficiency/Volumes/Hohlzylinder_new.gdml')
+Hohlzylinder_old_file_path = Path().resolve()/Path('Changing_files/Hohlzylinder_Template.gdml')
+Hohlzylinder_new_file_path = Path().resolve()/Path('DetectorConstruction/Others/Efficiency/Volumes/Hohlzylinder.gdml')
 
-Quellenhalter_old_file_path = Path().resolve()/Path('Changing_files/Quellenhalter_old.gdml')
-Quellenhalter_new_file_path = Path().resolve()/Path('DetectorConstruction/Others/Efficiency/Volumes/Quellenhalter_new.gdml')
+Quellenhalter_old_file_path = Path().resolve()/Path('Changing_files/Quellenhalter_Template.gdml')
+Quellenhalter_new_file_path = Path().resolve()/Path('DetectorConstruction/Others/Efficiency/Volumes/Quellenhalter.gdml')
 
 # open and read in the old files that have place holders in them
 

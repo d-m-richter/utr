@@ -64,10 +64,10 @@ class Hohlzylinder {
     std::filesystem::path currentPath = std::filesystem::current_path();
     std::string currentPathString = currentPath.string();
     if (currentPathString == "/home/drichter/HOME/local/utr-jonny") {
-      gdmlFileName = "../utr-jonny/DetectorConstruction/Others/Efficiency/Volumes/Hohlzylinder_new.gdml";
+      gdmlFileName = "../utr-jonny/DetectorConstruction/Others/Efficiency/Volumes/Hohlzylinder.gdml";
     }
     else if (currentPathString == "/home/drichter/HOME/local/utr-jonny/build") {
-      gdmlFileName = "../DetectorConstruction/Others/Efficiency/Volumes/Hohlzylinder_new.gdml";
+      gdmlFileName = "../DetectorConstruction/Others/Efficiency/Volumes/Hohlzylinder.gdml";
     } 
 
     parser.Read(gdmlFileName);
