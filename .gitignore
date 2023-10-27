@@ -20,6 +20,24 @@ angcorrtest
 
 # Build directory
 build
+build1
+
+# GDML Directory
+gdml
+
+# in DetectorConstruction
+Bleiburgtest.hh
+Detector_Dimensions_Calculation.py
+DetectorConstruction.cc
+
+# in Volumes
+Quellenhalter_new.gdml
+Quellenhalter.gdml
+Hohlzylinder_new.gdml
+Hohlzylinder.gdml
+
+# in macros
+utrwrapper-efficiency-jonny.xmac
 
 # C++ objects
 unit_test/AngularDistributionGenerator/AngularDistribution.o
