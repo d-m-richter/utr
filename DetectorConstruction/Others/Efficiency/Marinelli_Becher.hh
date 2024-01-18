@@ -164,9 +164,96 @@ class MarinelliBeaker {
   }
 };
 
-//class MarinelliBeaker_Filling {
-//
-//}
+class MarinelliBeaker_Filling {
+  private:
+  G4LogicalVolume *World_Logical;
+  G4LogicalVolume *MarinelliFilling_Logical;
+  G4Cons *Cone_Solid;
+  G4Tubs *Tube_Solid;
+  G4SubtractionSolid *MarinelliFilling_Solid;
+  G4RotationMatrix *rot;
+
+  public:
+  // Cone
+  G4double c_ir_p; // inner radius plus (bigger diameter)
+  G4double c_or_p; // outer radius plus (bigger diameter)
+  G4double c_ir_m; // inner radius minus (smaller diameter)
+  G4double c_or_m; // outer radius minus (smaller diameter)
+  G4double c_zhl; // half length on z axis
+  // OuterTube
+  G4double t_ir; // inner radius
+  G4double t_or; // outer radius
+  G4double t_zhl; // half length on z axis
+  // for all geoemtries
+  G4double sphi; // start angle
+  G4double dphi; // full angle
+
+  MarinelliBeaker_Filling(G4LogicalVolume *world_Logical) {
+    // dimensions of marinelli
+    // Vorsicht: Deckel ragt ca. 8 mm in den Becher rein
+
+    // OuterCone
+    c_ir_p = 0.5 * 0. * mm;
+    c_or_p = 0.5 * 195. * mm; // Hersteller: 201 mm
+    c_ir_m = 0.5 * 0. * mm; 
+    c_or_m = 0.5 * 182. * mm; // gemessen: 188 mm
+    c_zhl = 0.5 * 167. * mm; // Hersteller: 178 mm
+
+    // OuterTube
+    t_ir = 0.5 * 0. * mm;
+    t_or = 0.5 * 102. * mm; // gemessen: 100 mm
+    t_zhl = 0.5 * 102.1 * mm; // Hersteller: 102 mm
+
+    // for all geometries
+    sphi = 0. * deg;
+    dphi = 360. * deg;
+
+
+    // color of marinelli
+    G4Colour green(0.0, 1.0, 1.0);
+
+    // has to be changed
+    // define materials polypropylene an polyethylene (deutsch: Polypropylen, Polyethylen)
+    G4NistManager *nist = G4NistManager::Instance();
+    G4Material *polypropylene = nist->FindOrBuildMaterial("G4_POLYPROPYLENE");
+
+    World_Logical = world_Logical;
+
+    Cone_Solid = new G4Cons("OuterCone_Solid", c_ir_p, c_or_p, c_ir_m, c_or_m, c_zhl, sphi, dphi);
+    Tube_Solid = new G4Tubs("OuterTube_Solid", t_ir, t_or, t_zhl, sphi, dphi);
+    
+    // Create solid for Marinelli Beaker
+    G4ThreeVector merge(0.,0.,32.5);
+    MarinelliFilling_Solid = new G4SubtractionSolid("MarinelliFilling_Solid", Cone_Solid, Tube_Solid, 0, merge);
+
+    MarinelliFilling_Logical = new G4LogicalVolume(MarinelliFilling_Solid, polypropylene, "MarinelliFilling_Logical", 0, 0, 0);
+    
+    MarinelliFilling_Logical->SetVisAttributes(new G4VisAttributes(green));
+   
+    rot = new G4RotationMatrix();
+  }
+
+  ~MarinelliBeaker_Filling(){};
+
+  // placing the adaptor in the detector world with Put() methode
+  // use Marinelli *marinelli = new Marinelli(world_logical) and marinelli->Put(0., 0., 90.)
+  void Put(G4double x, G4double y, G4double z) {
+    new G4PVPlacement(0, G4ThreeVector(x, y, z), MarinelliFilling_Logical,
+                      "MarinelliFilling", World_Logical, false, 0);
+  }
+
+  void Put(G4double x, G4double y, G4double z, G4double angle_x,
+           G4double angle_y, G4double angle_z) {
+
+    rot = new G4RotationMatrix();
+    rot->rotateX(angle_x);
+    rot->rotateY(angle_y);
+    rot->rotateZ(angle_z);
+
+    new G4PVPlacement(rot, G4ThreeVector(x, y, z), MarinelliFilling_Logical,
+                      "MarinelliFilling", World_Logical, false, 0);
+  }
+};
 
 class MarinelliDeckel {
   private:

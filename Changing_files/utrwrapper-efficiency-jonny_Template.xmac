@@ -56,9 +56,10 @@
 /gps/pos/type Point
 /gps/ang/type iso
 /gps/ene/type Gauss
+/gps/ene/sigma 0.662 eV
 
 /gps/pos/confine Plastikzylinder
-/gps/pos/centre 0. 0. {{source_placement}} mm #-12. mm
+/gps/pos/centre 0. 0. 0. #{{source_placement}} mm -12. mm
 
 # Run the generic macro in a loop
 # loop Syntax: /control/loop MacroFile Variable Start End Increment
