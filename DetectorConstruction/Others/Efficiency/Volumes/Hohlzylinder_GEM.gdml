@@ -1,0 +1,1532 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<gdml xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://service-spi.web.cern.ch/service-spi/app/releases/GDML/schema/gdml.xsd">
+ <define>
+ <position name="Hohlzylinder_GEM_v0" unit="mm" x="27.92947272344273" y="-28.63467397038892" z="40.0"/>
+ <position name="Hohlzylinder_GEM_v1" unit="mm" x="26.389867385873593" y="-24.486218559753265" z="40.0"/>
+ <position name="Hohlzylinder_GEM_v2" unit="mm" x="25.136525451098453" y="-25.771206573350028" z="40.0"/>
+ <position name="Hohlzylinder_GEM_v3" unit="mm" x="30.64177772475896" y="-25.711504387461762" z="40.0"/>
+ <position name="Hohlzylinder_GEM_v4" unit="mm" x="29.322074873192882" y="-27.20690951083696" z="40.0"/>
+ <position name="Hohlzylinder_GEM_v5" unit="mm" x="23.82069015348676" y="-26.992123306838593" z="40.0"/>
+ <position name="Hohlzylinder_GEM_v6" unit="mm" x="26.467433503874176" y="-29.991248118709546" z="40.0"/>
+ <position name="Hohlzylinder_GEM_v7" unit="mm" x="27.577599952283066" y="-23.140353948715585" z="40.0"/>
+ <position name="Hohlzylinder_GEM_v8" unit="mm" x="22.44563286691421" y="-28.145933368849228" z="40.0"/>
+ <position name="Hohlzylinder_GEM_v9" unit="mm" x="24.93959207434912" y="-31.273259298721364" z="40.0"/>
+ <position name="Hohlzylinder_GEM_v10" unit="mm" x="33.049550972639665" y="-22.532802322545074" z="40.0"/>
+ <position name="Hohlzylinder_GEM_v11" unit="mm" x="28.69677026002508" y="-21.736958771717358" z="40.0"/>
+ <position name="Hohlzylinder_GEM_v12" unit="mm" x="31.885300288916753" y="-24.152176413019287" z="40.0"/>
+ <position name="Hohlzylinder_GEM_v13" unit="mm" x="21.014772200452228" y="-29.22976820577098" z="40.0"/>
+ <position name="Hohlzylinder_GEM_v14" unit="mm" x="23.349746889391362" y="-32.477520228634425" z="40.0"/>
+ <position name="Hohlzylinder_GEM_v15" unit="mm" x="21.701850554630127" y="-33.601036926031014" z="40.0"/>
+ <position name="Hohlzylinder_GEM_v16" unit="mm" x="29.744595875375698" y="-20.279522090290566" z="40.0"/>
+ <position name="Hohlzylinder_GEM_v17" unit="mm" x="19.531665499167115" y="-30.240933233427914" z="40.0"/>
+ <position name="Hohlzylinder_GEM_v18" unit="mm" x="34.13163526528611" y="-20.857408135180115" z="40.0"/>
+ <position name="Hohlzylinder_GEM_v19" unit="mm" x="30.718471738757497" y="-18.771667321662104" z="40.0"/>
+ <position name="Hohlzylinder_GEM_v20" unit="mm" x="17.999999999999766" y="-31.176914536239927" z="40.0"/>
+ <position name="Hohlzylinder_GEM_v21" unit="mm" x="19.999999999999737" y="-34.6410161513777" z="40.0"/>
+ <position name="Hohlzylinder_GEM_v22" unit="mm" x="18.248426294126244" y="-35.594872352458886" z="40.0"/>
+ <position name="Hohlzylinder_GEM_v23" unit="mm" x="31.615976641328135" y="-17.217143230367626" z="40.0"/>
+ <position name="Hohlzylinder_GEM_v24" unit="mm" x="35.12886293480904" y="-19.130159144852918" z="40.0"/>
+ <position name="Hohlzylinder_GEM_v25" unit="mm" x="16.423583664713618" y="-32.035385117212996" z="40.0"/>
+ <position name="Hohlzylinder_GEM_v26" unit="mm" x="16.451484125224173" y="-36.460234092467054" z="40.0"/>
+ <position name="Hohlzylinder_GEM_v27" unit="mm" x="32.43487924448701" y="-15.61981460823226" z="40.0"/>
+ <position name="Hohlzylinder_GEM_v28" unit="mm" x="36.038754716096676" y="-17.35534956470251" z="40.0"/>
+ <position name="Hohlzylinder_GEM_v29" unit="mm" x="14.806335712701754" y="-32.81421068322035" z="40.0"/>
+ <position name="Hohlzylinder_GEM_v30" unit="mm" x="14.613640974655498" y="-37.23494994576829" z="40.0"/>
+ <position name="Hohlzylinder_GEM_v31" unit="mm" x="33.1731436273346" y="-13.983652665889174" z="40.0"/>
+ <position name="Hohlzylinder_GEM_v32" unit="mm" x="36.85904847481623" y="-15.537391850987971" z="40.0"/>
+ <position name="Hohlzylinder_GEM_v33" unit="mm" x="13.152276877189948" y="-33.51145495119146" z="40.0"/>
+ <position name="Hohlzylinder_GEM_v34" unit="mm" x="12.739466010067062" y="-37.917093846685376" z="40.0"/>
+ <position name="Hohlzylinder_GEM_v35" unit="mm" x="33.82893434829264" y="-12.312725159724238" z="40.0"/>
+ <position name="Hohlzylinder_GEM_v36" unit="mm" x="37.58770483143627" y="-13.680805733026931" z="40.0"/>
+ <position name="Hohlzylinder_GEM_v37" unit="mm" x="11.465519409060356" y="-34.12538446201684" z="40.0"/>
+ <position name="Hohlzylinder_GEM_v38" unit="mm" x="34.400621008301016" y="-10.61118627879271" z="40.0"/>
+ <position name="Hohlzylinder_GEM_v39" unit="mm" x="38.22291223144558" y="-11.790206976436345" z="40.0"/>
+ <position name="Hohlzylinder_GEM_v40" unit="mm" x="9.75025685314789" y="-34.654472890200516" z="40.0"/>
+ <position name="Hohlzylinder_GEM_v41" unit="mm" x="10.833618725719878" y="-38.50496987800057" z="40.0"/>
+ <position name="Hohlzylinder_GEM_v42" unit="mm" x="34.886782304246765" y="-8.883266316850726" z="40.0"/>
+ <position name="Hohlzylinder_GEM_v43" unit="mm" x="38.76309144916307" y="-9.870295907611917" z="40.0"/>
+ <position name="Hohlzylinder_GEM_v44" unit="mm" x="8.010753622427014" y="-35.09740483854572" z="40.0"/>
+ <position name="Hohlzylinder_GEM_v45" unit="mm" x="8.900837358252238" y="-38.99711648727302" z="40.0"/>
+ <position name="Hohlzylinder_GEM_v46" unit="mm" x="6.945927106676864" y="-39.39231012048838" z="40.0"/>
+ <position name="Hohlzylinder_GEM_v47" unit="mm" x="35.28620956254755" y="-7.133261155178461" z="40.0"/>
+ <position name="Hohlzylinder_GEM_v48" unit="mm" x="39.20689951394172" y="-7.925845727976069" z="40.0"/>
+ <position name="Hohlzylinder_GEM_v49" unit="mm" x="6.251334396009177" y="-35.453079108439546" z="40.0"/>
+ <position name="Hohlzylinder_GEM_v50" unit="mm" x="4.973748185899046" y="-39.68956826400693" z="40.0"/>
+ <position name="Hohlzylinder_GEM_v51" unit="mm" x="35.597909744104605" y="-5.3655215823424225" z="40.0"/>
+ <position name="Hohlzylinder_GEM_v52" unit="mm" x="39.553233049005115" y="-5.961690647047137" z="40.0"/>
+ <position name="Hohlzylinder_GEM_v53" unit="mm" x="4.476373367309141" y="-35.72061143760624" z="40.0"/>
+ <position name="Hohlzylinder_GEM_v54" unit="mm" x="2.9892037434565992" y="-39.88815188724723" z="40.0"/>
+ <position name="Hohlzylinder_GEM_v55" unit="mm" x="39.950276848756886" y="-1.9938354264280314" z="40.0"/>
+ <position name="Hohlzylinder_GEM_v56" unit="mm" x="35.821107913154435" y="-3.584442477449537" z="40.0"/>
+ <position name="Hohlzylinder_GEM_v57" unit="mm" x="39.80123101461604" y="-3.9827138638328186" z="40.0"/>
+ <position name="Hohlzylinder_GEM_v58" unit="mm" x="2.6902833691109396" y="-35.89933669852251" z="40.0"/>
+ <position name="Hohlzylinder_GEM_v59" unit="mm" x="35.9552491638812" y="-1.7944518837852284" z="40.0"/>
+ <position name="Hohlzylinder_GEM_v60" unit="mm" x="0.897504902570282" y="-35.98881055202939" z="40.0"/>
+ <position name="Hohlzylinder_GEM_v61" unit="mm" x="0.9972276695225356" y="-39.98756728003266" z="40.0"/>
+ <position name="Hohlzylinder_GEM_v62" unit="mm" x="40.0" y="-1.3720995995543063e-13" z="40.0"/>
+ <position name="Hohlzylinder_GEM_v63" unit="mm" x="36.0" y="-1.2348896395988757e-13" z="40.0"/>
+ <position name="Hohlzylinder_GEM_v64" unit="mm" x="-0.8975049025709719" y="-35.98881055202938" z="40.0"/>
+ <position name="Hohlzylinder_GEM_v65" unit="mm" x="-0.9972276695233022" y="-39.98756728003264" z="40.0"/>
+ <position name="Hohlzylinder_GEM_v66" unit="mm" x="-2.9892037434573644" y="-39.888151887247176" z="40.0"/>
+ <position name="Hohlzylinder_GEM_v67" unit="mm" x="35.95524916388121" y="1.7944518837849814" z="40.0"/>
+ <position name="Hohlzylinder_GEM_v68" unit="mm" x="39.80123101461607" y="3.9827138638325454" z="40.0"/>
+ <position name="Hohlzylinder_GEM_v69" unit="mm" x="39.9502768487569" y="1.9938354264277571" z="40.0"/>
+ <position name="Hohlzylinder_GEM_v70" unit="mm" x="-2.690283369111628" y="-35.89933669852246" z="40.0"/>
+ <position name="Hohlzylinder_GEM_v71" unit="mm" x="-4.973748185899806" y="-39.68956826400684" z="40.0"/>
+ <position name="Hohlzylinder_GEM_v72" unit="mm" x="35.821107913154464" y="3.584442477449291" z="40.0"/>
+ <position name="Hohlzylinder_GEM_v73" unit="mm" x="-4.476373367309826" y="-35.72061143760615" z="40.0"/>
+ <position name="Hohlzylinder_GEM_v74" unit="mm" x="35.59790974410464" y="5.365521582342179" z="40.0"/>
+ <position name="Hohlzylinder_GEM_v75" unit="mm" x="39.55323304900516" y="5.961690647046866" z="40.0"/>
+ <position name="Hohlzylinder_GEM_v76" unit="mm" x="-6.251334396009857" y="-35.453079108439425" z="40.0"/>
+ <position name="Hohlzylinder_GEM_v77" unit="mm" x="-6.945927106677619" y="-39.39231012048825" z="40.0"/>
+ <position name="Hohlzylinder_GEM_v78" unit="mm" x="39.20689951394178" y="7.9258457279757994" z="40.0"/>
+ <position name="Hohlzylinder_GEM_v79" unit="mm" x="35.2862095625476" y="7.13326115517822" z="40.0"/>
+ <position name="Hohlzylinder_GEM_v80" unit="mm" x="-8.010753622427686" y="-35.097404838545565" z="40.0"/>
+ <position name="Hohlzylinder_GEM_v81" unit="mm" x="-8.900837358252984" y="-38.99711648727285" z="40.0"/>
+ <position name="Hohlzylinder_GEM_v82" unit="mm" x="34.88678230424683" y="8.883266316850484" z="40.0"/>
+ <position name="Hohlzylinder_GEM_v83" unit="mm" x="38.222912231445655" y="11.790206976436082" z="40.0"/>
+ <position name="Hohlzylinder_GEM_v84" unit="mm" x="38.76309144916314" y="9.87029590761165" z="40.0"/>
+ <position name="Hohlzylinder_GEM_v85" unit="mm" x="-9.750256853148553" y="-34.65447289020033" z="40.0"/>
+ <position name="Hohlzylinder_GEM_v86" unit="mm" x="-10.833618725720616" y="-38.50496987800037" z="40.0"/>
+ <position name="Hohlzylinder_GEM_v87" unit="mm" x="34.40062100830109" y="10.611186278792474" z="40.0"/>
+ <position name="Hohlzylinder_GEM_v88" unit="mm" x="-11.46551940906101" y="-34.12538446201662" z="40.0"/>
+ <position name="Hohlzylinder_GEM_v89" unit="mm" x="-12.739466010067789" y="-37.917093846685134" z="40.0"/>
+ <position name="Hohlzylinder_GEM_v90" unit="mm" x="-14.613640974656212" y="-37.23494994576801" z="40.0"/>
+ <position name="Hohlzylinder_GEM_v91" unit="mm" x="33.82893434829273" y="12.312725159724003" z="40.0"/>
+ <position name="Hohlzylinder_GEM_v92" unit="mm" x="37.58770483143636" y="13.68080573302667" z="40.0"/>
+ <position name="Hohlzylinder_GEM_v93" unit="mm" x="-13.152276877190591" y="-33.51145495119121" z="40.0"/>
+ <position name="Hohlzylinder_GEM_v94" unit="mm" x="-16.451484125224873" y="-36.46023409246674" z="40.0"/>
+ <position name="Hohlzylinder_GEM_v95" unit="mm" x="33.1731436273347" y="13.983652665888949" z="40.0"/>
+ <position name="Hohlzylinder_GEM_v96" unit="mm" x="36.85904847481633" y="15.53739185098772" z="40.0"/>
+ <position name="Hohlzylinder_GEM_v97" unit="mm" x="-14.806335712702385" y="-32.81421068322007" z="40.0"/>
+ <position name="Hohlzylinder_GEM_v98" unit="mm" x="32.434879244487114" y="15.619814608232039" z="40.0"/>
+ <position name="Hohlzylinder_GEM_v99" unit="mm" x="36.03875471609679" y="17.355349564702266" z="40.0"/>
+ <position name="Hohlzylinder_GEM_v100" unit="mm" x="-16.423583664714233" y="-32.035385117212684" z="40.0"/>
+ <position name="Hohlzylinder_GEM_v101" unit="mm" x="-18.248426294126926" y="-35.59487235245854" z="40.0"/>
+ <position name="Hohlzylinder_GEM_v102" unit="mm" x="35.12886293480917" y="19.130159144852676" z="40.0"/>
+ <position name="Hohlzylinder_GEM_v103" unit="mm" x="31.615976641328253" y="17.21714323036741" z="40.0"/>
+ <position name="Hohlzylinder_GEM_v104" unit="mm" x="-18.000000000000362" y="-31.176914536239583" z="40.0"/>
+ <position name="Hohlzylinder_GEM_v105" unit="mm" x="-20.000000000000405" y="-34.641016151377315" z="40.0"/>
+ <position name="Hohlzylinder_GEM_v106" unit="mm" x="34.13163526528625" y="20.85740813517988" z="40.0"/>
+ <position name="Hohlzylinder_GEM_v107" unit="mm" x="30.718471738757625" y="18.77166732166189" z="40.0"/>
+ <position name="Hohlzylinder_GEM_v108" unit="mm" x="-19.531665499167694" y="-30.240933233427544" z="40.0"/>
+ <position name="Hohlzylinder_GEM_v109" unit="mm" x="-21.701850554630774" y="-33.6010369260306" z="40.0"/>
+ <position name="Hohlzylinder_GEM_v110" unit="mm" x="33.04955097263982" y="22.532802322544846" z="40.0"/>
+ <position name="Hohlzylinder_GEM_v111" unit="mm" x="29.744595875375836" y="20.279522090290364" z="40.0"/>
+ <position name="Hohlzylinder_GEM_v112" unit="mm" x="-21.014772200452786" y="-29.229768205770583" z="40.0"/>
+ <position name="Hohlzylinder_GEM_v113" unit="mm" x="-23.349746889391984" y="-32.47752022863398" z="40.0"/>
+ <position name="Hohlzylinder_GEM_v114" unit="mm" x="31.885300288916923" y="24.15217641301907" z="40.0"/>
+ <position name="Hohlzylinder_GEM_v115" unit="mm" x="28.69677026002523" y="21.736958771717163" z="40.0"/>
+ <position name="Hohlzylinder_GEM_v116" unit="mm" x="-24.939592074349726" y="-31.273259298720888" z="40.0"/>
+ <position name="Hohlzylinder_GEM_v117" unit="mm" x="-22.445632866914753" y="-28.145933368848798" z="40.0"/>
+ <position name="Hohlzylinder_GEM_v118" unit="mm" x="30.641777724759137" y="25.711504387461552" z="40.0"/>
+ <position name="Hohlzylinder_GEM_v119" unit="mm" x="27.577599952283226" y="23.140353948715397" z="40.0"/>
+ <position name="Hohlzylinder_GEM_v120" unit="mm" x="-23.820690153487273" y="-26.992123306838135" z="40.0"/>
+ <position name="Hohlzylinder_GEM_v121" unit="mm" x="-26.467433503874748" y="-29.991248118709038" z="40.0"/>
+ <position name="Hohlzylinder_GEM_v122" unit="mm" x="29.322074873193067" y="27.20690951083676" z="40.0"/>
+ <position name="Hohlzylinder_GEM_v123" unit="mm" x="26.38986738587376" y="24.486218559753084" z="40.0"/>
+ <position name="Hohlzylinder_GEM_v124" unit="mm" x="-25.136525451098947" y="-25.77120657334955" z="40.0"/>
+ <position name="Hohlzylinder_GEM_v125" unit="mm" x="-27.929472723443276" y="-28.634673970388388" z="40.0"/>
+ <position name="Hohlzylinder_GEM_v126" unit="mm" x="27.929472723442924" y="28.63467397038873" z="40.0"/>
+ <position name="Hohlzylinder_GEM_v127" unit="mm" x="25.13652545109863" y="25.771206573349858" z="40.0"/>
+ <position name="Hohlzylinder_GEM_v128" unit="mm" x="-26.38986738587406" y="-24.48621855975276" z="40.0"/>
+ <position name="Hohlzylinder_GEM_v129" unit="mm" x="-29.3220748731934" y="-27.2069095108364" z="40.0"/>
+ <position name="Hohlzylinder_GEM_v130" unit="mm" x="26.467433503874382" y="29.991248118709365" z="40.0"/>
+ <position name="Hohlzylinder_GEM_v131" unit="mm" x="23.820690153486943" y="26.992123306838426" z="40.0"/>
+ <position name="Hohlzylinder_GEM_v132" unit="mm" x="-27.577599952283506" y="-23.140353948715056" z="40.0"/>
+ <position name="Hohlzylinder_GEM_v133" unit="mm" x="-30.641777724759454" y="-25.711504387461176" z="40.0"/>
+ <position name="Hohlzylinder_GEM_v134" unit="mm" x="22.445632866914405" y="28.14593336884908" z="40.0"/>
+ <position name="Hohlzylinder_GEM_v135" unit="mm" x="24.93959207434934" y="31.273259298721197" z="40.0"/>
+ <position name="Hohlzylinder_GEM_v136" unit="mm" x="-31.88530028891722" y="-24.152176413018672" z="40.0"/>
+ <position name="Hohlzylinder_GEM_v137" unit="mm" x="-28.6967702600255" y="-21.736958771716807" z="40.0"/>
+ <position name="Hohlzylinder_GEM_v138" unit="mm" x="23.349746889391586" y="32.47752022863426" z="40.0"/>
+ <position name="Hohlzylinder_GEM_v139" unit="mm" x="21.014772200452427" y="29.22976820577084" z="40.0"/>
+ <position name="Hohlzylinder_GEM_v140" unit="mm" x="-33.0495509726401" y="-22.532802322544438" z="40.0"/>
+ <position name="Hohlzylinder_GEM_v141" unit="mm" x="-29.74459587537609" y="-20.279522090289994" z="40.0"/>
+ <position name="Hohlzylinder_GEM_v142" unit="mm" x="21.70185055463036" y="33.60103692603087" z="40.0"/>
+ <position name="Hohlzylinder_GEM_v143" unit="mm" x="19.531665499167325" y="30.240933233427782" z="40.0"/>
+ <position name="Hohlzylinder_GEM_v144" unit="mm" x="17.99999999999998" y="31.176914536239803" z="40.0"/>
+ <position name="Hohlzylinder_GEM_v145" unit="mm" x="-34.131635265286505" y="-20.85740813517946" z="40.0"/>
+ <position name="Hohlzylinder_GEM_v146" unit="mm" x="-30.718471738757856" y="-18.77166732166151" z="40.0"/>
+ <position name="Hohlzylinder_GEM_v147" unit="mm" x="19.999999999999975" y="34.641016151377556" z="40.0"/>
+ <position name="Hohlzylinder_GEM_v148" unit="mm" x="-31.615976641328462" y="-17.217143230367018" z="40.0"/>
+ <position name="Hohlzylinder_GEM_v149" unit="mm" x="-35.128862934809405" y="-19.130159144852243" z="40.0"/>
+ <position name="Hohlzylinder_GEM_v150" unit="mm" x="18.24842629412649" y="35.59487235245876" z="40.0"/>
+ <position name="Hohlzylinder_GEM_v151" unit="mm" x="16.42358366471384" y="32.03538511721288" z="40.0"/>
+ <position name="Hohlzylinder_GEM_v152" unit="mm" x="-32.434879244487306" y="-15.61981460823164" z="40.0"/>
+ <position name="Hohlzylinder_GEM_v153" unit="mm" x="-36.038754716097" y="-17.35534956470182" z="40.0"/>
+ <position name="Hohlzylinder_GEM_v154" unit="mm" x="16.451484125224432" y="36.46023409246694" z="40.0"/>
+ <position name="Hohlzylinder_GEM_v155" unit="mm" x="14.806335712701989" y="32.814210683220246" z="40.0"/>
+ <position name="Hohlzylinder_GEM_v156" unit="mm" x="13.152276877190193" y="33.51145495119137" z="40.0"/>
+ <position name="Hohlzylinder_GEM_v157" unit="mm" x="-33.17314362733487" y="-13.983652665888538" z="40.0"/>
+ <position name="Hohlzylinder_GEM_v158" unit="mm" x="-36.859048474816525" y="-15.537391850987266" z="40.0"/>
+ <position name="Hohlzylinder_GEM_v159" unit="mm" x="14.61364097465577" y="37.234949945768186" z="40.0"/>
+ <position name="Hohlzylinder_GEM_v160" unit="mm" x="-33.828934348292876" y="-12.312725159723588" z="40.0"/>
+ <position name="Hohlzylinder_GEM_v161" unit="mm" x="-37.58770483143653" y="-13.680805733026208" z="40.0"/>
+ <position name="Hohlzylinder_GEM_v162" unit="mm" x="11.465519409060612" y="34.125384462016754" z="40.0"/>
+ <position name="Hohlzylinder_GEM_v163" unit="mm" x="12.739466010067346" y="37.91709384668528" z="40.0"/>
+ <position name="Hohlzylinder_GEM_v164" unit="mm" x="9.750256853148159" y="34.65447289020044" z="40.0"/>
+ <position name="Hohlzylinder_GEM_v165" unit="mm" x="-34.40062100830122" y="-10.61118627879205" z="40.0"/>
+ <position name="Hohlzylinder_GEM_v166" unit="mm" x="-38.222912231445804" y="-11.790206976435611" z="40.0"/>
+ <position name="Hohlzylinder_GEM_v167" unit="mm" x="-34.886782304246935" y="-8.883266316850056" z="40.0"/>
+ <position name="Hohlzylinder_GEM_v168" unit="mm" x="10.833618725720175" y="38.50496987800049" z="40.0"/>
+ <position name="Hohlzylinder_GEM_v169" unit="mm" x="-38.76309144916326" y="-9.870295907611172" z="40.0"/>
+ <position name="Hohlzylinder_GEM_v170" unit="mm" x="8.900837358252549" y="38.99711648727295" z="40.0"/>
+ <position name="Hohlzylinder_GEM_v171" unit="mm" x="8.010753622427293" y="35.09740483854566" z="40.0"/>
+ <position name="Hohlzylinder_GEM_v172" unit="mm" x="-35.28620956254768" y="-7.133261155177785" z="40.0"/>
+ <position name="Hohlzylinder_GEM_v173" unit="mm" x="-39.20689951394187" y="-7.925845727975317" z="40.0"/>
+ <position name="Hohlzylinder_GEM_v174" unit="mm" x="6.251334396009467" y="35.453079108439496" z="40.0"/>
+ <position name="Hohlzylinder_GEM_v175" unit="mm" x="6.9459271066771855" y="39.392310120488325" z="40.0"/>
+ <position name="Hohlzylinder_GEM_v176" unit="mm" x="4.476373367309442" y="35.720611437606195" z="40.0"/>
+ <position name="Hohlzylinder_GEM_v177" unit="mm" x="-35.59790974410471" y="-5.36552158234174" z="40.0"/>
+ <position name="Hohlzylinder_GEM_v178" unit="mm" x="-39.553233049005236" y="-5.961690647046378" z="40.0"/>
+ <position name="Hohlzylinder_GEM_v179" unit="mm" x="4.97374818589938" y="39.68956826400689" z="40.0"/>
+ <position name="Hohlzylinder_GEM_v180" unit="mm" x="2.6902833691112495" y="35.89933669852249" z="40.0"/>
+ <position name="Hohlzylinder_GEM_v181" unit="mm" x="-39.80123101461612" y="-3.982713863832055" z="40.0"/>
+ <position name="Hohlzylinder_GEM_v182" unit="mm" x="-35.821107913154506" y="-3.58444247744885" z="40.0"/>
+ <position name="Hohlzylinder_GEM_v183" unit="mm" x="2.989203743456944" y="39.88815188724721" z="40.0"/>
+ <position name="Hohlzylinder_GEM_v184" unit="mm" x="-39.95027684875693" y="-1.9938354264272653" z="40.0"/>
+ <position name="Hohlzylinder_GEM_v185" unit="mm" x="-35.955249163881234" y="-1.794451883784539" z="40.0"/>
+ <position name="Hohlzylinder_GEM_v186" unit="mm" x="0.9972276695228899" y="39.98756728003265" z="40.0"/>
+ <position name="Hohlzylinder_GEM_v187" unit="mm" x="0.8975049025706009" y="35.988810552029385" z="40.0"/>
+ <position name="Hohlzylinder_GEM_v188" unit="mm" x="-0.8975049025706452" y="35.988810552029385" z="40.0"/>
+ <position name="Hohlzylinder_GEM_v189" unit="mm" x="-35.955249163881206" y="1.7944518837850978" z="40.0"/>
+ <position name="Hohlzylinder_GEM_v190" unit="mm" x="-40.0" y="0.0" z="40.0"/>
+ <position name="Hohlzylinder_GEM_v191" unit="mm" x="-36.0" y="0.0" z="40.0"/>
+ <position name="Hohlzylinder_GEM_v192" unit="mm" x="-0.9972276695229392" y="39.98756728003265" z="40.0"/>
+ <position name="Hohlzylinder_GEM_v193" unit="mm" x="-39.95027684875689" y="1.9938354264278866" z="40.0"/>
+ <position name="Hohlzylinder_GEM_v194" unit="mm" x="-2.9892037434569927" y="39.888151887247204" z="40.0"/>
+ <position name="Hohlzylinder_GEM_v195" unit="mm" x="-2.6902833691112935" y="35.89933669852248" z="40.0"/>
+ <position name="Hohlzylinder_GEM_v196" unit="mm" x="-35.82110791315445" y="3.5844424774493997" z="40.0"/>
+ <position name="Hohlzylinder_GEM_v197" unit="mm" x="-39.80123101461606" y="3.9827138638326662" z="40.0"/>
+ <position name="Hohlzylinder_GEM_v198" unit="mm" x="-4.973748185899429" y="39.68956826400688" z="40.0"/>
+ <position name="Hohlzylinder_GEM_v199" unit="mm" x="-4.476373367309486" y="35.720611437606195" z="40.0"/>
+ <position name="Hohlzylinder_GEM_v200" unit="mm" x="-35.597909744104626" y="5.36552158234228" z="40.0"/>
+ <position name="Hohlzylinder_GEM_v201" unit="mm" x="-39.553233049005144" y="5.961690647046978" z="40.0"/>
+ <position name="Hohlzylinder_GEM_v202" unit="mm" x="-6.945927106677234" y="39.39231012048832" z="40.0"/>
+ <position name="Hohlzylinder_GEM_v203" unit="mm" x="-6.251334396009511" y="35.45307910843949" z="40.0"/>
+ <position name="Hohlzylinder_GEM_v204" unit="mm" x="-35.286209562547576" y="7.133261155178313" z="40.0"/>
+ <position name="Hohlzylinder_GEM_v205" unit="mm" x="-39.20689951394175" y="7.925845727975903" z="40.0"/>
+ <position name="Hohlzylinder_GEM_v206" unit="mm" x="-8.010753622427336" y="35.09740483854564" z="40.0"/>
+ <position name="Hohlzylinder_GEM_v207" unit="mm" x="-8.900837358252595" y="38.99711648727294" z="40.0"/>
+ <position name="Hohlzylinder_GEM_v208" unit="mm" x="-9.7502568531482" y="34.65447289020043" z="40.0"/>
+ <position name="Hohlzylinder_GEM_v209" unit="mm" x="-34.88678230424681" y="8.883266316850571" z="40.0"/>
+ <position name="Hohlzylinder_GEM_v210" unit="mm" x="-38.76309144916312" y="9.870295907611746" z="40.0"/>
+ <position name="Hohlzylinder_GEM_v211" unit="mm" x="-34.400621008301066" y="10.611186278792552" z="40.0"/>
+ <position name="Hohlzylinder_GEM_v212" unit="mm" x="-10.833618725720221" y="38.50496987800048" z="40.0"/>
+ <position name="Hohlzylinder_GEM_v213" unit="mm" x="-38.222912231445626" y="11.790206976436169" z="40.0"/>
+ <position name="Hohlzylinder_GEM_v214" unit="mm" x="-12.739466010067392" y="37.91709384668526" z="40.0"/>
+ <position name="Hohlzylinder_GEM_v215" unit="mm" x="-11.465519409060654" y="34.12538446201674" z="40.0"/>
+ <position name="Hohlzylinder_GEM_v216" unit="mm" x="-33.8289343482927" y="12.312725159724076" z="40.0"/>
+ <position name="Hohlzylinder_GEM_v217" unit="mm" x="-37.587704831436334" y="13.680805733026752" z="40.0"/>
+ <position name="Hohlzylinder_GEM_v218" unit="mm" x="-14.613640974655818" y="37.234949945768165" z="40.0"/>
+ <position name="Hohlzylinder_GEM_v219" unit="mm" x="-13.152276877190236" y="33.51145495119135" z="40.0"/>
+ <position name="Hohlzylinder_GEM_v220" unit="mm" x="-14.806335712702028" y="32.81421068322023" z="40.0"/>
+ <position name="Hohlzylinder_GEM_v221" unit="mm" x="-36.859048474816305" y="15.53739185098779" z="40.0"/>
+ <position name="Hohlzylinder_GEM_v222" unit="mm" x="-33.173143627334674" y="13.98365266588901" z="40.0"/>
+ <position name="Hohlzylinder_GEM_v223" unit="mm" x="-16.451484125224475" y="36.46023409246692" z="40.0"/>
+ <position name="Hohlzylinder_GEM_v224" unit="mm" x="-16.423583664713878" y="32.03538511721286" z="40.0"/>
+ <position name="Hohlzylinder_GEM_v225" unit="mm" x="-32.43487924448709" y="15.619814608232092" z="40.0"/>
+ <position name="Hohlzylinder_GEM_v226" unit="mm" x="-36.03875471609677" y="17.355349564702326" z="40.0"/>
+ <position name="Hohlzylinder_GEM_v227" unit="mm" x="-31.615976641328228" y="17.217143230367455" z="40.0"/>
+ <position name="Hohlzylinder_GEM_v228" unit="mm" x="-18.24842629412653" y="35.59487235245874" z="40.0"/>
+ <position name="Hohlzylinder_GEM_v229" unit="mm" x="-35.12886293480914" y="19.130159144852726" z="40.0"/>
+ <position name="Hohlzylinder_GEM_v230" unit="mm" x="-20.000000000000014" y="34.64101615137754" z="40.0"/>
+ <position name="Hohlzylinder_GEM_v231" unit="mm" x="-18.00000000000001" y="31.176914536239785" z="40.0"/>
+ <position name="Hohlzylinder_GEM_v232" unit="mm" x="-19.531665499167346" y="30.240933233427768" z="40.0"/>
+ <position name="Hohlzylinder_GEM_v233" unit="mm" x="-30.718471738757607" y="18.77166732166193" z="40.0"/>
+ <position name="Hohlzylinder_GEM_v234" unit="mm" x="-34.13163526528623" y="20.85740813517992" z="40.0"/>
+ <position name="Hohlzylinder_GEM_v235" unit="mm" x="-21.701850554630386" y="33.60103692603085" z="40.0"/>
+ <position name="Hohlzylinder_GEM_v236" unit="mm" x="-29.744595875375815" y="20.279522090290392" z="40.0"/>
+ <position name="Hohlzylinder_GEM_v237" unit="mm" x="-33.04955097263979" y="22.532802322544878" z="40.0"/>
+ <position name="Hohlzylinder_GEM_v238" unit="mm" x="-28.69677026002521" y="21.73695877171718" z="40.0"/>
+ <position name="Hohlzylinder_GEM_v239" unit="mm" x="-23.349746889391604" y="32.47752022863425" z="40.0"/>
+ <position name="Hohlzylinder_GEM_v240" unit="mm" x="-21.01477220045244" y="29.229768205770824" z="40.0"/>
+ <position name="Hohlzylinder_GEM_v241" unit="mm" x="-31.885300288916902" y="24.15217641301909" z="40.0"/>
+ <position name="Hohlzylinder_GEM_v242" unit="mm" x="-24.93959207434935" y="31.273259298721186" z="40.0"/>
+ <position name="Hohlzylinder_GEM_v243" unit="mm" x="-22.445632866914412" y="28.145933368849068" z="40.0"/>
+ <position name="Hohlzylinder_GEM_v244" unit="mm" x="-27.57759995228321" y="23.140353948715415" z="40.0"/>
+ <position name="Hohlzylinder_GEM_v245" unit="mm" x="-30.641777724759123" y="25.71150438746157" z="40.0"/>
+ <position name="Hohlzylinder_GEM_v246" unit="mm" x="-23.820690153486947" y="26.992123306838423" z="40.0"/>
+ <position name="Hohlzylinder_GEM_v247" unit="mm" x="-26.467433503874386" y="29.991248118709358" z="40.0"/>
+ <position name="Hohlzylinder_GEM_v248" unit="mm" x="-25.136525451098628" y="25.77120657334986" z="40.0"/>
+ <position name="Hohlzylinder_GEM_v249" unit="mm" x="-29.32207487319306" y="27.20690951083677" z="40.0"/>
+ <position name="Hohlzylinder_GEM_v250" unit="mm" x="-26.389867385873753" y="24.48621855975309" z="40.0"/>
+ <position name="Hohlzylinder_GEM_v251" unit="mm" x="-27.92947272344292" y="28.634673970388732" z="40.0"/>
+ <position name="Hohlzylinder_GEM_v252" unit="mm" x="-39.95027684875689" y="1.9938354264278866" z="0.0"/>
+ <position name="Hohlzylinder_GEM_v253" unit="mm" x="-40.0" y="0.0" z="0.0"/>
+ <position name="Hohlzylinder_GEM_v254" unit="mm" x="-39.80123101461606" y="3.9827138638326662" z="0.0"/>
+ <position name="Hohlzylinder_GEM_v255" unit="mm" x="-39.553233049005144" y="5.961690647046978" z="0.0"/>
+ <position name="Hohlzylinder_GEM_v256" unit="mm" x="-39.20689951394175" y="7.925845727975903" z="0.0"/>
+ <position name="Hohlzylinder_GEM_v257" unit="mm" x="-38.76309144916312" y="9.870295907611746" z="0.0"/>
+ <position name="Hohlzylinder_GEM_v258" unit="mm" x="-38.222912231445626" y="11.790206976436169" z="0.0"/>
+ <position name="Hohlzylinder_GEM_v259" unit="mm" x="-37.587704831436334" y="13.680805733026752" z="0.0"/>
+ <position name="Hohlzylinder_GEM_v260" unit="mm" x="-36.859048474816305" y="15.53739185098779" z="0.0"/>
+ <position name="Hohlzylinder_GEM_v261" unit="mm" x="-36.03875471609677" y="17.355349564702326" z="0.0"/>
+ <position name="Hohlzylinder_GEM_v262" unit="mm" x="-35.12886293480914" y="19.130159144852726" z="0.0"/>
+ <position name="Hohlzylinder_GEM_v263" unit="mm" x="-34.13163526528623" y="20.85740813517992" z="0.0"/>
+ <position name="Hohlzylinder_GEM_v264" unit="mm" x="-33.04955097263979" y="22.532802322544878" z="0.0"/>
+ <position name="Hohlzylinder_GEM_v265" unit="mm" x="-31.885300288916902" y="24.15217641301909" z="0.0"/>
+ <position name="Hohlzylinder_GEM_v266" unit="mm" x="-30.641777724759123" y="25.71150438746157" z="0.0"/>
+ <position name="Hohlzylinder_GEM_v267" unit="mm" x="-29.32207487319306" y="27.20690951083677" z="0.0"/>
+ <position name="Hohlzylinder_GEM_v268" unit="mm" x="-27.92947272344292" y="28.634673970388732" z="0.0"/>
+ <position name="Hohlzylinder_GEM_v269" unit="mm" x="-26.467433503874386" y="29.991248118709358" z="0.0"/>
+ <position name="Hohlzylinder_GEM_v270" unit="mm" x="-24.93959207434935" y="31.273259298721186" z="0.0"/>
+ <position name="Hohlzylinder_GEM_v271" unit="mm" x="-23.349746889391604" y="32.47752022863425" z="0.0"/>
+ <position name="Hohlzylinder_GEM_v272" unit="mm" x="-21.701850554630386" y="33.60103692603085" z="0.0"/>
+ <position name="Hohlzylinder_GEM_v273" unit="mm" x="-20.000000000000014" y="34.64101615137754" z="0.0"/>
+ <position name="Hohlzylinder_GEM_v274" unit="mm" x="-18.24842629412653" y="35.59487235245874" z="0.0"/>
+ <position name="Hohlzylinder_GEM_v275" unit="mm" x="-16.451484125224475" y="36.46023409246692" z="0.0"/>
+ <position name="Hohlzylinder_GEM_v276" unit="mm" x="-14.613640974655818" y="37.234949945768165" z="0.0"/>
+ <position name="Hohlzylinder_GEM_v277" unit="mm" x="-12.739466010067392" y="37.91709384668526" z="0.0"/>
+ <position name="Hohlzylinder_GEM_v278" unit="mm" x="-10.833618725720221" y="38.50496987800048" z="0.0"/>
+ <position name="Hohlzylinder_GEM_v279" unit="mm" x="-8.900837358252595" y="38.99711648727294" z="0.0"/>
+ <position name="Hohlzylinder_GEM_v280" unit="mm" x="-6.945927106677234" y="39.39231012048832" z="0.0"/>
+ <position name="Hohlzylinder_GEM_v281" unit="mm" x="-4.973748185899429" y="39.68956826400688" z="0.0"/>
+ <position name="Hohlzylinder_GEM_v282" unit="mm" x="-2.9892037434569927" y="39.888151887247204" z="0.0"/>
+ <position name="Hohlzylinder_GEM_v283" unit="mm" x="-0.9972276695229392" y="39.98756728003265" z="0.0"/>
+ <position name="Hohlzylinder_GEM_v284" unit="mm" x="0.9972276695228899" y="39.98756728003265" z="0.0"/>
+ <position name="Hohlzylinder_GEM_v285" unit="mm" x="2.989203743456944" y="39.88815188724721" z="0.0"/>
+ <position name="Hohlzylinder_GEM_v286" unit="mm" x="4.97374818589938" y="39.68956826400689" z="0.0"/>
+ <position name="Hohlzylinder_GEM_v287" unit="mm" x="6.9459271066771855" y="39.392310120488325" z="0.0"/>
+ <position name="Hohlzylinder_GEM_v288" unit="mm" x="8.900837358252549" y="38.99711648727295" z="0.0"/>
+ <position name="Hohlzylinder_GEM_v289" unit="mm" x="10.833618725720175" y="38.50496987800049" z="0.0"/>
+ <position name="Hohlzylinder_GEM_v290" unit="mm" x="12.739466010067346" y="37.91709384668528" z="0.0"/>
+ <position name="Hohlzylinder_GEM_v291" unit="mm" x="14.61364097465577" y="37.234949945768186" z="0.0"/>
+ <position name="Hohlzylinder_GEM_v292" unit="mm" x="16.451484125224432" y="36.46023409246694" z="0.0"/>
+ <position name="Hohlzylinder_GEM_v293" unit="mm" x="18.24842629412649" y="35.59487235245876" z="0.0"/>
+ <position name="Hohlzylinder_GEM_v294" unit="mm" x="19.999999999999975" y="34.641016151377556" z="0.0"/>
+ <position name="Hohlzylinder_GEM_v295" unit="mm" x="21.70185055463036" y="33.60103692603087" z="0.0"/>
+ <position name="Hohlzylinder_GEM_v296" unit="mm" x="23.349746889391586" y="32.47752022863426" z="0.0"/>
+ <position name="Hohlzylinder_GEM_v297" unit="mm" x="24.93959207434934" y="31.273259298721197" z="0.0"/>
+ <position name="Hohlzylinder_GEM_v298" unit="mm" x="26.467433503874382" y="29.991248118709365" z="0.0"/>
+ <position name="Hohlzylinder_GEM_v299" unit="mm" x="27.929472723442924" y="28.63467397038873" z="0.0"/>
+ <position name="Hohlzylinder_GEM_v300" unit="mm" x="29.322074873193067" y="27.20690951083676" z="0.0"/>
+ <position name="Hohlzylinder_GEM_v301" unit="mm" x="30.641777724759137" y="25.711504387461552" z="0.0"/>
+ <position name="Hohlzylinder_GEM_v302" unit="mm" x="31.885300288916923" y="24.15217641301907" z="0.0"/>
+ <position name="Hohlzylinder_GEM_v303" unit="mm" x="33.04955097263982" y="22.532802322544846" z="0.0"/>
+ <position name="Hohlzylinder_GEM_v304" unit="mm" x="34.13163526528625" y="20.85740813517988" z="0.0"/>
+ <position name="Hohlzylinder_GEM_v305" unit="mm" x="35.12886293480917" y="19.130159144852676" z="0.0"/>
+ <position name="Hohlzylinder_GEM_v306" unit="mm" x="36.03875471609679" y="17.355349564702266" z="0.0"/>
+ <position name="Hohlzylinder_GEM_v307" unit="mm" x="36.85904847481633" y="15.53739185098772" z="0.0"/>
+ <position name="Hohlzylinder_GEM_v308" unit="mm" x="37.58770483143636" y="13.68080573302667" z="0.0"/>
+ <position name="Hohlzylinder_GEM_v309" unit="mm" x="38.222912231445655" y="11.790206976436082" z="0.0"/>
+ <position name="Hohlzylinder_GEM_v310" unit="mm" x="38.76309144916314" y="9.87029590761165" z="0.0"/>
+ <position name="Hohlzylinder_GEM_v311" unit="mm" x="39.20689951394178" y="7.9258457279757994" z="0.0"/>
+ <position name="Hohlzylinder_GEM_v312" unit="mm" x="39.55323304900516" y="5.961690647046866" z="0.0"/>
+ <position name="Hohlzylinder_GEM_v313" unit="mm" x="39.80123101461607" y="3.9827138638325454" z="0.0"/>
+ <position name="Hohlzylinder_GEM_v314" unit="mm" x="39.9502768487569" y="1.9938354264277571" z="0.0"/>
+ <position name="Hohlzylinder_GEM_v315" unit="mm" x="40.0" y="-1.3720995995543063e-13" z="0.0"/>
+ <position name="Hohlzylinder_GEM_v316" unit="mm" x="39.950276848756886" y="-1.9938354264280314" z="0.0"/>
+ <position name="Hohlzylinder_GEM_v317" unit="mm" x="39.80123101461604" y="-3.9827138638328186" z="0.0"/>
+ <position name="Hohlzylinder_GEM_v318" unit="mm" x="39.553233049005115" y="-5.961690647047137" z="0.0"/>
+ <position name="Hohlzylinder_GEM_v319" unit="mm" x="39.20689951394172" y="-7.925845727976069" z="0.0"/>
+ <position name="Hohlzylinder_GEM_v320" unit="mm" x="38.76309144916307" y="-9.870295907611917" z="0.0"/>
+ <position name="Hohlzylinder_GEM_v321" unit="mm" x="38.22291223144558" y="-11.790206976436345" z="0.0"/>
+ <position name="Hohlzylinder_GEM_v322" unit="mm" x="37.58770483143627" y="-13.680805733026931" z="0.0"/>
+ <position name="Hohlzylinder_GEM_v323" unit="mm" x="36.85904847481623" y="-15.537391850987971" z="0.0"/>
+ <position name="Hohlzylinder_GEM_v324" unit="mm" x="36.038754716096676" y="-17.35534956470251" z="0.0"/>
+ <position name="Hohlzylinder_GEM_v325" unit="mm" x="35.12886293480904" y="-19.130159144852918" z="0.0"/>
+ <position name="Hohlzylinder_GEM_v326" unit="mm" x="34.13163526528611" y="-20.857408135180115" z="0.0"/>
+ <position name="Hohlzylinder_GEM_v327" unit="mm" x="33.049550972639665" y="-22.532802322545074" z="0.0"/>
+ <position name="Hohlzylinder_GEM_v328" unit="mm" x="31.885300288916753" y="-24.152176413019287" z="0.0"/>
+ <position name="Hohlzylinder_GEM_v329" unit="mm" x="30.64177772475896" y="-25.711504387461762" z="0.0"/>
+ <position name="Hohlzylinder_GEM_v330" unit="mm" x="29.322074873192882" y="-27.20690951083696" z="0.0"/>
+ <position name="Hohlzylinder_GEM_v331" unit="mm" x="27.92947272344273" y="-28.63467397038892" z="0.0"/>
+ <position name="Hohlzylinder_GEM_v332" unit="mm" x="26.467433503874176" y="-29.991248118709546" z="0.0"/>
+ <position name="Hohlzylinder_GEM_v333" unit="mm" x="24.93959207434912" y="-31.273259298721364" z="0.0"/>
+ <position name="Hohlzylinder_GEM_v334" unit="mm" x="23.349746889391362" y="-32.477520228634425" z="0.0"/>
+ <position name="Hohlzylinder_GEM_v335" unit="mm" x="21.701850554630127" y="-33.601036926031014" z="0.0"/>
+ <position name="Hohlzylinder_GEM_v336" unit="mm" x="19.999999999999737" y="-34.6410161513777" z="0.0"/>
+ <position name="Hohlzylinder_GEM_v337" unit="mm" x="18.248426294126244" y="-35.594872352458886" z="0.0"/>
+ <position name="Hohlzylinder_GEM_v338" unit="mm" x="16.451484125224173" y="-36.460234092467054" z="0.0"/>
+ <position name="Hohlzylinder_GEM_v339" unit="mm" x="14.613640974655498" y="-37.23494994576829" z="0.0"/>
+ <position name="Hohlzylinder_GEM_v340" unit="mm" x="12.739466010067062" y="-37.917093846685376" z="0.0"/>
+ <position name="Hohlzylinder_GEM_v341" unit="mm" x="10.833618725719878" y="-38.50496987800057" z="0.0"/>
+ <position name="Hohlzylinder_GEM_v342" unit="mm" x="8.900837358252238" y="-38.99711648727302" z="0.0"/>
+ <position name="Hohlzylinder_GEM_v343" unit="mm" x="6.945927106676864" y="-39.39231012048838" z="0.0"/>
+ <position name="Hohlzylinder_GEM_v344" unit="mm" x="4.973748185899046" y="-39.68956826400693" z="0.0"/>
+ <position name="Hohlzylinder_GEM_v345" unit="mm" x="2.9892037434565992" y="-39.88815188724723" z="0.0"/>
+ <position name="Hohlzylinder_GEM_v346" unit="mm" x="0.9972276695225356" y="-39.98756728003266" z="0.0"/>
+ <position name="Hohlzylinder_GEM_v347" unit="mm" x="-0.9972276695233022" y="-39.98756728003264" z="0.0"/>
+ <position name="Hohlzylinder_GEM_v348" unit="mm" x="-2.9892037434573644" y="-39.888151887247176" z="0.0"/>
+ <position name="Hohlzylinder_GEM_v349" unit="mm" x="-4.973748185899806" y="-39.68956826400684" z="0.0"/>
+ <position name="Hohlzylinder_GEM_v350" unit="mm" x="-6.945927106677619" y="-39.39231012048825" z="0.0"/>
+ <position name="Hohlzylinder_GEM_v351" unit="mm" x="-8.900837358252984" y="-38.99711648727285" z="0.0"/>
+ <position name="Hohlzylinder_GEM_v352" unit="mm" x="-10.833618725720616" y="-38.50496987800037" z="0.0"/>
+ <position name="Hohlzylinder_GEM_v353" unit="mm" x="-12.739466010067789" y="-37.917093846685134" z="0.0"/>
+ <position name="Hohlzylinder_GEM_v354" unit="mm" x="-14.613640974656212" y="-37.23494994576801" z="0.0"/>
+ <position name="Hohlzylinder_GEM_v355" unit="mm" x="-16.451484125224873" y="-36.46023409246674" z="0.0"/>
+ <position name="Hohlzylinder_GEM_v356" unit="mm" x="-18.248426294126926" y="-35.59487235245854" z="0.0"/>
+ <position name="Hohlzylinder_GEM_v357" unit="mm" x="-20.000000000000405" y="-34.641016151377315" z="0.0"/>
+ <position name="Hohlzylinder_GEM_v358" unit="mm" x="-21.701850554630774" y="-33.6010369260306" z="0.0"/>
+ <position name="Hohlzylinder_GEM_v359" unit="mm" x="-23.349746889391984" y="-32.47752022863398" z="0.0"/>
+ <position name="Hohlzylinder_GEM_v360" unit="mm" x="-24.939592074349726" y="-31.273259298720888" z="0.0"/>
+ <position name="Hohlzylinder_GEM_v361" unit="mm" x="-26.467433503874748" y="-29.991248118709038" z="0.0"/>
+ <position name="Hohlzylinder_GEM_v362" unit="mm" x="-27.929472723443276" y="-28.634673970388388" z="0.0"/>
+ <position name="Hohlzylinder_GEM_v363" unit="mm" x="-29.3220748731934" y="-27.2069095108364" z="0.0"/>
+ <position name="Hohlzylinder_GEM_v364" unit="mm" x="-30.641777724759454" y="-25.711504387461176" z="0.0"/>
+ <position name="Hohlzylinder_GEM_v365" unit="mm" x="-31.88530028891722" y="-24.152176413018672" z="0.0"/>
+ <position name="Hohlzylinder_GEM_v366" unit="mm" x="-33.0495509726401" y="-22.532802322544438" z="0.0"/>
+ <position name="Hohlzylinder_GEM_v367" unit="mm" x="-34.131635265286505" y="-20.85740813517946" z="0.0"/>
+ <position name="Hohlzylinder_GEM_v368" unit="mm" x="-35.128862934809405" y="-19.130159144852243" z="0.0"/>
+ <position name="Hohlzylinder_GEM_v369" unit="mm" x="-36.038754716097" y="-17.35534956470182" z="0.0"/>
+ <position name="Hohlzylinder_GEM_v370" unit="mm" x="-36.859048474816525" y="-15.537391850987266" z="0.0"/>
+ <position name="Hohlzylinder_GEM_v371" unit="mm" x="-37.58770483143653" y="-13.680805733026208" z="0.0"/>
+ <position name="Hohlzylinder_GEM_v372" unit="mm" x="-38.222912231445804" y="-11.790206976435611" z="0.0"/>
+ <position name="Hohlzylinder_GEM_v373" unit="mm" x="-38.76309144916326" y="-9.870295907611172" z="0.0"/>
+ <position name="Hohlzylinder_GEM_v374" unit="mm" x="-39.20689951394187" y="-7.925845727975317" z="0.0"/>
+ <position name="Hohlzylinder_GEM_v375" unit="mm" x="-39.553233049005236" y="-5.961690647046378" z="0.0"/>
+ <position name="Hohlzylinder_GEM_v376" unit="mm" x="-39.80123101461612" y="-3.982713863832055" z="0.0"/>
+ <position name="Hohlzylinder_GEM_v377" unit="mm" x="-39.95027684875693" y="-1.9938354264272653" z="0.0"/>
+ <position name="Hohlzylinder_GEM_v378" unit="mm" x="-25.136525451098947" y="-25.77120657334955" z="0.0"/>
+ <position name="Hohlzylinder_GEM_v379" unit="mm" x="-26.38986738587406" y="-24.48621855975276" z="0.0"/>
+ <position name="Hohlzylinder_GEM_v380" unit="mm" x="-23.820690153487273" y="-26.992123306838135" z="0.0"/>
+ <position name="Hohlzylinder_GEM_v381" unit="mm" x="-27.577599952283506" y="-23.140353948715056" z="0.0"/>
+ <position name="Hohlzylinder_GEM_v382" unit="mm" x="-22.445632866914753" y="-28.145933368848798" z="0.0"/>
+ <position name="Hohlzylinder_GEM_v383" unit="mm" x="-28.6967702600255" y="-21.736958771716807" z="0.0"/>
+ <position name="Hohlzylinder_GEM_v384" unit="mm" x="-21.014772200452786" y="-29.229768205770583" z="0.0"/>
+ <position name="Hohlzylinder_GEM_v385" unit="mm" x="-29.74459587537609" y="-20.279522090289994" z="0.0"/>
+ <position name="Hohlzylinder_GEM_v386" unit="mm" x="-19.531665499167694" y="-30.240933233427544" z="0.0"/>
+ <position name="Hohlzylinder_GEM_v387" unit="mm" x="-30.718471738757856" y="-18.77166732166151" z="0.0"/>
+ <position name="Hohlzylinder_GEM_v388" unit="mm" x="-18.000000000000362" y="-31.176914536239583" z="0.0"/>
+ <position name="Hohlzylinder_GEM_v389" unit="mm" x="-31.615976641328462" y="-17.217143230367018" z="0.0"/>
+ <position name="Hohlzylinder_GEM_v390" unit="mm" x="-16.423583664714233" y="-32.035385117212684" z="0.0"/>
+ <position name="Hohlzylinder_GEM_v391" unit="mm" x="-32.434879244487306" y="-15.61981460823164" z="0.0"/>
+ <position name="Hohlzylinder_GEM_v392" unit="mm" x="-14.806335712702385" y="-32.81421068322007" z="0.0"/>
+ <position name="Hohlzylinder_GEM_v393" unit="mm" x="-33.17314362733487" y="-13.983652665888538" z="0.0"/>
+ <position name="Hohlzylinder_GEM_v394" unit="mm" x="-13.152276877190591" y="-33.51145495119121" z="0.0"/>
+ <position name="Hohlzylinder_GEM_v395" unit="mm" x="-33.828934348292876" y="-12.312725159723588" z="0.0"/>
+ <position name="Hohlzylinder_GEM_v396" unit="mm" x="-11.46551940906101" y="-34.12538446201662" z="0.0"/>
+ <position name="Hohlzylinder_GEM_v397" unit="mm" x="-34.40062100830122" y="-10.61118627879205" z="0.0"/>
+ <position name="Hohlzylinder_GEM_v398" unit="mm" x="-9.750256853148553" y="-34.65447289020033" z="0.0"/>
+ <position name="Hohlzylinder_GEM_v399" unit="mm" x="-34.886782304246935" y="-8.883266316850056" z="0.0"/>
+ <position name="Hohlzylinder_GEM_v400" unit="mm" x="-8.010753622427686" y="-35.097404838545565" z="0.0"/>
+ <position name="Hohlzylinder_GEM_v401" unit="mm" x="-35.28620956254768" y="-7.133261155177785" z="0.0"/>
+ <position name="Hohlzylinder_GEM_v402" unit="mm" x="-6.251334396009857" y="-35.453079108439425" z="0.0"/>
+ <position name="Hohlzylinder_GEM_v403" unit="mm" x="-35.59790974410471" y="-5.36552158234174" z="0.0"/>
+ <position name="Hohlzylinder_GEM_v404" unit="mm" x="-4.476373367309826" y="-35.72061143760615" z="0.0"/>
+ <position name="Hohlzylinder_GEM_v405" unit="mm" x="-35.821107913154506" y="-3.58444247744885" z="0.0"/>
+ <position name="Hohlzylinder_GEM_v406" unit="mm" x="-2.690283369111628" y="-35.89933669852246" z="0.0"/>
+ <position name="Hohlzylinder_GEM_v407" unit="mm" x="-35.955249163881234" y="-1.794451883784539" z="0.0"/>
+ <position name="Hohlzylinder_GEM_v408" unit="mm" x="-0.8975049025709719" y="-35.98881055202938" z="0.0"/>
+ <position name="Hohlzylinder_GEM_v409" unit="mm" x="-36.0" y="0.0" z="0.0"/>
+ <position name="Hohlzylinder_GEM_v410" unit="mm" x="0.897504902570282" y="-35.98881055202939" z="0.0"/>
+ <position name="Hohlzylinder_GEM_v411" unit="mm" x="-35.955249163881206" y="1.7944518837850978" z="0.0"/>
+ <position name="Hohlzylinder_GEM_v412" unit="mm" x="2.6902833691109396" y="-35.89933669852251" z="0.0"/>
+ <position name="Hohlzylinder_GEM_v413" unit="mm" x="-35.82110791315445" y="3.5844424774493997" z="0.0"/>
+ <position name="Hohlzylinder_GEM_v414" unit="mm" x="4.476373367309141" y="-35.72061143760624" z="0.0"/>
+ <position name="Hohlzylinder_GEM_v415" unit="mm" x="-35.597909744104626" y="5.36552158234228" z="0.0"/>
+ <position name="Hohlzylinder_GEM_v416" unit="mm" x="6.251334396009177" y="-35.453079108439546" z="0.0"/>
+ <position name="Hohlzylinder_GEM_v417" unit="mm" x="-35.286209562547576" y="7.133261155178313" z="0.0"/>
+ <position name="Hohlzylinder_GEM_v418" unit="mm" x="8.010753622427014" y="-35.09740483854572" z="0.0"/>
+ <position name="Hohlzylinder_GEM_v419" unit="mm" x="-34.88678230424681" y="8.883266316850571" z="0.0"/>
+ <position name="Hohlzylinder_GEM_v420" unit="mm" x="9.75025685314789" y="-34.654472890200516" z="0.0"/>
+ <position name="Hohlzylinder_GEM_v421" unit="mm" x="-34.400621008301066" y="10.611186278792552" z="0.0"/>
+ <position name="Hohlzylinder_GEM_v422" unit="mm" x="11.465519409060356" y="-34.12538446201684" z="0.0"/>
+ <position name="Hohlzylinder_GEM_v423" unit="mm" x="-33.8289343482927" y="12.312725159724076" z="0.0"/>
+ <position name="Hohlzylinder_GEM_v424" unit="mm" x="13.152276877189948" y="-33.51145495119146" z="0.0"/>
+ <position name="Hohlzylinder_GEM_v425" unit="mm" x="-33.173143627334674" y="13.98365266588901" z="0.0"/>
+ <position name="Hohlzylinder_GEM_v426" unit="mm" x="14.806335712701754" y="-32.81421068322035" z="0.0"/>
+ <position name="Hohlzylinder_GEM_v427" unit="mm" x="-32.43487924448709" y="15.619814608232092" z="0.0"/>
+ <position name="Hohlzylinder_GEM_v428" unit="mm" x="16.423583664713618" y="-32.035385117212996" z="0.0"/>
+ <position name="Hohlzylinder_GEM_v429" unit="mm" x="-31.615976641328228" y="17.217143230367455" z="0.0"/>
+ <position name="Hohlzylinder_GEM_v430" unit="mm" x="17.999999999999766" y="-31.176914536239927" z="0.0"/>
+ <position name="Hohlzylinder_GEM_v431" unit="mm" x="-30.718471738757607" y="18.77166732166193" z="0.0"/>
+ <position name="Hohlzylinder_GEM_v432" unit="mm" x="19.531665499167115" y="-30.240933233427914" z="0.0"/>
+ <position name="Hohlzylinder_GEM_v433" unit="mm" x="-29.744595875375815" y="20.279522090290392" z="0.0"/>
+ <position name="Hohlzylinder_GEM_v434" unit="mm" x="21.014772200452228" y="-29.22976820577098" z="0.0"/>
+ <position name="Hohlzylinder_GEM_v435" unit="mm" x="-28.69677026002521" y="21.73695877171718" z="0.0"/>
+ <position name="Hohlzylinder_GEM_v436" unit="mm" x="22.44563286691421" y="-28.145933368849228" z="0.0"/>
+ <position name="Hohlzylinder_GEM_v437" unit="mm" x="-27.57759995228321" y="23.140353948715415" z="0.0"/>
+ <position name="Hohlzylinder_GEM_v438" unit="mm" x="23.82069015348676" y="-26.992123306838593" z="0.0"/>
+ <position name="Hohlzylinder_GEM_v439" unit="mm" x="-26.389867385873753" y="24.48621855975309" z="0.0"/>
+ <position name="Hohlzylinder_GEM_v440" unit="mm" x="25.136525451098453" y="-25.771206573350028" z="0.0"/>
+ <position name="Hohlzylinder_GEM_v441" unit="mm" x="-25.136525451098628" y="25.77120657334986" z="0.0"/>
+ <position name="Hohlzylinder_GEM_v442" unit="mm" x="26.389867385873593" y="-24.486218559753265" z="0.0"/>
+ <position name="Hohlzylinder_GEM_v443" unit="mm" x="-23.820690153486947" y="26.992123306838423" z="0.0"/>
+ <position name="Hohlzylinder_GEM_v444" unit="mm" x="27.577599952283066" y="-23.140353948715585" z="0.0"/>
+ <position name="Hohlzylinder_GEM_v445" unit="mm" x="-22.445632866914412" y="28.145933368849068" z="0.0"/>
+ <position name="Hohlzylinder_GEM_v446" unit="mm" x="28.69677026002508" y="-21.736958771717358" z="0.0"/>
+ <position name="Hohlzylinder_GEM_v447" unit="mm" x="-21.01477220045244" y="29.229768205770824" z="0.0"/>
+ <position name="Hohlzylinder_GEM_v448" unit="mm" x="29.744595875375698" y="-20.279522090290566" z="0.0"/>
+ <position name="Hohlzylinder_GEM_v449" unit="mm" x="-19.531665499167346" y="30.240933233427768" z="0.0"/>
+ <position name="Hohlzylinder_GEM_v450" unit="mm" x="30.718471738757497" y="-18.771667321662104" z="0.0"/>
+ <position name="Hohlzylinder_GEM_v451" unit="mm" x="31.615976641328135" y="-17.217143230367626" z="0.0"/>
+ <position name="Hohlzylinder_GEM_v452" unit="mm" x="-18.00000000000001" y="31.176914536239785" z="0.0"/>
+ <position name="Hohlzylinder_GEM_v453" unit="mm" x="-16.423583664713878" y="32.03538511721286" z="0.0"/>
+ <position name="Hohlzylinder_GEM_v454" unit="mm" x="32.43487924448701" y="-15.61981460823226" z="0.0"/>
+ <position name="Hohlzylinder_GEM_v455" unit="mm" x="-14.806335712702028" y="32.81421068322023" z="0.0"/>
+ <position name="Hohlzylinder_GEM_v456" unit="mm" x="33.1731436273346" y="-13.983652665889174" z="0.0"/>
+ <position name="Hohlzylinder_GEM_v457" unit="mm" x="-13.152276877190236" y="33.51145495119135" z="0.0"/>
+ <position name="Hohlzylinder_GEM_v458" unit="mm" x="33.82893434829264" y="-12.312725159724238" z="0.0"/>
+ <position name="Hohlzylinder_GEM_v459" unit="mm" x="-11.465519409060654" y="34.12538446201674" z="0.0"/>
+ <position name="Hohlzylinder_GEM_v460" unit="mm" x="34.886782304246765" y="-8.883266316850726" z="0.0"/>
+ <position name="Hohlzylinder_GEM_v461" unit="mm" x="34.400621008301016" y="-10.61118627879271" z="0.0"/>
+ <position name="Hohlzylinder_GEM_v462" unit="mm" x="-9.7502568531482" y="34.65447289020043" z="0.0"/>
+ <position name="Hohlzylinder_GEM_v463" unit="mm" x="35.28620956254755" y="-7.133261155178461" z="0.0"/>
+ <position name="Hohlzylinder_GEM_v464" unit="mm" x="-8.010753622427336" y="35.09740483854564" z="0.0"/>
+ <position name="Hohlzylinder_GEM_v465" unit="mm" x="-6.251334396009511" y="35.45307910843949" z="0.0"/>
+ <position name="Hohlzylinder_GEM_v466" unit="mm" x="-4.476373367309486" y="35.720611437606195" z="0.0"/>
+ <position name="Hohlzylinder_GEM_v467" unit="mm" x="35.597909744104605" y="-5.3655215823424225" z="0.0"/>
+ <position name="Hohlzylinder_GEM_v468" unit="mm" x="35.821107913154435" y="-3.584442477449537" z="0.0"/>
+ <position name="Hohlzylinder_GEM_v469" unit="mm" x="-2.6902833691112935" y="35.89933669852248" z="0.0"/>
+ <position name="Hohlzylinder_GEM_v470" unit="mm" x="35.9552491638812" y="-1.7944518837852284" z="0.0"/>
+ <position name="Hohlzylinder_GEM_v471" unit="mm" x="-0.8975049025706452" y="35.988810552029385" z="0.0"/>
+ <position name="Hohlzylinder_GEM_v472" unit="mm" x="0.8975049025706009" y="35.988810552029385" z="0.0"/>
+ <position name="Hohlzylinder_GEM_v473" unit="mm" x="36.0" y="-1.2348896395988757e-13" z="0.0"/>
+ <position name="Hohlzylinder_GEM_v474" unit="mm" x="35.95524916388121" y="1.7944518837849814" z="0.0"/>
+ <position name="Hohlzylinder_GEM_v475" unit="mm" x="2.6902833691112495" y="35.89933669852249" z="0.0"/>
+ <position name="Hohlzylinder_GEM_v476" unit="mm" x="35.821107913154464" y="3.584442477449291" z="0.0"/>
+ <position name="Hohlzylinder_GEM_v477" unit="mm" x="4.476373367309442" y="35.720611437606195" z="0.0"/>
+ <position name="Hohlzylinder_GEM_v478" unit="mm" x="35.2862095625476" y="7.13326115517822" z="0.0"/>
+ <position name="Hohlzylinder_GEM_v479" unit="mm" x="35.59790974410464" y="5.365521582342179" z="0.0"/>
+ <position name="Hohlzylinder_GEM_v480" unit="mm" x="6.251334396009467" y="35.453079108439496" z="0.0"/>
+ <position name="Hohlzylinder_GEM_v481" unit="mm" x="8.010753622427293" y="35.09740483854566" z="0.0"/>
+ <position name="Hohlzylinder_GEM_v482" unit="mm" x="34.88678230424683" y="8.883266316850484" z="0.0"/>
+ <position name="Hohlzylinder_GEM_v483" unit="mm" x="9.750256853148159" y="34.65447289020044" z="0.0"/>
+ <position name="Hohlzylinder_GEM_v484" unit="mm" x="34.40062100830109" y="10.611186278792474" z="0.0"/>
+ <position name="Hohlzylinder_GEM_v485" unit="mm" x="11.465519409060612" y="34.125384462016754" z="0.0"/>
+ <position name="Hohlzylinder_GEM_v486" unit="mm" x="13.152276877190193" y="33.51145495119137" z="0.0"/>
+ <position name="Hohlzylinder_GEM_v487" unit="mm" x="33.1731436273347" y="13.983652665888949" z="0.0"/>
+ <position name="Hohlzylinder_GEM_v488" unit="mm" x="33.82893434829273" y="12.312725159724003" z="0.0"/>
+ <position name="Hohlzylinder_GEM_v489" unit="mm" x="32.434879244487114" y="15.619814608232039" z="0.0"/>
+ <position name="Hohlzylinder_GEM_v490" unit="mm" x="14.806335712701989" y="32.814210683220246" z="0.0"/>
+ <position name="Hohlzylinder_GEM_v491" unit="mm" x="16.42358366471384" y="32.03538511721288" z="0.0"/>
+ <position name="Hohlzylinder_GEM_v492" unit="mm" x="31.615976641328253" y="17.21714323036741" z="0.0"/>
+ <position name="Hohlzylinder_GEM_v493" unit="mm" x="17.99999999999998" y="31.176914536239803" z="0.0"/>
+ <position name="Hohlzylinder_GEM_v494" unit="mm" x="29.744595875375836" y="20.279522090290364" z="0.0"/>
+ <position name="Hohlzylinder_GEM_v495" unit="mm" x="30.718471738757625" y="18.77166732166189" z="0.0"/>
+ <position name="Hohlzylinder_GEM_v496" unit="mm" x="19.531665499167325" y="30.240933233427782" z="0.0"/>
+ <position name="Hohlzylinder_GEM_v497" unit="mm" x="21.014772200452427" y="29.22976820577084" z="0.0"/>
+ <position name="Hohlzylinder_GEM_v498" unit="mm" x="27.577599952283226" y="23.140353948715397" z="0.0"/>
+ <position name="Hohlzylinder_GEM_v499" unit="mm" x="28.69677026002523" y="21.736958771717163" z="0.0"/>
+ <position name="Hohlzylinder_GEM_v500" unit="mm" x="22.445632866914405" y="28.14593336884908" z="0.0"/>
+ <position name="Hohlzylinder_GEM_v501" unit="mm" x="26.38986738587376" y="24.486218559753084" z="0.0"/>
+ <position name="Hohlzylinder_GEM_v502" unit="mm" x="23.820690153486943" y="26.992123306838426" z="0.0"/>
+ <position name="Hohlzylinder_GEM_v503" unit="mm" x="25.13652545109863" y="25.771206573349858" z="0.0"/>
+ </define>
+
+ <solids>
+ <tessellated aunit="deg" lunit="mm" name="Hohlzylinder_GEM_solid">
+ <triangular vertex1="Hohlzylinder_GEM_v0" vertex2="Hohlzylinder_GEM_v1" vertex3="Hohlzylinder_GEM_v2"/>
+ <triangular vertex1="Hohlzylinder_GEM_v3" vertex2="Hohlzylinder_GEM_v1" vertex3="Hohlzylinder_GEM_v4"/>
+ <triangular vertex1="Hohlzylinder_GEM_v4" vertex2="Hohlzylinder_GEM_v1" vertex3="Hohlzylinder_GEM_v0"/>
+ <triangular vertex1="Hohlzylinder_GEM_v2" vertex2="Hohlzylinder_GEM_v5" vertex3="Hohlzylinder_GEM_v0"/>
+ <triangular vertex1="Hohlzylinder_GEM_v0" vertex2="Hohlzylinder_GEM_v5" vertex3="Hohlzylinder_GEM_v6"/>
+ <triangular vertex1="Hohlzylinder_GEM_v3" vertex2="Hohlzylinder_GEM_v7" vertex3="Hohlzylinder_GEM_v1"/>
+ <triangular vertex1="Hohlzylinder_GEM_v6" vertex2="Hohlzylinder_GEM_v8" vertex3="Hohlzylinder_GEM_v9"/>
+ <triangular vertex1="Hohlzylinder_GEM_v5" vertex2="Hohlzylinder_GEM_v8" vertex3="Hohlzylinder_GEM_v6"/>
+ <triangular vertex1="Hohlzylinder_GEM_v10" vertex2="Hohlzylinder_GEM_v11" vertex3="Hohlzylinder_GEM_v12"/>
+ <triangular vertex1="Hohlzylinder_GEM_v12" vertex2="Hohlzylinder_GEM_v11" vertex3="Hohlzylinder_GEM_v3"/>
+ <triangular vertex1="Hohlzylinder_GEM_v3" vertex2="Hohlzylinder_GEM_v11" vertex3="Hohlzylinder_GEM_v7"/>
+ <triangular vertex1="Hohlzylinder_GEM_v8" vertex2="Hohlzylinder_GEM_v13" vertex3="Hohlzylinder_GEM_v9"/>
+ <triangular vertex1="Hohlzylinder_GEM_v9" vertex2="Hohlzylinder_GEM_v13" vertex3="Hohlzylinder_GEM_v14"/>
+ <triangular vertex1="Hohlzylinder_GEM_v14" vertex2="Hohlzylinder_GEM_v13" vertex3="Hohlzylinder_GEM_v15"/>
+ <triangular vertex1="Hohlzylinder_GEM_v10" vertex2="Hohlzylinder_GEM_v16" vertex3="Hohlzylinder_GEM_v11"/>
+ <triangular vertex1="Hohlzylinder_GEM_v13" vertex2="Hohlzylinder_GEM_v17" vertex3="Hohlzylinder_GEM_v15"/>
+ <triangular vertex1="Hohlzylinder_GEM_v18" vertex2="Hohlzylinder_GEM_v19" vertex3="Hohlzylinder_GEM_v10"/>
+ <triangular vertex1="Hohlzylinder_GEM_v10" vertex2="Hohlzylinder_GEM_v19" vertex3="Hohlzylinder_GEM_v16"/>
+ <triangular vertex1="Hohlzylinder_GEM_v17" vertex2="Hohlzylinder_GEM_v20" vertex3="Hohlzylinder_GEM_v15"/>
+ <triangular vertex1="Hohlzylinder_GEM_v15" vertex2="Hohlzylinder_GEM_v20" vertex3="Hohlzylinder_GEM_v21"/>
+ <triangular vertex1="Hohlzylinder_GEM_v21" vertex2="Hohlzylinder_GEM_v20" vertex3="Hohlzylinder_GEM_v22"/>
+ <triangular vertex1="Hohlzylinder_GEM_v18" vertex2="Hohlzylinder_GEM_v23" vertex3="Hohlzylinder_GEM_v19"/>
+ <triangular vertex1="Hohlzylinder_GEM_v24" vertex2="Hohlzylinder_GEM_v23" vertex3="Hohlzylinder_GEM_v18"/>
+ <triangular vertex1="Hohlzylinder_GEM_v20" vertex2="Hohlzylinder_GEM_v25" vertex3="Hohlzylinder_GEM_v22"/>
+ <triangular vertex1="Hohlzylinder_GEM_v22" vertex2="Hohlzylinder_GEM_v25" vertex3="Hohlzylinder_GEM_v26"/>
+ <triangular vertex1="Hohlzylinder_GEM_v24" vertex2="Hohlzylinder_GEM_v27" vertex3="Hohlzylinder_GEM_v23"/>
+ <triangular vertex1="Hohlzylinder_GEM_v28" vertex2="Hohlzylinder_GEM_v27" vertex3="Hohlzylinder_GEM_v24"/>
+ <triangular vertex1="Hohlzylinder_GEM_v25" vertex2="Hohlzylinder_GEM_v29" vertex3="Hohlzylinder_GEM_v26"/>
+ <triangular vertex1="Hohlzylinder_GEM_v26" vertex2="Hohlzylinder_GEM_v29" vertex3="Hohlzylinder_GEM_v30"/>
+ <triangular vertex1="Hohlzylinder_GEM_v28" vertex2="Hohlzylinder_GEM_v31" vertex3="Hohlzylinder_GEM_v27"/>
+ <triangular vertex1="Hohlzylinder_GEM_v32" vertex2="Hohlzylinder_GEM_v31" vertex3="Hohlzylinder_GEM_v28"/>
+ <triangular vertex1="Hohlzylinder_GEM_v29" vertex2="Hohlzylinder_GEM_v33" vertex3="Hohlzylinder_GEM_v30"/>
+ <triangular vertex1="Hohlzylinder_GEM_v30" vertex2="Hohlzylinder_GEM_v33" vertex3="Hohlzylinder_GEM_v34"/>
+ <triangular vertex1="Hohlzylinder_GEM_v32" vertex2="Hohlzylinder_GEM_v35" vertex3="Hohlzylinder_GEM_v31"/>
+ <triangular vertex1="Hohlzylinder_GEM_v36" vertex2="Hohlzylinder_GEM_v35" vertex3="Hohlzylinder_GEM_v32"/>
+ <triangular vertex1="Hohlzylinder_GEM_v33" vertex2="Hohlzylinder_GEM_v37" vertex3="Hohlzylinder_GEM_v34"/>
+ <triangular vertex1="Hohlzylinder_GEM_v36" vertex2="Hohlzylinder_GEM_v38" vertex3="Hohlzylinder_GEM_v35"/>
+ <triangular vertex1="Hohlzylinder_GEM_v39" vertex2="Hohlzylinder_GEM_v38" vertex3="Hohlzylinder_GEM_v36"/>
+ <triangular vertex1="Hohlzylinder_GEM_v37" vertex2="Hohlzylinder_GEM_v40" vertex3="Hohlzylinder_GEM_v34"/>
+ <triangular vertex1="Hohlzylinder_GEM_v34" vertex2="Hohlzylinder_GEM_v40" vertex3="Hohlzylinder_GEM_v41"/>
+ <triangular vertex1="Hohlzylinder_GEM_v39" vertex2="Hohlzylinder_GEM_v42" vertex3="Hohlzylinder_GEM_v38"/>
+ <triangular vertex1="Hohlzylinder_GEM_v43" vertex2="Hohlzylinder_GEM_v42" vertex3="Hohlzylinder_GEM_v39"/>
+ <triangular vertex1="Hohlzylinder_GEM_v40" vertex2="Hohlzylinder_GEM_v44" vertex3="Hohlzylinder_GEM_v41"/>
+ <triangular vertex1="Hohlzylinder_GEM_v41" vertex2="Hohlzylinder_GEM_v44" vertex3="Hohlzylinder_GEM_v45"/>
+ <triangular vertex1="Hohlzylinder_GEM_v45" vertex2="Hohlzylinder_GEM_v44" vertex3="Hohlzylinder_GEM_v46"/>
+ <triangular vertex1="Hohlzylinder_GEM_v43" vertex2="Hohlzylinder_GEM_v47" vertex3="Hohlzylinder_GEM_v42"/>
+ <triangular vertex1="Hohlzylinder_GEM_v48" vertex2="Hohlzylinder_GEM_v47" vertex3="Hohlzylinder_GEM_v43"/>
+ <triangular vertex1="Hohlzylinder_GEM_v44" vertex2="Hohlzylinder_GEM_v49" vertex3="Hohlzylinder_GEM_v46"/>
+ <triangular vertex1="Hohlzylinder_GEM_v46" vertex2="Hohlzylinder_GEM_v49" vertex3="Hohlzylinder_GEM_v50"/>
+ <triangular vertex1="Hohlzylinder_GEM_v48" vertex2="Hohlzylinder_GEM_v51" vertex3="Hohlzylinder_GEM_v47"/>
+ <triangular vertex1="Hohlzylinder_GEM_v52" vertex2="Hohlzylinder_GEM_v51" vertex3="Hohlzylinder_GEM_v48"/>
+ <triangular vertex1="Hohlzylinder_GEM_v49" vertex2="Hohlzylinder_GEM_v53" vertex3="Hohlzylinder_GEM_v50"/>
+ <triangular vertex1="Hohlzylinder_GEM_v50" vertex2="Hohlzylinder_GEM_v53" vertex3="Hohlzylinder_GEM_v54"/>
+ <triangular vertex1="Hohlzylinder_GEM_v55" vertex2="Hohlzylinder_GEM_v56" vertex3="Hohlzylinder_GEM_v57"/>
+ <triangular vertex1="Hohlzylinder_GEM_v57" vertex2="Hohlzylinder_GEM_v56" vertex3="Hohlzylinder_GEM_v52"/>
+ <triangular vertex1="Hohlzylinder_GEM_v52" vertex2="Hohlzylinder_GEM_v56" vertex3="Hohlzylinder_GEM_v51"/>
+ <triangular vertex1="Hohlzylinder_GEM_v53" vertex2="Hohlzylinder_GEM_v58" vertex3="Hohlzylinder_GEM_v54"/>
+ <triangular vertex1="Hohlzylinder_GEM_v55" vertex2="Hohlzylinder_GEM_v59" vertex3="Hohlzylinder_GEM_v56"/>
+ <triangular vertex1="Hohlzylinder_GEM_v58" vertex2="Hohlzylinder_GEM_v60" vertex3="Hohlzylinder_GEM_v54"/>
+ <triangular vertex1="Hohlzylinder_GEM_v54" vertex2="Hohlzylinder_GEM_v60" vertex3="Hohlzylinder_GEM_v61"/>
+ <triangular vertex1="Hohlzylinder_GEM_v62" vertex2="Hohlzylinder_GEM_v63" vertex3="Hohlzylinder_GEM_v55"/>
+ <triangular vertex1="Hohlzylinder_GEM_v55" vertex2="Hohlzylinder_GEM_v63" vertex3="Hohlzylinder_GEM_v59"/>
+ <triangular vertex1="Hohlzylinder_GEM_v60" vertex2="Hohlzylinder_GEM_v64" vertex3="Hohlzylinder_GEM_v61"/>
+ <triangular vertex1="Hohlzylinder_GEM_v61" vertex2="Hohlzylinder_GEM_v64" vertex3="Hohlzylinder_GEM_v65"/>
+ <triangular vertex1="Hohlzylinder_GEM_v65" vertex2="Hohlzylinder_GEM_v64" vertex3="Hohlzylinder_GEM_v66"/>
+ <triangular vertex1="Hohlzylinder_GEM_v62" vertex2="Hohlzylinder_GEM_v67" vertex3="Hohlzylinder_GEM_v63"/>
+ <triangular vertex1="Hohlzylinder_GEM_v68" vertex2="Hohlzylinder_GEM_v67" vertex3="Hohlzylinder_GEM_v69"/>
+ <triangular vertex1="Hohlzylinder_GEM_v69" vertex2="Hohlzylinder_GEM_v67" vertex3="Hohlzylinder_GEM_v62"/>
+ <triangular vertex1="Hohlzylinder_GEM_v64" vertex2="Hohlzylinder_GEM_v70" vertex3="Hohlzylinder_GEM_v66"/>
+ <triangular vertex1="Hohlzylinder_GEM_v66" vertex2="Hohlzylinder_GEM_v70" vertex3="Hohlzylinder_GEM_v71"/>
+ <triangular vertex1="Hohlzylinder_GEM_v68" vertex2="Hohlzylinder_GEM_v72" vertex3="Hohlzylinder_GEM_v67"/>
+ <triangular vertex1="Hohlzylinder_GEM_v70" vertex2="Hohlzylinder_GEM_v73" vertex3="Hohlzylinder_GEM_v71"/>
+ <triangular vertex1="Hohlzylinder_GEM_v68" vertex2="Hohlzylinder_GEM_v74" vertex3="Hohlzylinder_GEM_v72"/>
+ <triangular vertex1="Hohlzylinder_GEM_v75" vertex2="Hohlzylinder_GEM_v74" vertex3="Hohlzylinder_GEM_v68"/>
+ <triangular vertex1="Hohlzylinder_GEM_v73" vertex2="Hohlzylinder_GEM_v76" vertex3="Hohlzylinder_GEM_v71"/>
+ <triangular vertex1="Hohlzylinder_GEM_v71" vertex2="Hohlzylinder_GEM_v76" vertex3="Hohlzylinder_GEM_v77"/>
+ <triangular vertex1="Hohlzylinder_GEM_v78" vertex2="Hohlzylinder_GEM_v79" vertex3="Hohlzylinder_GEM_v75"/>
+ <triangular vertex1="Hohlzylinder_GEM_v75" vertex2="Hohlzylinder_GEM_v79" vertex3="Hohlzylinder_GEM_v74"/>
+ <triangular vertex1="Hohlzylinder_GEM_v76" vertex2="Hohlzylinder_GEM_v80" vertex3="Hohlzylinder_GEM_v77"/>
+ <triangular vertex1="Hohlzylinder_GEM_v77" vertex2="Hohlzylinder_GEM_v80" vertex3="Hohlzylinder_GEM_v81"/>
+ <triangular vertex1="Hohlzylinder_GEM_v78" vertex2="Hohlzylinder_GEM_v82" vertex3="Hohlzylinder_GEM_v79"/>
+ <triangular vertex1="Hohlzylinder_GEM_v83" vertex2="Hohlzylinder_GEM_v82" vertex3="Hohlzylinder_GEM_v84"/>
+ <triangular vertex1="Hohlzylinder_GEM_v84" vertex2="Hohlzylinder_GEM_v82" vertex3="Hohlzylinder_GEM_v78"/>
+ <triangular vertex1="Hohlzylinder_GEM_v80" vertex2="Hohlzylinder_GEM_v85" vertex3="Hohlzylinder_GEM_v81"/>
+ <triangular vertex1="Hohlzylinder_GEM_v81" vertex2="Hohlzylinder_GEM_v85" vertex3="Hohlzylinder_GEM_v86"/>
+ <triangular vertex1="Hohlzylinder_GEM_v83" vertex2="Hohlzylinder_GEM_v87" vertex3="Hohlzylinder_GEM_v82"/>
+ <triangular vertex1="Hohlzylinder_GEM_v86" vertex2="Hohlzylinder_GEM_v88" vertex3="Hohlzylinder_GEM_v89"/>
+ <triangular vertex1="Hohlzylinder_GEM_v85" vertex2="Hohlzylinder_GEM_v88" vertex3="Hohlzylinder_GEM_v86"/>
+ <triangular vertex1="Hohlzylinder_GEM_v88" vertex2="Hohlzylinder_GEM_v90" vertex3="Hohlzylinder_GEM_v89"/>
+ <triangular vertex1="Hohlzylinder_GEM_v83" vertex2="Hohlzylinder_GEM_v91" vertex3="Hohlzylinder_GEM_v87"/>
+ <triangular vertex1="Hohlzylinder_GEM_v92" vertex2="Hohlzylinder_GEM_v91" vertex3="Hohlzylinder_GEM_v83"/>
+ <triangular vertex1="Hohlzylinder_GEM_v88" vertex2="Hohlzylinder_GEM_v93" vertex3="Hohlzylinder_GEM_v90"/>
+ <triangular vertex1="Hohlzylinder_GEM_v93" vertex2="Hohlzylinder_GEM_v94" vertex3="Hohlzylinder_GEM_v90"/>
+ <triangular vertex1="Hohlzylinder_GEM_v92" vertex2="Hohlzylinder_GEM_v95" vertex3="Hohlzylinder_GEM_v91"/>
+ <triangular vertex1="Hohlzylinder_GEM_v96" vertex2="Hohlzylinder_GEM_v95" vertex3="Hohlzylinder_GEM_v92"/>
+ <triangular vertex1="Hohlzylinder_GEM_v93" vertex2="Hohlzylinder_GEM_v97" vertex3="Hohlzylinder_GEM_v94"/>
+ <triangular vertex1="Hohlzylinder_GEM_v96" vertex2="Hohlzylinder_GEM_v98" vertex3="Hohlzylinder_GEM_v95"/>
+ <triangular vertex1="Hohlzylinder_GEM_v99" vertex2="Hohlzylinder_GEM_v98" vertex3="Hohlzylinder_GEM_v96"/>
+ <triangular vertex1="Hohlzylinder_GEM_v94" vertex2="Hohlzylinder_GEM_v100" vertex3="Hohlzylinder_GEM_v101"/>
+ <triangular vertex1="Hohlzylinder_GEM_v97" vertex2="Hohlzylinder_GEM_v100" vertex3="Hohlzylinder_GEM_v94"/>
+ <triangular vertex1="Hohlzylinder_GEM_v102" vertex2="Hohlzylinder_GEM_v103" vertex3="Hohlzylinder_GEM_v99"/>
+ <triangular vertex1="Hohlzylinder_GEM_v99" vertex2="Hohlzylinder_GEM_v103" vertex3="Hohlzylinder_GEM_v98"/>
+ <triangular vertex1="Hohlzylinder_GEM_v101" vertex2="Hohlzylinder_GEM_v104" vertex3="Hohlzylinder_GEM_v105"/>
+ <triangular vertex1="Hohlzylinder_GEM_v100" vertex2="Hohlzylinder_GEM_v104" vertex3="Hohlzylinder_GEM_v101"/>
+ <triangular vertex1="Hohlzylinder_GEM_v106" vertex2="Hohlzylinder_GEM_v107" vertex3="Hohlzylinder_GEM_v102"/>
+ <triangular vertex1="Hohlzylinder_GEM_v102" vertex2="Hohlzylinder_GEM_v107" vertex3="Hohlzylinder_GEM_v103"/>
+ <triangular vertex1="Hohlzylinder_GEM_v105" vertex2="Hohlzylinder_GEM_v108" vertex3="Hohlzylinder_GEM_v109"/>
+ <triangular vertex1="Hohlzylinder_GEM_v104" vertex2="Hohlzylinder_GEM_v108" vertex3="Hohlzylinder_GEM_v105"/>
+ <triangular vertex1="Hohlzylinder_GEM_v110" vertex2="Hohlzylinder_GEM_v111" vertex3="Hohlzylinder_GEM_v106"/>
+ <triangular vertex1="Hohlzylinder_GEM_v106" vertex2="Hohlzylinder_GEM_v111" vertex3="Hohlzylinder_GEM_v107"/>
+ <triangular vertex1="Hohlzylinder_GEM_v109" vertex2="Hohlzylinder_GEM_v112" vertex3="Hohlzylinder_GEM_v113"/>
+ <triangular vertex1="Hohlzylinder_GEM_v108" vertex2="Hohlzylinder_GEM_v112" vertex3="Hohlzylinder_GEM_v109"/>
+ <triangular vertex1="Hohlzylinder_GEM_v110" vertex2="Hohlzylinder_GEM_v114" vertex3="Hohlzylinder_GEM_v111"/>
+ <triangular vertex1="Hohlzylinder_GEM_v114" vertex2="Hohlzylinder_GEM_v115" vertex3="Hohlzylinder_GEM_v111"/>
+ <triangular vertex1="Hohlzylinder_GEM_v112" vertex2="Hohlzylinder_GEM_v116" vertex3="Hohlzylinder_GEM_v113"/>
+ <triangular vertex1="Hohlzylinder_GEM_v112" vertex2="Hohlzylinder_GEM_v117" vertex3="Hohlzylinder_GEM_v116"/>
+ <triangular vertex1="Hohlzylinder_GEM_v118" vertex2="Hohlzylinder_GEM_v119" vertex3="Hohlzylinder_GEM_v114"/>
+ <triangular vertex1="Hohlzylinder_GEM_v114" vertex2="Hohlzylinder_GEM_v119" vertex3="Hohlzylinder_GEM_v115"/>
+ <triangular vertex1="Hohlzylinder_GEM_v116" vertex2="Hohlzylinder_GEM_v120" vertex3="Hohlzylinder_GEM_v121"/>
+ <triangular vertex1="Hohlzylinder_GEM_v117" vertex2="Hohlzylinder_GEM_v120" vertex3="Hohlzylinder_GEM_v116"/>
+ <triangular vertex1="Hohlzylinder_GEM_v122" vertex2="Hohlzylinder_GEM_v123" vertex3="Hohlzylinder_GEM_v118"/>
+ <triangular vertex1="Hohlzylinder_GEM_v118" vertex2="Hohlzylinder_GEM_v123" vertex3="Hohlzylinder_GEM_v119"/>
+ <triangular vertex1="Hohlzylinder_GEM_v121" vertex2="Hohlzylinder_GEM_v124" vertex3="Hohlzylinder_GEM_v125"/>
+ <triangular vertex1="Hohlzylinder_GEM_v120" vertex2="Hohlzylinder_GEM_v124" vertex3="Hohlzylinder_GEM_v121"/>
+ <triangular vertex1="Hohlzylinder_GEM_v123" vertex2="Hohlzylinder_GEM_v126" vertex3="Hohlzylinder_GEM_v127"/>
+ <triangular vertex1="Hohlzylinder_GEM_v122" vertex2="Hohlzylinder_GEM_v126" vertex3="Hohlzylinder_GEM_v123"/>
+ <triangular vertex1="Hohlzylinder_GEM_v128" vertex2="Hohlzylinder_GEM_v129" vertex3="Hohlzylinder_GEM_v124"/>
+ <triangular vertex1="Hohlzylinder_GEM_v124" vertex2="Hohlzylinder_GEM_v129" vertex3="Hohlzylinder_GEM_v125"/>
+ <triangular vertex1="Hohlzylinder_GEM_v126" vertex2="Hohlzylinder_GEM_v130" vertex3="Hohlzylinder_GEM_v127"/>
+ <triangular vertex1="Hohlzylinder_GEM_v127" vertex2="Hohlzylinder_GEM_v130" vertex3="Hohlzylinder_GEM_v131"/>
+ <triangular vertex1="Hohlzylinder_GEM_v128" vertex2="Hohlzylinder_GEM_v132" vertex3="Hohlzylinder_GEM_v129"/>
+ <triangular vertex1="Hohlzylinder_GEM_v132" vertex2="Hohlzylinder_GEM_v133" vertex3="Hohlzylinder_GEM_v129"/>
+ <triangular vertex1="Hohlzylinder_GEM_v130" vertex2="Hohlzylinder_GEM_v134" vertex3="Hohlzylinder_GEM_v131"/>
+ <triangular vertex1="Hohlzylinder_GEM_v130" vertex2="Hohlzylinder_GEM_v135" vertex3="Hohlzylinder_GEM_v134"/>
+ <triangular vertex1="Hohlzylinder_GEM_v132" vertex2="Hohlzylinder_GEM_v136" vertex3="Hohlzylinder_GEM_v133"/>
+ <triangular vertex1="Hohlzylinder_GEM_v137" vertex2="Hohlzylinder_GEM_v136" vertex3="Hohlzylinder_GEM_v132"/>
+ <triangular vertex1="Hohlzylinder_GEM_v135" vertex2="Hohlzylinder_GEM_v138" vertex3="Hohlzylinder_GEM_v134"/>
+ <triangular vertex1="Hohlzylinder_GEM_v134" vertex2="Hohlzylinder_GEM_v138" vertex3="Hohlzylinder_GEM_v139"/>
+ <triangular vertex1="Hohlzylinder_GEM_v137" vertex2="Hohlzylinder_GEM_v140" vertex3="Hohlzylinder_GEM_v136"/>
+ <triangular vertex1="Hohlzylinder_GEM_v141" vertex2="Hohlzylinder_GEM_v140" vertex3="Hohlzylinder_GEM_v137"/>
+ <triangular vertex1="Hohlzylinder_GEM_v138" vertex2="Hohlzylinder_GEM_v142" vertex3="Hohlzylinder_GEM_v139"/>
+ <triangular vertex1="Hohlzylinder_GEM_v139" vertex2="Hohlzylinder_GEM_v142" vertex3="Hohlzylinder_GEM_v143"/>
+ <triangular vertex1="Hohlzylinder_GEM_v142" vertex2="Hohlzylinder_GEM_v144" vertex3="Hohlzylinder_GEM_v143"/>
+ <triangular vertex1="Hohlzylinder_GEM_v141" vertex2="Hohlzylinder_GEM_v145" vertex3="Hohlzylinder_GEM_v140"/>
+ <triangular vertex1="Hohlzylinder_GEM_v146" vertex2="Hohlzylinder_GEM_v145" vertex3="Hohlzylinder_GEM_v141"/>
+ <triangular vertex1="Hohlzylinder_GEM_v142" vertex2="Hohlzylinder_GEM_v147" vertex3="Hohlzylinder_GEM_v144"/>
+ <triangular vertex1="Hohlzylinder_GEM_v148" vertex2="Hohlzylinder_GEM_v149" vertex3="Hohlzylinder_GEM_v146"/>
+ <triangular vertex1="Hohlzylinder_GEM_v146" vertex2="Hohlzylinder_GEM_v149" vertex3="Hohlzylinder_GEM_v145"/>
+ <triangular vertex1="Hohlzylinder_GEM_v147" vertex2="Hohlzylinder_GEM_v150" vertex3="Hohlzylinder_GEM_v144"/>
+ <triangular vertex1="Hohlzylinder_GEM_v144" vertex2="Hohlzylinder_GEM_v150" vertex3="Hohlzylinder_GEM_v151"/>
+ <triangular vertex1="Hohlzylinder_GEM_v152" vertex2="Hohlzylinder_GEM_v153" vertex3="Hohlzylinder_GEM_v148"/>
+ <triangular vertex1="Hohlzylinder_GEM_v148" vertex2="Hohlzylinder_GEM_v153" vertex3="Hohlzylinder_GEM_v149"/>
+ <triangular vertex1="Hohlzylinder_GEM_v150" vertex2="Hohlzylinder_GEM_v154" vertex3="Hohlzylinder_GEM_v151"/>
+ <triangular vertex1="Hohlzylinder_GEM_v151" vertex2="Hohlzylinder_GEM_v154" vertex3="Hohlzylinder_GEM_v155"/>
+ <triangular vertex1="Hohlzylinder_GEM_v154" vertex2="Hohlzylinder_GEM_v156" vertex3="Hohlzylinder_GEM_v155"/>
+ <triangular vertex1="Hohlzylinder_GEM_v157" vertex2="Hohlzylinder_GEM_v158" vertex3="Hohlzylinder_GEM_v152"/>
+ <triangular vertex1="Hohlzylinder_GEM_v152" vertex2="Hohlzylinder_GEM_v158" vertex3="Hohlzylinder_GEM_v153"/>
+ <triangular vertex1="Hohlzylinder_GEM_v154" vertex2="Hohlzylinder_GEM_v159" vertex3="Hohlzylinder_GEM_v156"/>
+ <triangular vertex1="Hohlzylinder_GEM_v160" vertex2="Hohlzylinder_GEM_v161" vertex3="Hohlzylinder_GEM_v157"/>
+ <triangular vertex1="Hohlzylinder_GEM_v157" vertex2="Hohlzylinder_GEM_v161" vertex3="Hohlzylinder_GEM_v158"/>
+ <triangular vertex1="Hohlzylinder_GEM_v162" vertex2="Hohlzylinder_GEM_v163" vertex3="Hohlzylinder_GEM_v164"/>
+ <triangular vertex1="Hohlzylinder_GEM_v156" vertex2="Hohlzylinder_GEM_v163" vertex3="Hohlzylinder_GEM_v162"/>
+ <triangular vertex1="Hohlzylinder_GEM_v159" vertex2="Hohlzylinder_GEM_v163" vertex3="Hohlzylinder_GEM_v156"/>
+ <triangular vertex1="Hohlzylinder_GEM_v165" vertex2="Hohlzylinder_GEM_v166" vertex3="Hohlzylinder_GEM_v160"/>
+ <triangular vertex1="Hohlzylinder_GEM_v167" vertex2="Hohlzylinder_GEM_v166" vertex3="Hohlzylinder_GEM_v165"/>
+ <triangular vertex1="Hohlzylinder_GEM_v160" vertex2="Hohlzylinder_GEM_v166" vertex3="Hohlzylinder_GEM_v161"/>
+ <triangular vertex1="Hohlzylinder_GEM_v163" vertex2="Hohlzylinder_GEM_v168" vertex3="Hohlzylinder_GEM_v164"/>
+ <triangular vertex1="Hohlzylinder_GEM_v167" vertex2="Hohlzylinder_GEM_v169" vertex3="Hohlzylinder_GEM_v166"/>
+ <triangular vertex1="Hohlzylinder_GEM_v164" vertex2="Hohlzylinder_GEM_v170" vertex3="Hohlzylinder_GEM_v171"/>
+ <triangular vertex1="Hohlzylinder_GEM_v168" vertex2="Hohlzylinder_GEM_v170" vertex3="Hohlzylinder_GEM_v164"/>
+ <triangular vertex1="Hohlzylinder_GEM_v172" vertex2="Hohlzylinder_GEM_v173" vertex3="Hohlzylinder_GEM_v167"/>
+ <triangular vertex1="Hohlzylinder_GEM_v167" vertex2="Hohlzylinder_GEM_v173" vertex3="Hohlzylinder_GEM_v169"/>
+ <triangular vertex1="Hohlzylinder_GEM_v174" vertex2="Hohlzylinder_GEM_v175" vertex3="Hohlzylinder_GEM_v176"/>
+ <triangular vertex1="Hohlzylinder_GEM_v171" vertex2="Hohlzylinder_GEM_v175" vertex3="Hohlzylinder_GEM_v174"/>
+ <triangular vertex1="Hohlzylinder_GEM_v170" vertex2="Hohlzylinder_GEM_v175" vertex3="Hohlzylinder_GEM_v171"/>
+ <triangular vertex1="Hohlzylinder_GEM_v177" vertex2="Hohlzylinder_GEM_v178" vertex3="Hohlzylinder_GEM_v172"/>
+ <triangular vertex1="Hohlzylinder_GEM_v172" vertex2="Hohlzylinder_GEM_v178" vertex3="Hohlzylinder_GEM_v173"/>
+ <triangular vertex1="Hohlzylinder_GEM_v176" vertex2="Hohlzylinder_GEM_v179" vertex3="Hohlzylinder_GEM_v180"/>
+ <triangular vertex1="Hohlzylinder_GEM_v175" vertex2="Hohlzylinder_GEM_v179" vertex3="Hohlzylinder_GEM_v176"/>
+ <triangular vertex1="Hohlzylinder_GEM_v177" vertex2="Hohlzylinder_GEM_v181" vertex3="Hohlzylinder_GEM_v178"/>
+ <triangular vertex1="Hohlzylinder_GEM_v182" vertex2="Hohlzylinder_GEM_v181" vertex3="Hohlzylinder_GEM_v177"/>
+ <triangular vertex1="Hohlzylinder_GEM_v179" vertex2="Hohlzylinder_GEM_v183" vertex3="Hohlzylinder_GEM_v180"/>
+ <triangular vertex1="Hohlzylinder_GEM_v182" vertex2="Hohlzylinder_GEM_v184" vertex3="Hohlzylinder_GEM_v181"/>
+ <triangular vertex1="Hohlzylinder_GEM_v185" vertex2="Hohlzylinder_GEM_v184" vertex3="Hohlzylinder_GEM_v182"/>
+ <triangular vertex1="Hohlzylinder_GEM_v183" vertex2="Hohlzylinder_GEM_v186" vertex3="Hohlzylinder_GEM_v180"/>
+ <triangular vertex1="Hohlzylinder_GEM_v187" vertex2="Hohlzylinder_GEM_v186" vertex3="Hohlzylinder_GEM_v188"/>
+ <triangular vertex1="Hohlzylinder_GEM_v180" vertex2="Hohlzylinder_GEM_v186" vertex3="Hohlzylinder_GEM_v187"/>
+ <triangular vertex1="Hohlzylinder_GEM_v189" vertex2="Hohlzylinder_GEM_v190" vertex3="Hohlzylinder_GEM_v191"/>
+ <triangular vertex1="Hohlzylinder_GEM_v185" vertex2="Hohlzylinder_GEM_v190" vertex3="Hohlzylinder_GEM_v184"/>
+ <triangular vertex1="Hohlzylinder_GEM_v191" vertex2="Hohlzylinder_GEM_v190" vertex3="Hohlzylinder_GEM_v185"/>
+ <triangular vertex1="Hohlzylinder_GEM_v186" vertex2="Hohlzylinder_GEM_v192" vertex3="Hohlzylinder_GEM_v188"/>
+ <triangular vertex1="Hohlzylinder_GEM_v189" vertex2="Hohlzylinder_GEM_v193" vertex3="Hohlzylinder_GEM_v190"/>
+ <triangular vertex1="Hohlzylinder_GEM_v192" vertex2="Hohlzylinder_GEM_v194" vertex3="Hohlzylinder_GEM_v188"/>
+ <triangular vertex1="Hohlzylinder_GEM_v188" vertex2="Hohlzylinder_GEM_v194" vertex3="Hohlzylinder_GEM_v195"/>
+ <triangular vertex1="Hohlzylinder_GEM_v196" vertex2="Hohlzylinder_GEM_v197" vertex3="Hohlzylinder_GEM_v189"/>
+ <triangular vertex1="Hohlzylinder_GEM_v189" vertex2="Hohlzylinder_GEM_v197" vertex3="Hohlzylinder_GEM_v193"/>
+ <triangular vertex1="Hohlzylinder_GEM_v194" vertex2="Hohlzylinder_GEM_v198" vertex3="Hohlzylinder_GEM_v195"/>
+ <triangular vertex1="Hohlzylinder_GEM_v195" vertex2="Hohlzylinder_GEM_v198" vertex3="Hohlzylinder_GEM_v199"/>
+ <triangular vertex1="Hohlzylinder_GEM_v200" vertex2="Hohlzylinder_GEM_v201" vertex3="Hohlzylinder_GEM_v196"/>
+ <triangular vertex1="Hohlzylinder_GEM_v196" vertex2="Hohlzylinder_GEM_v201" vertex3="Hohlzylinder_GEM_v197"/>
+ <triangular vertex1="Hohlzylinder_GEM_v199" vertex2="Hohlzylinder_GEM_v202" vertex3="Hohlzylinder_GEM_v203"/>
+ <triangular vertex1="Hohlzylinder_GEM_v198" vertex2="Hohlzylinder_GEM_v202" vertex3="Hohlzylinder_GEM_v199"/>
+ <triangular vertex1="Hohlzylinder_GEM_v204" vertex2="Hohlzylinder_GEM_v205" vertex3="Hohlzylinder_GEM_v200"/>
+ <triangular vertex1="Hohlzylinder_GEM_v200" vertex2="Hohlzylinder_GEM_v205" vertex3="Hohlzylinder_GEM_v201"/>
+ <triangular vertex1="Hohlzylinder_GEM_v206" vertex2="Hohlzylinder_GEM_v207" vertex3="Hohlzylinder_GEM_v208"/>
+ <triangular vertex1="Hohlzylinder_GEM_v203" vertex2="Hohlzylinder_GEM_v207" vertex3="Hohlzylinder_GEM_v206"/>
+ <triangular vertex1="Hohlzylinder_GEM_v202" vertex2="Hohlzylinder_GEM_v207" vertex3="Hohlzylinder_GEM_v203"/>
+ <triangular vertex1="Hohlzylinder_GEM_v209" vertex2="Hohlzylinder_GEM_v210" vertex3="Hohlzylinder_GEM_v204"/>
+ <triangular vertex1="Hohlzylinder_GEM_v211" vertex2="Hohlzylinder_GEM_v210" vertex3="Hohlzylinder_GEM_v209"/>
+ <triangular vertex1="Hohlzylinder_GEM_v204" vertex2="Hohlzylinder_GEM_v210" vertex3="Hohlzylinder_GEM_v205"/>
+ <triangular vertex1="Hohlzylinder_GEM_v207" vertex2="Hohlzylinder_GEM_v212" vertex3="Hohlzylinder_GEM_v208"/>
+ <triangular vertex1="Hohlzylinder_GEM_v211" vertex2="Hohlzylinder_GEM_v213" vertex3="Hohlzylinder_GEM_v210"/>
+ <triangular vertex1="Hohlzylinder_GEM_v208" vertex2="Hohlzylinder_GEM_v214" vertex3="Hohlzylinder_GEM_v215"/>
+ <triangular vertex1="Hohlzylinder_GEM_v212" vertex2="Hohlzylinder_GEM_v214" vertex3="Hohlzylinder_GEM_v208"/>
+ <triangular vertex1="Hohlzylinder_GEM_v216" vertex2="Hohlzylinder_GEM_v217" vertex3="Hohlzylinder_GEM_v211"/>
+ <triangular vertex1="Hohlzylinder_GEM_v211" vertex2="Hohlzylinder_GEM_v217" vertex3="Hohlzylinder_GEM_v213"/>
+ <triangular vertex1="Hohlzylinder_GEM_v214" vertex2="Hohlzylinder_GEM_v218" vertex3="Hohlzylinder_GEM_v215"/>
+ <triangular vertex1="Hohlzylinder_GEM_v219" vertex2="Hohlzylinder_GEM_v218" vertex3="Hohlzylinder_GEM_v220"/>
+ <triangular vertex1="Hohlzylinder_GEM_v215" vertex2="Hohlzylinder_GEM_v218" vertex3="Hohlzylinder_GEM_v219"/>
+ <triangular vertex1="Hohlzylinder_GEM_v216" vertex2="Hohlzylinder_GEM_v221" vertex3="Hohlzylinder_GEM_v217"/>
+ <triangular vertex1="Hohlzylinder_GEM_v222" vertex2="Hohlzylinder_GEM_v221" vertex3="Hohlzylinder_GEM_v216"/>
+ <triangular vertex1="Hohlzylinder_GEM_v218" vertex2="Hohlzylinder_GEM_v223" vertex3="Hohlzylinder_GEM_v220"/>
+ <triangular vertex1="Hohlzylinder_GEM_v220" vertex2="Hohlzylinder_GEM_v223" vertex3="Hohlzylinder_GEM_v224"/>
+ <triangular vertex1="Hohlzylinder_GEM_v225" vertex2="Hohlzylinder_GEM_v226" vertex3="Hohlzylinder_GEM_v222"/>
+ <triangular vertex1="Hohlzylinder_GEM_v227" vertex2="Hohlzylinder_GEM_v226" vertex3="Hohlzylinder_GEM_v225"/>
+ <triangular vertex1="Hohlzylinder_GEM_v222" vertex2="Hohlzylinder_GEM_v226" vertex3="Hohlzylinder_GEM_v221"/>
+ <triangular vertex1="Hohlzylinder_GEM_v223" vertex2="Hohlzylinder_GEM_v228" vertex3="Hohlzylinder_GEM_v224"/>
+ <triangular vertex1="Hohlzylinder_GEM_v227" vertex2="Hohlzylinder_GEM_v229" vertex3="Hohlzylinder_GEM_v226"/>
+ <triangular vertex1="Hohlzylinder_GEM_v228" vertex2="Hohlzylinder_GEM_v230" vertex3="Hohlzylinder_GEM_v224"/>
+ <triangular vertex1="Hohlzylinder_GEM_v231" vertex2="Hohlzylinder_GEM_v230" vertex3="Hohlzylinder_GEM_v232"/>
+ <triangular vertex1="Hohlzylinder_GEM_v224" vertex2="Hohlzylinder_GEM_v230" vertex3="Hohlzylinder_GEM_v231"/>
+ <triangular vertex1="Hohlzylinder_GEM_v233" vertex2="Hohlzylinder_GEM_v234" vertex3="Hohlzylinder_GEM_v227"/>
+ <triangular vertex1="Hohlzylinder_GEM_v227" vertex2="Hohlzylinder_GEM_v234" vertex3="Hohlzylinder_GEM_v229"/>
+ <triangular vertex1="Hohlzylinder_GEM_v230" vertex2="Hohlzylinder_GEM_v235" vertex3="Hohlzylinder_GEM_v232"/>
+ <triangular vertex1="Hohlzylinder_GEM_v236" vertex2="Hohlzylinder_GEM_v237" vertex3="Hohlzylinder_GEM_v233"/>
+ <triangular vertex1="Hohlzylinder_GEM_v238" vertex2="Hohlzylinder_GEM_v237" vertex3="Hohlzylinder_GEM_v236"/>
+ <triangular vertex1="Hohlzylinder_GEM_v233" vertex2="Hohlzylinder_GEM_v237" vertex3="Hohlzylinder_GEM_v234"/>
+ <triangular vertex1="Hohlzylinder_GEM_v235" vertex2="Hohlzylinder_GEM_v239" vertex3="Hohlzylinder_GEM_v232"/>
+ <triangular vertex1="Hohlzylinder_GEM_v232" vertex2="Hohlzylinder_GEM_v239" vertex3="Hohlzylinder_GEM_v240"/>
+ <triangular vertex1="Hohlzylinder_GEM_v238" vertex2="Hohlzylinder_GEM_v241" vertex3="Hohlzylinder_GEM_v237"/>
+ <triangular vertex1="Hohlzylinder_GEM_v239" vertex2="Hohlzylinder_GEM_v242" vertex3="Hohlzylinder_GEM_v240"/>
+ <triangular vertex1="Hohlzylinder_GEM_v240" vertex2="Hohlzylinder_GEM_v242" vertex3="Hohlzylinder_GEM_v243"/>
+ <triangular vertex1="Hohlzylinder_GEM_v244" vertex2="Hohlzylinder_GEM_v245" vertex3="Hohlzylinder_GEM_v238"/>
+ <triangular vertex1="Hohlzylinder_GEM_v238" vertex2="Hohlzylinder_GEM_v245" vertex3="Hohlzylinder_GEM_v241"/>
+ <triangular vertex1="Hohlzylinder_GEM_v246" vertex2="Hohlzylinder_GEM_v247" vertex3="Hohlzylinder_GEM_v248"/>
+ <triangular vertex1="Hohlzylinder_GEM_v243" vertex2="Hohlzylinder_GEM_v247" vertex3="Hohlzylinder_GEM_v246"/>
+ <triangular vertex1="Hohlzylinder_GEM_v242" vertex2="Hohlzylinder_GEM_v247" vertex3="Hohlzylinder_GEM_v243"/>
+ <triangular vertex1="Hohlzylinder_GEM_v244" vertex2="Hohlzylinder_GEM_v249" vertex3="Hohlzylinder_GEM_v245"/>
+ <triangular vertex1="Hohlzylinder_GEM_v250" vertex2="Hohlzylinder_GEM_v249" vertex3="Hohlzylinder_GEM_v244"/>
+ <triangular vertex1="Hohlzylinder_GEM_v248" vertex2="Hohlzylinder_GEM_v249" vertex3="Hohlzylinder_GEM_v250"/>
+ <triangular vertex1="Hohlzylinder_GEM_v247" vertex2="Hohlzylinder_GEM_v251" vertex3="Hohlzylinder_GEM_v248"/>
+ <triangular vertex1="Hohlzylinder_GEM_v248" vertex2="Hohlzylinder_GEM_v251" vertex3="Hohlzylinder_GEM_v249"/>
+ <triangular vertex1="Hohlzylinder_GEM_v252" vertex2="Hohlzylinder_GEM_v253" vertex3="Hohlzylinder_GEM_v190"/>
+ <triangular vertex1="Hohlzylinder_GEM_v252" vertex2="Hohlzylinder_GEM_v190" vertex3="Hohlzylinder_GEM_v193"/>
+ <triangular vertex1="Hohlzylinder_GEM_v252" vertex2="Hohlzylinder_GEM_v193" vertex3="Hohlzylinder_GEM_v197"/>
+ <triangular vertex1="Hohlzylinder_GEM_v254" vertex2="Hohlzylinder_GEM_v197" vertex3="Hohlzylinder_GEM_v201"/>
+ <triangular vertex1="Hohlzylinder_GEM_v254" vertex2="Hohlzylinder_GEM_v252" vertex3="Hohlzylinder_GEM_v197"/>
+ <triangular vertex1="Hohlzylinder_GEM_v255" vertex2="Hohlzylinder_GEM_v254" vertex3="Hohlzylinder_GEM_v201"/>
+ <triangular vertex1="Hohlzylinder_GEM_v256" vertex2="Hohlzylinder_GEM_v201" vertex3="Hohlzylinder_GEM_v205"/>
+ <triangular vertex1="Hohlzylinder_GEM_v256" vertex2="Hohlzylinder_GEM_v205" vertex3="Hohlzylinder_GEM_v210"/>
+ <triangular vertex1="Hohlzylinder_GEM_v256" vertex2="Hohlzylinder_GEM_v255" vertex3="Hohlzylinder_GEM_v201"/>
+ <triangular vertex1="Hohlzylinder_GEM_v257" vertex2="Hohlzylinder_GEM_v256" vertex3="Hohlzylinder_GEM_v210"/>
+ <triangular vertex1="Hohlzylinder_GEM_v258" vertex2="Hohlzylinder_GEM_v210" vertex3="Hohlzylinder_GEM_v213"/>
+ <triangular vertex1="Hohlzylinder_GEM_v258" vertex2="Hohlzylinder_GEM_v257" vertex3="Hohlzylinder_GEM_v210"/>
+ <triangular vertex1="Hohlzylinder_GEM_v259" vertex2="Hohlzylinder_GEM_v213" vertex3="Hohlzylinder_GEM_v217"/>
+ <triangular vertex1="Hohlzylinder_GEM_v259" vertex2="Hohlzylinder_GEM_v217" vertex3="Hohlzylinder_GEM_v221"/>
+ <triangular vertex1="Hohlzylinder_GEM_v259" vertex2="Hohlzylinder_GEM_v258" vertex3="Hohlzylinder_GEM_v213"/>
+ <triangular vertex1="Hohlzylinder_GEM_v260" vertex2="Hohlzylinder_GEM_v259" vertex3="Hohlzylinder_GEM_v221"/>
+ <triangular vertex1="Hohlzylinder_GEM_v261" vertex2="Hohlzylinder_GEM_v221" vertex3="Hohlzylinder_GEM_v226"/>
+ <triangular vertex1="Hohlzylinder_GEM_v261" vertex2="Hohlzylinder_GEM_v260" vertex3="Hohlzylinder_GEM_v221"/>
+ <triangular vertex1="Hohlzylinder_GEM_v262" vertex2="Hohlzylinder_GEM_v226" vertex3="Hohlzylinder_GEM_v229"/>
+ <triangular vertex1="Hohlzylinder_GEM_v262" vertex2="Hohlzylinder_GEM_v261" vertex3="Hohlzylinder_GEM_v226"/>
+ <triangular vertex1="Hohlzylinder_GEM_v263" vertex2="Hohlzylinder_GEM_v262" vertex3="Hohlzylinder_GEM_v229"/>
+ <triangular vertex1="Hohlzylinder_GEM_v263" vertex2="Hohlzylinder_GEM_v229" vertex3="Hohlzylinder_GEM_v234"/>
+ <triangular vertex1="Hohlzylinder_GEM_v263" vertex2="Hohlzylinder_GEM_v234" vertex3="Hohlzylinder_GEM_v237"/>
+ <triangular vertex1="Hohlzylinder_GEM_v264" vertex2="Hohlzylinder_GEM_v263" vertex3="Hohlzylinder_GEM_v237"/>
+ <triangular vertex1="Hohlzylinder_GEM_v265" vertex2="Hohlzylinder_GEM_v264" vertex3="Hohlzylinder_GEM_v237"/>
+ <triangular vertex1="Hohlzylinder_GEM_v265" vertex2="Hohlzylinder_GEM_v237" vertex3="Hohlzylinder_GEM_v241"/>
+ <triangular vertex1="Hohlzylinder_GEM_v266" vertex2="Hohlzylinder_GEM_v265" vertex3="Hohlzylinder_GEM_v241"/>
+ <triangular vertex1="Hohlzylinder_GEM_v266" vertex2="Hohlzylinder_GEM_v241" vertex3="Hohlzylinder_GEM_v245"/>
+ <triangular vertex1="Hohlzylinder_GEM_v267" vertex2="Hohlzylinder_GEM_v266" vertex3="Hohlzylinder_GEM_v245"/>
+ <triangular vertex1="Hohlzylinder_GEM_v267" vertex2="Hohlzylinder_GEM_v245" vertex3="Hohlzylinder_GEM_v249"/>
+ <triangular vertex1="Hohlzylinder_GEM_v267" vertex2="Hohlzylinder_GEM_v249" vertex3="Hohlzylinder_GEM_v251"/>
+ <triangular vertex1="Hohlzylinder_GEM_v268" vertex2="Hohlzylinder_GEM_v267" vertex3="Hohlzylinder_GEM_v251"/>
+ <triangular vertex1="Hohlzylinder_GEM_v269" vertex2="Hohlzylinder_GEM_v268" vertex3="Hohlzylinder_GEM_v251"/>
+ <triangular vertex1="Hohlzylinder_GEM_v269" vertex2="Hohlzylinder_GEM_v251" vertex3="Hohlzylinder_GEM_v247"/>
+ <triangular vertex1="Hohlzylinder_GEM_v270" vertex2="Hohlzylinder_GEM_v269" vertex3="Hohlzylinder_GEM_v247"/>
+ <triangular vertex1="Hohlzylinder_GEM_v270" vertex2="Hohlzylinder_GEM_v247" vertex3="Hohlzylinder_GEM_v242"/>
+ <triangular vertex1="Hohlzylinder_GEM_v270" vertex2="Hohlzylinder_GEM_v242" vertex3="Hohlzylinder_GEM_v239"/>
+ <triangular vertex1="Hohlzylinder_GEM_v271" vertex2="Hohlzylinder_GEM_v270" vertex3="Hohlzylinder_GEM_v239"/>
+ <triangular vertex1="Hohlzylinder_GEM_v272" vertex2="Hohlzylinder_GEM_v271" vertex3="Hohlzylinder_GEM_v239"/>
+ <triangular vertex1="Hohlzylinder_GEM_v272" vertex2="Hohlzylinder_GEM_v239" vertex3="Hohlzylinder_GEM_v235"/>
+ <triangular vertex1="Hohlzylinder_GEM_v273" vertex2="Hohlzylinder_GEM_v272" vertex3="Hohlzylinder_GEM_v235"/>
+ <triangular vertex1="Hohlzylinder_GEM_v273" vertex2="Hohlzylinder_GEM_v235" vertex3="Hohlzylinder_GEM_v230"/>
+ <triangular vertex1="Hohlzylinder_GEM_v274" vertex2="Hohlzylinder_GEM_v273" vertex3="Hohlzylinder_GEM_v230"/>
+ <triangular vertex1="Hohlzylinder_GEM_v274" vertex2="Hohlzylinder_GEM_v230" vertex3="Hohlzylinder_GEM_v228"/>
+ <triangular vertex1="Hohlzylinder_GEM_v275" vertex2="Hohlzylinder_GEM_v228" vertex3="Hohlzylinder_GEM_v223"/>
+ <triangular vertex1="Hohlzylinder_GEM_v275" vertex2="Hohlzylinder_GEM_v274" vertex3="Hohlzylinder_GEM_v228"/>
+ <triangular vertex1="Hohlzylinder_GEM_v276" vertex2="Hohlzylinder_GEM_v223" vertex3="Hohlzylinder_GEM_v218"/>
+ <triangular vertex1="Hohlzylinder_GEM_v276" vertex2="Hohlzylinder_GEM_v275" vertex3="Hohlzylinder_GEM_v223"/>
+ <triangular vertex1="Hohlzylinder_GEM_v277" vertex2="Hohlzylinder_GEM_v218" vertex3="Hohlzylinder_GEM_v214"/>
+ <triangular vertex1="Hohlzylinder_GEM_v277" vertex2="Hohlzylinder_GEM_v276" vertex3="Hohlzylinder_GEM_v218"/>
+ <triangular vertex1="Hohlzylinder_GEM_v278" vertex2="Hohlzylinder_GEM_v214" vertex3="Hohlzylinder_GEM_v212"/>
+ <triangular vertex1="Hohlzylinder_GEM_v278" vertex2="Hohlzylinder_GEM_v277" vertex3="Hohlzylinder_GEM_v214"/>
+ <triangular vertex1="Hohlzylinder_GEM_v279" vertex2="Hohlzylinder_GEM_v212" vertex3="Hohlzylinder_GEM_v207"/>
+ <triangular vertex1="Hohlzylinder_GEM_v279" vertex2="Hohlzylinder_GEM_v278" vertex3="Hohlzylinder_GEM_v212"/>
+ <triangular vertex1="Hohlzylinder_GEM_v280" vertex2="Hohlzylinder_GEM_v207" vertex3="Hohlzylinder_GEM_v202"/>
+ <triangular vertex1="Hohlzylinder_GEM_v280" vertex2="Hohlzylinder_GEM_v202" vertex3="Hohlzylinder_GEM_v198"/>
+ <triangular vertex1="Hohlzylinder_GEM_v280" vertex2="Hohlzylinder_GEM_v279" vertex3="Hohlzylinder_GEM_v207"/>
+ <triangular vertex1="Hohlzylinder_GEM_v281" vertex2="Hohlzylinder_GEM_v280" vertex3="Hohlzylinder_GEM_v198"/>
+ <triangular vertex1="Hohlzylinder_GEM_v282" vertex2="Hohlzylinder_GEM_v198" vertex3="Hohlzylinder_GEM_v194"/>
+ <triangular vertex1="Hohlzylinder_GEM_v282" vertex2="Hohlzylinder_GEM_v281" vertex3="Hohlzylinder_GEM_v198"/>
+ <triangular vertex1="Hohlzylinder_GEM_v283" vertex2="Hohlzylinder_GEM_v194" vertex3="Hohlzylinder_GEM_v192"/>
+ <triangular vertex1="Hohlzylinder_GEM_v283" vertex2="Hohlzylinder_GEM_v282" vertex3="Hohlzylinder_GEM_v194"/>
+ <triangular vertex1="Hohlzylinder_GEM_v284" vertex2="Hohlzylinder_GEM_v192" vertex3="Hohlzylinder_GEM_v186"/>
+ <triangular vertex1="Hohlzylinder_GEM_v284" vertex2="Hohlzylinder_GEM_v283" vertex3="Hohlzylinder_GEM_v192"/>
+ <triangular vertex1="Hohlzylinder_GEM_v285" vertex2="Hohlzylinder_GEM_v186" vertex3="Hohlzylinder_GEM_v183"/>
+ <triangular vertex1="Hohlzylinder_GEM_v285" vertex2="Hohlzylinder_GEM_v284" vertex3="Hohlzylinder_GEM_v186"/>
+ <triangular vertex1="Hohlzylinder_GEM_v286" vertex2="Hohlzylinder_GEM_v183" vertex3="Hohlzylinder_GEM_v179"/>
+ <triangular vertex1="Hohlzylinder_GEM_v286" vertex2="Hohlzylinder_GEM_v285" vertex3="Hohlzylinder_GEM_v183"/>
+ <triangular vertex1="Hohlzylinder_GEM_v287" vertex2="Hohlzylinder_GEM_v179" vertex3="Hohlzylinder_GEM_v175"/>
+ <triangular vertex1="Hohlzylinder_GEM_v287" vertex2="Hohlzylinder_GEM_v286" vertex3="Hohlzylinder_GEM_v179"/>
+ <triangular vertex1="Hohlzylinder_GEM_v288" vertex2="Hohlzylinder_GEM_v175" vertex3="Hohlzylinder_GEM_v170"/>
+ <triangular vertex1="Hohlzylinder_GEM_v288" vertex2="Hohlzylinder_GEM_v287" vertex3="Hohlzylinder_GEM_v175"/>
+ <triangular vertex1="Hohlzylinder_GEM_v289" vertex2="Hohlzylinder_GEM_v288" vertex3="Hohlzylinder_GEM_v170"/>
+ <triangular vertex1="Hohlzylinder_GEM_v289" vertex2="Hohlzylinder_GEM_v170" vertex3="Hohlzylinder_GEM_v168"/>
+ <triangular vertex1="Hohlzylinder_GEM_v289" vertex2="Hohlzylinder_GEM_v168" vertex3="Hohlzylinder_GEM_v163"/>
+ <triangular vertex1="Hohlzylinder_GEM_v290" vertex2="Hohlzylinder_GEM_v289" vertex3="Hohlzylinder_GEM_v163"/>
+ <triangular vertex1="Hohlzylinder_GEM_v290" vertex2="Hohlzylinder_GEM_v163" vertex3="Hohlzylinder_GEM_v159"/>
+ <triangular vertex1="Hohlzylinder_GEM_v291" vertex2="Hohlzylinder_GEM_v290" vertex3="Hohlzylinder_GEM_v159"/>
+ <triangular vertex1="Hohlzylinder_GEM_v292" vertex2="Hohlzylinder_GEM_v291" vertex3="Hohlzylinder_GEM_v159"/>
+ <triangular vertex1="Hohlzylinder_GEM_v292" vertex2="Hohlzylinder_GEM_v159" vertex3="Hohlzylinder_GEM_v154"/>
+ <triangular vertex1="Hohlzylinder_GEM_v293" vertex2="Hohlzylinder_GEM_v292" vertex3="Hohlzylinder_GEM_v154"/>
+ <triangular vertex1="Hohlzylinder_GEM_v293" vertex2="Hohlzylinder_GEM_v154" vertex3="Hohlzylinder_GEM_v150"/>
+ <triangular vertex1="Hohlzylinder_GEM_v294" vertex2="Hohlzylinder_GEM_v293" vertex3="Hohlzylinder_GEM_v150"/>
+ <triangular vertex1="Hohlzylinder_GEM_v294" vertex2="Hohlzylinder_GEM_v150" vertex3="Hohlzylinder_GEM_v147"/>
+ <triangular vertex1="Hohlzylinder_GEM_v295" vertex2="Hohlzylinder_GEM_v294" vertex3="Hohlzylinder_GEM_v147"/>
+ <triangular vertex1="Hohlzylinder_GEM_v295" vertex2="Hohlzylinder_GEM_v147" vertex3="Hohlzylinder_GEM_v142"/>
+ <triangular vertex1="Hohlzylinder_GEM_v296" vertex2="Hohlzylinder_GEM_v295" vertex3="Hohlzylinder_GEM_v142"/>
+ <triangular vertex1="Hohlzylinder_GEM_v296" vertex2="Hohlzylinder_GEM_v142" vertex3="Hohlzylinder_GEM_v138"/>
+ <triangular vertex1="Hohlzylinder_GEM_v297" vertex2="Hohlzylinder_GEM_v296" vertex3="Hohlzylinder_GEM_v138"/>
+ <triangular vertex1="Hohlzylinder_GEM_v297" vertex2="Hohlzylinder_GEM_v138" vertex3="Hohlzylinder_GEM_v135"/>
+ <triangular vertex1="Hohlzylinder_GEM_v298" vertex2="Hohlzylinder_GEM_v297" vertex3="Hohlzylinder_GEM_v135"/>
+ <triangular vertex1="Hohlzylinder_GEM_v298" vertex2="Hohlzylinder_GEM_v135" vertex3="Hohlzylinder_GEM_v130"/>
+ <triangular vertex1="Hohlzylinder_GEM_v298" vertex2="Hohlzylinder_GEM_v130" vertex3="Hohlzylinder_GEM_v126"/>
+ <triangular vertex1="Hohlzylinder_GEM_v299" vertex2="Hohlzylinder_GEM_v298" vertex3="Hohlzylinder_GEM_v126"/>
+ <triangular vertex1="Hohlzylinder_GEM_v300" vertex2="Hohlzylinder_GEM_v299" vertex3="Hohlzylinder_GEM_v126"/>
+ <triangular vertex1="Hohlzylinder_GEM_v300" vertex2="Hohlzylinder_GEM_v126" vertex3="Hohlzylinder_GEM_v122"/>
+ <triangular vertex1="Hohlzylinder_GEM_v301" vertex2="Hohlzylinder_GEM_v300" vertex3="Hohlzylinder_GEM_v122"/>
+ <triangular vertex1="Hohlzylinder_GEM_v301" vertex2="Hohlzylinder_GEM_v122" vertex3="Hohlzylinder_GEM_v118"/>
+ <triangular vertex1="Hohlzylinder_GEM_v302" vertex2="Hohlzylinder_GEM_v301" vertex3="Hohlzylinder_GEM_v118"/>
+ <triangular vertex1="Hohlzylinder_GEM_v302" vertex2="Hohlzylinder_GEM_v118" vertex3="Hohlzylinder_GEM_v114"/>
+ <triangular vertex1="Hohlzylinder_GEM_v302" vertex2="Hohlzylinder_GEM_v114" vertex3="Hohlzylinder_GEM_v110"/>
+ <triangular vertex1="Hohlzylinder_GEM_v303" vertex2="Hohlzylinder_GEM_v302" vertex3="Hohlzylinder_GEM_v110"/>
+ <triangular vertex1="Hohlzylinder_GEM_v304" vertex2="Hohlzylinder_GEM_v303" vertex3="Hohlzylinder_GEM_v110"/>
+ <triangular vertex1="Hohlzylinder_GEM_v304" vertex2="Hohlzylinder_GEM_v110" vertex3="Hohlzylinder_GEM_v106"/>
+ <triangular vertex1="Hohlzylinder_GEM_v304" vertex2="Hohlzylinder_GEM_v106" vertex3="Hohlzylinder_GEM_v102"/>
+ <triangular vertex1="Hohlzylinder_GEM_v305" vertex2="Hohlzylinder_GEM_v304" vertex3="Hohlzylinder_GEM_v102"/>
+ <triangular vertex1="Hohlzylinder_GEM_v306" vertex2="Hohlzylinder_GEM_v305" vertex3="Hohlzylinder_GEM_v102"/>
+ <triangular vertex1="Hohlzylinder_GEM_v306" vertex2="Hohlzylinder_GEM_v102" vertex3="Hohlzylinder_GEM_v99"/>
+ <triangular vertex1="Hohlzylinder_GEM_v306" vertex2="Hohlzylinder_GEM_v99" vertex3="Hohlzylinder_GEM_v96"/>
+ <triangular vertex1="Hohlzylinder_GEM_v307" vertex2="Hohlzylinder_GEM_v306" vertex3="Hohlzylinder_GEM_v96"/>
+ <triangular vertex1="Hohlzylinder_GEM_v308" vertex2="Hohlzylinder_GEM_v307" vertex3="Hohlzylinder_GEM_v96"/>
+ <triangular vertex1="Hohlzylinder_GEM_v308" vertex2="Hohlzylinder_GEM_v96" vertex3="Hohlzylinder_GEM_v92"/>
+ <triangular vertex1="Hohlzylinder_GEM_v309" vertex2="Hohlzylinder_GEM_v308" vertex3="Hohlzylinder_GEM_v92"/>
+ <triangular vertex1="Hohlzylinder_GEM_v309" vertex2="Hohlzylinder_GEM_v92" vertex3="Hohlzylinder_GEM_v83"/>
+ <triangular vertex1="Hohlzylinder_GEM_v309" vertex2="Hohlzylinder_GEM_v83" vertex3="Hohlzylinder_GEM_v84"/>
+ <triangular vertex1="Hohlzylinder_GEM_v310" vertex2="Hohlzylinder_GEM_v309" vertex3="Hohlzylinder_GEM_v84"/>
+ <triangular vertex1="Hohlzylinder_GEM_v311" vertex2="Hohlzylinder_GEM_v84" vertex3="Hohlzylinder_GEM_v78"/>
+ <triangular vertex1="Hohlzylinder_GEM_v311" vertex2="Hohlzylinder_GEM_v310" vertex3="Hohlzylinder_GEM_v84"/>
+ <triangular vertex1="Hohlzylinder_GEM_v312" vertex2="Hohlzylinder_GEM_v78" vertex3="Hohlzylinder_GEM_v75"/>
+ <triangular vertex1="Hohlzylinder_GEM_v312" vertex2="Hohlzylinder_GEM_v311" vertex3="Hohlzylinder_GEM_v78"/>
+ <triangular vertex1="Hohlzylinder_GEM_v313" vertex2="Hohlzylinder_GEM_v75" vertex3="Hohlzylinder_GEM_v68"/>
+ <triangular vertex1="Hohlzylinder_GEM_v313" vertex2="Hohlzylinder_GEM_v312" vertex3="Hohlzylinder_GEM_v75"/>
+ <triangular vertex1="Hohlzylinder_GEM_v314" vertex2="Hohlzylinder_GEM_v313" vertex3="Hohlzylinder_GEM_v68"/>
+ <triangular vertex1="Hohlzylinder_GEM_v314" vertex2="Hohlzylinder_GEM_v68" vertex3="Hohlzylinder_GEM_v69"/>
+ <triangular vertex1="Hohlzylinder_GEM_v314" vertex2="Hohlzylinder_GEM_v69" vertex3="Hohlzylinder_GEM_v62"/>
+ <triangular vertex1="Hohlzylinder_GEM_v315" vertex2="Hohlzylinder_GEM_v314" vertex3="Hohlzylinder_GEM_v62"/>
+ <triangular vertex1="Hohlzylinder_GEM_v315" vertex2="Hohlzylinder_GEM_v62" vertex3="Hohlzylinder_GEM_v55"/>
+ <triangular vertex1="Hohlzylinder_GEM_v316" vertex2="Hohlzylinder_GEM_v315" vertex3="Hohlzylinder_GEM_v55"/>
+ <triangular vertex1="Hohlzylinder_GEM_v317" vertex2="Hohlzylinder_GEM_v316" vertex3="Hohlzylinder_GEM_v55"/>
+ <triangular vertex1="Hohlzylinder_GEM_v317" vertex2="Hohlzylinder_GEM_v55" vertex3="Hohlzylinder_GEM_v57"/>
+ <triangular vertex1="Hohlzylinder_GEM_v317" vertex2="Hohlzylinder_GEM_v57" vertex3="Hohlzylinder_GEM_v52"/>
+ <triangular vertex1="Hohlzylinder_GEM_v318" vertex2="Hohlzylinder_GEM_v317" vertex3="Hohlzylinder_GEM_v52"/>
+ <triangular vertex1="Hohlzylinder_GEM_v318" vertex2="Hohlzylinder_GEM_v52" vertex3="Hohlzylinder_GEM_v48"/>
+ <triangular vertex1="Hohlzylinder_GEM_v319" vertex2="Hohlzylinder_GEM_v318" vertex3="Hohlzylinder_GEM_v48"/>
+ <triangular vertex1="Hohlzylinder_GEM_v319" vertex2="Hohlzylinder_GEM_v48" vertex3="Hohlzylinder_GEM_v43"/>
+ <triangular vertex1="Hohlzylinder_GEM_v320" vertex2="Hohlzylinder_GEM_v319" vertex3="Hohlzylinder_GEM_v43"/>
+ <triangular vertex1="Hohlzylinder_GEM_v321" vertex2="Hohlzylinder_GEM_v320" vertex3="Hohlzylinder_GEM_v43"/>
+ <triangular vertex1="Hohlzylinder_GEM_v321" vertex2="Hohlzylinder_GEM_v43" vertex3="Hohlzylinder_GEM_v39"/>
+ <triangular vertex1="Hohlzylinder_GEM_v321" vertex2="Hohlzylinder_GEM_v39" vertex3="Hohlzylinder_GEM_v36"/>
+ <triangular vertex1="Hohlzylinder_GEM_v322" vertex2="Hohlzylinder_GEM_v321" vertex3="Hohlzylinder_GEM_v36"/>
+ <triangular vertex1="Hohlzylinder_GEM_v322" vertex2="Hohlzylinder_GEM_v36" vertex3="Hohlzylinder_GEM_v32"/>
+ <triangular vertex1="Hohlzylinder_GEM_v323" vertex2="Hohlzylinder_GEM_v322" vertex3="Hohlzylinder_GEM_v32"/>
+ <triangular vertex1="Hohlzylinder_GEM_v324" vertex2="Hohlzylinder_GEM_v323" vertex3="Hohlzylinder_GEM_v32"/>
+ <triangular vertex1="Hohlzylinder_GEM_v324" vertex2="Hohlzylinder_GEM_v32" vertex3="Hohlzylinder_GEM_v28"/>
+ <triangular vertex1="Hohlzylinder_GEM_v324" vertex2="Hohlzylinder_GEM_v28" vertex3="Hohlzylinder_GEM_v24"/>
+ <triangular vertex1="Hohlzylinder_GEM_v325" vertex2="Hohlzylinder_GEM_v324" vertex3="Hohlzylinder_GEM_v24"/>
+ <triangular vertex1="Hohlzylinder_GEM_v326" vertex2="Hohlzylinder_GEM_v325" vertex3="Hohlzylinder_GEM_v24"/>
+ <triangular vertex1="Hohlzylinder_GEM_v326" vertex2="Hohlzylinder_GEM_v24" vertex3="Hohlzylinder_GEM_v18"/>
+ <triangular vertex1="Hohlzylinder_GEM_v327" vertex2="Hohlzylinder_GEM_v18" vertex3="Hohlzylinder_GEM_v10"/>
+ <triangular vertex1="Hohlzylinder_GEM_v327" vertex2="Hohlzylinder_GEM_v326" vertex3="Hohlzylinder_GEM_v18"/>
+ <triangular vertex1="Hohlzylinder_GEM_v328" vertex2="Hohlzylinder_GEM_v10" vertex3="Hohlzylinder_GEM_v12"/>
+ <triangular vertex1="Hohlzylinder_GEM_v328" vertex2="Hohlzylinder_GEM_v12" vertex3="Hohlzylinder_GEM_v3"/>
+ <triangular vertex1="Hohlzylinder_GEM_v328" vertex2="Hohlzylinder_GEM_v327" vertex3="Hohlzylinder_GEM_v10"/>
+ <triangular vertex1="Hohlzylinder_GEM_v329" vertex2="Hohlzylinder_GEM_v328" vertex3="Hohlzylinder_GEM_v3"/>
+ <triangular vertex1="Hohlzylinder_GEM_v330" vertex2="Hohlzylinder_GEM_v3" vertex3="Hohlzylinder_GEM_v4"/>
+ <triangular vertex1="Hohlzylinder_GEM_v330" vertex2="Hohlzylinder_GEM_v329" vertex3="Hohlzylinder_GEM_v3"/>
+ <triangular vertex1="Hohlzylinder_GEM_v331" vertex2="Hohlzylinder_GEM_v4" vertex3="Hohlzylinder_GEM_v0"/>
+ <triangular vertex1="Hohlzylinder_GEM_v331" vertex2="Hohlzylinder_GEM_v0" vertex3="Hohlzylinder_GEM_v6"/>
+ <triangular vertex1="Hohlzylinder_GEM_v331" vertex2="Hohlzylinder_GEM_v330" vertex3="Hohlzylinder_GEM_v4"/>
+ <triangular vertex1="Hohlzylinder_GEM_v332" vertex2="Hohlzylinder_GEM_v331" vertex3="Hohlzylinder_GEM_v6"/>
+ <triangular vertex1="Hohlzylinder_GEM_v333" vertex2="Hohlzylinder_GEM_v6" vertex3="Hohlzylinder_GEM_v9"/>
+ <triangular vertex1="Hohlzylinder_GEM_v333" vertex2="Hohlzylinder_GEM_v332" vertex3="Hohlzylinder_GEM_v6"/>
+ <triangular vertex1="Hohlzylinder_GEM_v334" vertex2="Hohlzylinder_GEM_v9" vertex3="Hohlzylinder_GEM_v14"/>
+ <triangular vertex1="Hohlzylinder_GEM_v334" vertex2="Hohlzylinder_GEM_v333" vertex3="Hohlzylinder_GEM_v9"/>
+ <triangular vertex1="Hohlzylinder_GEM_v335" vertex2="Hohlzylinder_GEM_v14" vertex3="Hohlzylinder_GEM_v15"/>
+ <triangular vertex1="Hohlzylinder_GEM_v335" vertex2="Hohlzylinder_GEM_v15" vertex3="Hohlzylinder_GEM_v21"/>
+ <triangular vertex1="Hohlzylinder_GEM_v335" vertex2="Hohlzylinder_GEM_v334" vertex3="Hohlzylinder_GEM_v14"/>
+ <triangular vertex1="Hohlzylinder_GEM_v336" vertex2="Hohlzylinder_GEM_v335" vertex3="Hohlzylinder_GEM_v21"/>
+ <triangular vertex1="Hohlzylinder_GEM_v337" vertex2="Hohlzylinder_GEM_v21" vertex3="Hohlzylinder_GEM_v22"/>
+ <triangular vertex1="Hohlzylinder_GEM_v337" vertex2="Hohlzylinder_GEM_v336" vertex3="Hohlzylinder_GEM_v21"/>
+ <triangular vertex1="Hohlzylinder_GEM_v338" vertex2="Hohlzylinder_GEM_v22" vertex3="Hohlzylinder_GEM_v26"/>
+ <triangular vertex1="Hohlzylinder_GEM_v338" vertex2="Hohlzylinder_GEM_v337" vertex3="Hohlzylinder_GEM_v22"/>
+ <triangular vertex1="Hohlzylinder_GEM_v339" vertex2="Hohlzylinder_GEM_v26" vertex3="Hohlzylinder_GEM_v30"/>
+ <triangular vertex1="Hohlzylinder_GEM_v339" vertex2="Hohlzylinder_GEM_v338" vertex3="Hohlzylinder_GEM_v26"/>
+ <triangular vertex1="Hohlzylinder_GEM_v340" vertex2="Hohlzylinder_GEM_v339" vertex3="Hohlzylinder_GEM_v30"/>
+ <triangular vertex1="Hohlzylinder_GEM_v340" vertex2="Hohlzylinder_GEM_v30" vertex3="Hohlzylinder_GEM_v34"/>
+ <triangular vertex1="Hohlzylinder_GEM_v341" vertex2="Hohlzylinder_GEM_v340" vertex3="Hohlzylinder_GEM_v34"/>
+ <triangular vertex1="Hohlzylinder_GEM_v341" vertex2="Hohlzylinder_GEM_v34" vertex3="Hohlzylinder_GEM_v41"/>
+ <triangular vertex1="Hohlzylinder_GEM_v342" vertex2="Hohlzylinder_GEM_v341" vertex3="Hohlzylinder_GEM_v41"/>
+ <triangular vertex1="Hohlzylinder_GEM_v342" vertex2="Hohlzylinder_GEM_v41" vertex3="Hohlzylinder_GEM_v45"/>
+ <triangular vertex1="Hohlzylinder_GEM_v343" vertex2="Hohlzylinder_GEM_v342" vertex3="Hohlzylinder_GEM_v45"/>
+ <triangular vertex1="Hohlzylinder_GEM_v343" vertex2="Hohlzylinder_GEM_v45" vertex3="Hohlzylinder_GEM_v46"/>
+ <triangular vertex1="Hohlzylinder_GEM_v343" vertex2="Hohlzylinder_GEM_v46" vertex3="Hohlzylinder_GEM_v50"/>
+ <triangular vertex1="Hohlzylinder_GEM_v344" vertex2="Hohlzylinder_GEM_v343" vertex3="Hohlzylinder_GEM_v50"/>
+ <triangular vertex1="Hohlzylinder_GEM_v345" vertex2="Hohlzylinder_GEM_v50" vertex3="Hohlzylinder_GEM_v54"/>
+ <triangular vertex1="Hohlzylinder_GEM_v345" vertex2="Hohlzylinder_GEM_v344" vertex3="Hohlzylinder_GEM_v50"/>
+ <triangular vertex1="Hohlzylinder_GEM_v346" vertex2="Hohlzylinder_GEM_v54" vertex3="Hohlzylinder_GEM_v61"/>
+ <triangular vertex1="Hohlzylinder_GEM_v346" vertex2="Hohlzylinder_GEM_v345" vertex3="Hohlzylinder_GEM_v54"/>
+ <triangular vertex1="Hohlzylinder_GEM_v347" vertex2="Hohlzylinder_GEM_v61" vertex3="Hohlzylinder_GEM_v65"/>
+ <triangular vertex1="Hohlzylinder_GEM_v347" vertex2="Hohlzylinder_GEM_v346" vertex3="Hohlzylinder_GEM_v61"/>
+ <triangular vertex1="Hohlzylinder_GEM_v348" vertex2="Hohlzylinder_GEM_v65" vertex3="Hohlzylinder_GEM_v66"/>
+ <triangular vertex1="Hohlzylinder_GEM_v348" vertex2="Hohlzylinder_GEM_v347" vertex3="Hohlzylinder_GEM_v65"/>
+ <triangular vertex1="Hohlzylinder_GEM_v349" vertex2="Hohlzylinder_GEM_v66" vertex3="Hohlzylinder_GEM_v71"/>
+ <triangular vertex1="Hohlzylinder_GEM_v349" vertex2="Hohlzylinder_GEM_v348" vertex3="Hohlzylinder_GEM_v66"/>
+ <triangular vertex1="Hohlzylinder_GEM_v350" vertex2="Hohlzylinder_GEM_v71" vertex3="Hohlzylinder_GEM_v77"/>
+ <triangular vertex1="Hohlzylinder_GEM_v350" vertex2="Hohlzylinder_GEM_v349" vertex3="Hohlzylinder_GEM_v71"/>
+ <triangular vertex1="Hohlzylinder_GEM_v351" vertex2="Hohlzylinder_GEM_v77" vertex3="Hohlzylinder_GEM_v81"/>
+ <triangular vertex1="Hohlzylinder_GEM_v351" vertex2="Hohlzylinder_GEM_v350" vertex3="Hohlzylinder_GEM_v77"/>
+ <triangular vertex1="Hohlzylinder_GEM_v352" vertex2="Hohlzylinder_GEM_v81" vertex3="Hohlzylinder_GEM_v86"/>
+ <triangular vertex1="Hohlzylinder_GEM_v352" vertex2="Hohlzylinder_GEM_v351" vertex3="Hohlzylinder_GEM_v81"/>
+ <triangular vertex1="Hohlzylinder_GEM_v353" vertex2="Hohlzylinder_GEM_v86" vertex3="Hohlzylinder_GEM_v89"/>
+ <triangular vertex1="Hohlzylinder_GEM_v353" vertex2="Hohlzylinder_GEM_v352" vertex3="Hohlzylinder_GEM_v86"/>
+ <triangular vertex1="Hohlzylinder_GEM_v354" vertex2="Hohlzylinder_GEM_v89" vertex3="Hohlzylinder_GEM_v90"/>
+ <triangular vertex1="Hohlzylinder_GEM_v354" vertex2="Hohlzylinder_GEM_v353" vertex3="Hohlzylinder_GEM_v89"/>
+ <triangular vertex1="Hohlzylinder_GEM_v355" vertex2="Hohlzylinder_GEM_v90" vertex3="Hohlzylinder_GEM_v94"/>
+ <triangular vertex1="Hohlzylinder_GEM_v355" vertex2="Hohlzylinder_GEM_v354" vertex3="Hohlzylinder_GEM_v90"/>
+ <triangular vertex1="Hohlzylinder_GEM_v356" vertex2="Hohlzylinder_GEM_v94" vertex3="Hohlzylinder_GEM_v101"/>
+ <triangular vertex1="Hohlzylinder_GEM_v356" vertex2="Hohlzylinder_GEM_v101" vertex3="Hohlzylinder_GEM_v105"/>
+ <triangular vertex1="Hohlzylinder_GEM_v356" vertex2="Hohlzylinder_GEM_v355" vertex3="Hohlzylinder_GEM_v94"/>
+ <triangular vertex1="Hohlzylinder_GEM_v357" vertex2="Hohlzylinder_GEM_v356" vertex3="Hohlzylinder_GEM_v105"/>
+ <triangular vertex1="Hohlzylinder_GEM_v358" vertex2="Hohlzylinder_GEM_v105" vertex3="Hohlzylinder_GEM_v109"/>
+ <triangular vertex1="Hohlzylinder_GEM_v358" vertex2="Hohlzylinder_GEM_v357" vertex3="Hohlzylinder_GEM_v105"/>
+ <triangular vertex1="Hohlzylinder_GEM_v359" vertex2="Hohlzylinder_GEM_v109" vertex3="Hohlzylinder_GEM_v113"/>
+ <triangular vertex1="Hohlzylinder_GEM_v359" vertex2="Hohlzylinder_GEM_v358" vertex3="Hohlzylinder_GEM_v109"/>
+ <triangular vertex1="Hohlzylinder_GEM_v360" vertex2="Hohlzylinder_GEM_v113" vertex3="Hohlzylinder_GEM_v116"/>
+ <triangular vertex1="Hohlzylinder_GEM_v360" vertex2="Hohlzylinder_GEM_v359" vertex3="Hohlzylinder_GEM_v113"/>
+ <triangular vertex1="Hohlzylinder_GEM_v361" vertex2="Hohlzylinder_GEM_v116" vertex3="Hohlzylinder_GEM_v121"/>
+ <triangular vertex1="Hohlzylinder_GEM_v361" vertex2="Hohlzylinder_GEM_v360" vertex3="Hohlzylinder_GEM_v116"/>
+ <triangular vertex1="Hohlzylinder_GEM_v362" vertex2="Hohlzylinder_GEM_v121" vertex3="Hohlzylinder_GEM_v125"/>
+ <triangular vertex1="Hohlzylinder_GEM_v362" vertex2="Hohlzylinder_GEM_v361" vertex3="Hohlzylinder_GEM_v121"/>
+ <triangular vertex1="Hohlzylinder_GEM_v363" vertex2="Hohlzylinder_GEM_v125" vertex3="Hohlzylinder_GEM_v129"/>
+ <triangular vertex1="Hohlzylinder_GEM_v363" vertex2="Hohlzylinder_GEM_v362" vertex3="Hohlzylinder_GEM_v125"/>
+ <triangular vertex1="Hohlzylinder_GEM_v364" vertex2="Hohlzylinder_GEM_v363" vertex3="Hohlzylinder_GEM_v129"/>
+ <triangular vertex1="Hohlzylinder_GEM_v364" vertex2="Hohlzylinder_GEM_v129" vertex3="Hohlzylinder_GEM_v133"/>
+ <triangular vertex1="Hohlzylinder_GEM_v365" vertex2="Hohlzylinder_GEM_v364" vertex3="Hohlzylinder_GEM_v133"/>
+ <triangular vertex1="Hohlzylinder_GEM_v365" vertex2="Hohlzylinder_GEM_v133" vertex3="Hohlzylinder_GEM_v136"/>
+ <triangular vertex1="Hohlzylinder_GEM_v366" vertex2="Hohlzylinder_GEM_v365" vertex3="Hohlzylinder_GEM_v136"/>
+ <triangular vertex1="Hohlzylinder_GEM_v366" vertex2="Hohlzylinder_GEM_v136" vertex3="Hohlzylinder_GEM_v140"/>
+ <triangular vertex1="Hohlzylinder_GEM_v367" vertex2="Hohlzylinder_GEM_v366" vertex3="Hohlzylinder_GEM_v140"/>
+ <triangular vertex1="Hohlzylinder_GEM_v367" vertex2="Hohlzylinder_GEM_v140" vertex3="Hohlzylinder_GEM_v145"/>
+ <triangular vertex1="Hohlzylinder_GEM_v368" vertex2="Hohlzylinder_GEM_v367" vertex3="Hohlzylinder_GEM_v145"/>
+ <triangular vertex1="Hohlzylinder_GEM_v368" vertex2="Hohlzylinder_GEM_v145" vertex3="Hohlzylinder_GEM_v149"/>
+ <triangular vertex1="Hohlzylinder_GEM_v369" vertex2="Hohlzylinder_GEM_v368" vertex3="Hohlzylinder_GEM_v149"/>
+ <triangular vertex1="Hohlzylinder_GEM_v369" vertex2="Hohlzylinder_GEM_v149" vertex3="Hohlzylinder_GEM_v153"/>
+ <triangular vertex1="Hohlzylinder_GEM_v370" vertex2="Hohlzylinder_GEM_v369" vertex3="Hohlzylinder_GEM_v153"/>
+ <triangular vertex1="Hohlzylinder_GEM_v370" vertex2="Hohlzylinder_GEM_v153" vertex3="Hohlzylinder_GEM_v158"/>
+ <triangular vertex1="Hohlzylinder_GEM_v371" vertex2="Hohlzylinder_GEM_v370" vertex3="Hohlzylinder_GEM_v158"/>
+ <triangular vertex1="Hohlzylinder_GEM_v371" vertex2="Hohlzylinder_GEM_v158" vertex3="Hohlzylinder_GEM_v161"/>
+ <triangular vertex1="Hohlzylinder_GEM_v371" vertex2="Hohlzylinder_GEM_v161" vertex3="Hohlzylinder_GEM_v166"/>
+ <triangular vertex1="Hohlzylinder_GEM_v372" vertex2="Hohlzylinder_GEM_v371" vertex3="Hohlzylinder_GEM_v166"/>
+ <triangular vertex1="Hohlzylinder_GEM_v373" vertex2="Hohlzylinder_GEM_v372" vertex3="Hohlzylinder_GEM_v166"/>
+ <triangular vertex1="Hohlzylinder_GEM_v373" vertex2="Hohlzylinder_GEM_v166" vertex3="Hohlzylinder_GEM_v169"/>
+ <triangular vertex1="Hohlzylinder_GEM_v374" vertex2="Hohlzylinder_GEM_v373" vertex3="Hohlzylinder_GEM_v169"/>
+ <triangular vertex1="Hohlzylinder_GEM_v374" vertex2="Hohlzylinder_GEM_v169" vertex3="Hohlzylinder_GEM_v173"/>
+ <triangular vertex1="Hohlzylinder_GEM_v375" vertex2="Hohlzylinder_GEM_v374" vertex3="Hohlzylinder_GEM_v173"/>
+ <triangular vertex1="Hohlzylinder_GEM_v375" vertex2="Hohlzylinder_GEM_v173" vertex3="Hohlzylinder_GEM_v178"/>
+ <triangular vertex1="Hohlzylinder_GEM_v376" vertex2="Hohlzylinder_GEM_v375" vertex3="Hohlzylinder_GEM_v178"/>
+ <triangular vertex1="Hohlzylinder_GEM_v376" vertex2="Hohlzylinder_GEM_v178" vertex3="Hohlzylinder_GEM_v181"/>
+ <triangular vertex1="Hohlzylinder_GEM_v377" vertex2="Hohlzylinder_GEM_v181" vertex3="Hohlzylinder_GEM_v184"/>
+ <triangular vertex1="Hohlzylinder_GEM_v377" vertex2="Hohlzylinder_GEM_v376" vertex3="Hohlzylinder_GEM_v181"/>
+ <triangular vertex1="Hohlzylinder_GEM_v377" vertex2="Hohlzylinder_GEM_v184" vertex3="Hohlzylinder_GEM_v190"/>
+ <triangular vertex1="Hohlzylinder_GEM_v253" vertex2="Hohlzylinder_GEM_v377" vertex3="Hohlzylinder_GEM_v190"/>
+ <triangular vertex1="Hohlzylinder_GEM_v363" vertex2="Hohlzylinder_GEM_v378" vertex3="Hohlzylinder_GEM_v362"/>
+ <triangular vertex1="Hohlzylinder_GEM_v363" vertex2="Hohlzylinder_GEM_v379" vertex3="Hohlzylinder_GEM_v378"/>
+ <triangular vertex1="Hohlzylinder_GEM_v362" vertex2="Hohlzylinder_GEM_v380" vertex3="Hohlzylinder_GEM_v361"/>
+ <triangular vertex1="Hohlzylinder_GEM_v378" vertex2="Hohlzylinder_GEM_v380" vertex3="Hohlzylinder_GEM_v362"/>
+ <triangular vertex1="Hohlzylinder_GEM_v364" vertex2="Hohlzylinder_GEM_v381" vertex3="Hohlzylinder_GEM_v363"/>
+ <triangular vertex1="Hohlzylinder_GEM_v363" vertex2="Hohlzylinder_GEM_v381" vertex3="Hohlzylinder_GEM_v379"/>
+ <triangular vertex1="Hohlzylinder_GEM_v361" vertex2="Hohlzylinder_GEM_v382" vertex3="Hohlzylinder_GEM_v360"/>
+ <triangular vertex1="Hohlzylinder_GEM_v380" vertex2="Hohlzylinder_GEM_v382" vertex3="Hohlzylinder_GEM_v361"/>
+ <triangular vertex1="Hohlzylinder_GEM_v365" vertex2="Hohlzylinder_GEM_v383" vertex3="Hohlzylinder_GEM_v364"/>
+ <triangular vertex1="Hohlzylinder_GEM_v364" vertex2="Hohlzylinder_GEM_v383" vertex3="Hohlzylinder_GEM_v381"/>
+ <triangular vertex1="Hohlzylinder_GEM_v359" vertex2="Hohlzylinder_GEM_v384" vertex3="Hohlzylinder_GEM_v358"/>
+ <triangular vertex1="Hohlzylinder_GEM_v360" vertex2="Hohlzylinder_GEM_v384" vertex3="Hohlzylinder_GEM_v359"/>
+ <triangular vertex1="Hohlzylinder_GEM_v382" vertex2="Hohlzylinder_GEM_v384" vertex3="Hohlzylinder_GEM_v360"/>
+ <triangular vertex1="Hohlzylinder_GEM_v366" vertex2="Hohlzylinder_GEM_v385" vertex3="Hohlzylinder_GEM_v365"/>
+ <triangular vertex1="Hohlzylinder_GEM_v367" vertex2="Hohlzylinder_GEM_v385" vertex3="Hohlzylinder_GEM_v366"/>
+ <triangular vertex1="Hohlzylinder_GEM_v365" vertex2="Hohlzylinder_GEM_v385" vertex3="Hohlzylinder_GEM_v383"/>
+ <triangular vertex1="Hohlzylinder_GEM_v384" vertex2="Hohlzylinder_GEM_v386" vertex3="Hohlzylinder_GEM_v358"/>
+ <triangular vertex1="Hohlzylinder_GEM_v367" vertex2="Hohlzylinder_GEM_v387" vertex3="Hohlzylinder_GEM_v385"/>
+ <triangular vertex1="Hohlzylinder_GEM_v386" vertex2="Hohlzylinder_GEM_v388" vertex3="Hohlzylinder_GEM_v358"/>
+ <triangular vertex1="Hohlzylinder_GEM_v358" vertex2="Hohlzylinder_GEM_v388" vertex3="Hohlzylinder_GEM_v357"/>
+ <triangular vertex1="Hohlzylinder_GEM_v368" vertex2="Hohlzylinder_GEM_v389" vertex3="Hohlzylinder_GEM_v367"/>
+ <triangular vertex1="Hohlzylinder_GEM_v369" vertex2="Hohlzylinder_GEM_v389" vertex3="Hohlzylinder_GEM_v368"/>
+ <triangular vertex1="Hohlzylinder_GEM_v367" vertex2="Hohlzylinder_GEM_v389" vertex3="Hohlzylinder_GEM_v387"/>
+ <triangular vertex1="Hohlzylinder_GEM_v357" vertex2="Hohlzylinder_GEM_v390" vertex3="Hohlzylinder_GEM_v356"/>
+ <triangular vertex1="Hohlzylinder_GEM_v388" vertex2="Hohlzylinder_GEM_v390" vertex3="Hohlzylinder_GEM_v357"/>
+ <triangular vertex1="Hohlzylinder_GEM_v369" vertex2="Hohlzylinder_GEM_v391" vertex3="Hohlzylinder_GEM_v389"/>
+ <triangular vertex1="Hohlzylinder_GEM_v356" vertex2="Hohlzylinder_GEM_v392" vertex3="Hohlzylinder_GEM_v355"/>
+ <triangular vertex1="Hohlzylinder_GEM_v390" vertex2="Hohlzylinder_GEM_v392" vertex3="Hohlzylinder_GEM_v356"/>
+ <triangular vertex1="Hohlzylinder_GEM_v369" vertex2="Hohlzylinder_GEM_v393" vertex3="Hohlzylinder_GEM_v391"/>
+ <triangular vertex1="Hohlzylinder_GEM_v370" vertex2="Hohlzylinder_GEM_v393" vertex3="Hohlzylinder_GEM_v369"/>
+ <triangular vertex1="Hohlzylinder_GEM_v355" vertex2="Hohlzylinder_GEM_v394" vertex3="Hohlzylinder_GEM_v354"/>
+ <triangular vertex1="Hohlzylinder_GEM_v392" vertex2="Hohlzylinder_GEM_v394" vertex3="Hohlzylinder_GEM_v355"/>
+ <triangular vertex1="Hohlzylinder_GEM_v371" vertex2="Hohlzylinder_GEM_v395" vertex3="Hohlzylinder_GEM_v370"/>
+ <triangular vertex1="Hohlzylinder_GEM_v370" vertex2="Hohlzylinder_GEM_v395" vertex3="Hohlzylinder_GEM_v393"/>
+ <triangular vertex1="Hohlzylinder_GEM_v354" vertex2="Hohlzylinder_GEM_v396" vertex3="Hohlzylinder_GEM_v353"/>
+ <triangular vertex1="Hohlzylinder_GEM_v394" vertex2="Hohlzylinder_GEM_v396" vertex3="Hohlzylinder_GEM_v354"/>
+ <triangular vertex1="Hohlzylinder_GEM_v372" vertex2="Hohlzylinder_GEM_v397" vertex3="Hohlzylinder_GEM_v371"/>
+ <triangular vertex1="Hohlzylinder_GEM_v371" vertex2="Hohlzylinder_GEM_v397" vertex3="Hohlzylinder_GEM_v395"/>
+ <triangular vertex1="Hohlzylinder_GEM_v353" vertex2="Hohlzylinder_GEM_v398" vertex3="Hohlzylinder_GEM_v352"/>
+ <triangular vertex1="Hohlzylinder_GEM_v396" vertex2="Hohlzylinder_GEM_v398" vertex3="Hohlzylinder_GEM_v353"/>
+ <triangular vertex1="Hohlzylinder_GEM_v352" vertex2="Hohlzylinder_GEM_v398" vertex3="Hohlzylinder_GEM_v351"/>
+ <triangular vertex1="Hohlzylinder_GEM_v373" vertex2="Hohlzylinder_GEM_v399" vertex3="Hohlzylinder_GEM_v372"/>
+ <triangular vertex1="Hohlzylinder_GEM_v374" vertex2="Hohlzylinder_GEM_v399" vertex3="Hohlzylinder_GEM_v373"/>
+ <triangular vertex1="Hohlzylinder_GEM_v372" vertex2="Hohlzylinder_GEM_v399" vertex3="Hohlzylinder_GEM_v397"/>
+ <triangular vertex1="Hohlzylinder_GEM_v398" vertex2="Hohlzylinder_GEM_v400" vertex3="Hohlzylinder_GEM_v351"/>
+ <triangular vertex1="Hohlzylinder_GEM_v374" vertex2="Hohlzylinder_GEM_v401" vertex3="Hohlzylinder_GEM_v399"/>
+ <triangular vertex1="Hohlzylinder_GEM_v351" vertex2="Hohlzylinder_GEM_v402" vertex3="Hohlzylinder_GEM_v350"/>
+ <triangular vertex1="Hohlzylinder_GEM_v400" vertex2="Hohlzylinder_GEM_v402" vertex3="Hohlzylinder_GEM_v351"/>
+ <triangular vertex1="Hohlzylinder_GEM_v375" vertex2="Hohlzylinder_GEM_v403" vertex3="Hohlzylinder_GEM_v374"/>
+ <triangular vertex1="Hohlzylinder_GEM_v374" vertex2="Hohlzylinder_GEM_v403" vertex3="Hohlzylinder_GEM_v401"/>
+ <triangular vertex1="Hohlzylinder_GEM_v402" vertex2="Hohlzylinder_GEM_v404" vertex3="Hohlzylinder_GEM_v350"/>
+ <triangular vertex1="Hohlzylinder_GEM_v350" vertex2="Hohlzylinder_GEM_v404" vertex3="Hohlzylinder_GEM_v349"/>
+ <triangular vertex1="Hohlzylinder_GEM_v376" vertex2="Hohlzylinder_GEM_v405" vertex3="Hohlzylinder_GEM_v375"/>
+ <triangular vertex1="Hohlzylinder_GEM_v375" vertex2="Hohlzylinder_GEM_v405" vertex3="Hohlzylinder_GEM_v403"/>
+ <triangular vertex1="Hohlzylinder_GEM_v404" vertex2="Hohlzylinder_GEM_v406" vertex3="Hohlzylinder_GEM_v349"/>
+ <triangular vertex1="Hohlzylinder_GEM_v348" vertex2="Hohlzylinder_GEM_v406" vertex3="Hohlzylinder_GEM_v347"/>
+ <triangular vertex1="Hohlzylinder_GEM_v349" vertex2="Hohlzylinder_GEM_v406" vertex3="Hohlzylinder_GEM_v348"/>
+ <triangular vertex1="Hohlzylinder_GEM_v377" vertex2="Hohlzylinder_GEM_v407" vertex3="Hohlzylinder_GEM_v376"/>
+ <triangular vertex1="Hohlzylinder_GEM_v376" vertex2="Hohlzylinder_GEM_v407" vertex3="Hohlzylinder_GEM_v405"/>
+ <triangular vertex1="Hohlzylinder_GEM_v406" vertex2="Hohlzylinder_GEM_v408" vertex3="Hohlzylinder_GEM_v347"/>
+ <triangular vertex1="Hohlzylinder_GEM_v347" vertex2="Hohlzylinder_GEM_v408" vertex3="Hohlzylinder_GEM_v346"/>
+ <triangular vertex1="Hohlzylinder_GEM_v253" vertex2="Hohlzylinder_GEM_v409" vertex3="Hohlzylinder_GEM_v377"/>
+ <triangular vertex1="Hohlzylinder_GEM_v377" vertex2="Hohlzylinder_GEM_v409" vertex3="Hohlzylinder_GEM_v407"/>
+ <triangular vertex1="Hohlzylinder_GEM_v408" vertex2="Hohlzylinder_GEM_v410" vertex3="Hohlzylinder_GEM_v346"/>
+ <triangular vertex1="Hohlzylinder_GEM_v252" vertex2="Hohlzylinder_GEM_v411" vertex3="Hohlzylinder_GEM_v253"/>
+ <triangular vertex1="Hohlzylinder_GEM_v253" vertex2="Hohlzylinder_GEM_v411" vertex3="Hohlzylinder_GEM_v409"/>
+ <triangular vertex1="Hohlzylinder_GEM_v410" vertex2="Hohlzylinder_GEM_v412" vertex3="Hohlzylinder_GEM_v346"/>
+ <triangular vertex1="Hohlzylinder_GEM_v346" vertex2="Hohlzylinder_GEM_v412" vertex3="Hohlzylinder_GEM_v345"/>
+ <triangular vertex1="Hohlzylinder_GEM_v254" vertex2="Hohlzylinder_GEM_v413" vertex3="Hohlzylinder_GEM_v252"/>
+ <triangular vertex1="Hohlzylinder_GEM_v255" vertex2="Hohlzylinder_GEM_v413" vertex3="Hohlzylinder_GEM_v254"/>
+ <triangular vertex1="Hohlzylinder_GEM_v252" vertex2="Hohlzylinder_GEM_v413" vertex3="Hohlzylinder_GEM_v411"/>
+ <triangular vertex1="Hohlzylinder_GEM_v412" vertex2="Hohlzylinder_GEM_v414" vertex3="Hohlzylinder_GEM_v345"/>
+ <triangular vertex1="Hohlzylinder_GEM_v345" vertex2="Hohlzylinder_GEM_v414" vertex3="Hohlzylinder_GEM_v344"/>
+ <triangular vertex1="Hohlzylinder_GEM_v255" vertex2="Hohlzylinder_GEM_v415" vertex3="Hohlzylinder_GEM_v413"/>
+ <triangular vertex1="Hohlzylinder_GEM_v414" vertex2="Hohlzylinder_GEM_v416" vertex3="Hohlzylinder_GEM_v344"/>
+ <triangular vertex1="Hohlzylinder_GEM_v344" vertex2="Hohlzylinder_GEM_v416" vertex3="Hohlzylinder_GEM_v343"/>
+ <triangular vertex1="Hohlzylinder_GEM_v256" vertex2="Hohlzylinder_GEM_v417" vertex3="Hohlzylinder_GEM_v255"/>
+ <triangular vertex1="Hohlzylinder_GEM_v255" vertex2="Hohlzylinder_GEM_v417" vertex3="Hohlzylinder_GEM_v415"/>
+ <triangular vertex1="Hohlzylinder_GEM_v416" vertex2="Hohlzylinder_GEM_v418" vertex3="Hohlzylinder_GEM_v343"/>
+ <triangular vertex1="Hohlzylinder_GEM_v343" vertex2="Hohlzylinder_GEM_v418" vertex3="Hohlzylinder_GEM_v342"/>
+ <triangular vertex1="Hohlzylinder_GEM_v257" vertex2="Hohlzylinder_GEM_v419" vertex3="Hohlzylinder_GEM_v256"/>
+ <triangular vertex1="Hohlzylinder_GEM_v258" vertex2="Hohlzylinder_GEM_v419" vertex3="Hohlzylinder_GEM_v257"/>
+ <triangular vertex1="Hohlzylinder_GEM_v256" vertex2="Hohlzylinder_GEM_v419" vertex3="Hohlzylinder_GEM_v417"/>
+ <triangular vertex1="Hohlzylinder_GEM_v418" vertex2="Hohlzylinder_GEM_v420" vertex3="Hohlzylinder_GEM_v342"/>
+ <triangular vertex1="Hohlzylinder_GEM_v342" vertex2="Hohlzylinder_GEM_v420" vertex3="Hohlzylinder_GEM_v341"/>
+ <triangular vertex1="Hohlzylinder_GEM_v258" vertex2="Hohlzylinder_GEM_v421" vertex3="Hohlzylinder_GEM_v419"/>
+ <triangular vertex1="Hohlzylinder_GEM_v420" vertex2="Hohlzylinder_GEM_v422" vertex3="Hohlzylinder_GEM_v341"/>
+ <triangular vertex1="Hohlzylinder_GEM_v341" vertex2="Hohlzylinder_GEM_v422" vertex3="Hohlzylinder_GEM_v340"/>
+ <triangular vertex1="Hohlzylinder_GEM_v259" vertex2="Hohlzylinder_GEM_v423" vertex3="Hohlzylinder_GEM_v258"/>
+ <triangular vertex1="Hohlzylinder_GEM_v258" vertex2="Hohlzylinder_GEM_v423" vertex3="Hohlzylinder_GEM_v421"/>
+ <triangular vertex1="Hohlzylinder_GEM_v259" vertex2="Hohlzylinder_GEM_v260" vertex3="Hohlzylinder_GEM_v423"/>
+ <triangular vertex1="Hohlzylinder_GEM_v422" vertex2="Hohlzylinder_GEM_v424" vertex3="Hohlzylinder_GEM_v340"/>
+ <triangular vertex1="Hohlzylinder_GEM_v340" vertex2="Hohlzylinder_GEM_v424" vertex3="Hohlzylinder_GEM_v339"/>
+ <triangular vertex1="Hohlzylinder_GEM_v424" vertex2="Hohlzylinder_GEM_v338" vertex3="Hohlzylinder_GEM_v339"/>
+ <triangular vertex1="Hohlzylinder_GEM_v260" vertex2="Hohlzylinder_GEM_v425" vertex3="Hohlzylinder_GEM_v423"/>
+ <triangular vertex1="Hohlzylinder_GEM_v424" vertex2="Hohlzylinder_GEM_v426" vertex3="Hohlzylinder_GEM_v338"/>
+ <triangular vertex1="Hohlzylinder_GEM_v426" vertex2="Hohlzylinder_GEM_v337" vertex3="Hohlzylinder_GEM_v338"/>
+ <triangular vertex1="Hohlzylinder_GEM_v261" vertex2="Hohlzylinder_GEM_v427" vertex3="Hohlzylinder_GEM_v260"/>
+ <triangular vertex1="Hohlzylinder_GEM_v260" vertex2="Hohlzylinder_GEM_v427" vertex3="Hohlzylinder_GEM_v425"/>
+ <triangular vertex1="Hohlzylinder_GEM_v261" vertex2="Hohlzylinder_GEM_v262" vertex3="Hohlzylinder_GEM_v427"/>
+ <triangular vertex1="Hohlzylinder_GEM_v426" vertex2="Hohlzylinder_GEM_v428" vertex3="Hohlzylinder_GEM_v337"/>
+ <triangular vertex1="Hohlzylinder_GEM_v262" vertex2="Hohlzylinder_GEM_v429" vertex3="Hohlzylinder_GEM_v427"/>
+ <triangular vertex1="Hohlzylinder_GEM_v428" vertex2="Hohlzylinder_GEM_v430" vertex3="Hohlzylinder_GEM_v337"/>
+ <triangular vertex1="Hohlzylinder_GEM_v337" vertex2="Hohlzylinder_GEM_v430" vertex3="Hohlzylinder_GEM_v336"/>
+ <triangular vertex1="Hohlzylinder_GEM_v263" vertex2="Hohlzylinder_GEM_v431" vertex3="Hohlzylinder_GEM_v262"/>
+ <triangular vertex1="Hohlzylinder_GEM_v262" vertex2="Hohlzylinder_GEM_v431" vertex3="Hohlzylinder_GEM_v429"/>
+ <triangular vertex1="Hohlzylinder_GEM_v430" vertex2="Hohlzylinder_GEM_v432" vertex3="Hohlzylinder_GEM_v336"/>
+ <triangular vertex1="Hohlzylinder_GEM_v336" vertex2="Hohlzylinder_GEM_v432" vertex3="Hohlzylinder_GEM_v335"/>
+ <triangular vertex1="Hohlzylinder_GEM_v263" vertex2="Hohlzylinder_GEM_v264" vertex3="Hohlzylinder_GEM_v431"/>
+ <triangular vertex1="Hohlzylinder_GEM_v264" vertex2="Hohlzylinder_GEM_v433" vertex3="Hohlzylinder_GEM_v431"/>
+ <triangular vertex1="Hohlzylinder_GEM_v432" vertex2="Hohlzylinder_GEM_v434" vertex3="Hohlzylinder_GEM_v335"/>
+ <triangular vertex1="Hohlzylinder_GEM_v335" vertex2="Hohlzylinder_GEM_v434" vertex3="Hohlzylinder_GEM_v334"/>
+ <triangular vertex1="Hohlzylinder_GEM_v265" vertex2="Hohlzylinder_GEM_v435" vertex3="Hohlzylinder_GEM_v264"/>
+ <triangular vertex1="Hohlzylinder_GEM_v264" vertex2="Hohlzylinder_GEM_v435" vertex3="Hohlzylinder_GEM_v433"/>
+ <triangular vertex1="Hohlzylinder_GEM_v434" vertex2="Hohlzylinder_GEM_v436" vertex3="Hohlzylinder_GEM_v334"/>
+ <triangular vertex1="Hohlzylinder_GEM_v334" vertex2="Hohlzylinder_GEM_v436" vertex3="Hohlzylinder_GEM_v333"/>
+ <triangular vertex1="Hohlzylinder_GEM_v266" vertex2="Hohlzylinder_GEM_v437" vertex3="Hohlzylinder_GEM_v265"/>
+ <triangular vertex1="Hohlzylinder_GEM_v265" vertex2="Hohlzylinder_GEM_v437" vertex3="Hohlzylinder_GEM_v435"/>
+ <triangular vertex1="Hohlzylinder_GEM_v436" vertex2="Hohlzylinder_GEM_v332" vertex3="Hohlzylinder_GEM_v333"/>
+ <triangular vertex1="Hohlzylinder_GEM_v436" vertex2="Hohlzylinder_GEM_v438" vertex3="Hohlzylinder_GEM_v332"/>
+ <triangular vertex1="Hohlzylinder_GEM_v266" vertex2="Hohlzylinder_GEM_v267" vertex3="Hohlzylinder_GEM_v437"/>
+ <triangular vertex1="Hohlzylinder_GEM_v267" vertex2="Hohlzylinder_GEM_v439" vertex3="Hohlzylinder_GEM_v437"/>
+ <triangular vertex1="Hohlzylinder_GEM_v332" vertex2="Hohlzylinder_GEM_v440" vertex3="Hohlzylinder_GEM_v331"/>
+ <triangular vertex1="Hohlzylinder_GEM_v438" vertex2="Hohlzylinder_GEM_v440" vertex3="Hohlzylinder_GEM_v332"/>
+ <triangular vertex1="Hohlzylinder_GEM_v267" vertex2="Hohlzylinder_GEM_v441" vertex3="Hohlzylinder_GEM_v439"/>
+ <triangular vertex1="Hohlzylinder_GEM_v267" vertex2="Hohlzylinder_GEM_v268" vertex3="Hohlzylinder_GEM_v441"/>
+ <triangular vertex1="Hohlzylinder_GEM_v440" vertex2="Hohlzylinder_GEM_v330" vertex3="Hohlzylinder_GEM_v331"/>
+ <triangular vertex1="Hohlzylinder_GEM_v442" vertex2="Hohlzylinder_GEM_v330" vertex3="Hohlzylinder_GEM_v440"/>
+ <triangular vertex1="Hohlzylinder_GEM_v268" vertex2="Hohlzylinder_GEM_v269" vertex3="Hohlzylinder_GEM_v441"/>
+ <triangular vertex1="Hohlzylinder_GEM_v441" vertex2="Hohlzylinder_GEM_v269" vertex3="Hohlzylinder_GEM_v443"/>
+ <triangular vertex1="Hohlzylinder_GEM_v442" vertex2="Hohlzylinder_GEM_v444" vertex3="Hohlzylinder_GEM_v330"/>
+ <triangular vertex1="Hohlzylinder_GEM_v444" vertex2="Hohlzylinder_GEM_v329" vertex3="Hohlzylinder_GEM_v330"/>
+ <triangular vertex1="Hohlzylinder_GEM_v269" vertex2="Hohlzylinder_GEM_v445" vertex3="Hohlzylinder_GEM_v443"/>
+ <triangular vertex1="Hohlzylinder_GEM_v269" vertex2="Hohlzylinder_GEM_v270" vertex3="Hohlzylinder_GEM_v445"/>
+ <triangular vertex1="Hohlzylinder_GEM_v444" vertex2="Hohlzylinder_GEM_v328" vertex3="Hohlzylinder_GEM_v329"/>
+ <triangular vertex1="Hohlzylinder_GEM_v446" vertex2="Hohlzylinder_GEM_v328" vertex3="Hohlzylinder_GEM_v444"/>
+ <triangular vertex1="Hohlzylinder_GEM_v270" vertex2="Hohlzylinder_GEM_v447" vertex3="Hohlzylinder_GEM_v445"/>
+ <triangular vertex1="Hohlzylinder_GEM_v270" vertex2="Hohlzylinder_GEM_v271" vertex3="Hohlzylinder_GEM_v447"/>
+ <triangular vertex1="Hohlzylinder_GEM_v446" vertex2="Hohlzylinder_GEM_v448" vertex3="Hohlzylinder_GEM_v328"/>
+ <triangular vertex1="Hohlzylinder_GEM_v448" vertex2="Hohlzylinder_GEM_v327" vertex3="Hohlzylinder_GEM_v328"/>
+ <triangular vertex1="Hohlzylinder_GEM_v271" vertex2="Hohlzylinder_GEM_v272" vertex3="Hohlzylinder_GEM_v447"/>
+ <triangular vertex1="Hohlzylinder_GEM_v447" vertex2="Hohlzylinder_GEM_v272" vertex3="Hohlzylinder_GEM_v449"/>
+ <triangular vertex1="Hohlzylinder_GEM_v448" vertex2="Hohlzylinder_GEM_v326" vertex3="Hohlzylinder_GEM_v327"/>
+ <triangular vertex1="Hohlzylinder_GEM_v450" vertex2="Hohlzylinder_GEM_v326" vertex3="Hohlzylinder_GEM_v448"/>
+ <triangular vertex1="Hohlzylinder_GEM_v450" vertex2="Hohlzylinder_GEM_v451" vertex3="Hohlzylinder_GEM_v326"/>
+ <triangular vertex1="Hohlzylinder_GEM_v272" vertex2="Hohlzylinder_GEM_v273" vertex3="Hohlzylinder_GEM_v449"/>
+ <triangular vertex1="Hohlzylinder_GEM_v449" vertex2="Hohlzylinder_GEM_v273" vertex3="Hohlzylinder_GEM_v452"/>
+ <triangular vertex1="Hohlzylinder_GEM_v273" vertex2="Hohlzylinder_GEM_v453" vertex3="Hohlzylinder_GEM_v452"/>
+ <triangular vertex1="Hohlzylinder_GEM_v451" vertex2="Hohlzylinder_GEM_v325" vertex3="Hohlzylinder_GEM_v326"/>
+ <triangular vertex1="Hohlzylinder_GEM_v273" vertex2="Hohlzylinder_GEM_v274" vertex3="Hohlzylinder_GEM_v453"/>
+ <triangular vertex1="Hohlzylinder_GEM_v451" vertex2="Hohlzylinder_GEM_v324" vertex3="Hohlzylinder_GEM_v325"/>
+ <triangular vertex1="Hohlzylinder_GEM_v454" vertex2="Hohlzylinder_GEM_v324" vertex3="Hohlzylinder_GEM_v451"/>
+ <triangular vertex1="Hohlzylinder_GEM_v453" vertex2="Hohlzylinder_GEM_v275" vertex3="Hohlzylinder_GEM_v455"/>
+ <triangular vertex1="Hohlzylinder_GEM_v274" vertex2="Hohlzylinder_GEM_v275" vertex3="Hohlzylinder_GEM_v453"/>
+ <triangular vertex1="Hohlzylinder_GEM_v454" vertex2="Hohlzylinder_GEM_v323" vertex3="Hohlzylinder_GEM_v324"/>
+ <triangular vertex1="Hohlzylinder_GEM_v456" vertex2="Hohlzylinder_GEM_v323" vertex3="Hohlzylinder_GEM_v454"/>
+ <triangular vertex1="Hohlzylinder_GEM_v455" vertex2="Hohlzylinder_GEM_v276" vertex3="Hohlzylinder_GEM_v457"/>
+ <triangular vertex1="Hohlzylinder_GEM_v275" vertex2="Hohlzylinder_GEM_v276" vertex3="Hohlzylinder_GEM_v455"/>
+ <triangular vertex1="Hohlzylinder_GEM_v456" vertex2="Hohlzylinder_GEM_v322" vertex3="Hohlzylinder_GEM_v323"/>
+ <triangular vertex1="Hohlzylinder_GEM_v458" vertex2="Hohlzylinder_GEM_v322" vertex3="Hohlzylinder_GEM_v456"/>
+ <triangular vertex1="Hohlzylinder_GEM_v457" vertex2="Hohlzylinder_GEM_v277" vertex3="Hohlzylinder_GEM_v459"/>
+ <triangular vertex1="Hohlzylinder_GEM_v276" vertex2="Hohlzylinder_GEM_v277" vertex3="Hohlzylinder_GEM_v457"/>
+ <triangular vertex1="Hohlzylinder_GEM_v458" vertex2="Hohlzylinder_GEM_v321" vertex3="Hohlzylinder_GEM_v322"/>
+ <triangular vertex1="Hohlzylinder_GEM_v460" vertex2="Hohlzylinder_GEM_v321" vertex3="Hohlzylinder_GEM_v461"/>
+ <triangular vertex1="Hohlzylinder_GEM_v461" vertex2="Hohlzylinder_GEM_v321" vertex3="Hohlzylinder_GEM_v458"/>
+ <triangular vertex1="Hohlzylinder_GEM_v459" vertex2="Hohlzylinder_GEM_v278" vertex3="Hohlzylinder_GEM_v462"/>
+ <triangular vertex1="Hohlzylinder_GEM_v277" vertex2="Hohlzylinder_GEM_v278" vertex3="Hohlzylinder_GEM_v459"/>
+ <triangular vertex1="Hohlzylinder_GEM_v460" vertex2="Hohlzylinder_GEM_v320" vertex3="Hohlzylinder_GEM_v321"/>
+ <triangular vertex1="Hohlzylinder_GEM_v463" vertex2="Hohlzylinder_GEM_v320" vertex3="Hohlzylinder_GEM_v460"/>
+ <triangular vertex1="Hohlzylinder_GEM_v462" vertex2="Hohlzylinder_GEM_v279" vertex3="Hohlzylinder_GEM_v464"/>
+ <triangular vertex1="Hohlzylinder_GEM_v278" vertex2="Hohlzylinder_GEM_v279" vertex3="Hohlzylinder_GEM_v462"/>
+ <triangular vertex1="Hohlzylinder_GEM_v463" vertex2="Hohlzylinder_GEM_v319" vertex3="Hohlzylinder_GEM_v320"/>
+ <triangular vertex1="Hohlzylinder_GEM_v464" vertex2="Hohlzylinder_GEM_v280" vertex3="Hohlzylinder_GEM_v465"/>
+ <triangular vertex1="Hohlzylinder_GEM_v465" vertex2="Hohlzylinder_GEM_v280" vertex3="Hohlzylinder_GEM_v466"/>
+ <triangular vertex1="Hohlzylinder_GEM_v279" vertex2="Hohlzylinder_GEM_v280" vertex3="Hohlzylinder_GEM_v464"/>
+ <triangular vertex1="Hohlzylinder_GEM_v463" vertex2="Hohlzylinder_GEM_v318" vertex3="Hohlzylinder_GEM_v319"/>
+ <triangular vertex1="Hohlzylinder_GEM_v467" vertex2="Hohlzylinder_GEM_v318" vertex3="Hohlzylinder_GEM_v463"/>
+ <triangular vertex1="Hohlzylinder_GEM_v280" vertex2="Hohlzylinder_GEM_v281" vertex3="Hohlzylinder_GEM_v466"/>
+ <triangular vertex1="Hohlzylinder_GEM_v467" vertex2="Hohlzylinder_GEM_v317" vertex3="Hohlzylinder_GEM_v318"/>
+ <triangular vertex1="Hohlzylinder_GEM_v468" vertex2="Hohlzylinder_GEM_v317" vertex3="Hohlzylinder_GEM_v467"/>
+ <triangular vertex1="Hohlzylinder_GEM_v281" vertex2="Hohlzylinder_GEM_v282" vertex3="Hohlzylinder_GEM_v466"/>
+ <triangular vertex1="Hohlzylinder_GEM_v466" vertex2="Hohlzylinder_GEM_v282" vertex3="Hohlzylinder_GEM_v469"/>
+ <triangular vertex1="Hohlzylinder_GEM_v468" vertex2="Hohlzylinder_GEM_v316" vertex3="Hohlzylinder_GEM_v317"/>
+ <triangular vertex1="Hohlzylinder_GEM_v470" vertex2="Hohlzylinder_GEM_v316" vertex3="Hohlzylinder_GEM_v468"/>
+ <triangular vertex1="Hohlzylinder_GEM_v282" vertex2="Hohlzylinder_GEM_v283" vertex3="Hohlzylinder_GEM_v469"/>
+ <triangular vertex1="Hohlzylinder_GEM_v469" vertex2="Hohlzylinder_GEM_v283" vertex3="Hohlzylinder_GEM_v471"/>
+ <triangular vertex1="Hohlzylinder_GEM_v471" vertex2="Hohlzylinder_GEM_v283" vertex3="Hohlzylinder_GEM_v472"/>
+ <triangular vertex1="Hohlzylinder_GEM_v470" vertex2="Hohlzylinder_GEM_v315" vertex3="Hohlzylinder_GEM_v316"/>
+ <triangular vertex1="Hohlzylinder_GEM_v473" vertex2="Hohlzylinder_GEM_v315" vertex3="Hohlzylinder_GEM_v470"/>
+ <triangular vertex1="Hohlzylinder_GEM_v283" vertex2="Hohlzylinder_GEM_v284" vertex3="Hohlzylinder_GEM_v472"/>
+ <triangular vertex1="Hohlzylinder_GEM_v473" vertex2="Hohlzylinder_GEM_v314" vertex3="Hohlzylinder_GEM_v315"/>
+ <triangular vertex1="Hohlzylinder_GEM_v474" vertex2="Hohlzylinder_GEM_v314" vertex3="Hohlzylinder_GEM_v473"/>
+ <triangular vertex1="Hohlzylinder_GEM_v284" vertex2="Hohlzylinder_GEM_v285" vertex3="Hohlzylinder_GEM_v472"/>
+ <triangular vertex1="Hohlzylinder_GEM_v472" vertex2="Hohlzylinder_GEM_v285" vertex3="Hohlzylinder_GEM_v475"/>
+ <triangular vertex1="Hohlzylinder_GEM_v474" vertex2="Hohlzylinder_GEM_v313" vertex3="Hohlzylinder_GEM_v314"/>
+ <triangular vertex1="Hohlzylinder_GEM_v476" vertex2="Hohlzylinder_GEM_v313" vertex3="Hohlzylinder_GEM_v474"/>
+ <triangular vertex1="Hohlzylinder_GEM_v285" vertex2="Hohlzylinder_GEM_v286" vertex3="Hohlzylinder_GEM_v475"/>
+ <triangular vertex1="Hohlzylinder_GEM_v475" vertex2="Hohlzylinder_GEM_v286" vertex3="Hohlzylinder_GEM_v477"/>
+ <triangular vertex1="Hohlzylinder_GEM_v476" vertex2="Hohlzylinder_GEM_v312" vertex3="Hohlzylinder_GEM_v313"/>
+ <triangular vertex1="Hohlzylinder_GEM_v478" vertex2="Hohlzylinder_GEM_v312" vertex3="Hohlzylinder_GEM_v479"/>
+ <triangular vertex1="Hohlzylinder_GEM_v479" vertex2="Hohlzylinder_GEM_v312" vertex3="Hohlzylinder_GEM_v476"/>
+ <triangular vertex1="Hohlzylinder_GEM_v286" vertex2="Hohlzylinder_GEM_v287" vertex3="Hohlzylinder_GEM_v477"/>
+ <triangular vertex1="Hohlzylinder_GEM_v477" vertex2="Hohlzylinder_GEM_v287" vertex3="Hohlzylinder_GEM_v480"/>
+ <triangular vertex1="Hohlzylinder_GEM_v480" vertex2="Hohlzylinder_GEM_v287" vertex3="Hohlzylinder_GEM_v481"/>
+ <triangular vertex1="Hohlzylinder_GEM_v478" vertex2="Hohlzylinder_GEM_v311" vertex3="Hohlzylinder_GEM_v312"/>
+ <triangular vertex1="Hohlzylinder_GEM_v287" vertex2="Hohlzylinder_GEM_v288" vertex3="Hohlzylinder_GEM_v481"/>
+ <triangular vertex1="Hohlzylinder_GEM_v478" vertex2="Hohlzylinder_GEM_v310" vertex3="Hohlzylinder_GEM_v311"/>
+ <triangular vertex1="Hohlzylinder_GEM_v482" vertex2="Hohlzylinder_GEM_v310" vertex3="Hohlzylinder_GEM_v478"/>
+ <triangular vertex1="Hohlzylinder_GEM_v481" vertex2="Hohlzylinder_GEM_v289" vertex3="Hohlzylinder_GEM_v483"/>
+ <triangular vertex1="Hohlzylinder_GEM_v288" vertex2="Hohlzylinder_GEM_v289" vertex3="Hohlzylinder_GEM_v481"/>
+ <triangular vertex1="Hohlzylinder_GEM_v484" vertex2="Hohlzylinder_GEM_v309" vertex3="Hohlzylinder_GEM_v482"/>
+ <triangular vertex1="Hohlzylinder_GEM_v482" vertex2="Hohlzylinder_GEM_v309" vertex3="Hohlzylinder_GEM_v310"/>
+ <triangular vertex1="Hohlzylinder_GEM_v483" vertex2="Hohlzylinder_GEM_v290" vertex3="Hohlzylinder_GEM_v485"/>
+ <triangular vertex1="Hohlzylinder_GEM_v485" vertex2="Hohlzylinder_GEM_v290" vertex3="Hohlzylinder_GEM_v486"/>
+ <triangular vertex1="Hohlzylinder_GEM_v289" vertex2="Hohlzylinder_GEM_v290" vertex3="Hohlzylinder_GEM_v483"/>
+ <triangular vertex1="Hohlzylinder_GEM_v487" vertex2="Hohlzylinder_GEM_v308" vertex3="Hohlzylinder_GEM_v488"/>
+ <triangular vertex1="Hohlzylinder_GEM_v488" vertex2="Hohlzylinder_GEM_v308" vertex3="Hohlzylinder_GEM_v484"/>
+ <triangular vertex1="Hohlzylinder_GEM_v484" vertex2="Hohlzylinder_GEM_v308" vertex3="Hohlzylinder_GEM_v309"/>
+ <triangular vertex1="Hohlzylinder_GEM_v290" vertex2="Hohlzylinder_GEM_v291" vertex3="Hohlzylinder_GEM_v486"/>
+ <triangular vertex1="Hohlzylinder_GEM_v489" vertex2="Hohlzylinder_GEM_v307" vertex3="Hohlzylinder_GEM_v487"/>
+ <triangular vertex1="Hohlzylinder_GEM_v487" vertex2="Hohlzylinder_GEM_v307" vertex3="Hohlzylinder_GEM_v308"/>
+ <triangular vertex1="Hohlzylinder_GEM_v486" vertex2="Hohlzylinder_GEM_v292" vertex3="Hohlzylinder_GEM_v490"/>
+ <triangular vertex1="Hohlzylinder_GEM_v490" vertex2="Hohlzylinder_GEM_v292" vertex3="Hohlzylinder_GEM_v491"/>
+ <triangular vertex1="Hohlzylinder_GEM_v291" vertex2="Hohlzylinder_GEM_v292" vertex3="Hohlzylinder_GEM_v486"/>
+ <triangular vertex1="Hohlzylinder_GEM_v489" vertex2="Hohlzylinder_GEM_v306" vertex3="Hohlzylinder_GEM_v307"/>
+ <triangular vertex1="Hohlzylinder_GEM_v492" vertex2="Hohlzylinder_GEM_v306" vertex3="Hohlzylinder_GEM_v489"/>
+ <triangular vertex1="Hohlzylinder_GEM_v292" vertex2="Hohlzylinder_GEM_v293" vertex3="Hohlzylinder_GEM_v491"/>
+ <triangular vertex1="Hohlzylinder_GEM_v492" vertex2="Hohlzylinder_GEM_v305" vertex3="Hohlzylinder_GEM_v306"/>
+ <triangular vertex1="Hohlzylinder_GEM_v293" vertex2="Hohlzylinder_GEM_v294" vertex3="Hohlzylinder_GEM_v491"/>
+ <triangular vertex1="Hohlzylinder_GEM_v491" vertex2="Hohlzylinder_GEM_v294" vertex3="Hohlzylinder_GEM_v493"/>
+ <triangular vertex1="Hohlzylinder_GEM_v494" vertex2="Hohlzylinder_GEM_v304" vertex3="Hohlzylinder_GEM_v495"/>
+ <triangular vertex1="Hohlzylinder_GEM_v495" vertex2="Hohlzylinder_GEM_v304" vertex3="Hohlzylinder_GEM_v492"/>
+ <triangular vertex1="Hohlzylinder_GEM_v492" vertex2="Hohlzylinder_GEM_v304" vertex3="Hohlzylinder_GEM_v305"/>
+ <triangular vertex1="Hohlzylinder_GEM_v294" vertex2="Hohlzylinder_GEM_v295" vertex3="Hohlzylinder_GEM_v493"/>
+ <triangular vertex1="Hohlzylinder_GEM_v493" vertex2="Hohlzylinder_GEM_v295" vertex3="Hohlzylinder_GEM_v496"/>
+ <triangular vertex1="Hohlzylinder_GEM_v494" vertex2="Hohlzylinder_GEM_v303" vertex3="Hohlzylinder_GEM_v304"/>
+ <triangular vertex1="Hohlzylinder_GEM_v295" vertex2="Hohlzylinder_GEM_v296" vertex3="Hohlzylinder_GEM_v496"/>
+ <triangular vertex1="Hohlzylinder_GEM_v496" vertex2="Hohlzylinder_GEM_v296" vertex3="Hohlzylinder_GEM_v497"/>
+ <triangular vertex1="Hohlzylinder_GEM_v498" vertex2="Hohlzylinder_GEM_v302" vertex3="Hohlzylinder_GEM_v499"/>
+ <triangular vertex1="Hohlzylinder_GEM_v499" vertex2="Hohlzylinder_GEM_v302" vertex3="Hohlzylinder_GEM_v494"/>
+ <triangular vertex1="Hohlzylinder_GEM_v494" vertex2="Hohlzylinder_GEM_v302" vertex3="Hohlzylinder_GEM_v303"/>
+ <triangular vertex1="Hohlzylinder_GEM_v296" vertex2="Hohlzylinder_GEM_v297" vertex3="Hohlzylinder_GEM_v497"/>
+ <triangular vertex1="Hohlzylinder_GEM_v497" vertex2="Hohlzylinder_GEM_v297" vertex3="Hohlzylinder_GEM_v500"/>
+ <triangular vertex1="Hohlzylinder_GEM_v498" vertex2="Hohlzylinder_GEM_v301" vertex3="Hohlzylinder_GEM_v302"/>
+ <triangular vertex1="Hohlzylinder_GEM_v501" vertex2="Hohlzylinder_GEM_v301" vertex3="Hohlzylinder_GEM_v498"/>
+ <triangular vertex1="Hohlzylinder_GEM_v297" vertex2="Hohlzylinder_GEM_v298" vertex3="Hohlzylinder_GEM_v500"/>
+ <triangular vertex1="Hohlzylinder_GEM_v500" vertex2="Hohlzylinder_GEM_v298" vertex3="Hohlzylinder_GEM_v502"/>
+ <triangular vertex1="Hohlzylinder_GEM_v501" vertex2="Hohlzylinder_GEM_v300" vertex3="Hohlzylinder_GEM_v301"/>
+ <triangular vertex1="Hohlzylinder_GEM_v298" vertex2="Hohlzylinder_GEM_v299" vertex3="Hohlzylinder_GEM_v502"/>
+ <triangular vertex1="Hohlzylinder_GEM_v501" vertex2="Hohlzylinder_GEM_v299" vertex3="Hohlzylinder_GEM_v300"/>
+ <triangular vertex1="Hohlzylinder_GEM_v502" vertex2="Hohlzylinder_GEM_v299" vertex3="Hohlzylinder_GEM_v503"/>
+ <triangular vertex1="Hohlzylinder_GEM_v503" vertex2="Hohlzylinder_GEM_v299" vertex3="Hohlzylinder_GEM_v501"/>
+ <triangular vertex1="Hohlzylinder_GEM_v191" vertex2="Hohlzylinder_GEM_v411" vertex3="Hohlzylinder_GEM_v189"/>
+ <triangular vertex1="Hohlzylinder_GEM_v189" vertex2="Hohlzylinder_GEM_v411" vertex3="Hohlzylinder_GEM_v196"/>
+ <triangular vertex1="Hohlzylinder_GEM_v409" vertex2="Hohlzylinder_GEM_v411" vertex3="Hohlzylinder_GEM_v191"/>
+ <triangular vertex1="Hohlzylinder_GEM_v196" vertex2="Hohlzylinder_GEM_v413" vertex3="Hohlzylinder_GEM_v200"/>
+ <triangular vertex1="Hohlzylinder_GEM_v411" vertex2="Hohlzylinder_GEM_v413" vertex3="Hohlzylinder_GEM_v196"/>
+ <triangular vertex1="Hohlzylinder_GEM_v413" vertex2="Hohlzylinder_GEM_v415" vertex3="Hohlzylinder_GEM_v200"/>
+ <triangular vertex1="Hohlzylinder_GEM_v200" vertex2="Hohlzylinder_GEM_v417" vertex3="Hohlzylinder_GEM_v204"/>
+ <triangular vertex1="Hohlzylinder_GEM_v204" vertex2="Hohlzylinder_GEM_v417" vertex3="Hohlzylinder_GEM_v209"/>
+ <triangular vertex1="Hohlzylinder_GEM_v415" vertex2="Hohlzylinder_GEM_v417" vertex3="Hohlzylinder_GEM_v200"/>
+ <triangular vertex1="Hohlzylinder_GEM_v417" vertex2="Hohlzylinder_GEM_v419" vertex3="Hohlzylinder_GEM_v209"/>
+ <triangular vertex1="Hohlzylinder_GEM_v209" vertex2="Hohlzylinder_GEM_v421" vertex3="Hohlzylinder_GEM_v211"/>
+ <triangular vertex1="Hohlzylinder_GEM_v419" vertex2="Hohlzylinder_GEM_v421" vertex3="Hohlzylinder_GEM_v209"/>
+ <triangular vertex1="Hohlzylinder_GEM_v211" vertex2="Hohlzylinder_GEM_v423" vertex3="Hohlzylinder_GEM_v216"/>
+ <triangular vertex1="Hohlzylinder_GEM_v216" vertex2="Hohlzylinder_GEM_v423" vertex3="Hohlzylinder_GEM_v222"/>
+ <triangular vertex1="Hohlzylinder_GEM_v421" vertex2="Hohlzylinder_GEM_v423" vertex3="Hohlzylinder_GEM_v211"/>
+ <triangular vertex1="Hohlzylinder_GEM_v423" vertex2="Hohlzylinder_GEM_v425" vertex3="Hohlzylinder_GEM_v222"/>
+ <triangular vertex1="Hohlzylinder_GEM_v222" vertex2="Hohlzylinder_GEM_v427" vertex3="Hohlzylinder_GEM_v225"/>
+ <triangular vertex1="Hohlzylinder_GEM_v425" vertex2="Hohlzylinder_GEM_v427" vertex3="Hohlzylinder_GEM_v222"/>
+ <triangular vertex1="Hohlzylinder_GEM_v225" vertex2="Hohlzylinder_GEM_v429" vertex3="Hohlzylinder_GEM_v227"/>
+ <triangular vertex1="Hohlzylinder_GEM_v427" vertex2="Hohlzylinder_GEM_v429" vertex3="Hohlzylinder_GEM_v225"/>
+ <triangular vertex1="Hohlzylinder_GEM_v429" vertex2="Hohlzylinder_GEM_v431" vertex3="Hohlzylinder_GEM_v227"/>
+ <triangular vertex1="Hohlzylinder_GEM_v227" vertex2="Hohlzylinder_GEM_v431" vertex3="Hohlzylinder_GEM_v233"/>
+ <triangular vertex1="Hohlzylinder_GEM_v233" vertex2="Hohlzylinder_GEM_v431" vertex3="Hohlzylinder_GEM_v236"/>
+ <triangular vertex1="Hohlzylinder_GEM_v431" vertex2="Hohlzylinder_GEM_v433" vertex3="Hohlzylinder_GEM_v236"/>
+ <triangular vertex1="Hohlzylinder_GEM_v433" vertex2="Hohlzylinder_GEM_v435" vertex3="Hohlzylinder_GEM_v236"/>
+ <triangular vertex1="Hohlzylinder_GEM_v236" vertex2="Hohlzylinder_GEM_v435" vertex3="Hohlzylinder_GEM_v238"/>
+ <triangular vertex1="Hohlzylinder_GEM_v238" vertex2="Hohlzylinder_GEM_v437" vertex3="Hohlzylinder_GEM_v244"/>
+ <triangular vertex1="Hohlzylinder_GEM_v435" vertex2="Hohlzylinder_GEM_v437" vertex3="Hohlzylinder_GEM_v238"/>
+ <triangular vertex1="Hohlzylinder_GEM_v244" vertex2="Hohlzylinder_GEM_v439" vertex3="Hohlzylinder_GEM_v250"/>
+ <triangular vertex1="Hohlzylinder_GEM_v250" vertex2="Hohlzylinder_GEM_v439" vertex3="Hohlzylinder_GEM_v248"/>
+ <triangular vertex1="Hohlzylinder_GEM_v437" vertex2="Hohlzylinder_GEM_v439" vertex3="Hohlzylinder_GEM_v244"/>
+ <triangular vertex1="Hohlzylinder_GEM_v439" vertex2="Hohlzylinder_GEM_v441" vertex3="Hohlzylinder_GEM_v248"/>
+ <triangular vertex1="Hohlzylinder_GEM_v248" vertex2="Hohlzylinder_GEM_v443" vertex3="Hohlzylinder_GEM_v246"/>
+ <triangular vertex1="Hohlzylinder_GEM_v441" vertex2="Hohlzylinder_GEM_v443" vertex3="Hohlzylinder_GEM_v248"/>
+ <triangular vertex1="Hohlzylinder_GEM_v246" vertex2="Hohlzylinder_GEM_v445" vertex3="Hohlzylinder_GEM_v243"/>
+ <triangular vertex1="Hohlzylinder_GEM_v243" vertex2="Hohlzylinder_GEM_v445" vertex3="Hohlzylinder_GEM_v240"/>
+ <triangular vertex1="Hohlzylinder_GEM_v443" vertex2="Hohlzylinder_GEM_v445" vertex3="Hohlzylinder_GEM_v246"/>
+ <triangular vertex1="Hohlzylinder_GEM_v445" vertex2="Hohlzylinder_GEM_v447" vertex3="Hohlzylinder_GEM_v240"/>
+ <triangular vertex1="Hohlzylinder_GEM_v240" vertex2="Hohlzylinder_GEM_v449" vertex3="Hohlzylinder_GEM_v232"/>
+ <triangular vertex1="Hohlzylinder_GEM_v447" vertex2="Hohlzylinder_GEM_v449" vertex3="Hohlzylinder_GEM_v240"/>
+ <triangular vertex1="Hohlzylinder_GEM_v232" vertex2="Hohlzylinder_GEM_v452" vertex3="Hohlzylinder_GEM_v231"/>
+ <triangular vertex1="Hohlzylinder_GEM_v449" vertex2="Hohlzylinder_GEM_v452" vertex3="Hohlzylinder_GEM_v232"/>
+ <triangular vertex1="Hohlzylinder_GEM_v231" vertex2="Hohlzylinder_GEM_v453" vertex3="Hohlzylinder_GEM_v224"/>
+ <triangular vertex1="Hohlzylinder_GEM_v452" vertex2="Hohlzylinder_GEM_v453" vertex3="Hohlzylinder_GEM_v231"/>
+ <triangular vertex1="Hohlzylinder_GEM_v224" vertex2="Hohlzylinder_GEM_v455" vertex3="Hohlzylinder_GEM_v220"/>
+ <triangular vertex1="Hohlzylinder_GEM_v453" vertex2="Hohlzylinder_GEM_v455" vertex3="Hohlzylinder_GEM_v224"/>
+ <triangular vertex1="Hohlzylinder_GEM_v220" vertex2="Hohlzylinder_GEM_v457" vertex3="Hohlzylinder_GEM_v219"/>
+ <triangular vertex1="Hohlzylinder_GEM_v455" vertex2="Hohlzylinder_GEM_v457" vertex3="Hohlzylinder_GEM_v220"/>
+ <triangular vertex1="Hohlzylinder_GEM_v219" vertex2="Hohlzylinder_GEM_v459" vertex3="Hohlzylinder_GEM_v215"/>
+ <triangular vertex1="Hohlzylinder_GEM_v457" vertex2="Hohlzylinder_GEM_v459" vertex3="Hohlzylinder_GEM_v219"/>
+ <triangular vertex1="Hohlzylinder_GEM_v215" vertex2="Hohlzylinder_GEM_v462" vertex3="Hohlzylinder_GEM_v208"/>
+ <triangular vertex1="Hohlzylinder_GEM_v459" vertex2="Hohlzylinder_GEM_v462" vertex3="Hohlzylinder_GEM_v215"/>
+ <triangular vertex1="Hohlzylinder_GEM_v208" vertex2="Hohlzylinder_GEM_v464" vertex3="Hohlzylinder_GEM_v206"/>
+ <triangular vertex1="Hohlzylinder_GEM_v462" vertex2="Hohlzylinder_GEM_v464" vertex3="Hohlzylinder_GEM_v208"/>
+ <triangular vertex1="Hohlzylinder_GEM_v206" vertex2="Hohlzylinder_GEM_v465" vertex3="Hohlzylinder_GEM_v203"/>
+ <triangular vertex1="Hohlzylinder_GEM_v203" vertex2="Hohlzylinder_GEM_v465" vertex3="Hohlzylinder_GEM_v199"/>
+ <triangular vertex1="Hohlzylinder_GEM_v464" vertex2="Hohlzylinder_GEM_v465" vertex3="Hohlzylinder_GEM_v206"/>
+ <triangular vertex1="Hohlzylinder_GEM_v465" vertex2="Hohlzylinder_GEM_v466" vertex3="Hohlzylinder_GEM_v199"/>
+ <triangular vertex1="Hohlzylinder_GEM_v199" vertex2="Hohlzylinder_GEM_v469" vertex3="Hohlzylinder_GEM_v195"/>
+ <triangular vertex1="Hohlzylinder_GEM_v466" vertex2="Hohlzylinder_GEM_v469" vertex3="Hohlzylinder_GEM_v199"/>
+ <triangular vertex1="Hohlzylinder_GEM_v195" vertex2="Hohlzylinder_GEM_v471" vertex3="Hohlzylinder_GEM_v188"/>
+ <triangular vertex1="Hohlzylinder_GEM_v469" vertex2="Hohlzylinder_GEM_v471" vertex3="Hohlzylinder_GEM_v195"/>
+ <triangular vertex1="Hohlzylinder_GEM_v188" vertex2="Hohlzylinder_GEM_v472" vertex3="Hohlzylinder_GEM_v187"/>
+ <triangular vertex1="Hohlzylinder_GEM_v471" vertex2="Hohlzylinder_GEM_v472" vertex3="Hohlzylinder_GEM_v188"/>
+ <triangular vertex1="Hohlzylinder_GEM_v187" vertex2="Hohlzylinder_GEM_v475" vertex3="Hohlzylinder_GEM_v180"/>
+ <triangular vertex1="Hohlzylinder_GEM_v472" vertex2="Hohlzylinder_GEM_v475" vertex3="Hohlzylinder_GEM_v187"/>
+ <triangular vertex1="Hohlzylinder_GEM_v180" vertex2="Hohlzylinder_GEM_v477" vertex3="Hohlzylinder_GEM_v176"/>
+ <triangular vertex1="Hohlzylinder_GEM_v475" vertex2="Hohlzylinder_GEM_v477" vertex3="Hohlzylinder_GEM_v180"/>
+ <triangular vertex1="Hohlzylinder_GEM_v176" vertex2="Hohlzylinder_GEM_v480" vertex3="Hohlzylinder_GEM_v174"/>
+ <triangular vertex1="Hohlzylinder_GEM_v477" vertex2="Hohlzylinder_GEM_v480" vertex3="Hohlzylinder_GEM_v176"/>
+ <triangular vertex1="Hohlzylinder_GEM_v174" vertex2="Hohlzylinder_GEM_v481" vertex3="Hohlzylinder_GEM_v171"/>
+ <triangular vertex1="Hohlzylinder_GEM_v480" vertex2="Hohlzylinder_GEM_v481" vertex3="Hohlzylinder_GEM_v174"/>
+ <triangular vertex1="Hohlzylinder_GEM_v171" vertex2="Hohlzylinder_GEM_v483" vertex3="Hohlzylinder_GEM_v164"/>
+ <triangular vertex1="Hohlzylinder_GEM_v164" vertex2="Hohlzylinder_GEM_v483" vertex3="Hohlzylinder_GEM_v162"/>
+ <triangular vertex1="Hohlzylinder_GEM_v481" vertex2="Hohlzylinder_GEM_v483" vertex3="Hohlzylinder_GEM_v171"/>
+ <triangular vertex1="Hohlzylinder_GEM_v483" vertex2="Hohlzylinder_GEM_v485" vertex3="Hohlzylinder_GEM_v162"/>
+ <triangular vertex1="Hohlzylinder_GEM_v162" vertex2="Hohlzylinder_GEM_v485" vertex3="Hohlzylinder_GEM_v156"/>
+ <triangular vertex1="Hohlzylinder_GEM_v485" vertex2="Hohlzylinder_GEM_v486" vertex3="Hohlzylinder_GEM_v156"/>
+ <triangular vertex1="Hohlzylinder_GEM_v486" vertex2="Hohlzylinder_GEM_v490" vertex3="Hohlzylinder_GEM_v156"/>
+ <triangular vertex1="Hohlzylinder_GEM_v156" vertex2="Hohlzylinder_GEM_v490" vertex3="Hohlzylinder_GEM_v155"/>
+ <triangular vertex1="Hohlzylinder_GEM_v490" vertex2="Hohlzylinder_GEM_v491" vertex3="Hohlzylinder_GEM_v155"/>
+ <triangular vertex1="Hohlzylinder_GEM_v155" vertex2="Hohlzylinder_GEM_v491" vertex3="Hohlzylinder_GEM_v151"/>
+ <triangular vertex1="Hohlzylinder_GEM_v491" vertex2="Hohlzylinder_GEM_v493" vertex3="Hohlzylinder_GEM_v151"/>
+ <triangular vertex1="Hohlzylinder_GEM_v151" vertex2="Hohlzylinder_GEM_v493" vertex3="Hohlzylinder_GEM_v144"/>
+ <triangular vertex1="Hohlzylinder_GEM_v493" vertex2="Hohlzylinder_GEM_v496" vertex3="Hohlzylinder_GEM_v144"/>
+ <triangular vertex1="Hohlzylinder_GEM_v144" vertex2="Hohlzylinder_GEM_v496" vertex3="Hohlzylinder_GEM_v143"/>
+ <triangular vertex1="Hohlzylinder_GEM_v496" vertex2="Hohlzylinder_GEM_v497" vertex3="Hohlzylinder_GEM_v143"/>
+ <triangular vertex1="Hohlzylinder_GEM_v143" vertex2="Hohlzylinder_GEM_v497" vertex3="Hohlzylinder_GEM_v139"/>
+ <triangular vertex1="Hohlzylinder_GEM_v497" vertex2="Hohlzylinder_GEM_v500" vertex3="Hohlzylinder_GEM_v139"/>
+ <triangular vertex1="Hohlzylinder_GEM_v139" vertex2="Hohlzylinder_GEM_v500" vertex3="Hohlzylinder_GEM_v134"/>
+ <triangular vertex1="Hohlzylinder_GEM_v500" vertex2="Hohlzylinder_GEM_v502" vertex3="Hohlzylinder_GEM_v134"/>
+ <triangular vertex1="Hohlzylinder_GEM_v134" vertex2="Hohlzylinder_GEM_v502" vertex3="Hohlzylinder_GEM_v131"/>
+ <triangular vertex1="Hohlzylinder_GEM_v131" vertex2="Hohlzylinder_GEM_v502" vertex3="Hohlzylinder_GEM_v127"/>
+ <triangular vertex1="Hohlzylinder_GEM_v502" vertex2="Hohlzylinder_GEM_v503" vertex3="Hohlzylinder_GEM_v127"/>
+ <triangular vertex1="Hohlzylinder_GEM_v127" vertex2="Hohlzylinder_GEM_v501" vertex3="Hohlzylinder_GEM_v123"/>
+ <triangular vertex1="Hohlzylinder_GEM_v503" vertex2="Hohlzylinder_GEM_v501" vertex3="Hohlzylinder_GEM_v127"/>
+ <triangular vertex1="Hohlzylinder_GEM_v123" vertex2="Hohlzylinder_GEM_v498" vertex3="Hohlzylinder_GEM_v119"/>
+ <triangular vertex1="Hohlzylinder_GEM_v501" vertex2="Hohlzylinder_GEM_v498" vertex3="Hohlzylinder_GEM_v123"/>
+ <triangular vertex1="Hohlzylinder_GEM_v119" vertex2="Hohlzylinder_GEM_v499" vertex3="Hohlzylinder_GEM_v115"/>
+ <triangular vertex1="Hohlzylinder_GEM_v115" vertex2="Hohlzylinder_GEM_v499" vertex3="Hohlzylinder_GEM_v111"/>
+ <triangular vertex1="Hohlzylinder_GEM_v498" vertex2="Hohlzylinder_GEM_v499" vertex3="Hohlzylinder_GEM_v119"/>
+ <triangular vertex1="Hohlzylinder_GEM_v499" vertex2="Hohlzylinder_GEM_v494" vertex3="Hohlzylinder_GEM_v111"/>
+ <triangular vertex1="Hohlzylinder_GEM_v111" vertex2="Hohlzylinder_GEM_v495" vertex3="Hohlzylinder_GEM_v107"/>
+ <triangular vertex1="Hohlzylinder_GEM_v107" vertex2="Hohlzylinder_GEM_v495" vertex3="Hohlzylinder_GEM_v103"/>
+ <triangular vertex1="Hohlzylinder_GEM_v494" vertex2="Hohlzylinder_GEM_v495" vertex3="Hohlzylinder_GEM_v111"/>
+ <triangular vertex1="Hohlzylinder_GEM_v495" vertex2="Hohlzylinder_GEM_v492" vertex3="Hohlzylinder_GEM_v103"/>
+ <triangular vertex1="Hohlzylinder_GEM_v103" vertex2="Hohlzylinder_GEM_v489" vertex3="Hohlzylinder_GEM_v98"/>
+ <triangular vertex1="Hohlzylinder_GEM_v98" vertex2="Hohlzylinder_GEM_v489" vertex3="Hohlzylinder_GEM_v95"/>
+ <triangular vertex1="Hohlzylinder_GEM_v492" vertex2="Hohlzylinder_GEM_v489" vertex3="Hohlzylinder_GEM_v103"/>
+ <triangular vertex1="Hohlzylinder_GEM_v489" vertex2="Hohlzylinder_GEM_v487" vertex3="Hohlzylinder_GEM_v95"/>
+ <triangular vertex1="Hohlzylinder_GEM_v95" vertex2="Hohlzylinder_GEM_v488" vertex3="Hohlzylinder_GEM_v91"/>
+ <triangular vertex1="Hohlzylinder_GEM_v487" vertex2="Hohlzylinder_GEM_v488" vertex3="Hohlzylinder_GEM_v95"/>
+ <triangular vertex1="Hohlzylinder_GEM_v91" vertex2="Hohlzylinder_GEM_v484" vertex3="Hohlzylinder_GEM_v87"/>
+ <triangular vertex1="Hohlzylinder_GEM_v87" vertex2="Hohlzylinder_GEM_v484" vertex3="Hohlzylinder_GEM_v82"/>
+ <triangular vertex1="Hohlzylinder_GEM_v488" vertex2="Hohlzylinder_GEM_v484" vertex3="Hohlzylinder_GEM_v91"/>
+ <triangular vertex1="Hohlzylinder_GEM_v484" vertex2="Hohlzylinder_GEM_v482" vertex3="Hohlzylinder_GEM_v82"/>
+ <triangular vertex1="Hohlzylinder_GEM_v82" vertex2="Hohlzylinder_GEM_v478" vertex3="Hohlzylinder_GEM_v79"/>
+ <triangular vertex1="Hohlzylinder_GEM_v482" vertex2="Hohlzylinder_GEM_v478" vertex3="Hohlzylinder_GEM_v82"/>
+ <triangular vertex1="Hohlzylinder_GEM_v79" vertex2="Hohlzylinder_GEM_v479" vertex3="Hohlzylinder_GEM_v74"/>
+ <triangular vertex1="Hohlzylinder_GEM_v478" vertex2="Hohlzylinder_GEM_v479" vertex3="Hohlzylinder_GEM_v79"/>
+ <triangular vertex1="Hohlzylinder_GEM_v74" vertex2="Hohlzylinder_GEM_v476" vertex3="Hohlzylinder_GEM_v72"/>
+ <triangular vertex1="Hohlzylinder_GEM_v479" vertex2="Hohlzylinder_GEM_v476" vertex3="Hohlzylinder_GEM_v74"/>
+ <triangular vertex1="Hohlzylinder_GEM_v72" vertex2="Hohlzylinder_GEM_v474" vertex3="Hohlzylinder_GEM_v67"/>
+ <triangular vertex1="Hohlzylinder_GEM_v67" vertex2="Hohlzylinder_GEM_v474" vertex3="Hohlzylinder_GEM_v63"/>
+ <triangular vertex1="Hohlzylinder_GEM_v476" vertex2="Hohlzylinder_GEM_v474" vertex3="Hohlzylinder_GEM_v72"/>
+ <triangular vertex1="Hohlzylinder_GEM_v474" vertex2="Hohlzylinder_GEM_v473" vertex3="Hohlzylinder_GEM_v63"/>
+ <triangular vertex1="Hohlzylinder_GEM_v63" vertex2="Hohlzylinder_GEM_v473" vertex3="Hohlzylinder_GEM_v59"/>
+ <triangular vertex1="Hohlzylinder_GEM_v473" vertex2="Hohlzylinder_GEM_v470" vertex3="Hohlzylinder_GEM_v59"/>
+ <triangular vertex1="Hohlzylinder_GEM_v470" vertex2="Hohlzylinder_GEM_v468" vertex3="Hohlzylinder_GEM_v59"/>
+ <triangular vertex1="Hohlzylinder_GEM_v59" vertex2="Hohlzylinder_GEM_v468" vertex3="Hohlzylinder_GEM_v56"/>
+ <triangular vertex1="Hohlzylinder_GEM_v56" vertex2="Hohlzylinder_GEM_v468" vertex3="Hohlzylinder_GEM_v51"/>
+ <triangular vertex1="Hohlzylinder_GEM_v468" vertex2="Hohlzylinder_GEM_v467" vertex3="Hohlzylinder_GEM_v51"/>
+ <triangular vertex1="Hohlzylinder_GEM_v51" vertex2="Hohlzylinder_GEM_v467" vertex3="Hohlzylinder_GEM_v47"/>
+ <triangular vertex1="Hohlzylinder_GEM_v467" vertex2="Hohlzylinder_GEM_v463" vertex3="Hohlzylinder_GEM_v47"/>
+ <triangular vertex1="Hohlzylinder_GEM_v47" vertex2="Hohlzylinder_GEM_v463" vertex3="Hohlzylinder_GEM_v42"/>
+ <triangular vertex1="Hohlzylinder_GEM_v463" vertex2="Hohlzylinder_GEM_v460" vertex3="Hohlzylinder_GEM_v42"/>
+ <triangular vertex1="Hohlzylinder_GEM_v460" vertex2="Hohlzylinder_GEM_v461" vertex3="Hohlzylinder_GEM_v42"/>
+ <triangular vertex1="Hohlzylinder_GEM_v42" vertex2="Hohlzylinder_GEM_v461" vertex3="Hohlzylinder_GEM_v38"/>
+ <triangular vertex1="Hohlzylinder_GEM_v38" vertex2="Hohlzylinder_GEM_v461" vertex3="Hohlzylinder_GEM_v35"/>
+ <triangular vertex1="Hohlzylinder_GEM_v461" vertex2="Hohlzylinder_GEM_v458" vertex3="Hohlzylinder_GEM_v35"/>
+ <triangular vertex1="Hohlzylinder_GEM_v35" vertex2="Hohlzylinder_GEM_v458" vertex3="Hohlzylinder_GEM_v31"/>
+ <triangular vertex1="Hohlzylinder_GEM_v458" vertex2="Hohlzylinder_GEM_v456" vertex3="Hohlzylinder_GEM_v31"/>
+ <triangular vertex1="Hohlzylinder_GEM_v456" vertex2="Hohlzylinder_GEM_v454" vertex3="Hohlzylinder_GEM_v31"/>
+ <triangular vertex1="Hohlzylinder_GEM_v31" vertex2="Hohlzylinder_GEM_v454" vertex3="Hohlzylinder_GEM_v27"/>
+ <triangular vertex1="Hohlzylinder_GEM_v27" vertex2="Hohlzylinder_GEM_v454" vertex3="Hohlzylinder_GEM_v23"/>
+ <triangular vertex1="Hohlzylinder_GEM_v454" vertex2="Hohlzylinder_GEM_v451" vertex3="Hohlzylinder_GEM_v23"/>
+ <triangular vertex1="Hohlzylinder_GEM_v451" vertex2="Hohlzylinder_GEM_v450" vertex3="Hohlzylinder_GEM_v23"/>
+ <triangular vertex1="Hohlzylinder_GEM_v23" vertex2="Hohlzylinder_GEM_v450" vertex3="Hohlzylinder_GEM_v19"/>
+ <triangular vertex1="Hohlzylinder_GEM_v450" vertex2="Hohlzylinder_GEM_v448" vertex3="Hohlzylinder_GEM_v19"/>
+ <triangular vertex1="Hohlzylinder_GEM_v19" vertex2="Hohlzylinder_GEM_v448" vertex3="Hohlzylinder_GEM_v16"/>
+ <triangular vertex1="Hohlzylinder_GEM_v448" vertex2="Hohlzylinder_GEM_v446" vertex3="Hohlzylinder_GEM_v16"/>
+ <triangular vertex1="Hohlzylinder_GEM_v16" vertex2="Hohlzylinder_GEM_v446" vertex3="Hohlzylinder_GEM_v11"/>
+ <triangular vertex1="Hohlzylinder_GEM_v11" vertex2="Hohlzylinder_GEM_v446" vertex3="Hohlzylinder_GEM_v7"/>
+ <triangular vertex1="Hohlzylinder_GEM_v446" vertex2="Hohlzylinder_GEM_v444" vertex3="Hohlzylinder_GEM_v7"/>
+ <triangular vertex1="Hohlzylinder_GEM_v444" vertex2="Hohlzylinder_GEM_v442" vertex3="Hohlzylinder_GEM_v7"/>
+ <triangular vertex1="Hohlzylinder_GEM_v7" vertex2="Hohlzylinder_GEM_v442" vertex3="Hohlzylinder_GEM_v1"/>
+ <triangular vertex1="Hohlzylinder_GEM_v442" vertex2="Hohlzylinder_GEM_v440" vertex3="Hohlzylinder_GEM_v1"/>
+ <triangular vertex1="Hohlzylinder_GEM_v1" vertex2="Hohlzylinder_GEM_v440" vertex3="Hohlzylinder_GEM_v2"/>
+ <triangular vertex1="Hohlzylinder_GEM_v2" vertex2="Hohlzylinder_GEM_v440" vertex3="Hohlzylinder_GEM_v5"/>
+ <triangular vertex1="Hohlzylinder_GEM_v440" vertex2="Hohlzylinder_GEM_v438" vertex3="Hohlzylinder_GEM_v5"/>
+ <triangular vertex1="Hohlzylinder_GEM_v438" vertex2="Hohlzylinder_GEM_v436" vertex3="Hohlzylinder_GEM_v5"/>
+ <triangular vertex1="Hohlzylinder_GEM_v5" vertex2="Hohlzylinder_GEM_v436" vertex3="Hohlzylinder_GEM_v8"/>
+ <triangular vertex1="Hohlzylinder_GEM_v436" vertex2="Hohlzylinder_GEM_v434" vertex3="Hohlzylinder_GEM_v8"/>
+ <triangular vertex1="Hohlzylinder_GEM_v8" vertex2="Hohlzylinder_GEM_v434" vertex3="Hohlzylinder_GEM_v13"/>
+ <triangular vertex1="Hohlzylinder_GEM_v13" vertex2="Hohlzylinder_GEM_v432" vertex3="Hohlzylinder_GEM_v17"/>
+ <triangular vertex1="Hohlzylinder_GEM_v434" vertex2="Hohlzylinder_GEM_v432" vertex3="Hohlzylinder_GEM_v13"/>
+ <triangular vertex1="Hohlzylinder_GEM_v17" vertex2="Hohlzylinder_GEM_v432" vertex3="Hohlzylinder_GEM_v20"/>
+ <triangular vertex1="Hohlzylinder_GEM_v432" vertex2="Hohlzylinder_GEM_v430" vertex3="Hohlzylinder_GEM_v20"/>
+ <triangular vertex1="Hohlzylinder_GEM_v20" vertex2="Hohlzylinder_GEM_v428" vertex3="Hohlzylinder_GEM_v25"/>
+ <triangular vertex1="Hohlzylinder_GEM_v430" vertex2="Hohlzylinder_GEM_v428" vertex3="Hohlzylinder_GEM_v20"/>
+ <triangular vertex1="Hohlzylinder_GEM_v25" vertex2="Hohlzylinder_GEM_v426" vertex3="Hohlzylinder_GEM_v29"/>
+ <triangular vertex1="Hohlzylinder_GEM_v428" vertex2="Hohlzylinder_GEM_v426" vertex3="Hohlzylinder_GEM_v25"/>
+ <triangular vertex1="Hohlzylinder_GEM_v29" vertex2="Hohlzylinder_GEM_v424" vertex3="Hohlzylinder_GEM_v33"/>
+ <triangular vertex1="Hohlzylinder_GEM_v426" vertex2="Hohlzylinder_GEM_v424" vertex3="Hohlzylinder_GEM_v29"/>
+ <triangular vertex1="Hohlzylinder_GEM_v424" vertex2="Hohlzylinder_GEM_v422" vertex3="Hohlzylinder_GEM_v33"/>
+ <triangular vertex1="Hohlzylinder_GEM_v33" vertex2="Hohlzylinder_GEM_v422" vertex3="Hohlzylinder_GEM_v37"/>
+ <triangular vertex1="Hohlzylinder_GEM_v422" vertex2="Hohlzylinder_GEM_v420" vertex3="Hohlzylinder_GEM_v37"/>
+ <triangular vertex1="Hohlzylinder_GEM_v37" vertex2="Hohlzylinder_GEM_v420" vertex3="Hohlzylinder_GEM_v40"/>
+ <triangular vertex1="Hohlzylinder_GEM_v420" vertex2="Hohlzylinder_GEM_v418" vertex3="Hohlzylinder_GEM_v40"/>
+ <triangular vertex1="Hohlzylinder_GEM_v40" vertex2="Hohlzylinder_GEM_v418" vertex3="Hohlzylinder_GEM_v44"/>
+ <triangular vertex1="Hohlzylinder_GEM_v418" vertex2="Hohlzylinder_GEM_v416" vertex3="Hohlzylinder_GEM_v44"/>
+ <triangular vertex1="Hohlzylinder_GEM_v44" vertex2="Hohlzylinder_GEM_v416" vertex3="Hohlzylinder_GEM_v49"/>
+ <triangular vertex1="Hohlzylinder_GEM_v49" vertex2="Hohlzylinder_GEM_v416" vertex3="Hohlzylinder_GEM_v53"/>
+ <triangular vertex1="Hohlzylinder_GEM_v416" vertex2="Hohlzylinder_GEM_v414" vertex3="Hohlzylinder_GEM_v53"/>
+ <triangular vertex1="Hohlzylinder_GEM_v414" vertex2="Hohlzylinder_GEM_v412" vertex3="Hohlzylinder_GEM_v53"/>
+ <triangular vertex1="Hohlzylinder_GEM_v53" vertex2="Hohlzylinder_GEM_v412" vertex3="Hohlzylinder_GEM_v58"/>
+ <triangular vertex1="Hohlzylinder_GEM_v412" vertex2="Hohlzylinder_GEM_v410" vertex3="Hohlzylinder_GEM_v58"/>
+ <triangular vertex1="Hohlzylinder_GEM_v58" vertex2="Hohlzylinder_GEM_v410" vertex3="Hohlzylinder_GEM_v60"/>
+ <triangular vertex1="Hohlzylinder_GEM_v410" vertex2="Hohlzylinder_GEM_v408" vertex3="Hohlzylinder_GEM_v60"/>
+ <triangular vertex1="Hohlzylinder_GEM_v60" vertex2="Hohlzylinder_GEM_v408" vertex3="Hohlzylinder_GEM_v64"/>
+ <triangular vertex1="Hohlzylinder_GEM_v408" vertex2="Hohlzylinder_GEM_v406" vertex3="Hohlzylinder_GEM_v64"/>
+ <triangular vertex1="Hohlzylinder_GEM_v64" vertex2="Hohlzylinder_GEM_v406" vertex3="Hohlzylinder_GEM_v70"/>
+ <triangular vertex1="Hohlzylinder_GEM_v406" vertex2="Hohlzylinder_GEM_v404" vertex3="Hohlzylinder_GEM_v70"/>
+ <triangular vertex1="Hohlzylinder_GEM_v70" vertex2="Hohlzylinder_GEM_v404" vertex3="Hohlzylinder_GEM_v73"/>
+ <triangular vertex1="Hohlzylinder_GEM_v404" vertex2="Hohlzylinder_GEM_v402" vertex3="Hohlzylinder_GEM_v73"/>
+ <triangular vertex1="Hohlzylinder_GEM_v73" vertex2="Hohlzylinder_GEM_v402" vertex3="Hohlzylinder_GEM_v76"/>
+ <triangular vertex1="Hohlzylinder_GEM_v402" vertex2="Hohlzylinder_GEM_v400" vertex3="Hohlzylinder_GEM_v76"/>
+ <triangular vertex1="Hohlzylinder_GEM_v76" vertex2="Hohlzylinder_GEM_v400" vertex3="Hohlzylinder_GEM_v80"/>
+ <triangular vertex1="Hohlzylinder_GEM_v400" vertex2="Hohlzylinder_GEM_v398" vertex3="Hohlzylinder_GEM_v80"/>
+ <triangular vertex1="Hohlzylinder_GEM_v80" vertex2="Hohlzylinder_GEM_v398" vertex3="Hohlzylinder_GEM_v85"/>
+ <triangular vertex1="Hohlzylinder_GEM_v85" vertex2="Hohlzylinder_GEM_v396" vertex3="Hohlzylinder_GEM_v88"/>
+ <triangular vertex1="Hohlzylinder_GEM_v398" vertex2="Hohlzylinder_GEM_v396" vertex3="Hohlzylinder_GEM_v85"/>
+ <triangular vertex1="Hohlzylinder_GEM_v88" vertex2="Hohlzylinder_GEM_v394" vertex3="Hohlzylinder_GEM_v93"/>
+ <triangular vertex1="Hohlzylinder_GEM_v396" vertex2="Hohlzylinder_GEM_v394" vertex3="Hohlzylinder_GEM_v88"/>
+ <triangular vertex1="Hohlzylinder_GEM_v93" vertex2="Hohlzylinder_GEM_v392" vertex3="Hohlzylinder_GEM_v97"/>
+ <triangular vertex1="Hohlzylinder_GEM_v394" vertex2="Hohlzylinder_GEM_v392" vertex3="Hohlzylinder_GEM_v93"/>
+ <triangular vertex1="Hohlzylinder_GEM_v97" vertex2="Hohlzylinder_GEM_v390" vertex3="Hohlzylinder_GEM_v100"/>
+ <triangular vertex1="Hohlzylinder_GEM_v100" vertex2="Hohlzylinder_GEM_v390" vertex3="Hohlzylinder_GEM_v104"/>
+ <triangular vertex1="Hohlzylinder_GEM_v392" vertex2="Hohlzylinder_GEM_v390" vertex3="Hohlzylinder_GEM_v97"/>
+ <triangular vertex1="Hohlzylinder_GEM_v390" vertex2="Hohlzylinder_GEM_v388" vertex3="Hohlzylinder_GEM_v104"/>
+ <triangular vertex1="Hohlzylinder_GEM_v104" vertex2="Hohlzylinder_GEM_v386" vertex3="Hohlzylinder_GEM_v108"/>
+ <triangular vertex1="Hohlzylinder_GEM_v388" vertex2="Hohlzylinder_GEM_v386" vertex3="Hohlzylinder_GEM_v104"/>
+ <triangular vertex1="Hohlzylinder_GEM_v108" vertex2="Hohlzylinder_GEM_v384" vertex3="Hohlzylinder_GEM_v112"/>
+ <triangular vertex1="Hohlzylinder_GEM_v386" vertex2="Hohlzylinder_GEM_v384" vertex3="Hohlzylinder_GEM_v108"/>
+ <triangular vertex1="Hohlzylinder_GEM_v112" vertex2="Hohlzylinder_GEM_v382" vertex3="Hohlzylinder_GEM_v117"/>
+ <triangular vertex1="Hohlzylinder_GEM_v384" vertex2="Hohlzylinder_GEM_v382" vertex3="Hohlzylinder_GEM_v112"/>
+ <triangular vertex1="Hohlzylinder_GEM_v117" vertex2="Hohlzylinder_GEM_v380" vertex3="Hohlzylinder_GEM_v120"/>
+ <triangular vertex1="Hohlzylinder_GEM_v382" vertex2="Hohlzylinder_GEM_v380" vertex3="Hohlzylinder_GEM_v117"/>
+ <triangular vertex1="Hohlzylinder_GEM_v120" vertex2="Hohlzylinder_GEM_v378" vertex3="Hohlzylinder_GEM_v124"/>
+ <triangular vertex1="Hohlzylinder_GEM_v380" vertex2="Hohlzylinder_GEM_v378" vertex3="Hohlzylinder_GEM_v120"/>
+ <triangular vertex1="Hohlzylinder_GEM_v124" vertex2="Hohlzylinder_GEM_v379" vertex3="Hohlzylinder_GEM_v128"/>
+ <triangular vertex1="Hohlzylinder_GEM_v378" vertex2="Hohlzylinder_GEM_v379" vertex3="Hohlzylinder_GEM_v124"/>
+ <triangular vertex1="Hohlzylinder_GEM_v379" vertex2="Hohlzylinder_GEM_v381" vertex3="Hohlzylinder_GEM_v128"/>
+ <triangular vertex1="Hohlzylinder_GEM_v128" vertex2="Hohlzylinder_GEM_v381" vertex3="Hohlzylinder_GEM_v132"/>
+ <triangular vertex1="Hohlzylinder_GEM_v381" vertex2="Hohlzylinder_GEM_v383" vertex3="Hohlzylinder_GEM_v132"/>
+ <triangular vertex1="Hohlzylinder_GEM_v132" vertex2="Hohlzylinder_GEM_v383" vertex3="Hohlzylinder_GEM_v137"/>
+ <triangular vertex1="Hohlzylinder_GEM_v383" vertex2="Hohlzylinder_GEM_v385" vertex3="Hohlzylinder_GEM_v137"/>
+ <triangular vertex1="Hohlzylinder_GEM_v137" vertex2="Hohlzylinder_GEM_v385" vertex3="Hohlzylinder_GEM_v141"/>
+ <triangular vertex1="Hohlzylinder_GEM_v385" vertex2="Hohlzylinder_GEM_v387" vertex3="Hohlzylinder_GEM_v141"/>
+ <triangular vertex1="Hohlzylinder_GEM_v141" vertex2="Hohlzylinder_GEM_v387" vertex3="Hohlzylinder_GEM_v146"/>
+ <triangular vertex1="Hohlzylinder_GEM_v387" vertex2="Hohlzylinder_GEM_v389" vertex3="Hohlzylinder_GEM_v146"/>
+ <triangular vertex1="Hohlzylinder_GEM_v146" vertex2="Hohlzylinder_GEM_v389" vertex3="Hohlzylinder_GEM_v148"/>
+ <triangular vertex1="Hohlzylinder_GEM_v148" vertex2="Hohlzylinder_GEM_v391" vertex3="Hohlzylinder_GEM_v152"/>
+ <triangular vertex1="Hohlzylinder_GEM_v389" vertex2="Hohlzylinder_GEM_v391" vertex3="Hohlzylinder_GEM_v148"/>
+ <triangular vertex1="Hohlzylinder_GEM_v152" vertex2="Hohlzylinder_GEM_v393" vertex3="Hohlzylinder_GEM_v157"/>
+ <triangular vertex1="Hohlzylinder_GEM_v391" vertex2="Hohlzylinder_GEM_v393" vertex3="Hohlzylinder_GEM_v152"/>
+ <triangular vertex1="Hohlzylinder_GEM_v157" vertex2="Hohlzylinder_GEM_v395" vertex3="Hohlzylinder_GEM_v160"/>
+ <triangular vertex1="Hohlzylinder_GEM_v160" vertex2="Hohlzylinder_GEM_v395" vertex3="Hohlzylinder_GEM_v165"/>
+ <triangular vertex1="Hohlzylinder_GEM_v393" vertex2="Hohlzylinder_GEM_v395" vertex3="Hohlzylinder_GEM_v157"/>
+ <triangular vertex1="Hohlzylinder_GEM_v395" vertex2="Hohlzylinder_GEM_v397" vertex3="Hohlzylinder_GEM_v165"/>
+ <triangular vertex1="Hohlzylinder_GEM_v165" vertex2="Hohlzylinder_GEM_v399" vertex3="Hohlzylinder_GEM_v167"/>
+ <triangular vertex1="Hohlzylinder_GEM_v397" vertex2="Hohlzylinder_GEM_v399" vertex3="Hohlzylinder_GEM_v165"/>
+ <triangular vertex1="Hohlzylinder_GEM_v167" vertex2="Hohlzylinder_GEM_v401" vertex3="Hohlzylinder_GEM_v172"/>
+ <triangular vertex1="Hohlzylinder_GEM_v399" vertex2="Hohlzylinder_GEM_v401" vertex3="Hohlzylinder_GEM_v167"/>
+ <triangular vertex1="Hohlzylinder_GEM_v172" vertex2="Hohlzylinder_GEM_v403" vertex3="Hohlzylinder_GEM_v177"/>
+ <triangular vertex1="Hohlzylinder_GEM_v401" vertex2="Hohlzylinder_GEM_v403" vertex3="Hohlzylinder_GEM_v172"/>
+ <triangular vertex1="Hohlzylinder_GEM_v177" vertex2="Hohlzylinder_GEM_v405" vertex3="Hohlzylinder_GEM_v182"/>
+ <triangular vertex1="Hohlzylinder_GEM_v403" vertex2="Hohlzylinder_GEM_v405" vertex3="Hohlzylinder_GEM_v177"/>
+ <triangular vertex1="Hohlzylinder_GEM_v182" vertex2="Hohlzylinder_GEM_v407" vertex3="Hohlzylinder_GEM_v185"/>
+ <triangular vertex1="Hohlzylinder_GEM_v185" vertex2="Hohlzylinder_GEM_v407" vertex3="Hohlzylinder_GEM_v191"/>
+ <triangular vertex1="Hohlzylinder_GEM_v405" vertex2="Hohlzylinder_GEM_v407" vertex3="Hohlzylinder_GEM_v182"/>
+ <triangular vertex1="Hohlzylinder_GEM_v407" vertex2="Hohlzylinder_GEM_v409" vertex3="Hohlzylinder_GEM_v191"/>
+ </tessellated>
+ <box lunit="mm" name="worldsolid" x="1000" y="1000" z="1000"/>
+ </solids>
+ <structure>
+ <volume name="Hohlzylinder_GEM">
+ <materialref ref="G4_POLYVINYL_CHLORIDE"/>
+ <solidref ref="Hohlzylinder_GEM_solid"/>
+ </volume>
+ </structure>
+ <setup name="Default" version="1.0">
+ <world ref="Hohlzylinder_GEM"/>
+ </setup>
+</gdml>
