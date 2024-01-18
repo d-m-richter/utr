@@ -41,8 +41,11 @@ struct HPGe_Coaxial_Properties {
   G4double hole_face_radius; // Rounding radius of the tip of the hole. Most probably the same as the hole radius
 
   // Dead layer
-  G4double dead_layer_side; // Here not neglected
-  G4double dead_layer_top; // Here not neglected
+  G4double dead_layer_side; // Thickness of the dead layer on the side of the detector crystal surface
+  G4double dead_layer_top; // Thickness of the dead layer on the top of the detector crystal surface
+  G4double hole_dead_layer; // Thickness of the dead layer on the surface of the detector hole
+  G4String dead_layer_material; // Material of the dead layer on the surface of the detector crystal 
+  G4String hole_dead_layer_material; // Material of the dead layer on the surface of the detector hole
   // The contact layers on the surface of the crystal are neglected at the moment, since they usually have a thickness of less than a millimeter and are made of very light materials
 
   // Mount cup
@@ -52,7 +55,14 @@ struct HPGe_Coaxial_Properties {
   G4double mount_cup_length; // Including top and bottom
   G4double mount_cup_thickness; // Thickness of the mount cup wall and top
   G4double mount_cup_base_thickness; // Thickness of the mount cup base, which may be different from the thickness of top and side
-  G4String mount_cup_material;
+  G4double mount_cup_face_thickness;
+  G4String mount_cup_material; // Material of the mount cup
+  G4String mount_cup_face_material;
+  // If there are two mount cup face layers:
+  G4double mount_cup_upper_window_thickness; // Thickness of the first layer of the mount cup face
+  G4double mount_cup_under_window_thickness; // Thickness of the second layer of the mount cup face
+  G4String mount_cup_upper_window_material; // Material of the first layer of the mount cup face
+  G4String mount_cup_under_window_material; // Material of the second layer of the mount cup face
 
   // End cap
   // Cylindrical cube which covers the whole mount cup.

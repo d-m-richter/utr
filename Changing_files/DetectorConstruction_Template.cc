@@ -136,7 +136,7 @@ G4VPhysicalVolume *DetectorConstruction::Construct() {
   HPGe_jonny_props.mount_cup_material = "G4_Al";
   HPGe_jonny_props.end_cap_outer_radius = 0.5 * 80. * mm; // in EurisysMesure data sheet
   HPGe_jonny_props.end_cap_to_crystal_gap_front = {{distance_detector_end_cap}} * mm; // in EurisysMesure data sheet
-  HPGe_jonny_props.end_cap_thickness = 1. * mm; // in EurisysMesure data sheet
+  HPGe_jonny_props.end_cap_thickness = {{end_cap_thickness}} * mm; // in EurisysMesure data sheet
   HPGe_jonny_props.end_cap_window_thickness = {{end_cap_face_thickness}} * mm;
   HPGe_jonny_props.end_cap_length = {{end_cap_stand_out}} + 3 *mm; // gemessen 132. * mm; // 135 mm in EurisysMesure data sheet
   HPGe_jonny_props.end_cap_material = "G4_Al"; // in EurisysMesure data sheet
@@ -161,7 +161,7 @@ G4VPhysicalVolume *DetectorConstruction::Construct() {
       HPGe_jonny_props.dead_layer_side; // Calculated from outer radius and other given dimensions
   HPGe_jonny_props.mount_cup_length =
       HPGe_jonny_props.end_cap_length -
-      HPGe_jonny_props.end_cap_window_thickness -
+      HPGe_jonny_props.end_cap_thickness -
       HPGe_jonny_props.end_cap_to_crystal_gap_front; // Calculated from end cap length
 
 
@@ -216,7 +216,7 @@ G4VPhysicalVolume *DetectorConstruction::Construct() {
 
   /***************** Quellenhalter *********************************/
 
-  G4double hohlzylinder_position = 232.;
+  G4double hohlzylinder_position = {{hollow_cylinder_position}};
   G4double quellenhalter_position = hohlzylinder_position - {{hollow_cylinder}};
 
   Quellenhalter *quellenhalter = new Quellenhalter(world_logical);
