@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 import numpy as np
 import random
+from pathlib import Path
 from math import pi, sqrt
 #from utr_variation_GEM import hollow_cylinder_default
 
@@ -11,8 +12,15 @@ hollow_cylinder_default = 100 #mm
 source_holder_default = 144.03 # mm --------------------------------- heigth of the source holder (deutsch: Quellenhalter)
 notch_default = 1.5 # mm -------------------------------------------- (deutsch: Einkerbung) heigth of the notch in source holder
 
+###### horizontal positioning of the mechanic products around the detector ######
+horizontal_shiftx = 2 #mm 
+horizontal_shifty = 1 #mm 
+
 ###### mechanics limit deviation and uncertainty from uniform distribution stored in lists ######
 limit_deviation = [0, 0.1, 0.5, 1.0] # mm ----------------- (deutsch: Grenzabweichung) because the limit deviation is not known, we will try 4 different options 
+
+################################################################################################################################################
+
 
 ###################################################################################################################################################################
 
@@ -39,7 +47,7 @@ u_length_measurement = 2 * 1.4 / sqrt(12) # mm ---------------------------------
 for j in range(len(limit_deviation)): # ------------------------------------- mechanic properties for j in [0.0, 0.05773502691896258, 0.2886751345948129, 0.5773502691896258]
     list = [] # ---------------------------------------------- create empty list for hole depth which should have at the end 40 entries
     with open(f"distancevariation_{j}.txt", "w") as file: # ---------- open and create .txt file to save detector dimensions with different i and j in it
-        header = "hollow_cylinder\tsource_holder\tnotch\tsource_thickness\tend_cap_length_above_table\tdistance_source_detector\n"
+        header = "hollow_cylinder\tsource_holder\tnotch\tsource_thickness\tend_cap_length_above_table\tdistance_source_detector\thorizontal_shift_x\thorizontal_shift_y\n"
         file.write(header) # write the above header into the first row of the .txt file
         # choose random indices
         while len(list) < 40: # ------------------------------ while loop goes only until 40 value pairs are found for each .txt file
@@ -50,10 +58,28 @@ for j in range(len(limit_deviation)): # ------------------------------------- me
             source_thickness = random.uniform(source_thickness_default - u_measuring_stick, source_thickness_default + u_measuring_stick)
             end_cap_length_above_table = random.uniform(end_cap_length_above_table_default - u_length_measurement, end_cap_length_above_table_default + u_length_measurement)
             
+            horizontal_shift_x = random.uniform(- horizontal_shiftx, horizontal_shiftx)
+            horizontal_shift_y = random.uniform(- horizontal_shifty, horizontal_shifty)
+            
             distance_source_detector = hollow_cylinder + source_holder - notch + source_thickness/2 - end_cap_length_above_table
                     
             list.append(hollow_cylinder) # ------------------------------------------------- append hole_depth to list 
-            "hollow_cylinder\tsource_holder\tnotch\tsource_thickness\tend_cap_length_above_table\tdistance_source_detector\n"
-            line = f"{hollow_cylinder} \t {source_holder} \t {notch} \t {source_thickness} \t {end_cap_length_above_table} \t {distance_source_detector}\n".format(1)
+            "hollow_cylinder\tsource_holder\tnotch\tsource_thickness\tend_cap_length_above_table\tdistance_source_detector\thorizontal_shift_x\thorizontal_shift_y\n"
+            line = f"{hollow_cylinder} \t {source_holder} \t {notch} \t {source_thickness} \t {end_cap_length_above_table} \t {distance_source_detector} \t {horizontal_shift_x} \t {horizontal_shift_y} \n".format(1)
             file.write(line) # ------------------------------------------------------------------- write to file
     print(f"Data written to distancevariation_{j}.txt")
+"""
+distance_file_path = Path().resolve()/Path(f"output/GEM_Variation/Efficiency_{hollow_cylinder_default}mm/distancevariation_1.txt")
+distance_data = distance_file_path
+distance = np.loadtxt(distance_data, skiprows=1, usecols=5)
+
+distance_list = []
+for i in range(0,40):
+    distance_list.append(distance)
+
+Abstand = np.array(distance_list)
+Abstand_mean = Abstand.mean()
+Abstand_std = Abstand.std()
+
+print("Abstand: ", Abstand_mean, " +/- ", Abstand_std)
+"""

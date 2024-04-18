@@ -1,0 +1,3 @@
+from Activity_Calculation import disintegration
+
+print(disintegration)

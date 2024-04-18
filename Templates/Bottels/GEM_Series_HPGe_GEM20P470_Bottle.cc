@@ -123,7 +123,7 @@ G4VPhysicalVolume *DetectorConstruction::Construct() {
   /***************** Detector Properties *****************/
 
   HPGe_Coaxial_Properties HPGe_GEM20P470_props;
-  HPGe_GEM20P470_props.detector_radius = 0.5 * {{cystal_diameter}} * mm; // 0.5 * 50 mm
+  HPGe_GEM20P470_props.detector_radius = 0.5 * {{crystal_diameter}} * mm; // 0.5 * 50 mm
   HPGe_GEM20P470_props.detector_length = {{crystal_length}} * mm; // 64 mm 
   HPGe_GEM20P470_props.detector_face_radius = 8. * mm; // {{face_radius}} * mm; // 8 mm nominal radius
   HPGe_GEM20P470_props.hole_radius = 0.5 * {{hole_diameter}} * mm; // 9.6 * mm; 
@@ -205,29 +205,32 @@ G4VPhysicalVolume *DetectorConstruction::Construct() {
 
   /***************** Rundflasche *********************************/
 
-  //Rundflasche *rundflasche = new Rundflasche(world_logical);
-  //rundflasche->Put(0., 0., -18., 180 * deg, 0., 0.);
+  Plastic_Bottle *plasticbottle = new Plastic_Bottle(world_logical);
+  plasticbottle->Put(0., 0., -5.033850421, 180 * deg, 0., 0.);
+
+  Plastic_Bottle_Filled *plasticbottlefilled = new Plastic_Bottle_Filled(world_logical);
+  plasticbottlefilled->Put(0., 0., -5.033850421, 180 * deg, 0., 0.);
 
   /***************** Quellenhalter *********************************/
 
-  G4double hohlzylinder_position = {{hollow_cylinder_position}};
-  G4double quellenhalter_position = hohlzylinder_position - {{hollow_cylinder}};
+  //G4double hohlzylinder_position = {{hollow_cylinder_position}};
+  //G4double quellenhalter_position = hohlzylinder_position - {{hollow_cylinder}};
 
-  Quellenhalter *quellenhalter = new Quellenhalter(world_logical);
-  quellenhalter->Put(0., 0., quellenhalter_position, 180. *deg, 0., 0.);
+  //Quellenhalter *quellenhalter = new Quellenhalter(world_logical);
+  //quellenhalter->Put(0., 0., quellenhalter_position, 180. *deg, 0., 0.);
 
   /***************** Hohlzylinder *********************************/
 
-  Hohlzylinder *hohlzylinder = new Hohlzylinder(world_logical);
-  hohlzylinder->Put(0., 0., hohlzylinder_position, 180. *deg, 0., 0.);
+  //Hohlzylinder *hohlzylinder = new Hohlzylinder(world_logical);
+  //hohlzylinder->Put(0., 0., hohlzylinder_position, 180. *deg, 0., 0.);
 
   /***************** Plastikzylinder für Kalibrierquelle P-1030 *********************************/
 
-  G4double plastikzylinder_position = 0. * mm;
+  //G4double plastikzylinder_position = 0. * mm;
 
-  G4Tubs *plastikzylinder_solid = new G4Tubs("Plastikzylinder_Solid", 0 *mm, 0.5 * 25.03 *mm, 0.5 * {{source_thickness}} *mm, 0. *deg, 360. *deg);
-  G4LogicalVolume *plastikzylinder_logical = new G4LogicalVolume(plastikzylinder_solid, Epoxy, "Plastikzylinder_Logical");
-  G4PVPlacement *plastikzylinder_phys = new G4PVPlacement(0, G4ThreeVector(0, 0, plastikzylinder_position), plastikzylinder_logical, "Plastikzylinder", world_logical, false, 0);
+  //G4Tubs *plastikzylinder_solid = new G4Tubs("Plastikzylinder_Solid", 0 *mm, 0.5 * 25.03 *mm, 0.5 * {{source_thickness}} *mm, 0. *deg, 360. *deg);
+  //G4LogicalVolume *plastikzylinder_logical = new G4LogicalVolume(plastikzylinder_solid, Epoxy, "Plastikzylinder_Logical");
+  //G4PVPlacement *plastikzylinder_phys = new G4PVPlacement(0, G4ThreeVector(0, 0, plastikzylinder_position), plastikzylinder_logical, "Plastikzylinder", world_logical, false, 0);
 
   /***************** Bleiburg *********************************/
 
@@ -235,111 +238,111 @@ G4VPhysicalVolume *DetectorConstruction::Construct() {
 
   // links
   AluFront_out *alufront_out1 = new AluFront_out(world_logical);
-  alufront_out1->Put(160., 0., distance_source_detector + 134. - (134 - {{end_cap_length_above_table}}) + 10. - 300./2., 0., 0., 0.);
+  alufront_out1->Put(160., 0., distance_source_detector + 134. - (134 - {{end_cap_length_above_table}}) - 300./2., 0., 0., 0.);
   // rechts
   AluFront_out *alufront_out2 = new AluFront_out(world_logical);
-  alufront_out2->Put(-160., 0., distance_source_detector + 134. - (134 - {{end_cap_length_above_table}}) + 10. - 300./2., 0., 0., 0.);
+  alufront_out2->Put(-160., 0., distance_source_detector + 134. - (134 - {{end_cap_length_above_table}}) - 300./2., 0., 0., 0.);
   // oben
   AluSide_out *aluside_out1 = new AluSide_out(world_logical);
-  aluside_out1->Put(0., 160., distance_source_detector + 134. - (134 - {{end_cap_length_above_table}}) + 10. - 300./2., 0., 0., 90. *deg);
+  aluside_out1->Put(0., 160., distance_source_detector + 134. - (134 - {{end_cap_length_above_table}}) - 300./2., 0., 0., 90. *deg);
   // unten
   AluSide_out *aluside_out2 = new AluSide_out(world_logical);
-  aluside_out2->Put(0., -160., distance_source_detector + 134. - (134 - {{end_cap_length_above_table}}) + 10. - 300./2., 0., 0., 90. *deg);
+  aluside_out2->Put(0., -160., distance_source_detector + 134. - (134 - {{end_cap_length_above_table}}) - 300./2., 0., 0., 90. *deg);
 
   // Aluplatten innen
 
   // links
   AluFront_in *alufront_in1 = new AluFront_in(world_logical);
-  alufront_in1->Put(93.75, 0., distance_source_detector + 134. - (134 - {{end_cap_length_above_table}}) + 10. - 300./2., 0., 0., 0.);
+  alufront_in1->Put(93.75, 0., distance_source_detector + 134. - (134 - {{end_cap_length_above_table}}) - 300./2., 0., 0., 0.);
   // rechts
   AluFront_in *alufront_in2 = new AluFront_in(world_logical);
-  alufront_in2->Put(-93.75, 0., distance_source_detector + 134. - (134 - {{end_cap_length_above_table}}) + 10. - 300./2., 0., 0., 0.);
+  alufront_in2->Put(-93.75, 0., distance_source_detector + 134. - (134 - {{end_cap_length_above_table}}) - 300./2., 0., 0., 0.);
   // oben
   AluSide_in *aluside_in1 = new AluSide_in(world_logical);
-  aluside_in1->Put(0., 93.75, distance_source_detector + 134. - (134 - {{end_cap_length_above_table}}) + 10. - 300./2., 0., 0., 90. *deg);
+  aluside_in1->Put(0., 93.75, distance_source_detector + 134. - (134 - {{end_cap_length_above_table}}) - 300./2., 0., 0., 90. *deg);
   // unten
   AluSide_in *aluside_in2 = new AluSide_in(world_logical);
-  aluside_in2->Put(0., -93.75, distance_source_detector + 134. - (134 - {{end_cap_length_above_table}}) + 10. - 300./2., 0., 0., 90. *deg);
+  aluside_in2->Put(0., -93.75, distance_source_detector + 134. - (134 - {{end_cap_length_above_table}}) - 300./2., 0., 0., 90. *deg);
 
   // Deckelplatte
-  AluTop *alutop = new AluTop(world_logical);
-  alutop->Put(0., 0., distance_source_detector + 134. - (134 - {{end_cap_length_above_table}}) + 10. - 300. - 15./2., 0., 90. *deg, 0.);
+  //AluTop *alutop = new AluTop(world_logical);
+  //alutop->Put(0., 0., distance_source_detector + 134. - (134 - {{end_cap_length_above_table}}) - 300. - 15./2., 0., 90. *deg, 0.);
   
   //Bodenplatte mit Loch
   AluBottom_withHole *alubottom_withhole = new AluBottom_withHole(world_logical);
-  alubottom_withhole->Put(0., 0., distance_source_detector + 134. - (134 - {{end_cap_length_above_table}}) - 10./2., 0., 0., 0.);
+  alubottom_withhole->Put(0., 0., distance_source_detector + 134. - (134 - {{end_cap_length_above_table}}) + 5./2., 0., 0., 0.);
 
   // Bleiblöcke 1. Reihe
 
   // Reihe oben
   NormBrick *normbrick_1o = new NormBrick(world_logical);
-  normbrick_1o->Put(51.25, 122.5, distance_source_detector + 134. - (134 - {{end_cap_length_above_table}}) + 10. - 100./2., 90. *deg, 90. *deg, 90. *deg);
+  normbrick_1o->Put(51.25, 122.5, distance_source_detector + 134. - (134 - {{end_cap_length_above_table}}) + 5. - 100./2., 90. *deg, 90. *deg, 90. *deg);
 
   ShortNormBrick *shortnormbrick_1o = new ShortNormBrick(world_logical);
-  shortnormbrick_1o->Put(-100., 122.5, distance_source_detector + 134. - (134 - {{end_cap_length_above_table}}) + 10. - 100./2., 90. *deg, 90. *deg, 90. *deg);
+  shortnormbrick_1o->Put(-100., 122.5, distance_source_detector + 134. - (134 - {{end_cap_length_above_table}}) + 5. - 100./2., 90. *deg, 90. *deg, 90. *deg);
   
   // Reihe links
   NormBrick *normbrick_1l = new NormBrick(world_logical);
-  normbrick_1l->Put(122.5, -0.125, distance_source_detector + 134. - (134 - {{end_cap_length_above_table}}) + 10. - 100./2., 90. *deg, 0. *deg, 90. *deg);
+  normbrick_1l->Put(122.5, -0.125, distance_source_detector + 134. - (134 - {{end_cap_length_above_table}}) + 5. - 100./2., 90. *deg, 0. *deg, 90. *deg);
   
   // Reihe unten
   NormBrick *normbrick_1u = new NormBrick(world_logical);
-  normbrick_1u->Put(-100., -122.5, distance_source_detector + 134. - (134 - {{end_cap_length_above_table}}) + 10. - 100./2., 90. *deg, 90. *deg, 90. *deg);
+  normbrick_1u->Put(-51.25, -122.5, distance_source_detector + 134. - (134 - {{end_cap_length_above_table}}) + 5. - 100./2., 90. *deg, 90. *deg, 90. *deg);
 
   ShortNormBrick *shortnormbrick_1u = new ShortNormBrick(world_logical);
-  shortnormbrick_1u->Put(-101.25, -122.5, distance_source_detector + 134. - (134 - {{end_cap_length_above_table}}) + 10. - 100./2., 90. *deg, 90. *deg, 90. *deg);
+  shortnormbrick_1u->Put(100., -122.5, distance_source_detector + 134. - (134 - {{end_cap_length_above_table}}) + 5. - 100./2., 90. *deg, 90. *deg, 90. *deg);
   
   // Reihe rechts
   NormBrick *normbrick_1r = new NormBrick(world_logical);
-  normbrick_1r->Put(-122.5, 0.625, distance_source_detector + 134. - (134 - {{end_cap_length_above_table}}) + 10. - 100./2., 90. *deg, 0. *deg, 90. *deg);
+  normbrick_1r->Put(-122.5, 0.625, distance_source_detector + 134. - (134 - {{end_cap_length_above_table}}) + 5. - 100./2., 90. *deg, 0. *deg, 90. *deg);
 
   // Bleiblöcke 2. Reihe
 
   // Reihe oben
   NormBrick *normbrick_2o = new NormBrick(world_logical);
-  normbrick_2o->Put(-51.25, 126.875, distance_source_detector + 134. - (134 - {{end_cap_length_above_table}}) + 10. - 100. - 100./2., 90. *deg, 90. *deg, 90. *deg);
+  normbrick_2o->Put(51.25, 122.5, distance_source_detector + 134. - (134 - {{end_cap_length_above_table}}) + 5. - 100. - 100./2., 90. *deg, 90. *deg, 90. *deg);
 
   ShortNormBrick *shortnormbrick_2o = new ShortNormBrick(world_logical);
-  shortnormbrick_2o->Put(50., 126.875, distance_source_detector + 134. - (134 - {{end_cap_length_above_table}}) + 10. - 100. - 100./2., 90. *deg, 90. *deg, 90. *deg);
+  shortnormbrick_2o->Put(-100., 122.5, distance_source_detector + 134. - (134 - {{end_cap_length_above_table}}) + 5. - 100. - 100./2., 90. *deg, 90. *deg, 90. *deg);
   
   // Reihe links
   NormBrick *normbrick_2l = new NormBrick(world_logical);
-  normbrick_2l->Put(150.625, 0.125, distance_source_detector + 134. - (134 - {{end_cap_length_above_table}}) + 10. - 100. - 100./2., 90. *deg, 0. *deg, 90. *deg);
+  normbrick_2l->Put(122.5, -0.125, distance_source_detector + 134. - (134 - {{end_cap_length_above_table}}) + 5. - 100. - 100./2., 90. *deg, 0. *deg, 90. *deg);
 
   // Reihe unten
   NormBrick *normbrick_2u = new NormBrick(world_logical);
-  normbrick_2u->Put(0., -126.875, distance_source_detector + 134. - (134 - {{end_cap_length_above_table}}) + 10. - 100. - 100./2., 90. *deg, 90. *deg, 90. *deg);
+  normbrick_2u->Put(-51.25, -122.5, distance_source_detector + 134. - (134 - {{end_cap_length_above_table}}) + 5. - 100. - 100./2., 90. *deg, 90. *deg, 90. *deg);
 
   ShortNormBrick *shortnormbrick_2u = new ShortNormBrick(world_logical);
-  shortnormbrick_2u->Put(101.25, -126.875, distance_source_detector + 134. - (134 - {{end_cap_length_above_table}}) + 10. - 100. - 100./2., 90. *deg, 90. *deg, 90. *deg);
+  shortnormbrick_2u->Put(100., -122.5, distance_source_detector + 134. - (134 - {{end_cap_length_above_table}}) + 5. - 100. - 100./2., 90. *deg, 90. *deg, 90. *deg);
 
   // Reihe rechts
   NormBrick *normbrick_2r = new NormBrick(world_logical);
-  normbrick_2r->Put(-150.625, -0.625, distance_source_detector + 134. - (134 - {{end_cap_length_above_table}}) + 10. - 100. - 100./2., 90. *deg, 0. *deg, 90. *deg);
+  normbrick_2r->Put(-122.5, 0.625, distance_source_detector + 134. - (134 - {{end_cap_length_above_table}}) + 5. - 100. - 100./2., 90. *deg, 0. *deg, 90. *deg);
 
   // Bleiblöcke 3. Reihe
 
   // Reihe oben
   NormBrick *normbrick_3o = new NormBrick(world_logical);
-  normbrick_3o->Put(51.25, 126.875, distance_source_detector + 134. - (134 - {{end_cap_length_above_table}}) + 10. - 100. - 100. - 100./2., 90. *deg, 90. *deg, 90. *deg);
+  normbrick_3o->Put(51.25, 122.5, distance_source_detector + 134. - (134 - {{end_cap_length_above_table}}) + 5. - 100. - 100. - 100./2., 90. *deg, 90. *deg, 90. *deg);
 
   ShortNormBrick *shortnormbrick_3o = new ShortNormBrick(world_logical);
-  shortnormbrick_3o->Put(-50., 126.875, distance_source_detector + 134. - (134 - {{end_cap_length_above_table}}) + 10. - 100. - 100. - 100./2., 90. *deg, 90. *deg, 90. *deg);
+  shortnormbrick_3o->Put(-100., 122.5, distance_source_detector + 134. - (134 - {{end_cap_length_above_table}}) + 5. - 100. - 100. - 100./2., 90. *deg, 90. *deg, 90. *deg);
   
   // Reihe links
   NormBrick *normbrick_3l = new NormBrick(world_logical);
-  normbrick_3l->Put(150.625, -0.125, distance_source_detector + 134. - (134 - {{end_cap_length_above_table}}) + 10. - 100. - 100. - 100./2., 90. *deg, 0. *deg, 90. *deg);
+  normbrick_3l->Put(122.5, -0.125, distance_source_detector + 134. - (134 - {{end_cap_length_above_table}}) + 5. - 100. - 100. - 100./2., 90. *deg, 0. *deg, 90. *deg);
   
   // Reihe unten
   NormBrick *normbrick_3u = new NormBrick(world_logical);
-  normbrick_3u->Put(0., -126.875, distance_source_detector + 134. - (134 - {{end_cap_length_above_table}}) + 10. - 100. - 100. - 100./2., 90. *deg, 90. *deg, 90. *deg);
+  normbrick_3u->Put(-51.25, -122.5, distance_source_detector + 134. - (134 - {{end_cap_length_above_table}}) + 5. - 100. - 100. - 100./2., 90. *deg, 90. *deg, 90. *deg);
 
   ShortNormBrick *shortnormbrick_3u = new ShortNormBrick(world_logical);
-  shortnormbrick_3u->Put(-101.25, -126.875, distance_source_detector + 134. - (134 - {{end_cap_length_above_table}}) + 10. - 100. - 100. - 100./2., 90. *deg, 90. *deg, 90. *deg);
+  shortnormbrick_3u->Put(100., -122.5, distance_source_detector + 134. - (134 - {{end_cap_length_above_table}}) + 5. - 100. - 100. - 100./2., 90. *deg, 90. *deg, 90. *deg);
   
   // Reihe rechts
   NormBrick *normbrick_3r = new NormBrick(world_logical);
-  normbrick_3r->Put(-150.625, 0.625, distance_source_detector + 134. - (134 - {{end_cap_length_above_table}}) + 10. - 100. - 100. - 100./2., 90. *deg, 0. *deg, 90. *deg);
+  normbrick_3r->Put(-122.5, 0.625, distance_source_detector + 134. - (134 - {{end_cap_length_above_table}}) + 5. - 100. - 100. - 100./2., 90. *deg, 0. *deg, 90. *deg);
 
   /***************** Plastikbox für Kalibrierquelle P-1177 *********************************/
 

@@ -5,16 +5,17 @@ import random
 ################# Variation of Detector Dimension ##################
 
 ###### Known properties of the detector from data sheet GEM Series HPGe GEM20P470 ######
-diameter_default = 50 # mm ------------------------------------------ diameter of crystal 
-length_default = 64 # mm -------------------------------------------- length of crystal
-hole_diameter_default = 9.6 # mm ------------------------------------ diameter of crystal hole
-hole_depth_default = 51.5 # mm -------------------------------------- length of crystal hole
 dead_layer_top_default = 0.7 # mmGe/Li ------------------------------ top dead layer at face of crystal, use only germanium as material
 dead_layer_side_default = 0.7 # mmGe/Li ----------------------------- side dead layer of crystal, use only germanium as material
+diameter_default = 50 - 2 * dead_layer_side_default# mm ------------------------------------------ diameter of crystal 
+length_default = 64 - dead_layer_top_default# mm -------------------------------------------- length of crystal 
+hole_diameter_default = 9.6 - 2 * 0.0003 # mm ------------------------------------ diameter of crystal hole
+hole_depth_default = 51.5 - 0.0003 # mm -------------------------------------- length of crystal hole 
+
 
 ###### limit deviation and uncertainty from uniform distribution stored in lists for data sheet ######
 limit_deviation = [0, 0.1, 0.5, 1.0] # mm  and mm^3 ----------------- (deutsch: Grenzabweichung) because the limit deviation is not known, we will try 4 different options
-
+limit_dead_layer = [0, 0.2, 0.5, 1.0]
 ########################################################################################################################################################################
 
 for i in range(len(limit_deviation)):# ----------------------------------------- data sheet properties for i in [0.0, 0.05773502691896258, 0.2886751345948129, 0.5773502691896258]
@@ -25,12 +26,20 @@ for i in range(len(limit_deviation)):# -----------------------------------------
         # choose random indices
         while len(list) < 40: # ------------------------------ while loop goes only until 40 value pairs are found for each .txt file
             # choose random value from uniform distribuntion from uncertainty 
-            diameter = random.uniform(diameter_default - limit_deviation[i], diameter_default + limit_deviation[i])
-            length = random.uniform(length_default - limit_deviation[i], length_default + limit_deviation[i])
+            diameter_raw = random.uniform(diameter_default - limit_deviation[i], diameter_default + limit_deviation[i])
+            length_raw = random.uniform(length_default - limit_deviation[i], length_default + limit_deviation[i])
             hole_diameter = random.uniform(hole_diameter_default - limit_deviation[i], hole_diameter_default + limit_deviation[i])
             hole_depth = random.uniform(hole_depth_default - limit_deviation[i], hole_depth_default + limit_deviation[i])
-            dead_layer_top = random.uniform(dead_layer_top_default - limit_deviation[i], dead_layer_top_default + limit_deviation[i])
-            dead_layer_side = random.uniform(dead_layer_side_default - limit_deviation[i], dead_layer_side_default + limit_deviation[i])
+
+            if dead_layer_side_default == dead_layer_top_default:
+                dead_layer_top = random.uniform(dead_layer_top_default - limit_dead_layer[i], dead_layer_top_default + limit_dead_layer[i])
+                dead_layer_side = dead_layer_top
+            else:
+                dead_layer_top = random.uniform(dead_layer_top_default - limit_dead_layer[i], dead_layer_top_default + limit_dead_layer[i])
+                dead_layer_side = random.uniform(dead_layer_side_default - limit_dead_layer[i], dead_layer_side_default + limit_dead_layer[i])
+
+            diameter = diameter_raw - 2 * dead_layer_side
+            length = length_raw - dead_layer_top
 
             if dead_layer_side >= 0 and dead_layer_top >= 0: # ----------------------------- condition for dead layers to be positive
                 list.append(diameter) # ------------------------------------------------- append hole_depth to list 
