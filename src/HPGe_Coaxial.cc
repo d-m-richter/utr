@@ -58,13 +58,13 @@ void HPGe_Coaxial::Construct(G4ThreeVector global_coordinates, G4double theta, G
   G4LogicalVolume *end_cap_side_logical = new G4LogicalVolume(end_cap_side_solid, nist->FindOrBuildMaterial(properties.end_cap_material), detector_name + "_end_cap_side_logical");
   end_cap_side_logical->SetVisAttributes(new G4VisAttributes(G4Color::White()));
   new G4PVPlacement(rotation, global_coordinates + (dist_from_center + properties.end_cap_length * 0.5) * symmetry_axis, end_cap_side_logical, detector_name + "_end_cap_side", world_Logical, 0, 0, false);
-
+///*
   // End cap window
   G4Tubs *end_cap_window_solid = new G4Tubs(detector_name + "_end_cap_window_solid", 0., end_cap_inner_radius, properties.end_cap_window_thickness * 0.5, 0., twopi);
   G4LogicalVolume *end_cap_window_logical = new G4LogicalVolume(end_cap_window_solid, nist->FindOrBuildMaterial(properties.end_cap_window_material), detector_name + "_end_cap_window_logical");
   end_cap_window_logical->SetVisAttributes(new G4VisAttributes(G4Color::White()));
   new G4PVPlacement(rotation, global_coordinates + (dist_from_center + properties.end_cap_thickness - properties.end_cap_window_thickness * 0.5) * symmetry_axis, end_cap_window_logical, detector_name + "_end_cap_window", world_Logical, 0, 0, false);
-
+//*/
   // Vacuum inside end cap
   G4Tubs *end_cap_vacuum_solid = new G4Tubs(detector_name + "_end_cap_vacuum_solid", 0., end_cap_inner_radius, end_cap_side_length * 0.5, 0., twopi);
   G4LogicalVolume *end_cap_vacuum_logical = new G4LogicalVolume(end_cap_vacuum_solid, nist->FindOrBuildMaterial("G4_Galactic"), detector_name + "_end_cap_vacuum_logical");
@@ -72,18 +72,19 @@ void HPGe_Coaxial::Construct(G4ThreeVector global_coordinates, G4double theta, G
   new G4PVPlacement(rotation, global_coordinates + (dist_from_center + properties.end_cap_thickness + end_cap_side_length * 0.5) * symmetry_axis, end_cap_vacuum_logical, detector_name + "_end_cap_vacuum", world_Logical, 0, 0, false);
 
   /************* Mount cup *************/
+  
   // Mount cup side
   G4double mount_cup_inner_radius = properties.detector_radius + properties.dead_layer_side;
   G4double mount_cup_outer_radius = properties.detector_radius + properties.dead_layer_side + properties.mount_cup_thickness;
   G4double mount_cup_side_length = properties.mount_cup_length - properties.mount_cup_face_thickness - properties.mount_cup_base_thickness; // properties.mount_cup_length - properties.mount_cup_thickness - properties.mount_cup_base_thickness;
-  
+///*
   G4Tubs *mount_cup_side_solid = new G4Tubs(detector_name + "_mount_cup_side_solid", mount_cup_inner_radius, mount_cup_outer_radius, properties.mount_cup_length * 0.5, 0., twopi);
   G4LogicalVolume *mount_cup_side_logical = new G4LogicalVolume(mount_cup_side_solid, nist->FindOrBuildMaterial(properties.mount_cup_material), detector_name + "_mount_cup_side_logical");
   mount_cup_side_logical->SetVisAttributes(new G4VisAttributes(G4Color::Cyan()));
   new G4PVPlacement(0, G4ThreeVector(0., 0., -end_cap_side_length * 0.5 + properties.end_cap_to_crystal_gap_front + properties.mount_cup_length * 0.5), mount_cup_side_logical, detector_name + "_mount_cup_side", end_cap_vacuum_logical, 0, 0, false);
-  
+//*/ 
   G4double mount_cup_face_thickness = properties.mount_cup_face_thickness;
-
+///*
   // Mount cup face
   if (mount_cup_face_thickness = properties.mount_cup_thickness) {
     G4Tubs *mount_cup_face_solid = new G4Tubs(detector_name + "_mount_cup_face_solid", 0., mount_cup_inner_radius, properties.mount_cup_face_thickness * 0.5, 0., twopi);
@@ -115,7 +116,7 @@ void HPGe_Coaxial::Construct(G4ThreeVector global_coordinates, G4double theta, G
   G4LogicalVolume *mount_cup_base_logical = new G4LogicalVolume(mount_cup_base_solid, nist->FindOrBuildMaterial(properties.mount_cup_material), detector_name + "_mount_cup_base_logical");
   mount_cup_base_logical->SetVisAttributes(new G4VisAttributes(G4Color::Cyan()));
   new G4PVPlacement(0, G4ThreeVector(0., 0., -end_cap_side_length * 0.5 + properties.end_cap_to_crystal_gap_front + properties.mount_cup_face_thickness + mount_cup_side_length + 0.5 * properties.mount_cup_base_thickness), mount_cup_base_logical, detector_name + "_mount_cup_base", end_cap_vacuum_logical, 0, 0, false);
-
+//*/
   /************* Cold finger *************/
 
  // G4double cold_finger_length = properties.cold_finger_penetration_depth + properties.mount_cup_face_thickness + mount_cup_side_length + properties.mount_cup_base_thickness - properties.hole_dead_layer - properties.detector_length - properties.dead_layer_top;
@@ -167,7 +168,17 @@ void HPGe_Coaxial::Construct(G4ThreeVector global_coordinates, G4double theta, G
     z = (1. - (double)i / (nsteps - 1)) * properties.detector_length;
 
     zPlaneTemp[i] = z;
-
+/*
+    if (z>=properties.detector_length){
+      rInnerTemp[i] = properties.hole_radius;
+      rOuterTemp[i] = properties.detector_radius;
+    } else {
+      rInnerTemp[i] = 0.;
+      rOuterTemp[i] = 0.;
+    }
+  }
+*/
+///*
     // rInnerTemp[i] = 0. * mm;
     if (z >= properties.detector_length - properties.hole_depth) {
       if (z >= properties.detector_length - properties.hole_depth + heigth_of_curvature) {
@@ -187,43 +198,56 @@ void HPGe_Coaxial::Construct(G4ThreeVector global_coordinates, G4double theta, G
       rOuterTemp[i] = 0. * mm;
     }
   }
-
+  //*/
   G4int nsteps_optimized = opt->Optimize(zPlaneTemp, rInnerTemp, rOuterTemp, zPlane, rInner, rOuter, nsteps, detector_name + "_crystal_solid");
 
   G4Polycone *crystal_solid = new G4Polycone("crystal_solid", 0. * deg, 360. * deg, nsteps_optimized, zPlane, rInner, rOuter);
   G4LogicalVolume *crystal_logical = new G4LogicalVolume(crystal_solid, nist->FindOrBuildMaterial("G4_Ge"), detector_name, 0, 0, 0);
   crystal_logical->SetVisAttributes(new G4VisAttributes(G4Color::Green()));
-  //new G4PVPlacement(0, G4ThreeVector(0., 0., -end_cap_side_length * 0.5 + properties.end_cap_to_crystal_gap_front + properties.mount_cup_thickness), crystal_logical, detector_name + "_crystal", end_cap_vacuum_logical, 0, 0, false);
   new G4PVPlacement(0, G4ThreeVector(0., 0., -end_cap_side_length * 0.5 + properties.end_cap_to_crystal_gap_front + properties.mount_cup_face_thickness + properties.dead_layer_top), crystal_logical, detector_name + "_crystal", end_cap_vacuum_logical, 0, 0, false);
-
+  
   /******************** Inner dead layer *********************************/
-  /*
-  for (int i = 0; i < nsteps; i++) {
-    z = (1. - (double)i / (nsteps - 1)) * properties.hole_depth;
+///* 
+  const G4int ksteps = 500;
 
-    zPlaneTemp[i] = z;
+  G4double zPlaneTempk[ksteps];
+  G4double rInnerTempk[ksteps];
+  G4double rOuterTempk[ksteps];
 
-    if (z >= properties.hole_depth + heigth_of_curvature + properties.hole_dead_layer) {
-      rInnerTemp[i] = properties.hole_radius - properties.hole_dead_layer;
+  for (int i = 0; i < ksteps; i++) {
+    z = (1. - (double)i / (ksteps - 1)) * properties.hole_depth;
+
+    zPlaneTempk[i] = z;
+
+    if (z >= properties.hole_dead_layer) {
+      if(z >= heigth_of_curvature - properties.hole_dead_layer){
+        rInnerTempk[i] = properties.hole_radius - properties.hole_dead_layer;
+      } else {
+        rInnerTempk[i] = (properties.hole_radius - properties.hole_dead_layer) * sqrt(1. - pow((z - (heigth_of_curvature - properties.hole_dead_layer)) / (properties.hole_radius - properties.hole_dead_layer), 2));
+      }    
     } else {
-      rInnerTemp[i] = (properties.hole_radius - properties.hole_dead_layer) * sqrt(1. - pow((z - (properties.hole_depth + heigth_of_curvature + properties.hole_dead_layer)) / (properties.hole_radius - properties.hole_dead_layer), 2));
+      rInnerTempk[i] = 0;
     }
 
 
-    if (z >= properties.hole_depth + heigth_of_curvature) {
-      rOuterTemp[i] = properties.hole_radius;
+    if (z >= heigth_of_curvature) {
+      rOuterTempk[i] = properties.hole_radius;
     } else {
-      rOuterTemp[i] = (properties.hole_radius) * sqrt(1. - pow((z - (properties.hole_depth + heigth_of_curvature)) / (properties.hole_radius), 2));
+      rOuterTempk[i] = (properties.hole_radius) * sqrt(1. - pow((z - (heigth_of_curvature)) / (properties.hole_radius), 2));
     }
   }
   
-  nsteps_optimized = opt->Optimize(zPlaneTemp, rInnerTemp, rOuterTemp, zPlane, rInner, rOuter, nsteps, detector_name + "_hole_dead_layer_solid");
+  G4double zPlanek[ksteps];
+  G4double rInnerk[ksteps];
+  G4double rOuterk[ksteps];
 
-  G4Polycone *hole_dead_layer_solid = new G4Polycone("hole_dead_layer_solid", 0. * deg, 360. * deg, nsteps_optimized, zPlane, rInner, rOuter);
-  G4LogicalVolume *hole_dead_layer_logical = new G4LogicalVolume(hole_dead_layer_solid, nist->FindOrBuildMaterial(properties.hole_dead_layer_material), detector_name, 0, 0, 0);
+  G4int ksteps_optimized = opt->Optimize(zPlaneTempk, rInnerTempk, rOuterTempk, zPlanek, rInnerk, rOuterk, ksteps, detector_name + "_hole_dead_layer_solid");
+
+  G4Polycone *hole_dead_layer_solid = new G4Polycone("hole_dead_layer_solid", 0. * deg, 360. * deg, ksteps_optimized, zPlanek, rInnerk, rOuterk);
+  G4LogicalVolume *hole_dead_layer_logical = new G4LogicalVolume(hole_dead_layer_solid, nist->FindOrBuildMaterial(properties.hole_dead_layer_material), detector_name + "_hole_dead_layer_logical", 0, 0, 0);
   hole_dead_layer_logical->SetVisAttributes(new G4VisAttributes(G4Color::Blue()));
   new G4PVPlacement(0, G4ThreeVector(0., 0., -end_cap_side_length * 0.5 + properties.end_cap_to_crystal_gap_front + properties.mount_cup_face_thickness + properties.dead_layer_top + properties.detector_length - properties.hole_depth), hole_dead_layer_logical, detector_name + "_hole_dead_layer", end_cap_vacuum_logical, 0, 0, false);
-*/
+//*/  
 
   //if (properties.hole_dead_layer > 0) {
   //  G4Tubs *hole_dead_layer_tube_solid = new G4Tubs("hole_dead_layer_tube_solid", properties.hole_radius - properties.hole_dead_layer, properties.hole_radius, (properties.hole_depth - properties.hole_radius)/2, 0. *deg,  360. *deg);
@@ -236,7 +260,7 @@ void HPGe_Coaxial::Construct(G4ThreeVector global_coordinates, G4double theta, G
   //}
   
   /*********************** Outer dead layer ******************************/
-  
+///*  
   const G4int msteps = 500;
 
   G4double zPlaneTempm[msteps];
@@ -250,8 +274,8 @@ void HPGe_Coaxial::Construct(G4ThreeVector global_coordinates, G4double theta, G
     zPlaneTempm[i] = z;
 
     // rInnerTemp[i] = 0. * mm;
-    if (z >= properties.detector_length + properties.dead_layer_top) {
-      if (z >= (properties.detector_length + properties.dead_layer_top) - properties.detector_length) {
+    if (z >= properties.dead_layer_top) {
+      if (z >= properties.detector_face_radius + properties.dead_layer_top) {
         rInnerTempm[i] = properties.detector_radius;
       } else {
         rInnerTempm[i] = (properties.detector_face_radius) * sqrt(1. - pow((z - (properties.detector_face_radius)) / (properties.detector_face_radius), 2)) + ((properties.detector_radius) - (properties.detector_face_radius));
@@ -276,10 +300,10 @@ void HPGe_Coaxial::Construct(G4ThreeVector global_coordinates, G4double theta, G
   G4int msteps_optimized = opt->Optimize(zPlaneTempm, rInnerTempm, rOuterTempm, zPlanem, rInnerm, rOuterm, msteps, detector_name + "_outer_dead_layer_solid");
 
   G4Polycone *outer_dead_layer_solid = new G4Polycone("outer_dead_layer_solid", 0. * deg, 360. * deg, msteps_optimized, zPlanem, rInnerm, rOuterm);
-  G4LogicalVolume *outer_dead_layer_logical = new G4LogicalVolume(outer_dead_layer_solid, nist->FindOrBuildMaterial(properties.dead_layer_material), detector_name, 0, 0, 0);
+  G4LogicalVolume *outer_dead_layer_logical = new G4LogicalVolume(outer_dead_layer_solid, nist->FindOrBuildMaterial(properties.dead_layer_material), detector_name + "_outer_dead_layer_logical", 0, 0, 0);
   outer_dead_layer_logical->SetVisAttributes(new G4VisAttributes(G4Color::Blue()));
   new G4PVPlacement(0, G4ThreeVector(0., 0., -end_cap_side_length * 0.5 + properties.end_cap_to_crystal_gap_front + properties.mount_cup_face_thickness), outer_dead_layer_logical, detector_name + "_outer_dead_layer", end_cap_vacuum_logical, 0, 0, false);
-  
+//*/  
   //if (properties.dead_layer_top > 0) {
   //  G4Tubs *dead_layer_top_solid = new G4Tubs("dead_layer_top_solid", 0., properties.detector_radius + properties.dead_layer_side, properties.dead_layer_top/2, 0. *deg,  360. *deg);
   //  G4LogicalVolume *dead_layer_top_logical = new G4LogicalVolume(dead_layer_top_solid, properties.dead_layer_material, detector_name + "_dead_layer_top_logical", 0, 0, 0);

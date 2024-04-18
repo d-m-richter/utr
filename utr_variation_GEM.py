@@ -5,8 +5,7 @@ import subprocess
 import numpy as np
 import os
 
-hollow_cylinder_default = 100 #mm
-Live_time = 80 #s
+hollow_cylinder_default = 1 #mm
 
 #execute_detectorvariation = "./Detector_Variation.py"
 #subprocess.run(execute_detectorvariation, shell=True)
@@ -17,16 +16,16 @@ Live_time = 80 #s
 
 # search for path to files that have place holders in them and that have to be changed into
 
-DetectorConstruction_old_file_path = Path().resolve()/Path('Changing_files/GEM_Series_HPGe_GEM20P470_Template.cc')
+DetectorConstruction_old_file_path = Path().resolve()/Path('Templates/GEM_Series_HPGe_GEM20P470_Template.cc')
 DetectorConstruction_new_file_path = Path().resolve()/Path('DetectorConstruction/Others/Efficiency/DetectorConstruction.cc')
 
-utrwrapper_efficiency_jonny_old_file_path = Path().resolve()/Path('Changing_files/utrwrapper-efficiency-jonny_Template.xmac')
+utrwrapper_efficiency_jonny_old_file_path = Path().resolve()/Path('Templates/utrwrapper-efficiency-jonny_Template.xmac')
 utrwrapper_efficiency_jonny_new_file_path = Path().resolve()/Path('macros/examples/utrwrapper-efficiency-jonny.xmac')
 
-Hohlzylinder_old_file_path = Path().resolve()/Path('Changing_files/Hohlzylinder_Template.gdml')
+Hohlzylinder_old_file_path = Path().resolve()/Path('Templates/Hohlzylinder_Template.gdml')
 Hohlzylinder_new_file_path = Path().resolve()/Path('DetectorConstruction/Others/Efficiency/Volumes/Hohlzylinder.gdml')
 
-Quellenhalter_old_file_path = Path().resolve()/Path('Changing_files/Quellenhalter_Template.gdml')
+Quellenhalter_old_file_path = Path().resolve()/Path('Templates/Quellenhalter_Template.gdml')
 Quellenhalter_new_file_path = Path().resolve()/Path('DetectorConstruction/Others/Efficiency/Volumes/Quellenhalter.gdml')
 
 # open and read in the old files that have place holders in them
@@ -45,16 +44,19 @@ with open(Quellenhalter_old_file_path) as Quellenhalter_old_file: # --------- Qu
 
 # define functions to change the content (place holders) of the old files
 
-def utrwrapper_efficiency_jonny(disintegration_old, disintegration_new, utrwrapper_efficiency_jonny_old_content): 
+def utrwrapper_efficiency_jonny(disintegration_old, disintegration_new, folder_old, folder_new, horizontal_shift_x_old, horizontal_shift_y_new, horizontal_shift_y_old, horizontal_shift_x_new, utrwrapper_efficiency_jonny_old_content): 
     # from Activity_Variation.py
     utrwrapper_efficiency_jonny_old_content = utrwrapper_efficiency_jonny_old_content.replace(disintegration_old, disintegration_new) # --- activity: change the numbers of particles that are produced in a simulation run
     
     utrwrapper_efficiency_jonny_old_content = utrwrapper_efficiency_jonny_old_content.replace(folder_old, folder_new) # ---- folder: change the name of the folder in which the efficiency data is stored 
     
+    utrwrapper_efficiency_jonny_old_content = utrwrapper_efficiency_jonny_old_content.replace(horizontal_shift_x_old, horizontal_shift_x_new)
+    utrwrapper_efficiency_jonny_old_content = utrwrapper_efficiency_jonny_old_content.replace(horizontal_shift_y_old, horizontal_shift_y_new)
+
     with open(utrwrapper_efficiency_jonny_new_file_path, 'w') as utrwrapper_efficiency_jonny_new_file: # ------------ open new files 
         utrwrapper_efficiency_jonny_new_file.write(utrwrapper_efficiency_jonny_old_content) # ---------- change the content of the new files that go into the simulation run
 
-def DetectorConstruction(crystal_diameter_old, crystal_diameter_new, crystal_length_old, crystal_length_new, hole_diameter_old, hole_diameter_new, hole_depth_old, hole_depth_new, dead_layer_side_old, dead_layer_side_new, dead_layer_top_old, dead_layer_top_new, source_thickness_old, source_thickness_new, end_cap_length_above_table_old, end_cap_length_above_table_new, hollow_cylinder_old, hollow_cylinder_new, hollow_cylinder_position_old, hollow_cylinder_position_new, distance_source_detector_old, distance_source_detector_new, DetectorConstruction_old_content):
+def DetectorConstruction(crystal_diameter_old, crystal_diameter_new, crystal_length_old, crystal_length_new, hole_diameter_old, hole_diameter_new, hole_depth_old, hole_depth_new, dead_layer_side_old, dead_layer_side_new, dead_layer_top_old, dead_layer_top_new, source_thickness_old, source_thickness_new, end_cap_length_above_table_old, end_cap_length_above_table_new, hollow_cylinder_old, hollow_cylinder_new, hollow_cylinder_position_old, hollow_cylinder_position_new, distance_source_detector_old, distance_source_detector_new, horizontal_shift_x_old, horizontal_shift_x_new, horizontal_shift_y_old, horizontal_shift_y_new, DetectorConstruction_old_content):
         # from Detector_Variation.py
         DetectorConstruction_old_content = DetectorConstruction_old_content.replace(crystal_diameter_old, crystal_diameter_new)
         DetectorConstruction_old_content = DetectorConstruction_old_content.replace(crystal_length_old, crystal_length_new)
@@ -69,6 +71,10 @@ def DetectorConstruction(crystal_diameter_old, crystal_diameter_new, crystal_len
         DetectorConstruction_old_content = DetectorConstruction_old_content.replace(hollow_cylinder_old, hollow_cylinder_new)
         DetectorConstruction_old_content = DetectorConstruction_old_content.replace(hollow_cylinder_position_old, hollow_cylinder_position_new)
         DetectorConstruction_old_content = DetectorConstruction_old_content.replace(distance_source_detector_old, distance_source_detector_new)
+
+        DetectorConstruction_old_content = DetectorConstruction_old_content.replace(horizontal_shift_x_old, horizontal_shift_x_new)
+        DetectorConstruction_old_content = DetectorConstruction_old_content.replace(horizontal_shift_y_old, horizontal_shift_y_new)
+
 
         with open(DetectorConstruction_new_file_path, 'w') as DetectorConstruction_new_file:
             DetectorConstruction_new_file.write(DetectorConstruction_old_content)
@@ -99,16 +105,16 @@ def Quellenhalter_change(source_holder_old, source_holder_new, notch_old, notch_
 
 execute_utrwrapper = "./OutputProcessing/utrwrapper.py macros/examples/utrwrapper-efficiency-jonny.xmac" # ---------- command for running utr
     
-for i in range(0,1):
-    for j in range(0,1):
-        for l in range(0,10):
+for i in range(0,4):
+    for j in range(0,4):
+        for l in range(0,40):
             # read in detectorvariation_i.txt and distancevariation_j.txt files --- for every i and j
             detectorvariation_file_path = Path().resolve()/Path(f'detectorvariation_{i}.txt')
             detectorvariation_data = detectorvariation_file_path
-            distancevariation_file_path = Path().resolve()/Path(f'distancevariation_{j}.txt')
+            distancevariation_file_path = Path().resolve()/Path(f'distancevariation_{j}.txt')#(f'output/GEM_Variation/Efficiency_{hollow_cylinder_default}mm/distancevariation_{j}.txt')
             distancevariation_data = distancevariation_file_path
             # read in activity.txt file --- only ones
-            activity_file_path = Path('activity.txt')
+            activity_file_path = Path(f'activity.txt')#(f'output/GEM_Variation/Efficiency_{hollow_cylinder_default}mm/activity.txt')
             activity_data = activity_file_path.resolve()
     
             # read in values from detectorconstruction_{i}{j} for each column to parameters
@@ -125,18 +131,21 @@ for i in range(0,1):
             source_thickness = np.loadtxt(distancevariation_data, skiprows=1, usecols=3)
             end_cap_length_above_table = np.loadtxt(distancevariation_data, skiprows=1, usecols=4)
             distance_source_detector = np.loadtxt(distancevariation_data, skiprows=1, usecols=5)
+
+            horizontal_shift_x = np.loadtxt(distancevariation_data, skiprows=1, usecols=6)
+            horizontal_shift_y = np.loadtxt(distancevariation_data, skiprows=1, usecols=7)
       
             # read in values from activity from second column to parameters 
             disintegrations = np.loadtxt(activity_data, skiprows=1, usecols=1) 
 
-            k = random.randint(0, 9)
+            #k = random.randint(0, 39)
 
             # change place holders 
             # declarate place holder in utrwrapper-efficiency-jonny.xmac that has only to be changed in the k loop
             disintegration_old = "{{disintegrations}}"
-            disintegration_new = str(int(disintegrations[k]))
+            disintegration_new = str(int(disintegrations[l]))
 
-            hollow_cylinder_position = hollow_cylinder[l] + source_holder[l] - notch[l] + source_thickness[l]/2 - end_cap_length_above_table[l]
+            #hollow_cylinder_position = distance_source_detector[l] + "HPGe_GEM20P470_props.end_cap_length" - end_cap_length_above_table + hollow_cylinder * 0.5 #hollow_cylinder[l] + source_holder[l] - notch[l] + source_thickness[l]/2 - end_cap_length_above_table[l]
             
             notch_abs = source_holder[l] - notch[l]
             sh1 = source_holder[l] - 2.5
@@ -148,7 +157,7 @@ for i in range(0,1):
             sh7 = source_holder[l] - 8.5
 
             # declarate place holder in DetectorConstruction.cc that has also be changed in the l loop
-            crystal_diameter_old = "{{cystal_diameter}}"
+            crystal_diameter_old = "{{crystal_diameter}}"
             crystal_diameter_new = str(crystal_diameter[l])
             crystal_length_old = "{{crystal_length}}"
             crystal_length_new = str(crystal_length[l])
@@ -167,11 +176,11 @@ for i in range(0,1):
             end_cap_length_above_table_new = str(end_cap_length_above_table[l])
 
             hollow_cylinder_position_old = "{{hollow_cylinder_position}}"
-            hollow_cylinder_position_new = str(hollow_cylinder_position)
+            hollow_cylinder_position_new = "distance_source_detector + " + "134 * mm - (134 * mm - " + str(end_cap_length_above_table[l]) + ")" #str(hollow_cylinder_position)
 
             # declarate place holder in utrwrapper-efficiency-jonny.xmac that has also be changed in the j loop
             folder_old = "{{folder}}"
-            folder_new = "Efficiency_" + str(hollow_cylinder_default) + "mm/Efficiency_" + str(i) + str(j) + "/Efficiency_" + str(i) + "_" + str(j) + "_" + str(k) + "_" + str(l)
+            folder_new = "GEM_Variation/Efficiency_" + str(hollow_cylinder_default) + "mm/Efficiency_" + str(i) + str(j) + "/Efficiency_" + str(i) + "_" + str(j) + "_" + str(l) #+ str(k) + "_" + str(l)
 
             # declarate place holder in Hohlzylinder_new.gdml that has also be changed in the j loop
             hollow_cylinder_old = "{{hollow_cylinder}}"
@@ -197,11 +206,16 @@ for i in range(0,1):
             sh7_old = "{{135.53}}"
             sh7_new = str(sh7)
 
+            horizontal_shift_x_old = "{{horizontal_shift_x}}"
+            horizontal_shift_x_new = str(horizontal_shift_x[l])
+            horizontal_shift_y_old = "{{horizontal_shift_y}}"
+            horizontal_shift_y_new = str(horizontal_shift_y[l])
+
             distance_source_detector_old = "{{distance_source_detector}}"
             distance_source_detector_new = str(distance_source_detector[l])
 
-            utrwrapper_efficiency_jonny(disintegration_old, disintegration_new, utrwrapper_efficiency_jonny_old_content) # ------------- change values in utrwrapper-efficiency-jonny.xmac
-            DetectorConstruction(crystal_diameter_old, crystal_diameter_new, crystal_length_old, crystal_length_new, hole_diameter_old, hole_diameter_new, hole_depth_old, hole_depth_new, dead_layer_side_old, dead_layer_side_new, dead_layer_top_old, dead_layer_top_new, source_thickness_old, source_thickness_new, end_cap_length_above_table_old, end_cap_length_above_table_new, hollow_cylinder_old, hollow_cylinder_new, hollow_cylinder_position_old, hollow_cylinder_position_new, distance_source_detector_old, distance_source_detector_new, DetectorConstruction_old_content) # ---- change values in DetectorConstruction.cc
+            utrwrapper_efficiency_jonny(disintegration_old, disintegration_new, folder_old, folder_new, horizontal_shift_x_old, horizontal_shift_y_new, horizontal_shift_y_old, horizontal_shift_x_new, utrwrapper_efficiency_jonny_old_content) # ------------- change values in utrwrapper-efficiency-jonny.xmac
+            DetectorConstruction(crystal_diameter_old, crystal_diameter_new, crystal_length_old, crystal_length_new, hole_diameter_old, hole_diameter_new, hole_depth_old, hole_depth_new, dead_layer_side_old, dead_layer_side_new, dead_layer_top_old, dead_layer_top_new, source_thickness_old, source_thickness_new, end_cap_length_above_table_old, end_cap_length_above_table_new, hollow_cylinder_old, hollow_cylinder_new, hollow_cylinder_position_old, hollow_cylinder_position_new, distance_source_detector_old, distance_source_detector_new, horizontal_shift_x_old, horizontal_shift_x_new, horizontal_shift_y_old, horizontal_shift_y_new, DetectorConstruction_old_content) # ---- change values in DetectorConstruction.cc
             Hohlzylinder_change(hollow_cylinder_old, hollow_cylinder_new, Hohlzylinder_old_content) # ---------- change values in Hohlzylinder_new.gdml
             Quellenhalter_change(source_holder_old, source_holder_new, notch_old, notch_new, sh1_old, sh1_new, sh2_old, sh2_new, sh3_old, sh3_new, sh4_old, sh4_new, sh5_old, sh5_new, sh6_old, sh6_new, sh7_old, sh7_new, Quellenhalter_old_content) # ---------- change values in Quellenhalter_new.gdml
             subprocess.run(execute_utrwrapper, shell=True)# ---------- run utr

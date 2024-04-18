@@ -25,20 +25,21 @@ u_A_t0 = A_t0 * 0.1 # Bq --------------- for 10% activity uncertainty
 
 # time calculation for activity
 dt1 = datetime.datetime(2016,1,1) 
-dt2 = datetime.datetime(2023,11,4) # alte 100mm Messung 13.09.2023
+dt2 = datetime.datetime(2024,1,25) # alte 100mm Messung 13.09.2023
 time_diff = dt2 - dt1 
 tdays = time_diff.days
 
+# Live_time is already corrected time
+Live_time = 10192 #s
+
 # activity
 A_tdays = A_t0 * exp(-log(2)/(T_12 * 365) * tdays)
+disintegration = A_tdays * Live_time * P_662
 
-#print(A_tdays)
+print(A_tdays, disintegration)
 
 # uncertainty of activity A_tdays
 u_A_tdays = exp(-log(2)/(T_12 * 365) * tdays) * u_A_t0
-
-# Live_time is already corrected time
-Live_time = 80 #s
 
 disintegration_from_activity = []
 
