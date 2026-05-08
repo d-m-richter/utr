@@ -68,6 +68,7 @@ G4bool EnergyDepositionSD::ProcessHits(G4Step *aStep, G4TouchableHistory *) {
   hit->SetEventID(eventID);
   hit->SetPosition(track->GetPosition());
   hit->SetMomentum(track->GetMomentum());
+  //hit->SetGlobalTime(aStep->GetPreStepPoint()->GetGlobalTime());
 
   hitsCollection->insert(hit);
 

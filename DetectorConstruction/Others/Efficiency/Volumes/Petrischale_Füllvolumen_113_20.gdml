@@ -1,0 +1,772 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<gdml xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://service-spi.web.cern.ch/service-spi/app/releases/GDML/schema/gdml.xsd">
+ <define>
+ <position name="Petrischale_Füllvolumen_113_20_v0" unit="mm" x="30.64177772475896" y="-25.711504387461762" z="113.19999999999999"/>
+ <position name="Petrischale_Füllvolumen_113_20_v1" unit="mm" x="24.93959207434912" y="-31.273259298721364" z="113.19999999999999"/>
+ <position name="Petrischale_Füllvolumen_113_20_v2" unit="mm" x="29.322074873192882" y="-27.20690951083696" z="113.19999999999999"/>
+ <position name="Petrischale_Füllvolumen_113_20_v3" unit="mm" x="27.92947272344273" y="-28.63467397038892" z="113.19999999999999"/>
+ <position name="Petrischale_Füllvolumen_113_20_v4" unit="mm" x="26.467433503874176" y="-29.991248118709546" z="113.19999999999999"/>
+ <position name="Petrischale_Füllvolumen_113_20_v5" unit="mm" x="21.701850554630127" y="-33.601036926031014" z="113.19999999999999"/>
+ <position name="Petrischale_Füllvolumen_113_20_v6" unit="mm" x="23.349746889391362" y="-32.477520228634425" z="113.19999999999999"/>
+ <position name="Petrischale_Füllvolumen_113_20_v7" unit="mm" x="33.049550972639665" y="-22.532802322545074" z="113.19999999999999"/>
+ <position name="Petrischale_Füllvolumen_113_20_v8" unit="mm" x="34.13163526528611" y="-20.857408135180115" z="113.19999999999999"/>
+ <position name="Petrischale_Füllvolumen_113_20_v9" unit="mm" x="31.885300288916753" y="-24.152176413019287" z="113.19999999999999"/>
+ <position name="Petrischale_Füllvolumen_113_20_v10" unit="mm" x="16.451484125224173" y="-36.460234092467054" z="113.19999999999999"/>
+ <position name="Petrischale_Füllvolumen_113_20_v11" unit="mm" x="19.999999999999737" y="-34.6410161513777" z="113.19999999999999"/>
+ <position name="Petrischale_Füllvolumen_113_20_v12" unit="mm" x="18.248426294126244" y="-35.594872352458886" z="113.19999999999999"/>
+ <position name="Petrischale_Füllvolumen_113_20_v13" unit="mm" x="36.038754716096676" y="-17.35534956470251" z="113.19999999999999"/>
+ <position name="Petrischale_Füllvolumen_113_20_v14" unit="mm" x="36.85904847481623" y="-15.537391850987971" z="113.19999999999999"/>
+ <position name="Petrischale_Füllvolumen_113_20_v15" unit="mm" x="35.12886293480904" y="-19.130159144852918" z="113.19999999999999"/>
+ <position name="Petrischale_Füllvolumen_113_20_v16" unit="mm" x="10.833618725719878" y="-38.50496987800057" z="113.19999999999999"/>
+ <position name="Petrischale_Füllvolumen_113_20_v17" unit="mm" x="14.613640974655498" y="-37.23494994576829" z="113.19999999999999"/>
+ <position name="Petrischale_Füllvolumen_113_20_v18" unit="mm" x="12.739466010067062" y="-37.917093846685376" z="113.19999999999999"/>
+ <position name="Petrischale_Füllvolumen_113_20_v19" unit="mm" x="38.76309144916307" y="-9.870295907611917" z="113.19999999999999"/>
+ <position name="Petrischale_Füllvolumen_113_20_v20" unit="mm" x="38.22291223144558" y="-11.790206976436345" z="113.19999999999999"/>
+ <position name="Petrischale_Füllvolumen_113_20_v21" unit="mm" x="37.58770483143627" y="-13.680805733026931" z="113.19999999999999"/>
+ <position name="Petrischale_Füllvolumen_113_20_v22" unit="mm" x="6.945927106676864" y="-39.39231012048838" z="113.19999999999999"/>
+ <position name="Petrischale_Füllvolumen_113_20_v23" unit="mm" x="8.900837358252238" y="-38.99711648727302" z="113.19999999999999"/>
+ <position name="Petrischale_Füllvolumen_113_20_v24" unit="mm" x="39.553233049005115" y="-5.961690647047137" z="113.19999999999999"/>
+ <position name="Petrischale_Füllvolumen_113_20_v25" unit="mm" x="39.20689951394172" y="-7.925845727976069" z="113.19999999999999"/>
+ <position name="Petrischale_Füllvolumen_113_20_v26" unit="mm" x="2.9892037434565992" y="-39.88815188724723" z="113.19999999999999"/>
+ <position name="Petrischale_Füllvolumen_113_20_v27" unit="mm" x="4.973748185899046" y="-39.68956826400693" z="113.19999999999999"/>
+ <position name="Petrischale_Füllvolumen_113_20_v28" unit="mm" x="39.80123101461604" y="-3.9827138638328186" z="113.19999999999999"/>
+ <position name="Petrischale_Füllvolumen_113_20_v29" unit="mm" x="39.950276848756886" y="-1.9938354264280314" z="113.19999999999999"/>
+ <position name="Petrischale_Füllvolumen_113_20_v30" unit="mm" x="0.9972276695225356" y="-39.98756728003266" z="113.19999999999999"/>
+ <position name="Petrischale_Füllvolumen_113_20_v31" unit="mm" x="40.0" y="-1.3720995995543063e-13" z="113.19999999999999"/>
+ <position name="Petrischale_Füllvolumen_113_20_v32" unit="mm" x="39.9502768487569" y="1.9938354264277571" z="113.19999999999999"/>
+ <position name="Petrischale_Füllvolumen_113_20_v33" unit="mm" x="39.80123101461607" y="3.9827138638325454" z="113.19999999999999"/>
+ <position name="Petrischale_Füllvolumen_113_20_v34" unit="mm" x="39.55323304900516" y="5.961690647046866" z="113.19999999999999"/>
+ <position name="Petrischale_Füllvolumen_113_20_v35" unit="mm" x="-6.945927106677619" y="-39.39231012048825" z="113.19999999999999"/>
+ <position name="Petrischale_Füllvolumen_113_20_v36" unit="mm" x="-0.9972276695233022" y="-39.98756728003264" z="113.19999999999999"/>
+ <position name="Petrischale_Füllvolumen_113_20_v37" unit="mm" x="-2.9892037434573644" y="-39.888151887247176" z="113.19999999999999"/>
+ <position name="Petrischale_Füllvolumen_113_20_v38" unit="mm" x="-4.973748185899806" y="-39.68956826400684" z="113.19999999999999"/>
+ <position name="Petrischale_Füllvolumen_113_20_v39" unit="mm" x="-8.900837358252984" y="-38.99711648727285" z="113.19999999999999"/>
+ <position name="Petrischale_Füllvolumen_113_20_v40" unit="mm" x="38.222912231445655" y="11.790206976436082" z="113.19999999999999"/>
+ <position name="Petrischale_Füllvolumen_113_20_v41" unit="mm" x="38.76309144916314" y="9.87029590761165" z="113.19999999999999"/>
+ <position name="Petrischale_Füllvolumen_113_20_v42" unit="mm" x="39.20689951394178" y="7.9258457279757994" z="113.19999999999999"/>
+ <position name="Petrischale_Füllvolumen_113_20_v43" unit="mm" x="37.58770483143636" y="13.68080573302667" z="113.19999999999999"/>
+ <position name="Petrischale_Füllvolumen_113_20_v44" unit="mm" x="-10.833618725720616" y="-38.50496987800037" z="113.19999999999999"/>
+ <position name="Petrischale_Füllvolumen_113_20_v45" unit="mm" x="-14.613640974656212" y="-37.23494994576801" z="113.19999999999999"/>
+ <position name="Petrischale_Füllvolumen_113_20_v46" unit="mm" x="-12.739466010067789" y="-37.917093846685134" z="113.19999999999999"/>
+ <position name="Petrischale_Füllvolumen_113_20_v47" unit="mm" x="36.03875471609679" y="17.355349564702266" z="113.19999999999999"/>
+ <position name="Petrischale_Füllvolumen_113_20_v48" unit="mm" x="36.85904847481633" y="15.53739185098772" z="113.19999999999999"/>
+ <position name="Petrischale_Füllvolumen_113_20_v49" unit="mm" x="35.12886293480917" y="19.130159144852676" z="113.19999999999999"/>
+ <position name="Petrischale_Füllvolumen_113_20_v50" unit="mm" x="-16.451484125224873" y="-36.46023409246674" z="113.19999999999999"/>
+ <position name="Petrischale_Füllvolumen_113_20_v51" unit="mm" x="-20.000000000000405" y="-34.641016151377315" z="113.19999999999999"/>
+ <position name="Petrischale_Füllvolumen_113_20_v52" unit="mm" x="-18.248426294126926" y="-35.59487235245854" z="113.19999999999999"/>
+ <position name="Petrischale_Füllvolumen_113_20_v53" unit="mm" x="-23.349746889391984" y="-32.47752022863398" z="113.19999999999999"/>
+ <position name="Petrischale_Füllvolumen_113_20_v54" unit="mm" x="-21.701850554630774" y="-33.6010369260306" z="113.19999999999999"/>
+ <position name="Petrischale_Füllvolumen_113_20_v55" unit="mm" x="33.04955097263982" y="22.532802322544846" z="113.19999999999999"/>
+ <position name="Petrischale_Füllvolumen_113_20_v56" unit="mm" x="31.885300288916923" y="24.15217641301907" z="113.19999999999999"/>
+ <position name="Petrischale_Füllvolumen_113_20_v57" unit="mm" x="34.13163526528625" y="20.85740813517988" z="113.19999999999999"/>
+ <position name="Petrischale_Füllvolumen_113_20_v58" unit="mm" x="-27.929472723443276" y="-28.634673970388388" z="113.19999999999999"/>
+ <position name="Petrischale_Füllvolumen_113_20_v59" unit="mm" x="-24.939592074349726" y="-31.273259298720888" z="113.19999999999999"/>
+ <position name="Petrischale_Füllvolumen_113_20_v60" unit="mm" x="-26.467433503874748" y="-29.991248118709038" z="113.19999999999999"/>
+ <position name="Petrischale_Füllvolumen_113_20_v61" unit="mm" x="-29.3220748731934" y="-27.2069095108364" z="113.19999999999999"/>
+ <position name="Petrischale_Füllvolumen_113_20_v62" unit="mm" x="-30.641777724759454" y="-25.711504387461176" z="113.19999999999999"/>
+ <position name="Petrischale_Füllvolumen_113_20_v63" unit="mm" x="26.467433503874382" y="29.991248118709365" z="113.19999999999999"/>
+ <position name="Petrischale_Füllvolumen_113_20_v64" unit="mm" x="24.93959207434934" y="31.273259298721197" z="113.19999999999999"/>
+ <position name="Petrischale_Füllvolumen_113_20_v65" unit="mm" x="27.929472723442924" y="28.63467397038873" z="113.19999999999999"/>
+ <position name="Petrischale_Füllvolumen_113_20_v66" unit="mm" x="29.322074873193067" y="27.20690951083676" z="113.19999999999999"/>
+ <position name="Petrischale_Füllvolumen_113_20_v67" unit="mm" x="-34.131635265286505" y="-20.85740813517946" z="113.19999999999999"/>
+ <position name="Petrischale_Füllvolumen_113_20_v68" unit="mm" x="-31.88530028891722" y="-24.152176413018672" z="113.19999999999999"/>
+ <position name="Petrischale_Füllvolumen_113_20_v69" unit="mm" x="-33.0495509726401" y="-22.532802322544438" z="113.19999999999999"/>
+ <position name="Petrischale_Füllvolumen_113_20_v70" unit="mm" x="21.70185055463036" y="33.60103692603087" z="113.19999999999999"/>
+ <position name="Petrischale_Füllvolumen_113_20_v71" unit="mm" x="19.999999999999975" y="34.641016151377556" z="113.19999999999999"/>
+ <position name="Petrischale_Füllvolumen_113_20_v72" unit="mm" x="23.349746889391586" y="32.47752022863426" z="113.19999999999999"/>
+ <position name="Petrischale_Füllvolumen_113_20_v73" unit="mm" x="30.641777724759137" y="25.711504387461552" z="113.19999999999999"/>
+ <position name="Petrischale_Füllvolumen_113_20_v74" unit="mm" x="-36.038754716097" y="-17.35534956470182" z="113.19999999999999"/>
+ <position name="Petrischale_Füllvolumen_113_20_v75" unit="mm" x="-35.128862934809405" y="-19.130159144852243" z="113.19999999999999"/>
+ <position name="Petrischale_Füllvolumen_113_20_v76" unit="mm" x="18.24842629412649" y="35.59487235245876" z="113.19999999999999"/>
+ <position name="Petrischale_Füllvolumen_113_20_v77" unit="mm" x="16.451484125224432" y="36.46023409246694" z="113.19999999999999"/>
+ <position name="Petrischale_Füllvolumen_113_20_v78" unit="mm" x="-36.859048474816525" y="-15.537391850987266" z="113.19999999999999"/>
+ <position name="Petrischale_Füllvolumen_113_20_v79" unit="mm" x="14.61364097465577" y="37.234949945768186" z="113.19999999999999"/>
+ <position name="Petrischale_Füllvolumen_113_20_v80" unit="mm" x="-38.222912231445804" y="-11.790206976435611" z="113.19999999999999"/>
+ <position name="Petrischale_Füllvolumen_113_20_v81" unit="mm" x="-37.58770483143653" y="-13.680805733026208" z="113.19999999999999"/>
+ <position name="Petrischale_Füllvolumen_113_20_v82" unit="mm" x="12.739466010067346" y="37.91709384668528" z="113.19999999999999"/>
+ <position name="Petrischale_Füllvolumen_113_20_v83" unit="mm" x="10.833618725720175" y="38.50496987800049" z="113.19999999999999"/>
+ <position name="Petrischale_Füllvolumen_113_20_v84" unit="mm" x="-38.76309144916326" y="-9.870295907611172" z="113.19999999999999"/>
+ <position name="Petrischale_Füllvolumen_113_20_v85" unit="mm" x="8.900837358252549" y="38.99711648727295" z="113.19999999999999"/>
+ <position name="Petrischale_Füllvolumen_113_20_v86" unit="mm" x="-39.20689951394187" y="-7.925845727975317" z="113.19999999999999"/>
+ <position name="Petrischale_Füllvolumen_113_20_v87" unit="mm" x="-39.553233049005236" y="-5.961690647046378" z="113.19999999999999"/>
+ <position name="Petrischale_Füllvolumen_113_20_v88" unit="mm" x="-39.95027684875693" y="-1.9938354264272653" z="113.19999999999999"/>
+ <position name="Petrischale_Füllvolumen_113_20_v89" unit="mm" x="-39.80123101461612" y="-3.982713863832055" z="113.19999999999999"/>
+ <position name="Petrischale_Füllvolumen_113_20_v90" unit="mm" x="2.989203743456944" y="39.88815188724721" z="113.19999999999999"/>
+ <position name="Petrischale_Füllvolumen_113_20_v91" unit="mm" x="0.9972276695228899" y="39.98756728003265" z="113.19999999999999"/>
+ <position name="Petrischale_Füllvolumen_113_20_v92" unit="mm" x="4.97374818589938" y="39.68956826400689" z="113.19999999999999"/>
+ <position name="Petrischale_Füllvolumen_113_20_v93" unit="mm" x="-40.0" y="0.0" z="113.19999999999999"/>
+ <position name="Petrischale_Füllvolumen_113_20_v94" unit="mm" x="-0.9972276695229392" y="39.98756728003265" z="113.19999999999999"/>
+ <position name="Petrischale_Füllvolumen_113_20_v95" unit="mm" x="6.9459271066771855" y="39.392310120488325" z="113.19999999999999"/>
+ <position name="Petrischale_Füllvolumen_113_20_v96" unit="mm" x="-39.95027684875689" y="1.9938354264278866" z="113.19999999999999"/>
+ <position name="Petrischale_Füllvolumen_113_20_v97" unit="mm" x="-39.553233049005144" y="5.961690647046978" z="113.19999999999999"/>
+ <position name="Petrischale_Füllvolumen_113_20_v98" unit="mm" x="-39.80123101461606" y="3.9827138638326662" z="113.19999999999999"/>
+ <position name="Petrischale_Füllvolumen_113_20_v99" unit="mm" x="-6.945927106677234" y="39.39231012048832" z="113.19999999999999"/>
+ <position name="Petrischale_Füllvolumen_113_20_v100" unit="mm" x="-4.973748185899429" y="39.68956826400688" z="113.19999999999999"/>
+ <position name="Petrischale_Füllvolumen_113_20_v101" unit="mm" x="-2.9892037434569927" y="39.888151887247204" z="113.19999999999999"/>
+ <position name="Petrischale_Füllvolumen_113_20_v102" unit="mm" x="-37.587704831436334" y="13.680805733026752" z="113.19999999999999"/>
+ <position name="Petrischale_Füllvolumen_113_20_v103" unit="mm" x="-39.20689951394175" y="7.925845727975903" z="113.19999999999999"/>
+ <position name="Petrischale_Füllvolumen_113_20_v104" unit="mm" x="-38.76309144916312" y="9.870295907611746" z="113.19999999999999"/>
+ <position name="Petrischale_Füllvolumen_113_20_v105" unit="mm" x="-38.222912231445626" y="11.790206976436169" z="113.19999999999999"/>
+ <position name="Petrischale_Füllvolumen_113_20_v106" unit="mm" x="-12.739466010067392" y="37.91709384668526" z="113.19999999999999"/>
+ <position name="Petrischale_Füllvolumen_113_20_v107" unit="mm" x="-14.613640974655818" y="37.234949945768165" z="113.19999999999999"/>
+ <position name="Petrischale_Füllvolumen_113_20_v108" unit="mm" x="-10.833618725720221" y="38.50496987800048" z="113.19999999999999"/>
+ <position name="Petrischale_Füllvolumen_113_20_v109" unit="mm" x="-8.900837358252595" y="38.99711648727294" z="113.19999999999999"/>
+ <position name="Petrischale_Füllvolumen_113_20_v110" unit="mm" x="-36.03875471609677" y="17.355349564702326" z="113.19999999999999"/>
+ <position name="Petrischale_Füllvolumen_113_20_v111" unit="mm" x="-36.859048474816305" y="15.53739185098779" z="113.19999999999999"/>
+ <position name="Petrischale_Füllvolumen_113_20_v112" unit="mm" x="-16.451484125224475" y="36.46023409246692" z="113.19999999999999"/>
+ <position name="Petrischale_Füllvolumen_113_20_v113" unit="mm" x="-18.24842629412653" y="35.59487235245874" z="113.19999999999999"/>
+ <position name="Petrischale_Füllvolumen_113_20_v114" unit="mm" x="-20.000000000000014" y="34.64101615137754" z="113.19999999999999"/>
+ <position name="Petrischale_Füllvolumen_113_20_v115" unit="mm" x="-21.701850554630386" y="33.60103692603085" z="113.19999999999999"/>
+ <position name="Petrischale_Füllvolumen_113_20_v116" unit="mm" x="-33.04955097263979" y="22.532802322544878" z="113.19999999999999"/>
+ <position name="Petrischale_Füllvolumen_113_20_v117" unit="mm" x="-35.12886293480914" y="19.130159144852726" z="113.19999999999999"/>
+ <position name="Petrischale_Füllvolumen_113_20_v118" unit="mm" x="-34.13163526528623" y="20.85740813517992" z="113.19999999999999"/>
+ <position name="Petrischale_Füllvolumen_113_20_v119" unit="mm" x="-23.349746889391604" y="32.47752022863425" z="113.19999999999999"/>
+ <position name="Petrischale_Füllvolumen_113_20_v120" unit="mm" x="-30.641777724759123" y="25.71150438746157" z="113.19999999999999"/>
+ <position name="Petrischale_Füllvolumen_113_20_v121" unit="mm" x="-31.885300288916902" y="24.15217641301909" z="113.19999999999999"/>
+ <position name="Petrischale_Füllvolumen_113_20_v122" unit="mm" x="-27.92947272344292" y="28.634673970388732" z="113.19999999999999"/>
+ <position name="Petrischale_Füllvolumen_113_20_v123" unit="mm" x="-29.32207487319306" y="27.20690951083677" z="113.19999999999999"/>
+ <position name="Petrischale_Füllvolumen_113_20_v124" unit="mm" x="-26.467433503874386" y="29.991248118709358" z="113.19999999999999"/>
+ <position name="Petrischale_Füllvolumen_113_20_v125" unit="mm" x="-24.93959207434935" y="31.273259298721186" z="113.19999999999999"/>
+ <position name="Petrischale_Füllvolumen_113_20_v126" unit="mm" x="-39.95027684875689" y="1.9938354264278866" z="-6.12323399573677e-15"/>
+ <position name="Petrischale_Füllvolumen_113_20_v127" unit="mm" x="-40.0" y="0.0" z="-6.12323399573677e-15"/>
+ <position name="Petrischale_Füllvolumen_113_20_v128" unit="mm" x="-39.80123101461606" y="3.9827138638326662" z="-6.12323399573677e-15"/>
+ <position name="Petrischale_Füllvolumen_113_20_v129" unit="mm" x="-39.553233049005144" y="5.961690647046978" z="-6.12323399573677e-15"/>
+ <position name="Petrischale_Füllvolumen_113_20_v130" unit="mm" x="-39.20689951394175" y="7.925845727975903" z="-6.12323399573677e-15"/>
+ <position name="Petrischale_Füllvolumen_113_20_v131" unit="mm" x="-38.76309144916312" y="9.870295907611746" z="-6.12323399573677e-15"/>
+ <position name="Petrischale_Füllvolumen_113_20_v132" unit="mm" x="-38.222912231445626" y="11.790206976436169" z="-6.12323399573677e-15"/>
+ <position name="Petrischale_Füllvolumen_113_20_v133" unit="mm" x="-37.587704831436334" y="13.680805733026752" z="-6.12323399573677e-15"/>
+ <position name="Petrischale_Füllvolumen_113_20_v134" unit="mm" x="-36.859048474816305" y="15.53739185098779" z="-6.12323399573677e-15"/>
+ <position name="Petrischale_Füllvolumen_113_20_v135" unit="mm" x="-36.03875471609677" y="17.355349564702326" z="-6.12323399573677e-15"/>
+ <position name="Petrischale_Füllvolumen_113_20_v136" unit="mm" x="-35.12886293480914" y="19.130159144852726" z="-6.12323399573677e-15"/>
+ <position name="Petrischale_Füllvolumen_113_20_v137" unit="mm" x="-34.13163526528623" y="20.85740813517992" z="-6.12323399573677e-15"/>
+ <position name="Petrischale_Füllvolumen_113_20_v138" unit="mm" x="-33.04955097263979" y="22.532802322544878" z="-6.12323399573677e-15"/>
+ <position name="Petrischale_Füllvolumen_113_20_v139" unit="mm" x="-31.885300288916902" y="24.15217641301909" z="-6.12323399573677e-15"/>
+ <position name="Petrischale_Füllvolumen_113_20_v140" unit="mm" x="-30.641777724759123" y="25.71150438746157" z="-6.12323399573677e-15"/>
+ <position name="Petrischale_Füllvolumen_113_20_v141" unit="mm" x="-29.32207487319306" y="27.20690951083677" z="-6.12323399573677e-15"/>
+ <position name="Petrischale_Füllvolumen_113_20_v142" unit="mm" x="-27.92947272344292" y="28.634673970388732" z="-6.12323399573677e-15"/>
+ <position name="Petrischale_Füllvolumen_113_20_v143" unit="mm" x="-26.467433503874386" y="29.991248118709358" z="-6.12323399573677e-15"/>
+ <position name="Petrischale_Füllvolumen_113_20_v144" unit="mm" x="-24.93959207434935" y="31.273259298721186" z="-6.12323399573677e-15"/>
+ <position name="Petrischale_Füllvolumen_113_20_v145" unit="mm" x="-23.349746889391604" y="32.47752022863425" z="-6.12323399573677e-15"/>
+ <position name="Petrischale_Füllvolumen_113_20_v146" unit="mm" x="-21.701850554630386" y="33.60103692603085" z="-6.12323399573677e-15"/>
+ <position name="Petrischale_Füllvolumen_113_20_v147" unit="mm" x="-20.000000000000014" y="34.64101615137754" z="-6.12323399573677e-15"/>
+ <position name="Petrischale_Füllvolumen_113_20_v148" unit="mm" x="-18.24842629412653" y="35.59487235245874" z="-6.12323399573677e-15"/>
+ <position name="Petrischale_Füllvolumen_113_20_v149" unit="mm" x="-16.451484125224475" y="36.46023409246692" z="-6.12323399573677e-15"/>
+ <position name="Petrischale_Füllvolumen_113_20_v150" unit="mm" x="-14.613640974655818" y="37.234949945768165" z="-6.12323399573677e-15"/>
+ <position name="Petrischale_Füllvolumen_113_20_v151" unit="mm" x="-12.739466010067392" y="37.91709384668526" z="-6.12323399573677e-15"/>
+ <position name="Petrischale_Füllvolumen_113_20_v152" unit="mm" x="-10.833618725720221" y="38.50496987800048" z="-6.12323399573677e-15"/>
+ <position name="Petrischale_Füllvolumen_113_20_v153" unit="mm" x="-8.900837358252595" y="38.99711648727294" z="-6.12323399573677e-15"/>
+ <position name="Petrischale_Füllvolumen_113_20_v154" unit="mm" x="-6.945927106677234" y="39.39231012048832" z="-6.12323399573677e-15"/>
+ <position name="Petrischale_Füllvolumen_113_20_v155" unit="mm" x="-4.973748185899429" y="39.68956826400688" z="-6.12323399573677e-15"/>
+ <position name="Petrischale_Füllvolumen_113_20_v156" unit="mm" x="-2.9892037434569927" y="39.888151887247204" z="-6.12323399573677e-15"/>
+ <position name="Petrischale_Füllvolumen_113_20_v157" unit="mm" x="-0.9972276695229392" y="39.98756728003265" z="-6.12323399573677e-15"/>
+ <position name="Petrischale_Füllvolumen_113_20_v158" unit="mm" x="0.9972276695228899" y="39.98756728003265" z="-6.12323399573677e-15"/>
+ <position name="Petrischale_Füllvolumen_113_20_v159" unit="mm" x="2.989203743456944" y="39.88815188724721" z="-6.12323399573677e-15"/>
+ <position name="Petrischale_Füllvolumen_113_20_v160" unit="mm" x="4.97374818589938" y="39.68956826400689" z="-6.12323399573677e-15"/>
+ <position name="Petrischale_Füllvolumen_113_20_v161" unit="mm" x="6.9459271066771855" y="39.392310120488325" z="-6.12323399573677e-15"/>
+ <position name="Petrischale_Füllvolumen_113_20_v162" unit="mm" x="8.900837358252549" y="38.99711648727295" z="-6.12323399573677e-15"/>
+ <position name="Petrischale_Füllvolumen_113_20_v163" unit="mm" x="10.833618725720175" y="38.50496987800049" z="-6.12323399573677e-15"/>
+ <position name="Petrischale_Füllvolumen_113_20_v164" unit="mm" x="12.739466010067346" y="37.91709384668528" z="-6.12323399573677e-15"/>
+ <position name="Petrischale_Füllvolumen_113_20_v165" unit="mm" x="14.61364097465577" y="37.234949945768186" z="-6.12323399573677e-15"/>
+ <position name="Petrischale_Füllvolumen_113_20_v166" unit="mm" x="16.451484125224432" y="36.46023409246694" z="-6.12323399573677e-15"/>
+ <position name="Petrischale_Füllvolumen_113_20_v167" unit="mm" x="18.24842629412649" y="35.59487235245876" z="-6.12323399573677e-15"/>
+ <position name="Petrischale_Füllvolumen_113_20_v168" unit="mm" x="19.999999999999975" y="34.641016151377556" z="-6.12323399573677e-15"/>
+ <position name="Petrischale_Füllvolumen_113_20_v169" unit="mm" x="21.70185055463036" y="33.60103692603087" z="-6.12323399573677e-15"/>
+ <position name="Petrischale_Füllvolumen_113_20_v170" unit="mm" x="23.349746889391586" y="32.47752022863426" z="-6.12323399573677e-15"/>
+ <position name="Petrischale_Füllvolumen_113_20_v171" unit="mm" x="24.93959207434934" y="31.273259298721197" z="-6.12323399573677e-15"/>
+ <position name="Petrischale_Füllvolumen_113_20_v172" unit="mm" x="26.467433503874382" y="29.991248118709365" z="-6.12323399573677e-15"/>
+ <position name="Petrischale_Füllvolumen_113_20_v173" unit="mm" x="27.929472723442924" y="28.63467397038873" z="-6.12323399573677e-15"/>
+ <position name="Petrischale_Füllvolumen_113_20_v174" unit="mm" x="29.322074873193067" y="27.20690951083676" z="-6.12323399573677e-15"/>
+ <position name="Petrischale_Füllvolumen_113_20_v175" unit="mm" x="30.641777724759137" y="25.711504387461552" z="-6.12323399573677e-15"/>
+ <position name="Petrischale_Füllvolumen_113_20_v176" unit="mm" x="31.885300288916923" y="24.15217641301907" z="-6.12323399573677e-15"/>
+ <position name="Petrischale_Füllvolumen_113_20_v177" unit="mm" x="33.04955097263982" y="22.532802322544846" z="-6.12323399573677e-15"/>
+ <position name="Petrischale_Füllvolumen_113_20_v178" unit="mm" x="34.13163526528625" y="20.85740813517988" z="-6.12323399573677e-15"/>
+ <position name="Petrischale_Füllvolumen_113_20_v179" unit="mm" x="35.12886293480917" y="19.130159144852676" z="-6.12323399573677e-15"/>
+ <position name="Petrischale_Füllvolumen_113_20_v180" unit="mm" x="36.03875471609679" y="17.355349564702266" z="-6.12323399573677e-15"/>
+ <position name="Petrischale_Füllvolumen_113_20_v181" unit="mm" x="36.85904847481633" y="15.53739185098772" z="-6.12323399573677e-15"/>
+ <position name="Petrischale_Füllvolumen_113_20_v182" unit="mm" x="37.58770483143636" y="13.68080573302667" z="-6.12323399573677e-15"/>
+ <position name="Petrischale_Füllvolumen_113_20_v183" unit="mm" x="38.222912231445655" y="11.790206976436082" z="-6.12323399573677e-15"/>
+ <position name="Petrischale_Füllvolumen_113_20_v184" unit="mm" x="38.76309144916314" y="9.87029590761165" z="-6.12323399573677e-15"/>
+ <position name="Petrischale_Füllvolumen_113_20_v185" unit="mm" x="39.20689951394178" y="7.9258457279757994" z="-6.12323399573677e-15"/>
+ <position name="Petrischale_Füllvolumen_113_20_v186" unit="mm" x="39.55323304900516" y="5.961690647046866" z="-6.12323399573677e-15"/>
+ <position name="Petrischale_Füllvolumen_113_20_v187" unit="mm" x="39.80123101461607" y="3.9827138638325454" z="-6.12323399573677e-15"/>
+ <position name="Petrischale_Füllvolumen_113_20_v188" unit="mm" x="39.9502768487569" y="1.9938354264277571" z="-6.12323399573677e-15"/>
+ <position name="Petrischale_Füllvolumen_113_20_v189" unit="mm" x="40.0" y="-1.3720995995543063e-13" z="-6.12323399573677e-15"/>
+ <position name="Petrischale_Füllvolumen_113_20_v190" unit="mm" x="39.950276848756886" y="-1.9938354264280314" z="-6.12323399573677e-15"/>
+ <position name="Petrischale_Füllvolumen_113_20_v191" unit="mm" x="39.80123101461604" y="-3.9827138638328186" z="-6.12323399573677e-15"/>
+ <position name="Petrischale_Füllvolumen_113_20_v192" unit="mm" x="39.553233049005115" y="-5.961690647047137" z="-6.12323399573677e-15"/>
+ <position name="Petrischale_Füllvolumen_113_20_v193" unit="mm" x="39.20689951394172" y="-7.925845727976069" z="-6.12323399573677e-15"/>
+ <position name="Petrischale_Füllvolumen_113_20_v194" unit="mm" x="38.76309144916307" y="-9.870295907611917" z="-6.12323399573677e-15"/>
+ <position name="Petrischale_Füllvolumen_113_20_v195" unit="mm" x="38.22291223144558" y="-11.790206976436345" z="-6.12323399573677e-15"/>
+ <position name="Petrischale_Füllvolumen_113_20_v196" unit="mm" x="37.58770483143627" y="-13.680805733026931" z="-6.12323399573677e-15"/>
+ <position name="Petrischale_Füllvolumen_113_20_v197" unit="mm" x="36.85904847481623" y="-15.537391850987971" z="-6.12323399573677e-15"/>
+ <position name="Petrischale_Füllvolumen_113_20_v198" unit="mm" x="36.038754716096676" y="-17.35534956470251" z="-6.12323399573677e-15"/>
+ <position name="Petrischale_Füllvolumen_113_20_v199" unit="mm" x="35.12886293480904" y="-19.130159144852918" z="-6.12323399573677e-15"/>
+ <position name="Petrischale_Füllvolumen_113_20_v200" unit="mm" x="34.13163526528611" y="-20.857408135180115" z="-6.12323399573677e-15"/>
+ <position name="Petrischale_Füllvolumen_113_20_v201" unit="mm" x="33.049550972639665" y="-22.532802322545074" z="-6.12323399573677e-15"/>
+ <position name="Petrischale_Füllvolumen_113_20_v202" unit="mm" x="31.885300288916753" y="-24.152176413019287" z="-6.12323399573677e-15"/>
+ <position name="Petrischale_Füllvolumen_113_20_v203" unit="mm" x="30.64177772475896" y="-25.711504387461762" z="-6.12323399573677e-15"/>
+ <position name="Petrischale_Füllvolumen_113_20_v204" unit="mm" x="29.322074873192882" y="-27.20690951083696" z="-6.12323399573677e-15"/>
+ <position name="Petrischale_Füllvolumen_113_20_v205" unit="mm" x="27.92947272344273" y="-28.63467397038892" z="-6.12323399573677e-15"/>
+ <position name="Petrischale_Füllvolumen_113_20_v206" unit="mm" x="26.467433503874176" y="-29.991248118709546" z="-6.12323399573677e-15"/>
+ <position name="Petrischale_Füllvolumen_113_20_v207" unit="mm" x="24.93959207434912" y="-31.273259298721364" z="-6.12323399573677e-15"/>
+ <position name="Petrischale_Füllvolumen_113_20_v208" unit="mm" x="23.349746889391362" y="-32.477520228634425" z="-6.12323399573677e-15"/>
+ <position name="Petrischale_Füllvolumen_113_20_v209" unit="mm" x="21.701850554630127" y="-33.601036926031014" z="-6.12323399573677e-15"/>
+ <position name="Petrischale_Füllvolumen_113_20_v210" unit="mm" x="19.999999999999737" y="-34.6410161513777" z="-6.12323399573677e-15"/>
+ <position name="Petrischale_Füllvolumen_113_20_v211" unit="mm" x="18.248426294126244" y="-35.594872352458886" z="-6.12323399573677e-15"/>
+ <position name="Petrischale_Füllvolumen_113_20_v212" unit="mm" x="16.451484125224173" y="-36.460234092467054" z="-6.12323399573677e-15"/>
+ <position name="Petrischale_Füllvolumen_113_20_v213" unit="mm" x="14.613640974655498" y="-37.23494994576829" z="-6.12323399573677e-15"/>
+ <position name="Petrischale_Füllvolumen_113_20_v214" unit="mm" x="12.739466010067062" y="-37.917093846685376" z="-6.12323399573677e-15"/>
+ <position name="Petrischale_Füllvolumen_113_20_v215" unit="mm" x="10.833618725719878" y="-38.50496987800057" z="-6.12323399573677e-15"/>
+ <position name="Petrischale_Füllvolumen_113_20_v216" unit="mm" x="8.900837358252238" y="-38.99711648727302" z="-6.12323399573677e-15"/>
+ <position name="Petrischale_Füllvolumen_113_20_v217" unit="mm" x="6.945927106676864" y="-39.39231012048838" z="-6.12323399573677e-15"/>
+ <position name="Petrischale_Füllvolumen_113_20_v218" unit="mm" x="4.973748185899046" y="-39.68956826400693" z="-6.12323399573677e-15"/>
+ <position name="Petrischale_Füllvolumen_113_20_v219" unit="mm" x="2.9892037434565992" y="-39.88815188724723" z="-6.12323399573677e-15"/>
+ <position name="Petrischale_Füllvolumen_113_20_v220" unit="mm" x="0.9972276695225356" y="-39.98756728003266" z="-6.12323399573677e-15"/>
+ <position name="Petrischale_Füllvolumen_113_20_v221" unit="mm" x="-0.9972276695233022" y="-39.98756728003264" z="-6.12323399573677e-15"/>
+ <position name="Petrischale_Füllvolumen_113_20_v222" unit="mm" x="-2.9892037434573644" y="-39.888151887247176" z="-6.12323399573677e-15"/>
+ <position name="Petrischale_Füllvolumen_113_20_v223" unit="mm" x="-4.973748185899806" y="-39.68956826400684" z="-6.12323399573677e-15"/>
+ <position name="Petrischale_Füllvolumen_113_20_v224" unit="mm" x="-6.945927106677619" y="-39.39231012048825" z="-6.12323399573677e-15"/>
+ <position name="Petrischale_Füllvolumen_113_20_v225" unit="mm" x="-8.900837358252984" y="-38.99711648727285" z="-6.12323399573677e-15"/>
+ <position name="Petrischale_Füllvolumen_113_20_v226" unit="mm" x="-10.833618725720616" y="-38.50496987800037" z="-6.12323399573677e-15"/>
+ <position name="Petrischale_Füllvolumen_113_20_v227" unit="mm" x="-12.739466010067789" y="-37.917093846685134" z="-6.12323399573677e-15"/>
+ <position name="Petrischale_Füllvolumen_113_20_v228" unit="mm" x="-14.613640974656212" y="-37.23494994576801" z="-6.12323399573677e-15"/>
+ <position name="Petrischale_Füllvolumen_113_20_v229" unit="mm" x="-16.451484125224873" y="-36.46023409246674" z="-6.12323399573677e-15"/>
+ <position name="Petrischale_Füllvolumen_113_20_v230" unit="mm" x="-18.248426294126926" y="-35.59487235245854" z="-6.12323399573677e-15"/>
+ <position name="Petrischale_Füllvolumen_113_20_v231" unit="mm" x="-20.000000000000405" y="-34.641016151377315" z="-6.12323399573677e-15"/>
+ <position name="Petrischale_Füllvolumen_113_20_v232" unit="mm" x="-21.701850554630774" y="-33.6010369260306" z="-6.12323399573677e-15"/>
+ <position name="Petrischale_Füllvolumen_113_20_v233" unit="mm" x="-23.349746889391984" y="-32.47752022863398" z="-6.12323399573677e-15"/>
+ <position name="Petrischale_Füllvolumen_113_20_v234" unit="mm" x="-24.939592074349726" y="-31.273259298720888" z="-6.12323399573677e-15"/>
+ <position name="Petrischale_Füllvolumen_113_20_v235" unit="mm" x="-26.467433503874748" y="-29.991248118709038" z="-6.12323399573677e-15"/>
+ <position name="Petrischale_Füllvolumen_113_20_v236" unit="mm" x="-27.929472723443276" y="-28.634673970388388" z="-6.12323399573677e-15"/>
+ <position name="Petrischale_Füllvolumen_113_20_v237" unit="mm" x="-29.3220748731934" y="-27.2069095108364" z="-6.12323399573677e-15"/>
+ <position name="Petrischale_Füllvolumen_113_20_v238" unit="mm" x="-30.641777724759454" y="-25.711504387461176" z="-6.12323399573677e-15"/>
+ <position name="Petrischale_Füllvolumen_113_20_v239" unit="mm" x="-31.88530028891722" y="-24.152176413018672" z="-6.12323399573677e-15"/>
+ <position name="Petrischale_Füllvolumen_113_20_v240" unit="mm" x="-33.0495509726401" y="-22.532802322544438" z="-6.12323399573677e-15"/>
+ <position name="Petrischale_Füllvolumen_113_20_v241" unit="mm" x="-34.131635265286505" y="-20.85740813517946" z="-6.12323399573677e-15"/>
+ <position name="Petrischale_Füllvolumen_113_20_v242" unit="mm" x="-35.128862934809405" y="-19.130159144852243" z="-6.12323399573677e-15"/>
+ <position name="Petrischale_Füllvolumen_113_20_v243" unit="mm" x="-36.038754716097" y="-17.35534956470182" z="-6.12323399573677e-15"/>
+ <position name="Petrischale_Füllvolumen_113_20_v244" unit="mm" x="-36.859048474816525" y="-15.537391850987266" z="-6.12323399573677e-15"/>
+ <position name="Petrischale_Füllvolumen_113_20_v245" unit="mm" x="-37.58770483143653" y="-13.680805733026208" z="-6.12323399573677e-15"/>
+ <position name="Petrischale_Füllvolumen_113_20_v246" unit="mm" x="-38.222912231445804" y="-11.790206976435611" z="-6.12323399573677e-15"/>
+ <position name="Petrischale_Füllvolumen_113_20_v247" unit="mm" x="-38.76309144916326" y="-9.870295907611172" z="-6.12323399573677e-15"/>
+ <position name="Petrischale_Füllvolumen_113_20_v248" unit="mm" x="-39.20689951394187" y="-7.925845727975317" z="-6.12323399573677e-15"/>
+ <position name="Petrischale_Füllvolumen_113_20_v249" unit="mm" x="-39.553233049005236" y="-5.961690647046378" z="-6.12323399573677e-15"/>
+ <position name="Petrischale_Füllvolumen_113_20_v250" unit="mm" x="-39.80123101461612" y="-3.982713863832055" z="-6.12323399573677e-15"/>
+ <position name="Petrischale_Füllvolumen_113_20_v251" unit="mm" x="-39.95027684875693" y="-1.9938354264272653" z="-6.12323399573677e-15"/>
+ </define>
+
+ <solids>
+ <tessellated aunit="deg" lunit="mm" name="Petrischale_Füllvolumen_113_20_solid">
+ <triangular vertex1="Petrischale_Füllvolumen_113_20_v0" vertex2="Petrischale_Füllvolumen_113_20_v1" vertex3="Petrischale_Füllvolumen_113_20_v2"/>
+ <triangular vertex1="Petrischale_Füllvolumen_113_20_v2" vertex2="Petrischale_Füllvolumen_113_20_v1" vertex3="Petrischale_Füllvolumen_113_20_v3"/>
+ <triangular vertex1="Petrischale_Füllvolumen_113_20_v3" vertex2="Petrischale_Füllvolumen_113_20_v1" vertex3="Petrischale_Füllvolumen_113_20_v4"/>
+ <triangular vertex1="Petrischale_Füllvolumen_113_20_v1" vertex2="Petrischale_Füllvolumen_113_20_v5" vertex3="Petrischale_Füllvolumen_113_20_v6"/>
+ <triangular vertex1="Petrischale_Füllvolumen_113_20_v7" vertex2="Petrischale_Füllvolumen_113_20_v8" vertex3="Petrischale_Füllvolumen_113_20_v9"/>
+ <triangular vertex1="Petrischale_Füllvolumen_113_20_v9" vertex2="Petrischale_Füllvolumen_113_20_v8" vertex3="Petrischale_Füllvolumen_113_20_v0"/>
+ <triangular vertex1="Petrischale_Füllvolumen_113_20_v0" vertex2="Petrischale_Füllvolumen_113_20_v10" vertex3="Petrischale_Füllvolumen_113_20_v1"/>
+ <triangular vertex1="Petrischale_Füllvolumen_113_20_v1" vertex2="Petrischale_Füllvolumen_113_20_v10" vertex3="Petrischale_Füllvolumen_113_20_v5"/>
+ <triangular vertex1="Petrischale_Füllvolumen_113_20_v5" vertex2="Petrischale_Füllvolumen_113_20_v10" vertex3="Petrischale_Füllvolumen_113_20_v11"/>
+ <triangular vertex1="Petrischale_Füllvolumen_113_20_v11" vertex2="Petrischale_Füllvolumen_113_20_v10" vertex3="Petrischale_Füllvolumen_113_20_v12"/>
+ <triangular vertex1="Petrischale_Füllvolumen_113_20_v13" vertex2="Petrischale_Füllvolumen_113_20_v14" vertex3="Petrischale_Füllvolumen_113_20_v15"/>
+ <triangular vertex1="Petrischale_Füllvolumen_113_20_v15" vertex2="Petrischale_Füllvolumen_113_20_v14" vertex3="Petrischale_Füllvolumen_113_20_v8"/>
+ <triangular vertex1="Petrischale_Füllvolumen_113_20_v10" vertex2="Petrischale_Füllvolumen_113_20_v16" vertex3="Petrischale_Füllvolumen_113_20_v17"/>
+ <triangular vertex1="Petrischale_Füllvolumen_113_20_v17" vertex2="Petrischale_Füllvolumen_113_20_v16" vertex3="Petrischale_Füllvolumen_113_20_v18"/>
+ <triangular vertex1="Petrischale_Füllvolumen_113_20_v14" vertex2="Petrischale_Füllvolumen_113_20_v19" vertex3="Petrischale_Füllvolumen_113_20_v8"/>
+ <triangular vertex1="Petrischale_Füllvolumen_113_20_v20" vertex2="Petrischale_Füllvolumen_113_20_v19" vertex3="Petrischale_Füllvolumen_113_20_v21"/>
+ <triangular vertex1="Petrischale_Füllvolumen_113_20_v21" vertex2="Petrischale_Füllvolumen_113_20_v19" vertex3="Petrischale_Füllvolumen_113_20_v14"/>
+ <triangular vertex1="Petrischale_Füllvolumen_113_20_v10" vertex2="Petrischale_Füllvolumen_113_20_v22" vertex3="Petrischale_Füllvolumen_113_20_v16"/>
+ <triangular vertex1="Petrischale_Füllvolumen_113_20_v16" vertex2="Petrischale_Füllvolumen_113_20_v22" vertex3="Petrischale_Füllvolumen_113_20_v23"/>
+ <triangular vertex1="Petrischale_Füllvolumen_113_20_v8" vertex2="Petrischale_Füllvolumen_113_20_v24" vertex3="Petrischale_Füllvolumen_113_20_v0"/>
+ <triangular vertex1="Petrischale_Füllvolumen_113_20_v0" vertex2="Petrischale_Füllvolumen_113_20_v24" vertex3="Petrischale_Füllvolumen_113_20_v10"/>
+ <triangular vertex1="Petrischale_Füllvolumen_113_20_v19" vertex2="Petrischale_Füllvolumen_113_20_v24" vertex3="Petrischale_Füllvolumen_113_20_v8"/>
+ <triangular vertex1="Petrischale_Füllvolumen_113_20_v25" vertex2="Petrischale_Füllvolumen_113_20_v24" vertex3="Petrischale_Füllvolumen_113_20_v19"/>
+ <triangular vertex1="Petrischale_Füllvolumen_113_20_v10" vertex2="Petrischale_Füllvolumen_113_20_v24" vertex3="Petrischale_Füllvolumen_113_20_v22"/>
+ <triangular vertex1="Petrischale_Füllvolumen_113_20_v22" vertex2="Petrischale_Füllvolumen_113_20_v26" vertex3="Petrischale_Füllvolumen_113_20_v27"/>
+ <triangular vertex1="Petrischale_Füllvolumen_113_20_v28" vertex2="Petrischale_Füllvolumen_113_20_v29" vertex3="Petrischale_Füllvolumen_113_20_v24"/>
+ <triangular vertex1="Petrischale_Füllvolumen_113_20_v22" vertex2="Petrischale_Füllvolumen_113_20_v30" vertex3="Petrischale_Füllvolumen_113_20_v26"/>
+ <triangular vertex1="Petrischale_Füllvolumen_113_20_v31" vertex2="Petrischale_Füllvolumen_113_20_v32" vertex3="Petrischale_Füllvolumen_113_20_v29"/>
+ <triangular vertex1="Petrischale_Füllvolumen_113_20_v33" vertex2="Petrischale_Füllvolumen_113_20_v34" vertex3="Petrischale_Füllvolumen_113_20_v32"/>
+ <triangular vertex1="Petrischale_Füllvolumen_113_20_v30" vertex2="Petrischale_Füllvolumen_113_20_v35" vertex3="Petrischale_Füllvolumen_113_20_v36"/>
+ <triangular vertex1="Petrischale_Füllvolumen_113_20_v36" vertex2="Petrischale_Füllvolumen_113_20_v35" vertex3="Petrischale_Füllvolumen_113_20_v37"/>
+ <triangular vertex1="Petrischale_Füllvolumen_113_20_v37" vertex2="Petrischale_Füllvolumen_113_20_v35" vertex3="Petrischale_Füllvolumen_113_20_v38"/>
+ <triangular vertex1="Petrischale_Füllvolumen_113_20_v24" vertex2="Petrischale_Füllvolumen_113_20_v39" vertex3="Petrischale_Füllvolumen_113_20_v22"/>
+ <triangular vertex1="Petrischale_Füllvolumen_113_20_v22" vertex2="Petrischale_Füllvolumen_113_20_v39" vertex3="Petrischale_Füllvolumen_113_20_v30"/>
+ <triangular vertex1="Petrischale_Füllvolumen_113_20_v30" vertex2="Petrischale_Füllvolumen_113_20_v39" vertex3="Petrischale_Füllvolumen_113_20_v35"/>
+ <triangular vertex1="Petrischale_Füllvolumen_113_20_v34" vertex2="Petrischale_Füllvolumen_113_20_v40" vertex3="Petrischale_Füllvolumen_113_20_v32"/>
+ <triangular vertex1="Petrischale_Füllvolumen_113_20_v41" vertex2="Petrischale_Füllvolumen_113_20_v40" vertex3="Petrischale_Füllvolumen_113_20_v42"/>
+ <triangular vertex1="Petrischale_Füllvolumen_113_20_v42" vertex2="Petrischale_Füllvolumen_113_20_v40" vertex3="Petrischale_Füllvolumen_113_20_v34"/>
+ <triangular vertex1="Petrischale_Füllvolumen_113_20_v32" vertex2="Petrischale_Füllvolumen_113_20_v40" vertex3="Petrischale_Füllvolumen_113_20_v29"/>
+ <triangular vertex1="Petrischale_Füllvolumen_113_20_v40" vertex2="Petrischale_Füllvolumen_113_20_v43" vertex3="Petrischale_Füllvolumen_113_20_v29"/>
+ <triangular vertex1="Petrischale_Füllvolumen_113_20_v44" vertex2="Petrischale_Füllvolumen_113_20_v45" vertex3="Petrischale_Füllvolumen_113_20_v46"/>
+ <triangular vertex1="Petrischale_Füllvolumen_113_20_v39" vertex2="Petrischale_Füllvolumen_113_20_v45" vertex3="Petrischale_Füllvolumen_113_20_v44"/>
+ <triangular vertex1="Petrischale_Füllvolumen_113_20_v43" vertex2="Petrischale_Füllvolumen_113_20_v47" vertex3="Petrischale_Füllvolumen_113_20_v29"/>
+ <triangular vertex1="Petrischale_Füllvolumen_113_20_v48" vertex2="Petrischale_Füllvolumen_113_20_v47" vertex3="Petrischale_Füllvolumen_113_20_v43"/>
+ <triangular vertex1="Petrischale_Füllvolumen_113_20_v29" vertex2="Petrischale_Füllvolumen_113_20_v47" vertex3="Petrischale_Füllvolumen_113_20_v24"/>
+ <triangular vertex1="Petrischale_Füllvolumen_113_20_v24" vertex2="Petrischale_Füllvolumen_113_20_v47" vertex3="Petrischale_Füllvolumen_113_20_v39"/>
+ <triangular vertex1="Petrischale_Füllvolumen_113_20_v45" vertex2="Petrischale_Füllvolumen_113_20_v49" vertex3="Petrischale_Füllvolumen_113_20_v50"/>
+ <triangular vertex1="Petrischale_Füllvolumen_113_20_v39" vertex2="Petrischale_Füllvolumen_113_20_v49" vertex3="Petrischale_Füllvolumen_113_20_v45"/>
+ <triangular vertex1="Petrischale_Füllvolumen_113_20_v47" vertex2="Petrischale_Füllvolumen_113_20_v49" vertex3="Petrischale_Füllvolumen_113_20_v39"/>
+ <triangular vertex1="Petrischale_Füllvolumen_113_20_v50" vertex2="Petrischale_Füllvolumen_113_20_v51" vertex3="Petrischale_Füllvolumen_113_20_v52"/>
+ <triangular vertex1="Petrischale_Füllvolumen_113_20_v51" vertex2="Petrischale_Füllvolumen_113_20_v53" vertex3="Petrischale_Füllvolumen_113_20_v54"/>
+ <triangular vertex1="Petrischale_Füllvolumen_113_20_v50" vertex2="Petrischale_Füllvolumen_113_20_v53" vertex3="Petrischale_Füllvolumen_113_20_v51"/>
+ <triangular vertex1="Petrischale_Füllvolumen_113_20_v55" vertex2="Petrischale_Füllvolumen_113_20_v56" vertex3="Petrischale_Füllvolumen_113_20_v57"/>
+ <triangular vertex1="Petrischale_Füllvolumen_113_20_v53" vertex2="Petrischale_Füllvolumen_113_20_v58" vertex3="Petrischale_Füllvolumen_113_20_v59"/>
+ <triangular vertex1="Petrischale_Füllvolumen_113_20_v59" vertex2="Petrischale_Füllvolumen_113_20_v58" vertex3="Petrischale_Füllvolumen_113_20_v60"/>
+ <triangular vertex1="Petrischale_Füllvolumen_113_20_v53" vertex2="Petrischale_Füllvolumen_113_20_v61" vertex3="Petrischale_Füllvolumen_113_20_v58"/>
+ <triangular vertex1="Petrischale_Füllvolumen_113_20_v53" vertex2="Petrischale_Füllvolumen_113_20_v62" vertex3="Petrischale_Füllvolumen_113_20_v61"/>
+ <triangular vertex1="Petrischale_Füllvolumen_113_20_v63" vertex2="Petrischale_Füllvolumen_113_20_v64" vertex3="Petrischale_Füllvolumen_113_20_v65"/>
+ <triangular vertex1="Petrischale_Füllvolumen_113_20_v65" vertex2="Petrischale_Füllvolumen_113_20_v64" vertex3="Petrischale_Füllvolumen_113_20_v66"/>
+ <triangular vertex1="Petrischale_Füllvolumen_113_20_v62" vertex2="Petrischale_Füllvolumen_113_20_v67" vertex3="Petrischale_Füllvolumen_113_20_v68"/>
+ <triangular vertex1="Petrischale_Füllvolumen_113_20_v68" vertex2="Petrischale_Füllvolumen_113_20_v67" vertex3="Petrischale_Füllvolumen_113_20_v69"/>
+ <triangular vertex1="Petrischale_Füllvolumen_113_20_v53" vertex2="Petrischale_Füllvolumen_113_20_v67" vertex3="Petrischale_Füllvolumen_113_20_v62"/>
+ <triangular vertex1="Petrischale_Füllvolumen_113_20_v70" vertex2="Petrischale_Füllvolumen_113_20_v71" vertex3="Petrischale_Füllvolumen_113_20_v72"/>
+ <triangular vertex1="Petrischale_Füllvolumen_113_20_v72" vertex2="Petrischale_Füllvolumen_113_20_v71" vertex3="Petrischale_Füllvolumen_113_20_v64"/>
+ <triangular vertex1="Petrischale_Füllvolumen_113_20_v66" vertex2="Petrischale_Füllvolumen_113_20_v71" vertex3="Petrischale_Füllvolumen_113_20_v73"/>
+ <triangular vertex1="Petrischale_Füllvolumen_113_20_v73" vertex2="Petrischale_Füllvolumen_113_20_v71" vertex3="Petrischale_Füllvolumen_113_20_v56"/>
+ <triangular vertex1="Petrischale_Füllvolumen_113_20_v64" vertex2="Petrischale_Füllvolumen_113_20_v71" vertex3="Petrischale_Füllvolumen_113_20_v66"/>
+ <triangular vertex1="Petrischale_Füllvolumen_113_20_v67" vertex2="Petrischale_Füllvolumen_113_20_v74" vertex3="Petrischale_Füllvolumen_113_20_v75"/>
+ <triangular vertex1="Petrischale_Füllvolumen_113_20_v50" vertex2="Petrischale_Füllvolumen_113_20_v74" vertex3="Petrischale_Füllvolumen_113_20_v53"/>
+ <triangular vertex1="Petrischale_Füllvolumen_113_20_v53" vertex2="Petrischale_Füllvolumen_113_20_v74" vertex3="Petrischale_Füllvolumen_113_20_v67"/>
+ <triangular vertex1="Petrischale_Füllvolumen_113_20_v76" vertex2="Petrischale_Füllvolumen_113_20_v77" vertex3="Petrischale_Füllvolumen_113_20_v71"/>
+ <triangular vertex1="Petrischale_Füllvolumen_113_20_v71" vertex2="Petrischale_Füllvolumen_113_20_v77" vertex3="Petrischale_Füllvolumen_113_20_v56"/>
+ <triangular vertex1="Petrischale_Füllvolumen_113_20_v50" vertex2="Petrischale_Füllvolumen_113_20_v78" vertex3="Petrischale_Füllvolumen_113_20_v74"/>
+ <triangular vertex1="Petrischale_Füllvolumen_113_20_v77" vertex2="Petrischale_Füllvolumen_113_20_v79" vertex3="Petrischale_Füllvolumen_113_20_v56"/>
+ <triangular vertex1="Petrischale_Füllvolumen_113_20_v78" vertex2="Petrischale_Füllvolumen_113_20_v80" vertex3="Petrischale_Füllvolumen_113_20_v81"/>
+ <triangular vertex1="Petrischale_Füllvolumen_113_20_v82" vertex2="Petrischale_Füllvolumen_113_20_v83" vertex3="Petrischale_Füllvolumen_113_20_v79"/>
+ <triangular vertex1="Petrischale_Füllvolumen_113_20_v50" vertex2="Petrischale_Füllvolumen_113_20_v84" vertex3="Petrischale_Füllvolumen_113_20_v78"/>
+ <triangular vertex1="Petrischale_Füllvolumen_113_20_v78" vertex2="Petrischale_Füllvolumen_113_20_v84" vertex3="Petrischale_Füllvolumen_113_20_v80"/>
+ <triangular vertex1="Petrischale_Füllvolumen_113_20_v83" vertex2="Petrischale_Füllvolumen_113_20_v85" vertex3="Petrischale_Füllvolumen_113_20_v79"/>
+ <triangular vertex1="Petrischale_Füllvolumen_113_20_v79" vertex2="Petrischale_Füllvolumen_113_20_v85" vertex3="Petrischale_Füllvolumen_113_20_v56"/>
+ <triangular vertex1="Petrischale_Füllvolumen_113_20_v50" vertex2="Petrischale_Füllvolumen_113_20_v86" vertex3="Petrischale_Füllvolumen_113_20_v84"/>
+ <triangular vertex1="Petrischale_Füllvolumen_113_20_v87" vertex2="Petrischale_Füllvolumen_113_20_v88" vertex3="Petrischale_Füllvolumen_113_20_v89"/>
+ <triangular vertex1="Petrischale_Füllvolumen_113_20_v90" vertex2="Petrischale_Füllvolumen_113_20_v91" vertex3="Petrischale_Füllvolumen_113_20_v92"/>
+ <triangular vertex1="Petrischale_Füllvolumen_113_20_v87" vertex2="Petrischale_Füllvolumen_113_20_v93" vertex3="Petrischale_Füllvolumen_113_20_v88"/>
+ <triangular vertex1="Petrischale_Füllvolumen_113_20_v86" vertex2="Petrischale_Füllvolumen_113_20_v93" vertex3="Petrischale_Füllvolumen_113_20_v87"/>
+ <triangular vertex1="Petrischale_Füllvolumen_113_20_v91" vertex2="Petrischale_Füllvolumen_113_20_v94" vertex3="Petrischale_Füllvolumen_113_20_v92"/>
+ <triangular vertex1="Petrischale_Füllvolumen_113_20_v92" vertex2="Petrischale_Füllvolumen_113_20_v94" vertex3="Petrischale_Füllvolumen_113_20_v95"/>
+ <triangular vertex1="Petrischale_Füllvolumen_113_20_v95" vertex2="Petrischale_Füllvolumen_113_20_v94" vertex3="Petrischale_Füllvolumen_113_20_v85"/>
+ <triangular vertex1="Petrischale_Füllvolumen_113_20_v86" vertex2="Petrischale_Füllvolumen_113_20_v96" vertex3="Petrischale_Füllvolumen_113_20_v93"/>
+ <triangular vertex1="Petrischale_Füllvolumen_113_20_v49" vertex2="Petrischale_Füllvolumen_113_20_v96" vertex3="Petrischale_Füllvolumen_113_20_v50"/>
+ <triangular vertex1="Petrischale_Füllvolumen_113_20_v50" vertex2="Petrischale_Füllvolumen_113_20_v96" vertex3="Petrischale_Füllvolumen_113_20_v86"/>
+ <triangular vertex1="Petrischale_Füllvolumen_113_20_v96" vertex2="Petrischale_Füllvolumen_113_20_v97" vertex3="Petrischale_Füllvolumen_113_20_v98"/>
+ <triangular vertex1="Petrischale_Füllvolumen_113_20_v94" vertex2="Petrischale_Füllvolumen_113_20_v99" vertex3="Petrischale_Füllvolumen_113_20_v85"/>
+ <triangular vertex1="Petrischale_Füllvolumen_113_20_v100" vertex2="Petrischale_Füllvolumen_113_20_v99" vertex3="Petrischale_Füllvolumen_113_20_v101"/>
+ <triangular vertex1="Petrischale_Füllvolumen_113_20_v101" vertex2="Petrischale_Füllvolumen_113_20_v99" vertex3="Petrischale_Füllvolumen_113_20_v94"/>
+ <triangular vertex1="Petrischale_Füllvolumen_113_20_v49" vertex2="Petrischale_Füllvolumen_113_20_v102" vertex3="Petrischale_Füllvolumen_113_20_v96"/>
+ <triangular vertex1="Petrischale_Füllvolumen_113_20_v97" vertex2="Petrischale_Füllvolumen_113_20_v102" vertex3="Petrischale_Füllvolumen_113_20_v103"/>
+ <triangular vertex1="Petrischale_Füllvolumen_113_20_v103" vertex2="Petrischale_Füllvolumen_113_20_v102" vertex3="Petrischale_Füllvolumen_113_20_v104"/>
+ <triangular vertex1="Petrischale_Füllvolumen_113_20_v104" vertex2="Petrischale_Füllvolumen_113_20_v102" vertex3="Petrischale_Füllvolumen_113_20_v105"/>
+ <triangular vertex1="Petrischale_Füllvolumen_113_20_v96" vertex2="Petrischale_Füllvolumen_113_20_v102" vertex3="Petrischale_Füllvolumen_113_20_v97"/>
+ <triangular vertex1="Petrischale_Füllvolumen_113_20_v57" vertex2="Petrischale_Füllvolumen_113_20_v102" vertex3="Petrischale_Füllvolumen_113_20_v49"/>
+ <triangular vertex1="Petrischale_Füllvolumen_113_20_v106" vertex2="Petrischale_Füllvolumen_113_20_v107" vertex3="Petrischale_Füllvolumen_113_20_v108"/>
+ <triangular vertex1="Petrischale_Füllvolumen_113_20_v108" vertex2="Petrischale_Füllvolumen_113_20_v107" vertex3="Petrischale_Füllvolumen_113_20_v109"/>
+ <triangular vertex1="Petrischale_Füllvolumen_113_20_v109" vertex2="Petrischale_Füllvolumen_113_20_v107" vertex3="Petrischale_Füllvolumen_113_20_v99"/>
+ <triangular vertex1="Petrischale_Füllvolumen_113_20_v102" vertex2="Petrischale_Füllvolumen_113_20_v110" vertex3="Petrischale_Füllvolumen_113_20_v111"/>
+ <triangular vertex1="Petrischale_Füllvolumen_113_20_v112" vertex2="Petrischale_Füllvolumen_113_20_v113" vertex3="Petrischale_Füllvolumen_113_20_v107"/>
+ <triangular vertex1="Petrischale_Füllvolumen_113_20_v107" vertex2="Petrischale_Füllvolumen_113_20_v114" vertex3="Petrischale_Füllvolumen_113_20_v99"/>
+ <triangular vertex1="Petrischale_Füllvolumen_113_20_v113" vertex2="Petrischale_Füllvolumen_113_20_v114" vertex3="Petrischale_Füllvolumen_113_20_v107"/>
+ <triangular vertex1="Petrischale_Füllvolumen_113_20_v114" vertex2="Petrischale_Füllvolumen_113_20_v115" vertex3="Petrischale_Füllvolumen_113_20_v99"/>
+ <triangular vertex1="Petrischale_Füllvolumen_113_20_v110" vertex2="Petrischale_Füllvolumen_113_20_v116" vertex3="Petrischale_Füllvolumen_113_20_v117"/>
+ <triangular vertex1="Petrischale_Füllvolumen_113_20_v117" vertex2="Petrischale_Füllvolumen_113_20_v116" vertex3="Petrischale_Füllvolumen_113_20_v118"/>
+ <triangular vertex1="Petrischale_Füllvolumen_113_20_v57" vertex2="Petrischale_Füllvolumen_113_20_v116" vertex3="Petrischale_Füllvolumen_113_20_v102"/>
+ <triangular vertex1="Petrischale_Füllvolumen_113_20_v102" vertex2="Petrischale_Füllvolumen_113_20_v116" vertex3="Petrischale_Füllvolumen_113_20_v110"/>
+ <triangular vertex1="Petrischale_Füllvolumen_113_20_v99" vertex2="Petrischale_Füllvolumen_113_20_v119" vertex3="Petrischale_Füllvolumen_113_20_v85"/>
+ <triangular vertex1="Petrischale_Füllvolumen_113_20_v56" vertex2="Petrischale_Füllvolumen_113_20_v119" vertex3="Petrischale_Füllvolumen_113_20_v57"/>
+ <triangular vertex1="Petrischale_Füllvolumen_113_20_v115" vertex2="Petrischale_Füllvolumen_113_20_v119" vertex3="Petrischale_Füllvolumen_113_20_v99"/>
+ <triangular vertex1="Petrischale_Füllvolumen_113_20_v85" vertex2="Petrischale_Füllvolumen_113_20_v119" vertex3="Petrischale_Füllvolumen_113_20_v56"/>
+ <triangular vertex1="Petrischale_Füllvolumen_113_20_v116" vertex2="Petrischale_Füllvolumen_113_20_v120" vertex3="Petrischale_Füllvolumen_113_20_v121"/>
+ <triangular vertex1="Petrischale_Füllvolumen_113_20_v120" vertex2="Petrischale_Füllvolumen_113_20_v122" vertex3="Petrischale_Füllvolumen_113_20_v123"/>
+ <triangular vertex1="Petrischale_Füllvolumen_113_20_v124" vertex2="Petrischale_Füllvolumen_113_20_v122" vertex3="Petrischale_Füllvolumen_113_20_v125"/>
+ <triangular vertex1="Petrischale_Füllvolumen_113_20_v125" vertex2="Petrischale_Füllvolumen_113_20_v122" vertex3="Petrischale_Füllvolumen_113_20_v119"/>
+ <triangular vertex1="Petrischale_Füllvolumen_113_20_v57" vertex2="Petrischale_Füllvolumen_113_20_v122" vertex3="Petrischale_Füllvolumen_113_20_v116"/>
+ <triangular vertex1="Petrischale_Füllvolumen_113_20_v119" vertex2="Petrischale_Füllvolumen_113_20_v122" vertex3="Petrischale_Füllvolumen_113_20_v57"/>
+ <triangular vertex1="Petrischale_Füllvolumen_113_20_v116" vertex2="Petrischale_Füllvolumen_113_20_v122" vertex3="Petrischale_Füllvolumen_113_20_v120"/>
+ <triangular vertex1="Petrischale_Füllvolumen_113_20_v126" vertex2="Petrischale_Füllvolumen_113_20_v127" vertex3="Petrischale_Füllvolumen_113_20_v93"/>
+ <triangular vertex1="Petrischale_Füllvolumen_113_20_v126" vertex2="Petrischale_Füllvolumen_113_20_v93" vertex3="Petrischale_Füllvolumen_113_20_v96"/>
+ <triangular vertex1="Petrischale_Füllvolumen_113_20_v128" vertex2="Petrischale_Füllvolumen_113_20_v96" vertex3="Petrischale_Füllvolumen_113_20_v98"/>
+ <triangular vertex1="Petrischale_Füllvolumen_113_20_v128" vertex2="Petrischale_Füllvolumen_113_20_v98" vertex3="Petrischale_Füllvolumen_113_20_v97"/>
+ <triangular vertex1="Petrischale_Füllvolumen_113_20_v128" vertex2="Petrischale_Füllvolumen_113_20_v126" vertex3="Petrischale_Füllvolumen_113_20_v96"/>
+ <triangular vertex1="Petrischale_Füllvolumen_113_20_v129" vertex2="Petrischale_Füllvolumen_113_20_v128" vertex3="Petrischale_Füllvolumen_113_20_v97"/>
+ <triangular vertex1="Petrischale_Füllvolumen_113_20_v130" vertex2="Petrischale_Füllvolumen_113_20_v97" vertex3="Petrischale_Füllvolumen_113_20_v103"/>
+ <triangular vertex1="Petrischale_Füllvolumen_113_20_v130" vertex2="Petrischale_Füllvolumen_113_20_v103" vertex3="Petrischale_Füllvolumen_113_20_v104"/>
+ <triangular vertex1="Petrischale_Füllvolumen_113_20_v130" vertex2="Petrischale_Füllvolumen_113_20_v129" vertex3="Petrischale_Füllvolumen_113_20_v97"/>
+ <triangular vertex1="Petrischale_Füllvolumen_113_20_v131" vertex2="Petrischale_Füllvolumen_113_20_v104" vertex3="Petrischale_Füllvolumen_113_20_v105"/>
+ <triangular vertex1="Petrischale_Füllvolumen_113_20_v131" vertex2="Petrischale_Füllvolumen_113_20_v130" vertex3="Petrischale_Füllvolumen_113_20_v104"/>
+ <triangular vertex1="Petrischale_Füllvolumen_113_20_v132" vertex2="Petrischale_Füllvolumen_113_20_v131" vertex3="Petrischale_Füllvolumen_113_20_v105"/>
+ <triangular vertex1="Petrischale_Füllvolumen_113_20_v133" vertex2="Petrischale_Füllvolumen_113_20_v105" vertex3="Petrischale_Füllvolumen_113_20_v102"/>
+ <triangular vertex1="Petrischale_Füllvolumen_113_20_v133" vertex2="Petrischale_Füllvolumen_113_20_v132" vertex3="Petrischale_Füllvolumen_113_20_v105"/>
+ <triangular vertex1="Petrischale_Füllvolumen_113_20_v134" vertex2="Petrischale_Füllvolumen_113_20_v102" vertex3="Petrischale_Füllvolumen_113_20_v111"/>
+ <triangular vertex1="Petrischale_Füllvolumen_113_20_v134" vertex2="Petrischale_Füllvolumen_113_20_v133" vertex3="Petrischale_Füllvolumen_113_20_v102"/>
+ <triangular vertex1="Petrischale_Füllvolumen_113_20_v135" vertex2="Petrischale_Füllvolumen_113_20_v111" vertex3="Petrischale_Füllvolumen_113_20_v110"/>
+ <triangular vertex1="Petrischale_Füllvolumen_113_20_v135" vertex2="Petrischale_Füllvolumen_113_20_v110" vertex3="Petrischale_Füllvolumen_113_20_v117"/>
+ <triangular vertex1="Petrischale_Füllvolumen_113_20_v135" vertex2="Petrischale_Füllvolumen_113_20_v134" vertex3="Petrischale_Füllvolumen_113_20_v111"/>
+ <triangular vertex1="Petrischale_Füllvolumen_113_20_v136" vertex2="Petrischale_Füllvolumen_113_20_v117" vertex3="Petrischale_Füllvolumen_113_20_v118"/>
+ <triangular vertex1="Petrischale_Füllvolumen_113_20_v136" vertex2="Petrischale_Füllvolumen_113_20_v135" vertex3="Petrischale_Füllvolumen_113_20_v117"/>
+ <triangular vertex1="Petrischale_Füllvolumen_113_20_v137" vertex2="Petrischale_Füllvolumen_113_20_v136" vertex3="Petrischale_Füllvolumen_113_20_v118"/>
+ <triangular vertex1="Petrischale_Füllvolumen_113_20_v138" vertex2="Petrischale_Füllvolumen_113_20_v137" vertex3="Petrischale_Füllvolumen_113_20_v118"/>
+ <triangular vertex1="Petrischale_Füllvolumen_113_20_v138" vertex2="Petrischale_Füllvolumen_113_20_v118" vertex3="Petrischale_Füllvolumen_113_20_v116"/>
+ <triangular vertex1="Petrischale_Füllvolumen_113_20_v139" vertex2="Petrischale_Füllvolumen_113_20_v138" vertex3="Petrischale_Füllvolumen_113_20_v116"/>
+ <triangular vertex1="Petrischale_Füllvolumen_113_20_v139" vertex2="Petrischale_Füllvolumen_113_20_v116" vertex3="Petrischale_Füllvolumen_113_20_v121"/>
+ <triangular vertex1="Petrischale_Füllvolumen_113_20_v140" vertex2="Petrischale_Füllvolumen_113_20_v139" vertex3="Petrischale_Füllvolumen_113_20_v121"/>
+ <triangular vertex1="Petrischale_Füllvolumen_113_20_v140" vertex2="Petrischale_Füllvolumen_113_20_v121" vertex3="Petrischale_Füllvolumen_113_20_v120"/>
+ <triangular vertex1="Petrischale_Füllvolumen_113_20_v141" vertex2="Petrischale_Füllvolumen_113_20_v140" vertex3="Petrischale_Füllvolumen_113_20_v120"/>
+ <triangular vertex1="Petrischale_Füllvolumen_113_20_v141" vertex2="Petrischale_Füllvolumen_113_20_v120" vertex3="Petrischale_Füllvolumen_113_20_v123"/>
+ <triangular vertex1="Petrischale_Füllvolumen_113_20_v142" vertex2="Petrischale_Füllvolumen_113_20_v141" vertex3="Petrischale_Füllvolumen_113_20_v123"/>
+ <triangular vertex1="Petrischale_Füllvolumen_113_20_v142" vertex2="Petrischale_Füllvolumen_113_20_v123" vertex3="Petrischale_Füllvolumen_113_20_v122"/>
+ <triangular vertex1="Petrischale_Füllvolumen_113_20_v143" vertex2="Petrischale_Füllvolumen_113_20_v142" vertex3="Petrischale_Füllvolumen_113_20_v122"/>
+ <triangular vertex1="Petrischale_Füllvolumen_113_20_v143" vertex2="Petrischale_Füllvolumen_113_20_v122" vertex3="Petrischale_Füllvolumen_113_20_v124"/>
+ <triangular vertex1="Petrischale_Füllvolumen_113_20_v144" vertex2="Petrischale_Füllvolumen_113_20_v143" vertex3="Petrischale_Füllvolumen_113_20_v124"/>
+ <triangular vertex1="Petrischale_Füllvolumen_113_20_v144" vertex2="Petrischale_Füllvolumen_113_20_v124" vertex3="Petrischale_Füllvolumen_113_20_v125"/>
+ <triangular vertex1="Petrischale_Füllvolumen_113_20_v145" vertex2="Petrischale_Füllvolumen_113_20_v144" vertex3="Petrischale_Füllvolumen_113_20_v125"/>
+ <triangular vertex1="Petrischale_Füllvolumen_113_20_v145" vertex2="Petrischale_Füllvolumen_113_20_v125" vertex3="Petrischale_Füllvolumen_113_20_v119"/>
+ <triangular vertex1="Petrischale_Füllvolumen_113_20_v146" vertex2="Petrischale_Füllvolumen_113_20_v145" vertex3="Petrischale_Füllvolumen_113_20_v119"/>
+ <triangular vertex1="Petrischale_Füllvolumen_113_20_v146" vertex2="Petrischale_Füllvolumen_113_20_v119" vertex3="Petrischale_Füllvolumen_113_20_v115"/>
+ <triangular vertex1="Petrischale_Füllvolumen_113_20_v147" vertex2="Petrischale_Füllvolumen_113_20_v146" vertex3="Petrischale_Füllvolumen_113_20_v115"/>
+ <triangular vertex1="Petrischale_Füllvolumen_113_20_v147" vertex2="Petrischale_Füllvolumen_113_20_v115" vertex3="Petrischale_Füllvolumen_113_20_v114"/>
+ <triangular vertex1="Petrischale_Füllvolumen_113_20_v147" vertex2="Petrischale_Füllvolumen_113_20_v114" vertex3="Petrischale_Füllvolumen_113_20_v113"/>
+ <triangular vertex1="Petrischale_Füllvolumen_113_20_v148" vertex2="Petrischale_Füllvolumen_113_20_v147" vertex3="Petrischale_Füllvolumen_113_20_v113"/>
+ <triangular vertex1="Petrischale_Füllvolumen_113_20_v149" vertex2="Petrischale_Füllvolumen_113_20_v113" vertex3="Petrischale_Füllvolumen_113_20_v112"/>
+ <triangular vertex1="Petrischale_Füllvolumen_113_20_v149" vertex2="Petrischale_Füllvolumen_113_20_v148" vertex3="Petrischale_Füllvolumen_113_20_v113"/>
+ <triangular vertex1="Petrischale_Füllvolumen_113_20_v150" vertex2="Petrischale_Füllvolumen_113_20_v112" vertex3="Petrischale_Füllvolumen_113_20_v107"/>
+ <triangular vertex1="Petrischale_Füllvolumen_113_20_v150" vertex2="Petrischale_Füllvolumen_113_20_v149" vertex3="Petrischale_Füllvolumen_113_20_v112"/>
+ <triangular vertex1="Petrischale_Füllvolumen_113_20_v151" vertex2="Petrischale_Füllvolumen_113_20_v107" vertex3="Petrischale_Füllvolumen_113_20_v106"/>
+ <triangular vertex1="Petrischale_Füllvolumen_113_20_v151" vertex2="Petrischale_Füllvolumen_113_20_v106" vertex3="Petrischale_Füllvolumen_113_20_v108"/>
+ <triangular vertex1="Petrischale_Füllvolumen_113_20_v151" vertex2="Petrischale_Füllvolumen_113_20_v150" vertex3="Petrischale_Füllvolumen_113_20_v107"/>
+ <triangular vertex1="Petrischale_Füllvolumen_113_20_v152" vertex2="Petrischale_Füllvolumen_113_20_v151" vertex3="Petrischale_Füllvolumen_113_20_v108"/>
+ <triangular vertex1="Petrischale_Füllvolumen_113_20_v153" vertex2="Petrischale_Füllvolumen_113_20_v108" vertex3="Petrischale_Füllvolumen_113_20_v109"/>
+ <triangular vertex1="Petrischale_Füllvolumen_113_20_v153" vertex2="Petrischale_Füllvolumen_113_20_v152" vertex3="Petrischale_Füllvolumen_113_20_v108"/>
+ <triangular vertex1="Petrischale_Füllvolumen_113_20_v154" vertex2="Petrischale_Füllvolumen_113_20_v109" vertex3="Petrischale_Füllvolumen_113_20_v99"/>
+ <triangular vertex1="Petrischale_Füllvolumen_113_20_v154" vertex2="Petrischale_Füllvolumen_113_20_v153" vertex3="Petrischale_Füllvolumen_113_20_v109"/>
+ <triangular vertex1="Petrischale_Füllvolumen_113_20_v155" vertex2="Petrischale_Füllvolumen_113_20_v99" vertex3="Petrischale_Füllvolumen_113_20_v100"/>
+ <triangular vertex1="Petrischale_Füllvolumen_113_20_v155" vertex2="Petrischale_Füllvolumen_113_20_v154" vertex3="Petrischale_Füllvolumen_113_20_v99"/>
+ <triangular vertex1="Petrischale_Füllvolumen_113_20_v156" vertex2="Petrischale_Füllvolumen_113_20_v100" vertex3="Petrischale_Füllvolumen_113_20_v101"/>
+ <triangular vertex1="Petrischale_Füllvolumen_113_20_v156" vertex2="Petrischale_Füllvolumen_113_20_v155" vertex3="Petrischale_Füllvolumen_113_20_v100"/>
+ <triangular vertex1="Petrischale_Füllvolumen_113_20_v157" vertex2="Petrischale_Füllvolumen_113_20_v101" vertex3="Petrischale_Füllvolumen_113_20_v94"/>
+ <triangular vertex1="Petrischale_Füllvolumen_113_20_v157" vertex2="Petrischale_Füllvolumen_113_20_v156" vertex3="Petrischale_Füllvolumen_113_20_v101"/>
+ <triangular vertex1="Petrischale_Füllvolumen_113_20_v158" vertex2="Petrischale_Füllvolumen_113_20_v94" vertex3="Petrischale_Füllvolumen_113_20_v91"/>
+ <triangular vertex1="Petrischale_Füllvolumen_113_20_v158" vertex2="Petrischale_Füllvolumen_113_20_v157" vertex3="Petrischale_Füllvolumen_113_20_v94"/>
+ <triangular vertex1="Petrischale_Füllvolumen_113_20_v159" vertex2="Petrischale_Füllvolumen_113_20_v91" vertex3="Petrischale_Füllvolumen_113_20_v90"/>
+ <triangular vertex1="Petrischale_Füllvolumen_113_20_v159" vertex2="Petrischale_Füllvolumen_113_20_v158" vertex3="Petrischale_Füllvolumen_113_20_v91"/>
+ <triangular vertex1="Petrischale_Füllvolumen_113_20_v160" vertex2="Petrischale_Füllvolumen_113_20_v90" vertex3="Petrischale_Füllvolumen_113_20_v92"/>
+ <triangular vertex1="Petrischale_Füllvolumen_113_20_v160" vertex2="Petrischale_Füllvolumen_113_20_v159" vertex3="Petrischale_Füllvolumen_113_20_v90"/>
+ <triangular vertex1="Petrischale_Füllvolumen_113_20_v161" vertex2="Petrischale_Füllvolumen_113_20_v92" vertex3="Petrischale_Füllvolumen_113_20_v95"/>
+ <triangular vertex1="Petrischale_Füllvolumen_113_20_v161" vertex2="Petrischale_Füllvolumen_113_20_v160" vertex3="Petrischale_Füllvolumen_113_20_v92"/>
+ <triangular vertex1="Petrischale_Füllvolumen_113_20_v162" vertex2="Petrischale_Füllvolumen_113_20_v95" vertex3="Petrischale_Füllvolumen_113_20_v85"/>
+ <triangular vertex1="Petrischale_Füllvolumen_113_20_v162" vertex2="Petrischale_Füllvolumen_113_20_v161" vertex3="Petrischale_Füllvolumen_113_20_v95"/>
+ <triangular vertex1="Petrischale_Füllvolumen_113_20_v163" vertex2="Petrischale_Füllvolumen_113_20_v162" vertex3="Petrischale_Füllvolumen_113_20_v85"/>
+ <triangular vertex1="Petrischale_Füllvolumen_113_20_v163" vertex2="Petrischale_Füllvolumen_113_20_v85" vertex3="Petrischale_Füllvolumen_113_20_v83"/>
+ <triangular vertex1="Petrischale_Füllvolumen_113_20_v164" vertex2="Petrischale_Füllvolumen_113_20_v163" vertex3="Petrischale_Füllvolumen_113_20_v83"/>
+ <triangular vertex1="Petrischale_Füllvolumen_113_20_v164" vertex2="Petrischale_Füllvolumen_113_20_v83" vertex3="Petrischale_Füllvolumen_113_20_v82"/>
+ <triangular vertex1="Petrischale_Füllvolumen_113_20_v165" vertex2="Petrischale_Füllvolumen_113_20_v164" vertex3="Petrischale_Füllvolumen_113_20_v82"/>
+ <triangular vertex1="Petrischale_Füllvolumen_113_20_v165" vertex2="Petrischale_Füllvolumen_113_20_v82" vertex3="Petrischale_Füllvolumen_113_20_v79"/>
+ <triangular vertex1="Petrischale_Füllvolumen_113_20_v166" vertex2="Petrischale_Füllvolumen_113_20_v165" vertex3="Petrischale_Füllvolumen_113_20_v79"/>
+ <triangular vertex1="Petrischale_Füllvolumen_113_20_v166" vertex2="Petrischale_Füllvolumen_113_20_v79" vertex3="Petrischale_Füllvolumen_113_20_v77"/>
+ <triangular vertex1="Petrischale_Füllvolumen_113_20_v167" vertex2="Petrischale_Füllvolumen_113_20_v166" vertex3="Petrischale_Füllvolumen_113_20_v77"/>
+ <triangular vertex1="Petrischale_Füllvolumen_113_20_v167" vertex2="Petrischale_Füllvolumen_113_20_v77" vertex3="Petrischale_Füllvolumen_113_20_v76"/>
+ <triangular vertex1="Petrischale_Füllvolumen_113_20_v168" vertex2="Petrischale_Füllvolumen_113_20_v167" vertex3="Petrischale_Füllvolumen_113_20_v76"/>
+ <triangular vertex1="Petrischale_Füllvolumen_113_20_v168" vertex2="Petrischale_Füllvolumen_113_20_v76" vertex3="Petrischale_Füllvolumen_113_20_v71"/>
+ <triangular vertex1="Petrischale_Füllvolumen_113_20_v169" vertex2="Petrischale_Füllvolumen_113_20_v168" vertex3="Petrischale_Füllvolumen_113_20_v71"/>
+ <triangular vertex1="Petrischale_Füllvolumen_113_20_v169" vertex2="Petrischale_Füllvolumen_113_20_v71" vertex3="Petrischale_Füllvolumen_113_20_v70"/>
+ <triangular vertex1="Petrischale_Füllvolumen_113_20_v169" vertex2="Petrischale_Füllvolumen_113_20_v70" vertex3="Petrischale_Füllvolumen_113_20_v72"/>
+ <triangular vertex1="Petrischale_Füllvolumen_113_20_v170" vertex2="Petrischale_Füllvolumen_113_20_v169" vertex3="Petrischale_Füllvolumen_113_20_v72"/>
+ <triangular vertex1="Petrischale_Füllvolumen_113_20_v171" vertex2="Petrischale_Füllvolumen_113_20_v170" vertex3="Petrischale_Füllvolumen_113_20_v72"/>
+ <triangular vertex1="Petrischale_Füllvolumen_113_20_v171" vertex2="Petrischale_Füllvolumen_113_20_v72" vertex3="Petrischale_Füllvolumen_113_20_v64"/>
+ <triangular vertex1="Petrischale_Füllvolumen_113_20_v172" vertex2="Petrischale_Füllvolumen_113_20_v171" vertex3="Petrischale_Füllvolumen_113_20_v64"/>
+ <triangular vertex1="Petrischale_Füllvolumen_113_20_v172" vertex2="Petrischale_Füllvolumen_113_20_v64" vertex3="Petrischale_Füllvolumen_113_20_v63"/>
+ <triangular vertex1="Petrischale_Füllvolumen_113_20_v172" vertex2="Petrischale_Füllvolumen_113_20_v63" vertex3="Petrischale_Füllvolumen_113_20_v65"/>
+ <triangular vertex1="Petrischale_Füllvolumen_113_20_v173" vertex2="Petrischale_Füllvolumen_113_20_v172" vertex3="Petrischale_Füllvolumen_113_20_v65"/>
+ <triangular vertex1="Petrischale_Füllvolumen_113_20_v174" vertex2="Petrischale_Füllvolumen_113_20_v173" vertex3="Petrischale_Füllvolumen_113_20_v65"/>
+ <triangular vertex1="Petrischale_Füllvolumen_113_20_v174" vertex2="Petrischale_Füllvolumen_113_20_v65" vertex3="Petrischale_Füllvolumen_113_20_v66"/>
+ <triangular vertex1="Petrischale_Füllvolumen_113_20_v174" vertex2="Petrischale_Füllvolumen_113_20_v66" vertex3="Petrischale_Füllvolumen_113_20_v73"/>
+ <triangular vertex1="Petrischale_Füllvolumen_113_20_v175" vertex2="Petrischale_Füllvolumen_113_20_v174" vertex3="Petrischale_Füllvolumen_113_20_v73"/>
+ <triangular vertex1="Petrischale_Füllvolumen_113_20_v176" vertex2="Petrischale_Füllvolumen_113_20_v175" vertex3="Petrischale_Füllvolumen_113_20_v73"/>
+ <triangular vertex1="Petrischale_Füllvolumen_113_20_v176" vertex2="Petrischale_Füllvolumen_113_20_v73" vertex3="Petrischale_Füllvolumen_113_20_v56"/>
+ <triangular vertex1="Petrischale_Füllvolumen_113_20_v177" vertex2="Petrischale_Füllvolumen_113_20_v176" vertex3="Petrischale_Füllvolumen_113_20_v56"/>
+ <triangular vertex1="Petrischale_Füllvolumen_113_20_v177" vertex2="Petrischale_Füllvolumen_113_20_v56" vertex3="Petrischale_Füllvolumen_113_20_v55"/>
+ <triangular vertex1="Petrischale_Füllvolumen_113_20_v178" vertex2="Petrischale_Füllvolumen_113_20_v177" vertex3="Petrischale_Füllvolumen_113_20_v55"/>
+ <triangular vertex1="Petrischale_Füllvolumen_113_20_v178" vertex2="Petrischale_Füllvolumen_113_20_v55" vertex3="Petrischale_Füllvolumen_113_20_v57"/>
+ <triangular vertex1="Petrischale_Füllvolumen_113_20_v179" vertex2="Petrischale_Füllvolumen_113_20_v178" vertex3="Petrischale_Füllvolumen_113_20_v57"/>
+ <triangular vertex1="Petrischale_Füllvolumen_113_20_v179" vertex2="Petrischale_Füllvolumen_113_20_v57" vertex3="Petrischale_Füllvolumen_113_20_v49"/>
+ <triangular vertex1="Petrischale_Füllvolumen_113_20_v180" vertex2="Petrischale_Füllvolumen_113_20_v179" vertex3="Petrischale_Füllvolumen_113_20_v49"/>
+ <triangular vertex1="Petrischale_Füllvolumen_113_20_v180" vertex2="Petrischale_Füllvolumen_113_20_v49" vertex3="Petrischale_Füllvolumen_113_20_v47"/>
+ <triangular vertex1="Petrischale_Füllvolumen_113_20_v181" vertex2="Petrischale_Füllvolumen_113_20_v180" vertex3="Petrischale_Füllvolumen_113_20_v47"/>
+ <triangular vertex1="Petrischale_Füllvolumen_113_20_v181" vertex2="Petrischale_Füllvolumen_113_20_v47" vertex3="Petrischale_Füllvolumen_113_20_v48"/>
+ <triangular vertex1="Petrischale_Füllvolumen_113_20_v181" vertex2="Petrischale_Füllvolumen_113_20_v48" vertex3="Petrischale_Füllvolumen_113_20_v43"/>
+ <triangular vertex1="Petrischale_Füllvolumen_113_20_v182" vertex2="Petrischale_Füllvolumen_113_20_v181" vertex3="Petrischale_Füllvolumen_113_20_v43"/>
+ <triangular vertex1="Petrischale_Füllvolumen_113_20_v182" vertex2="Petrischale_Füllvolumen_113_20_v43" vertex3="Petrischale_Füllvolumen_113_20_v40"/>
+ <triangular vertex1="Petrischale_Füllvolumen_113_20_v183" vertex2="Petrischale_Füllvolumen_113_20_v182" vertex3="Petrischale_Füllvolumen_113_20_v40"/>
+ <triangular vertex1="Petrischale_Füllvolumen_113_20_v184" vertex2="Petrischale_Füllvolumen_113_20_v40" vertex3="Petrischale_Füllvolumen_113_20_v41"/>
+ <triangular vertex1="Petrischale_Füllvolumen_113_20_v184" vertex2="Petrischale_Füllvolumen_113_20_v183" vertex3="Petrischale_Füllvolumen_113_20_v40"/>
+ <triangular vertex1="Petrischale_Füllvolumen_113_20_v185" vertex2="Petrischale_Füllvolumen_113_20_v41" vertex3="Petrischale_Füllvolumen_113_20_v42"/>
+ <triangular vertex1="Petrischale_Füllvolumen_113_20_v185" vertex2="Petrischale_Füllvolumen_113_20_v42" vertex3="Petrischale_Füllvolumen_113_20_v34"/>
+ <triangular vertex1="Petrischale_Füllvolumen_113_20_v185" vertex2="Petrischale_Füllvolumen_113_20_v184" vertex3="Petrischale_Füllvolumen_113_20_v41"/>
+ <triangular vertex1="Petrischale_Füllvolumen_113_20_v186" vertex2="Petrischale_Füllvolumen_113_20_v185" vertex3="Petrischale_Füllvolumen_113_20_v34"/>
+ <triangular vertex1="Petrischale_Füllvolumen_113_20_v186" vertex2="Petrischale_Füllvolumen_113_20_v34" vertex3="Petrischale_Füllvolumen_113_20_v33"/>
+ <triangular vertex1="Petrischale_Füllvolumen_113_20_v187" vertex2="Petrischale_Füllvolumen_113_20_v186" vertex3="Petrischale_Füllvolumen_113_20_v33"/>
+ <triangular vertex1="Petrischale_Füllvolumen_113_20_v188" vertex2="Petrischale_Füllvolumen_113_20_v187" vertex3="Petrischale_Füllvolumen_113_20_v33"/>
+ <triangular vertex1="Petrischale_Füllvolumen_113_20_v188" vertex2="Petrischale_Füllvolumen_113_20_v33" vertex3="Petrischale_Füllvolumen_113_20_v32"/>
+ <triangular vertex1="Petrischale_Füllvolumen_113_20_v189" vertex2="Petrischale_Füllvolumen_113_20_v188" vertex3="Petrischale_Füllvolumen_113_20_v32"/>
+ <triangular vertex1="Petrischale_Füllvolumen_113_20_v189" vertex2="Petrischale_Füllvolumen_113_20_v32" vertex3="Petrischale_Füllvolumen_113_20_v31"/>
+ <triangular vertex1="Petrischale_Füllvolumen_113_20_v189" vertex2="Petrischale_Füllvolumen_113_20_v31" vertex3="Petrischale_Füllvolumen_113_20_v29"/>
+ <triangular vertex1="Petrischale_Füllvolumen_113_20_v190" vertex2="Petrischale_Füllvolumen_113_20_v189" vertex3="Petrischale_Füllvolumen_113_20_v29"/>
+ <triangular vertex1="Petrischale_Füllvolumen_113_20_v191" vertex2="Petrischale_Füllvolumen_113_20_v190" vertex3="Petrischale_Füllvolumen_113_20_v29"/>
+ <triangular vertex1="Petrischale_Füllvolumen_113_20_v191" vertex2="Petrischale_Füllvolumen_113_20_v29" vertex3="Petrischale_Füllvolumen_113_20_v28"/>
+ <triangular vertex1="Petrischale_Füllvolumen_113_20_v191" vertex2="Petrischale_Füllvolumen_113_20_v28" vertex3="Petrischale_Füllvolumen_113_20_v24"/>
+ <triangular vertex1="Petrischale_Füllvolumen_113_20_v192" vertex2="Petrischale_Füllvolumen_113_20_v191" vertex3="Petrischale_Füllvolumen_113_20_v24"/>
+ <triangular vertex1="Petrischale_Füllvolumen_113_20_v193" vertex2="Petrischale_Füllvolumen_113_20_v192" vertex3="Petrischale_Füllvolumen_113_20_v24"/>
+ <triangular vertex1="Petrischale_Füllvolumen_113_20_v193" vertex2="Petrischale_Füllvolumen_113_20_v24" vertex3="Petrischale_Füllvolumen_113_20_v25"/>
+ <triangular vertex1="Petrischale_Füllvolumen_113_20_v193" vertex2="Petrischale_Füllvolumen_113_20_v25" vertex3="Petrischale_Füllvolumen_113_20_v19"/>
+ <triangular vertex1="Petrischale_Füllvolumen_113_20_v194" vertex2="Petrischale_Füllvolumen_113_20_v193" vertex3="Petrischale_Füllvolumen_113_20_v19"/>
+ <triangular vertex1="Petrischale_Füllvolumen_113_20_v195" vertex2="Petrischale_Füllvolumen_113_20_v194" vertex3="Petrischale_Füllvolumen_113_20_v19"/>
+ <triangular vertex1="Petrischale_Füllvolumen_113_20_v195" vertex2="Petrischale_Füllvolumen_113_20_v19" vertex3="Petrischale_Füllvolumen_113_20_v20"/>
+ <triangular vertex1="Petrischale_Füllvolumen_113_20_v195" vertex2="Petrischale_Füllvolumen_113_20_v20" vertex3="Petrischale_Füllvolumen_113_20_v21"/>
+ <triangular vertex1="Petrischale_Füllvolumen_113_20_v196" vertex2="Petrischale_Füllvolumen_113_20_v195" vertex3="Petrischale_Füllvolumen_113_20_v21"/>
+ <triangular vertex1="Petrischale_Füllvolumen_113_20_v196" vertex2="Petrischale_Füllvolumen_113_20_v21" vertex3="Petrischale_Füllvolumen_113_20_v14"/>
+ <triangular vertex1="Petrischale_Füllvolumen_113_20_v197" vertex2="Petrischale_Füllvolumen_113_20_v196" vertex3="Petrischale_Füllvolumen_113_20_v14"/>
+ <triangular vertex1="Petrischale_Füllvolumen_113_20_v198" vertex2="Petrischale_Füllvolumen_113_20_v197" vertex3="Petrischale_Füllvolumen_113_20_v14"/>
+ <triangular vertex1="Petrischale_Füllvolumen_113_20_v198" vertex2="Petrischale_Füllvolumen_113_20_v14" vertex3="Petrischale_Füllvolumen_113_20_v13"/>
+ <triangular vertex1="Petrischale_Füllvolumen_113_20_v199" vertex2="Petrischale_Füllvolumen_113_20_v198" vertex3="Petrischale_Füllvolumen_113_20_v13"/>
+ <triangular vertex1="Petrischale_Füllvolumen_113_20_v199" vertex2="Petrischale_Füllvolumen_113_20_v13" vertex3="Petrischale_Füllvolumen_113_20_v15"/>
+ <triangular vertex1="Petrischale_Füllvolumen_113_20_v199" vertex2="Petrischale_Füllvolumen_113_20_v15" vertex3="Petrischale_Füllvolumen_113_20_v8"/>
+ <triangular vertex1="Petrischale_Füllvolumen_113_20_v200" vertex2="Petrischale_Füllvolumen_113_20_v199" vertex3="Petrischale_Füllvolumen_113_20_v8"/>
+ <triangular vertex1="Petrischale_Füllvolumen_113_20_v201" vertex2="Petrischale_Füllvolumen_113_20_v8" vertex3="Petrischale_Füllvolumen_113_20_v7"/>
+ <triangular vertex1="Petrischale_Füllvolumen_113_20_v201" vertex2="Petrischale_Füllvolumen_113_20_v7" vertex3="Petrischale_Füllvolumen_113_20_v9"/>
+ <triangular vertex1="Petrischale_Füllvolumen_113_20_v201" vertex2="Petrischale_Füllvolumen_113_20_v200" vertex3="Petrischale_Füllvolumen_113_20_v8"/>
+ <triangular vertex1="Petrischale_Füllvolumen_113_20_v202" vertex2="Petrischale_Füllvolumen_113_20_v9" vertex3="Petrischale_Füllvolumen_113_20_v0"/>
+ <triangular vertex1="Petrischale_Füllvolumen_113_20_v202" vertex2="Petrischale_Füllvolumen_113_20_v201" vertex3="Petrischale_Füllvolumen_113_20_v9"/>
+ <triangular vertex1="Petrischale_Füllvolumen_113_20_v203" vertex2="Petrischale_Füllvolumen_113_20_v0" vertex3="Petrischale_Füllvolumen_113_20_v2"/>
+ <triangular vertex1="Petrischale_Füllvolumen_113_20_v203" vertex2="Petrischale_Füllvolumen_113_20_v202" vertex3="Petrischale_Füllvolumen_113_20_v0"/>
+ <triangular vertex1="Petrischale_Füllvolumen_113_20_v204" vertex2="Petrischale_Füllvolumen_113_20_v203" vertex3="Petrischale_Füllvolumen_113_20_v2"/>
+ <triangular vertex1="Petrischale_Füllvolumen_113_20_v205" vertex2="Petrischale_Füllvolumen_113_20_v2" vertex3="Petrischale_Füllvolumen_113_20_v3"/>
+ <triangular vertex1="Petrischale_Füllvolumen_113_20_v205" vertex2="Petrischale_Füllvolumen_113_20_v204" vertex3="Petrischale_Füllvolumen_113_20_v2"/>
+ <triangular vertex1="Petrischale_Füllvolumen_113_20_v206" vertex2="Petrischale_Füllvolumen_113_20_v3" vertex3="Petrischale_Füllvolumen_113_20_v4"/>
+ <triangular vertex1="Petrischale_Füllvolumen_113_20_v206" vertex2="Petrischale_Füllvolumen_113_20_v205" vertex3="Petrischale_Füllvolumen_113_20_v3"/>
+ <triangular vertex1="Petrischale_Füllvolumen_113_20_v207" vertex2="Petrischale_Füllvolumen_113_20_v4" vertex3="Petrischale_Füllvolumen_113_20_v1"/>
+ <triangular vertex1="Petrischale_Füllvolumen_113_20_v207" vertex2="Petrischale_Füllvolumen_113_20_v1" vertex3="Petrischale_Füllvolumen_113_20_v6"/>
+ <triangular vertex1="Petrischale_Füllvolumen_113_20_v207" vertex2="Petrischale_Füllvolumen_113_20_v206" vertex3="Petrischale_Füllvolumen_113_20_v4"/>
+ <triangular vertex1="Petrischale_Füllvolumen_113_20_v208" vertex2="Petrischale_Füllvolumen_113_20_v6" vertex3="Petrischale_Füllvolumen_113_20_v5"/>
+ <triangular vertex1="Petrischale_Füllvolumen_113_20_v208" vertex2="Petrischale_Füllvolumen_113_20_v207" vertex3="Petrischale_Füllvolumen_113_20_v6"/>
+ <triangular vertex1="Petrischale_Füllvolumen_113_20_v209" vertex2="Petrischale_Füllvolumen_113_20_v208" vertex3="Petrischale_Füllvolumen_113_20_v5"/>
+ <triangular vertex1="Petrischale_Füllvolumen_113_20_v210" vertex2="Petrischale_Füllvolumen_113_20_v5" vertex3="Petrischale_Füllvolumen_113_20_v11"/>
+ <triangular vertex1="Petrischale_Füllvolumen_113_20_v210" vertex2="Petrischale_Füllvolumen_113_20_v11" vertex3="Petrischale_Füllvolumen_113_20_v12"/>
+ <triangular vertex1="Petrischale_Füllvolumen_113_20_v210" vertex2="Petrischale_Füllvolumen_113_20_v209" vertex3="Petrischale_Füllvolumen_113_20_v5"/>
+ <triangular vertex1="Petrischale_Füllvolumen_113_20_v211" vertex2="Petrischale_Füllvolumen_113_20_v210" vertex3="Petrischale_Füllvolumen_113_20_v12"/>
+ <triangular vertex1="Petrischale_Füllvolumen_113_20_v212" vertex2="Petrischale_Füllvolumen_113_20_v12" vertex3="Petrischale_Füllvolumen_113_20_v10"/>
+ <triangular vertex1="Petrischale_Füllvolumen_113_20_v212" vertex2="Petrischale_Füllvolumen_113_20_v211" vertex3="Petrischale_Füllvolumen_113_20_v12"/>
+ <triangular vertex1="Petrischale_Füllvolumen_113_20_v213" vertex2="Petrischale_Füllvolumen_113_20_v10" vertex3="Petrischale_Füllvolumen_113_20_v17"/>
+ <triangular vertex1="Petrischale_Füllvolumen_113_20_v213" vertex2="Petrischale_Füllvolumen_113_20_v212" vertex3="Petrischale_Füllvolumen_113_20_v10"/>
+ <triangular vertex1="Petrischale_Füllvolumen_113_20_v214" vertex2="Petrischale_Füllvolumen_113_20_v213" vertex3="Petrischale_Füllvolumen_113_20_v17"/>
+ <triangular vertex1="Petrischale_Füllvolumen_113_20_v214" vertex2="Petrischale_Füllvolumen_113_20_v17" vertex3="Petrischale_Füllvolumen_113_20_v18"/>
+ <triangular vertex1="Petrischale_Füllvolumen_113_20_v214" vertex2="Petrischale_Füllvolumen_113_20_v18" vertex3="Petrischale_Füllvolumen_113_20_v16"/>
+ <triangular vertex1="Petrischale_Füllvolumen_113_20_v215" vertex2="Petrischale_Füllvolumen_113_20_v214" vertex3="Petrischale_Füllvolumen_113_20_v16"/>
+ <triangular vertex1="Petrischale_Füllvolumen_113_20_v215" vertex2="Petrischale_Füllvolumen_113_20_v16" vertex3="Petrischale_Füllvolumen_113_20_v23"/>
+ <triangular vertex1="Petrischale_Füllvolumen_113_20_v216" vertex2="Petrischale_Füllvolumen_113_20_v23" vertex3="Petrischale_Füllvolumen_113_20_v22"/>
+ <triangular vertex1="Petrischale_Füllvolumen_113_20_v216" vertex2="Petrischale_Füllvolumen_113_20_v215" vertex3="Petrischale_Füllvolumen_113_20_v23"/>
+ <triangular vertex1="Petrischale_Füllvolumen_113_20_v217" vertex2="Petrischale_Füllvolumen_113_20_v216" vertex3="Petrischale_Füllvolumen_113_20_v22"/>
+ <triangular vertex1="Petrischale_Füllvolumen_113_20_v217" vertex2="Petrischale_Füllvolumen_113_20_v22" vertex3="Petrischale_Füllvolumen_113_20_v27"/>
+ <triangular vertex1="Petrischale_Füllvolumen_113_20_v218" vertex2="Petrischale_Füllvolumen_113_20_v27" vertex3="Petrischale_Füllvolumen_113_20_v26"/>
+ <triangular vertex1="Petrischale_Füllvolumen_113_20_v218" vertex2="Petrischale_Füllvolumen_113_20_v217" vertex3="Petrischale_Füllvolumen_113_20_v27"/>
+ <triangular vertex1="Petrischale_Füllvolumen_113_20_v219" vertex2="Petrischale_Füllvolumen_113_20_v218" vertex3="Petrischale_Füllvolumen_113_20_v26"/>
+ <triangular vertex1="Petrischale_Füllvolumen_113_20_v220" vertex2="Petrischale_Füllvolumen_113_20_v26" vertex3="Petrischale_Füllvolumen_113_20_v30"/>
+ <triangular vertex1="Petrischale_Füllvolumen_113_20_v220" vertex2="Petrischale_Füllvolumen_113_20_v30" vertex3="Petrischale_Füllvolumen_113_20_v36"/>
+ <triangular vertex1="Petrischale_Füllvolumen_113_20_v220" vertex2="Petrischale_Füllvolumen_113_20_v219" vertex3="Petrischale_Füllvolumen_113_20_v26"/>
+ <triangular vertex1="Petrischale_Füllvolumen_113_20_v221" vertex2="Petrischale_Füllvolumen_113_20_v220" vertex3="Petrischale_Füllvolumen_113_20_v36"/>
+ <triangular vertex1="Petrischale_Füllvolumen_113_20_v222" vertex2="Petrischale_Füllvolumen_113_20_v36" vertex3="Petrischale_Füllvolumen_113_20_v37"/>
+ <triangular vertex1="Petrischale_Füllvolumen_113_20_v222" vertex2="Petrischale_Füllvolumen_113_20_v221" vertex3="Petrischale_Füllvolumen_113_20_v36"/>
+ <triangular vertex1="Petrischale_Füllvolumen_113_20_v223" vertex2="Petrischale_Füllvolumen_113_20_v37" vertex3="Petrischale_Füllvolumen_113_20_v38"/>
+ <triangular vertex1="Petrischale_Füllvolumen_113_20_v223" vertex2="Petrischale_Füllvolumen_113_20_v38" vertex3="Petrischale_Füllvolumen_113_20_v35"/>
+ <triangular vertex1="Petrischale_Füllvolumen_113_20_v223" vertex2="Petrischale_Füllvolumen_113_20_v222" vertex3="Petrischale_Füllvolumen_113_20_v37"/>
+ <triangular vertex1="Petrischale_Füllvolumen_113_20_v224" vertex2="Petrischale_Füllvolumen_113_20_v35" vertex3="Petrischale_Füllvolumen_113_20_v39"/>
+ <triangular vertex1="Petrischale_Füllvolumen_113_20_v224" vertex2="Petrischale_Füllvolumen_113_20_v223" vertex3="Petrischale_Füllvolumen_113_20_v35"/>
+ <triangular vertex1="Petrischale_Füllvolumen_113_20_v225" vertex2="Petrischale_Füllvolumen_113_20_v224" vertex3="Petrischale_Füllvolumen_113_20_v39"/>
+ <triangular vertex1="Petrischale_Füllvolumen_113_20_v226" vertex2="Petrischale_Füllvolumen_113_20_v39" vertex3="Petrischale_Füllvolumen_113_20_v44"/>
+ <triangular vertex1="Petrischale_Füllvolumen_113_20_v226" vertex2="Petrischale_Füllvolumen_113_20_v225" vertex3="Petrischale_Füllvolumen_113_20_v39"/>
+ <triangular vertex1="Petrischale_Füllvolumen_113_20_v227" vertex2="Petrischale_Füllvolumen_113_20_v44" vertex3="Petrischale_Füllvolumen_113_20_v46"/>
+ <triangular vertex1="Petrischale_Füllvolumen_113_20_v227" vertex2="Petrischale_Füllvolumen_113_20_v226" vertex3="Petrischale_Füllvolumen_113_20_v44"/>
+ <triangular vertex1="Petrischale_Füllvolumen_113_20_v228" vertex2="Petrischale_Füllvolumen_113_20_v46" vertex3="Petrischale_Füllvolumen_113_20_v45"/>
+ <triangular vertex1="Petrischale_Füllvolumen_113_20_v228" vertex2="Petrischale_Füllvolumen_113_20_v45" vertex3="Petrischale_Füllvolumen_113_20_v50"/>
+ <triangular vertex1="Petrischale_Füllvolumen_113_20_v228" vertex2="Petrischale_Füllvolumen_113_20_v227" vertex3="Petrischale_Füllvolumen_113_20_v46"/>
+ <triangular vertex1="Petrischale_Füllvolumen_113_20_v229" vertex2="Petrischale_Füllvolumen_113_20_v228" vertex3="Petrischale_Füllvolumen_113_20_v50"/>
+ <triangular vertex1="Petrischale_Füllvolumen_113_20_v230" vertex2="Petrischale_Füllvolumen_113_20_v50" vertex3="Petrischale_Füllvolumen_113_20_v52"/>
+ <triangular vertex1="Petrischale_Füllvolumen_113_20_v230" vertex2="Petrischale_Füllvolumen_113_20_v229" vertex3="Petrischale_Füllvolumen_113_20_v50"/>
+ <triangular vertex1="Petrischale_Füllvolumen_113_20_v231" vertex2="Petrischale_Füllvolumen_113_20_v52" vertex3="Petrischale_Füllvolumen_113_20_v51"/>
+ <triangular vertex1="Petrischale_Füllvolumen_113_20_v231" vertex2="Petrischale_Füllvolumen_113_20_v230" vertex3="Petrischale_Füllvolumen_113_20_v52"/>
+ <triangular vertex1="Petrischale_Füllvolumen_113_20_v232" vertex2="Petrischale_Füllvolumen_113_20_v51" vertex3="Petrischale_Füllvolumen_113_20_v54"/>
+ <triangular vertex1="Petrischale_Füllvolumen_113_20_v232" vertex2="Petrischale_Füllvolumen_113_20_v231" vertex3="Petrischale_Füllvolumen_113_20_v51"/>
+ <triangular vertex1="Petrischale_Füllvolumen_113_20_v233" vertex2="Petrischale_Füllvolumen_113_20_v54" vertex3="Petrischale_Füllvolumen_113_20_v53"/>
+ <triangular vertex1="Petrischale_Füllvolumen_113_20_v233" vertex2="Petrischale_Füllvolumen_113_20_v232" vertex3="Petrischale_Füllvolumen_113_20_v54"/>
+ <triangular vertex1="Petrischale_Füllvolumen_113_20_v234" vertex2="Petrischale_Füllvolumen_113_20_v53" vertex3="Petrischale_Füllvolumen_113_20_v59"/>
+ <triangular vertex1="Petrischale_Füllvolumen_113_20_v234" vertex2="Petrischale_Füllvolumen_113_20_v233" vertex3="Petrischale_Füllvolumen_113_20_v53"/>
+ <triangular vertex1="Petrischale_Füllvolumen_113_20_v235" vertex2="Petrischale_Füllvolumen_113_20_v59" vertex3="Petrischale_Füllvolumen_113_20_v60"/>
+ <triangular vertex1="Petrischale_Füllvolumen_113_20_v235" vertex2="Petrischale_Füllvolumen_113_20_v234" vertex3="Petrischale_Füllvolumen_113_20_v59"/>
+ <triangular vertex1="Petrischale_Füllvolumen_113_20_v236" vertex2="Petrischale_Füllvolumen_113_20_v60" vertex3="Petrischale_Füllvolumen_113_20_v58"/>
+ <triangular vertex1="Petrischale_Füllvolumen_113_20_v236" vertex2="Petrischale_Füllvolumen_113_20_v58" vertex3="Petrischale_Füllvolumen_113_20_v61"/>
+ <triangular vertex1="Petrischale_Füllvolumen_113_20_v236" vertex2="Petrischale_Füllvolumen_113_20_v235" vertex3="Petrischale_Füllvolumen_113_20_v60"/>
+ <triangular vertex1="Petrischale_Füllvolumen_113_20_v237" vertex2="Petrischale_Füllvolumen_113_20_v236" vertex3="Petrischale_Füllvolumen_113_20_v61"/>
+ <triangular vertex1="Petrischale_Füllvolumen_113_20_v238" vertex2="Petrischale_Füllvolumen_113_20_v237" vertex3="Petrischale_Füllvolumen_113_20_v61"/>
+ <triangular vertex1="Petrischale_Füllvolumen_113_20_v238" vertex2="Petrischale_Füllvolumen_113_20_v61" vertex3="Petrischale_Füllvolumen_113_20_v62"/>
+ <triangular vertex1="Petrischale_Füllvolumen_113_20_v238" vertex2="Petrischale_Füllvolumen_113_20_v62" vertex3="Petrischale_Füllvolumen_113_20_v68"/>
+ <triangular vertex1="Petrischale_Füllvolumen_113_20_v239" vertex2="Petrischale_Füllvolumen_113_20_v238" vertex3="Petrischale_Füllvolumen_113_20_v68"/>
+ <triangular vertex1="Petrischale_Füllvolumen_113_20_v240" vertex2="Petrischale_Füllvolumen_113_20_v239" vertex3="Petrischale_Füllvolumen_113_20_v68"/>
+ <triangular vertex1="Petrischale_Füllvolumen_113_20_v240" vertex2="Petrischale_Füllvolumen_113_20_v68" vertex3="Petrischale_Füllvolumen_113_20_v69"/>
+ <triangular vertex1="Petrischale_Füllvolumen_113_20_v241" vertex2="Petrischale_Füllvolumen_113_20_v240" vertex3="Petrischale_Füllvolumen_113_20_v69"/>
+ <triangular vertex1="Petrischale_Füllvolumen_113_20_v241" vertex2="Petrischale_Füllvolumen_113_20_v69" vertex3="Petrischale_Füllvolumen_113_20_v67"/>
+ <triangular vertex1="Petrischale_Füllvolumen_113_20_v242" vertex2="Petrischale_Füllvolumen_113_20_v241" vertex3="Petrischale_Füllvolumen_113_20_v67"/>
+ <triangular vertex1="Petrischale_Füllvolumen_113_20_v242" vertex2="Petrischale_Füllvolumen_113_20_v67" vertex3="Petrischale_Füllvolumen_113_20_v75"/>
+ <triangular vertex1="Petrischale_Füllvolumen_113_20_v243" vertex2="Petrischale_Füllvolumen_113_20_v242" vertex3="Petrischale_Füllvolumen_113_20_v75"/>
+ <triangular vertex1="Petrischale_Füllvolumen_113_20_v243" vertex2="Petrischale_Füllvolumen_113_20_v75" vertex3="Petrischale_Füllvolumen_113_20_v74"/>
+ <triangular vertex1="Petrischale_Füllvolumen_113_20_v244" vertex2="Petrischale_Füllvolumen_113_20_v243" vertex3="Petrischale_Füllvolumen_113_20_v74"/>
+ <triangular vertex1="Petrischale_Füllvolumen_113_20_v244" vertex2="Petrischale_Füllvolumen_113_20_v74" vertex3="Petrischale_Füllvolumen_113_20_v78"/>
+ <triangular vertex1="Petrischale_Füllvolumen_113_20_v245" vertex2="Petrischale_Füllvolumen_113_20_v244" vertex3="Petrischale_Füllvolumen_113_20_v78"/>
+ <triangular vertex1="Petrischale_Füllvolumen_113_20_v245" vertex2="Petrischale_Füllvolumen_113_20_v78" vertex3="Petrischale_Füllvolumen_113_20_v81"/>
+ <triangular vertex1="Petrischale_Füllvolumen_113_20_v246" vertex2="Petrischale_Füllvolumen_113_20_v245" vertex3="Petrischale_Füllvolumen_113_20_v81"/>
+ <triangular vertex1="Petrischale_Füllvolumen_113_20_v246" vertex2="Petrischale_Füllvolumen_113_20_v81" vertex3="Petrischale_Füllvolumen_113_20_v80"/>
+ <triangular vertex1="Petrischale_Füllvolumen_113_20_v246" vertex2="Petrischale_Füllvolumen_113_20_v80" vertex3="Petrischale_Füllvolumen_113_20_v84"/>
+ <triangular vertex1="Petrischale_Füllvolumen_113_20_v247" vertex2="Petrischale_Füllvolumen_113_20_v246" vertex3="Petrischale_Füllvolumen_113_20_v84"/>
+ <triangular vertex1="Petrischale_Füllvolumen_113_20_v248" vertex2="Petrischale_Füllvolumen_113_20_v247" vertex3="Petrischale_Füllvolumen_113_20_v84"/>
+ <triangular vertex1="Petrischale_Füllvolumen_113_20_v248" vertex2="Petrischale_Füllvolumen_113_20_v84" vertex3="Petrischale_Füllvolumen_113_20_v86"/>
+ <triangular vertex1="Petrischale_Füllvolumen_113_20_v248" vertex2="Petrischale_Füllvolumen_113_20_v86" vertex3="Petrischale_Füllvolumen_113_20_v87"/>
+ <triangular vertex1="Petrischale_Füllvolumen_113_20_v249" vertex2="Petrischale_Füllvolumen_113_20_v248" vertex3="Petrischale_Füllvolumen_113_20_v87"/>
+ <triangular vertex1="Petrischale_Füllvolumen_113_20_v250" vertex2="Petrischale_Füllvolumen_113_20_v87" vertex3="Petrischale_Füllvolumen_113_20_v89"/>
+ <triangular vertex1="Petrischale_Füllvolumen_113_20_v250" vertex2="Petrischale_Füllvolumen_113_20_v249" vertex3="Petrischale_Füllvolumen_113_20_v87"/>
+ <triangular vertex1="Petrischale_Füllvolumen_113_20_v251" vertex2="Petrischale_Füllvolumen_113_20_v89" vertex3="Petrischale_Füllvolumen_113_20_v88"/>
+ <triangular vertex1="Petrischale_Füllvolumen_113_20_v251" vertex2="Petrischale_Füllvolumen_113_20_v250" vertex3="Petrischale_Füllvolumen_113_20_v89"/>
+ <triangular vertex1="Petrischale_Füllvolumen_113_20_v127" vertex2="Petrischale_Füllvolumen_113_20_v88" vertex3="Petrischale_Füllvolumen_113_20_v93"/>
+ <triangular vertex1="Petrischale_Füllvolumen_113_20_v127" vertex2="Petrischale_Füllvolumen_113_20_v251" vertex3="Petrischale_Füllvolumen_113_20_v88"/>
+ <triangular vertex1="Petrischale_Füllvolumen_113_20_v237" vertex2="Petrischale_Füllvolumen_113_20_v235" vertex3="Petrischale_Füllvolumen_113_20_v236"/>
+ <triangular vertex1="Petrischale_Füllvolumen_113_20_v237" vertex2="Petrischale_Füllvolumen_113_20_v238" vertex3="Petrischale_Füllvolumen_113_20_v235"/>
+ <triangular vertex1="Petrischale_Füllvolumen_113_20_v235" vertex2="Petrischale_Füllvolumen_113_20_v233" vertex3="Petrischale_Füllvolumen_113_20_v234"/>
+ <triangular vertex1="Petrischale_Füllvolumen_113_20_v239" vertex2="Petrischale_Füllvolumen_113_20_v240" vertex3="Petrischale_Füllvolumen_113_20_v238"/>
+ <triangular vertex1="Petrischale_Füllvolumen_113_20_v238" vertex2="Petrischale_Füllvolumen_113_20_v241" vertex3="Petrischale_Füllvolumen_113_20_v235"/>
+ <triangular vertex1="Petrischale_Füllvolumen_113_20_v240" vertex2="Petrischale_Füllvolumen_113_20_v241" vertex3="Petrischale_Füllvolumen_113_20_v238"/>
+ <triangular vertex1="Petrischale_Füllvolumen_113_20_v233" vertex2="Petrischale_Füllvolumen_113_20_v231" vertex3="Petrischale_Füllvolumen_113_20_v232"/>
+ <triangular vertex1="Petrischale_Füllvolumen_113_20_v242" vertex2="Petrischale_Füllvolumen_113_20_v243" vertex3="Petrischale_Füllvolumen_113_20_v241"/>
+ <triangular vertex1="Petrischale_Füllvolumen_113_20_v229" vertex2="Petrischale_Füllvolumen_113_20_v227" vertex3="Petrischale_Füllvolumen_113_20_v228"/>
+ <triangular vertex1="Petrischale_Füllvolumen_113_20_v230" vertex2="Petrischale_Füllvolumen_113_20_v227" vertex3="Petrischale_Füllvolumen_113_20_v229"/>
+ <triangular vertex1="Petrischale_Füllvolumen_113_20_v231" vertex2="Petrischale_Füllvolumen_113_20_v227" vertex3="Petrischale_Füllvolumen_113_20_v230"/>
+ <triangular vertex1="Petrischale_Füllvolumen_113_20_v233" vertex2="Petrischale_Füllvolumen_113_20_v226" vertex3="Petrischale_Füllvolumen_113_20_v231"/>
+ <triangular vertex1="Petrischale_Füllvolumen_113_20_v231" vertex2="Petrischale_Füllvolumen_113_20_v226" vertex3="Petrischale_Füllvolumen_113_20_v227"/>
+ <triangular vertex1="Petrischale_Füllvolumen_113_20_v246" vertex2="Petrischale_Füllvolumen_113_20_v247" vertex3="Petrischale_Füllvolumen_113_20_v245"/>
+ <triangular vertex1="Petrischale_Füllvolumen_113_20_v244" vertex2="Petrischale_Füllvolumen_113_20_v248" vertex3="Petrischale_Füllvolumen_113_20_v243"/>
+ <triangular vertex1="Petrischale_Füllvolumen_113_20_v245" vertex2="Petrischale_Füllvolumen_113_20_v248" vertex3="Petrischale_Füllvolumen_113_20_v244"/>
+ <triangular vertex1="Petrischale_Füllvolumen_113_20_v247" vertex2="Petrischale_Füllvolumen_113_20_v248" vertex3="Petrischale_Füllvolumen_113_20_v245"/>
+ <triangular vertex1="Petrischale_Füllvolumen_113_20_v235" vertex2="Petrischale_Füllvolumen_113_20_v224" vertex3="Petrischale_Füllvolumen_113_20_v233"/>
+ <triangular vertex1="Petrischale_Füllvolumen_113_20_v233" vertex2="Petrischale_Füllvolumen_113_20_v224" vertex3="Petrischale_Füllvolumen_113_20_v226"/>
+ <triangular vertex1="Petrischale_Füllvolumen_113_20_v226" vertex2="Petrischale_Füllvolumen_113_20_v224" vertex3="Petrischale_Füllvolumen_113_20_v225"/>
+ <triangular vertex1="Petrischale_Füllvolumen_113_20_v250" vertex2="Petrischale_Füllvolumen_113_20_v251" vertex3="Petrischale_Füllvolumen_113_20_v249"/>
+ <triangular vertex1="Petrischale_Füllvolumen_113_20_v223" vertex2="Petrischale_Füllvolumen_113_20_v221" vertex3="Petrischale_Füllvolumen_113_20_v222"/>
+ <triangular vertex1="Petrischale_Füllvolumen_113_20_v224" vertex2="Petrischale_Füllvolumen_113_20_v221" vertex3="Petrischale_Füllvolumen_113_20_v223"/>
+ <triangular vertex1="Petrischale_Füllvolumen_113_20_v224" vertex2="Petrischale_Füllvolumen_113_20_v220" vertex3="Petrischale_Füllvolumen_113_20_v221"/>
+ <triangular vertex1="Petrischale_Füllvolumen_113_20_v249" vertex2="Petrischale_Füllvolumen_113_20_v126" vertex3="Petrischale_Füllvolumen_113_20_v248"/>
+ <triangular vertex1="Petrischale_Füllvolumen_113_20_v127" vertex2="Petrischale_Füllvolumen_113_20_v126" vertex3="Petrischale_Füllvolumen_113_20_v251"/>
+ <triangular vertex1="Petrischale_Füllvolumen_113_20_v251" vertex2="Petrischale_Füllvolumen_113_20_v126" vertex3="Petrischale_Füllvolumen_113_20_v249"/>
+ <triangular vertex1="Petrischale_Füllvolumen_113_20_v220" vertex2="Petrischale_Füllvolumen_113_20_v218" vertex3="Petrischale_Füllvolumen_113_20_v219"/>
+ <triangular vertex1="Petrischale_Füllvolumen_113_20_v128" vertex2="Petrischale_Füllvolumen_113_20_v129" vertex3="Petrischale_Füllvolumen_113_20_v126"/>
+ <triangular vertex1="Petrischale_Füllvolumen_113_20_v220" vertex2="Petrischale_Füllvolumen_113_20_v217" vertex3="Petrischale_Füllvolumen_113_20_v218"/>
+ <triangular vertex1="Petrischale_Füllvolumen_113_20_v130" vertex2="Petrischale_Füllvolumen_113_20_v132" vertex3="Petrischale_Füllvolumen_113_20_v129"/>
+ <triangular vertex1="Petrischale_Füllvolumen_113_20_v131" vertex2="Petrischale_Füllvolumen_113_20_v132" vertex3="Petrischale_Füllvolumen_113_20_v130"/>
+ <triangular vertex1="Petrischale_Füllvolumen_113_20_v129" vertex2="Petrischale_Füllvolumen_113_20_v132" vertex3="Petrischale_Füllvolumen_113_20_v126"/>
+ <triangular vertex1="Petrischale_Füllvolumen_113_20_v126" vertex2="Petrischale_Füllvolumen_113_20_v132" vertex3="Petrischale_Füllvolumen_113_20_v248"/>
+ <triangular vertex1="Petrischale_Füllvolumen_113_20_v216" vertex2="Petrischale_Füllvolumen_113_20_v214" vertex3="Petrischale_Füllvolumen_113_20_v215"/>
+ <triangular vertex1="Petrischale_Füllvolumen_113_20_v217" vertex2="Petrischale_Füllvolumen_113_20_v214" vertex3="Petrischale_Füllvolumen_113_20_v216"/>
+ <triangular vertex1="Petrischale_Füllvolumen_113_20_v217" vertex2="Petrischale_Füllvolumen_113_20_v212" vertex3="Petrischale_Füllvolumen_113_20_v214"/>
+ <triangular vertex1="Petrischale_Füllvolumen_113_20_v220" vertex2="Petrischale_Füllvolumen_113_20_v212" vertex3="Petrischale_Füllvolumen_113_20_v217"/>
+ <triangular vertex1="Petrischale_Füllvolumen_113_20_v214" vertex2="Petrischale_Füllvolumen_113_20_v212" vertex3="Petrischale_Füllvolumen_113_20_v213"/>
+ <triangular vertex1="Petrischale_Füllvolumen_113_20_v133" vertex2="Petrischale_Füllvolumen_113_20_v135" vertex3="Petrischale_Füllvolumen_113_20_v132"/>
+ <triangular vertex1="Petrischale_Füllvolumen_113_20_v134" vertex2="Petrischale_Füllvolumen_113_20_v135" vertex3="Petrischale_Füllvolumen_113_20_v133"/>
+ <triangular vertex1="Petrischale_Füllvolumen_113_20_v136" vertex2="Petrischale_Füllvolumen_113_20_v137" vertex3="Petrischale_Füllvolumen_113_20_v135"/>
+ <triangular vertex1="Petrischale_Füllvolumen_113_20_v135" vertex2="Petrischale_Füllvolumen_113_20_v137" vertex3="Petrischale_Füllvolumen_113_20_v132"/>
+ <triangular vertex1="Petrischale_Füllvolumen_113_20_v220" vertex2="Petrischale_Füllvolumen_113_20_v209" vertex3="Petrischale_Füllvolumen_113_20_v212"/>
+ <triangular vertex1="Petrischale_Füllvolumen_113_20_v211" vertex2="Petrischale_Füllvolumen_113_20_v209" vertex3="Petrischale_Füllvolumen_113_20_v210"/>
+ <triangular vertex1="Petrischale_Füllvolumen_113_20_v212" vertex2="Petrischale_Füllvolumen_113_20_v209" vertex3="Petrischale_Füllvolumen_113_20_v211"/>
+ <triangular vertex1="Petrischale_Füllvolumen_113_20_v138" vertex2="Petrischale_Füllvolumen_113_20_v140" vertex3="Petrischale_Füllvolumen_113_20_v137"/>
+ <triangular vertex1="Petrischale_Füllvolumen_113_20_v139" vertex2="Petrischale_Füllvolumen_113_20_v140" vertex3="Petrischale_Füllvolumen_113_20_v138"/>
+ <triangular vertex1="Petrischale_Füllvolumen_113_20_v140" vertex2="Petrischale_Füllvolumen_113_20_v142" vertex3="Petrischale_Füllvolumen_113_20_v137"/>
+ <triangular vertex1="Petrischale_Füllvolumen_113_20_v141" vertex2="Petrischale_Füllvolumen_113_20_v142" vertex3="Petrischale_Füllvolumen_113_20_v140"/>
+ <triangular vertex1="Petrischale_Füllvolumen_113_20_v206" vertex2="Petrischale_Füllvolumen_113_20_v204" vertex3="Petrischale_Füllvolumen_113_20_v205"/>
+ <triangular vertex1="Petrischale_Füllvolumen_113_20_v220" vertex2="Petrischale_Füllvolumen_113_20_v203" vertex3="Petrischale_Füllvolumen_113_20_v209"/>
+ <triangular vertex1="Petrischale_Füllvolumen_113_20_v243" vertex2="Petrischale_Füllvolumen_113_20_v203" vertex3="Petrischale_Füllvolumen_113_20_v241"/>
+ <triangular vertex1="Petrischale_Füllvolumen_113_20_v241" vertex2="Petrischale_Füllvolumen_113_20_v203" vertex3="Petrischale_Füllvolumen_113_20_v235"/>
+ <triangular vertex1="Petrischale_Füllvolumen_113_20_v206" vertex2="Petrischale_Füllvolumen_113_20_v203" vertex3="Petrischale_Füllvolumen_113_20_v204"/>
+ <triangular vertex1="Petrischale_Füllvolumen_113_20_v235" vertex2="Petrischale_Füllvolumen_113_20_v203" vertex3="Petrischale_Füllvolumen_113_20_v224"/>
+ <triangular vertex1="Petrischale_Füllvolumen_113_20_v207" vertex2="Petrischale_Füllvolumen_113_20_v203" vertex3="Petrischale_Füllvolumen_113_20_v206"/>
+ <triangular vertex1="Petrischale_Füllvolumen_113_20_v208" vertex2="Petrischale_Füllvolumen_113_20_v203" vertex3="Petrischale_Füllvolumen_113_20_v207"/>
+ <triangular vertex1="Petrischale_Füllvolumen_113_20_v209" vertex2="Petrischale_Füllvolumen_113_20_v203" vertex3="Petrischale_Füllvolumen_113_20_v208"/>
+ <triangular vertex1="Petrischale_Füllvolumen_113_20_v224" vertex2="Petrischale_Füllvolumen_113_20_v203" vertex3="Petrischale_Füllvolumen_113_20_v220"/>
+ <triangular vertex1="Petrischale_Füllvolumen_113_20_v143" vertex2="Petrischale_Füllvolumen_113_20_v144" vertex3="Petrischale_Füllvolumen_113_20_v142"/>
+ <triangular vertex1="Petrischale_Füllvolumen_113_20_v142" vertex2="Petrischale_Füllvolumen_113_20_v144" vertex3="Petrischale_Füllvolumen_113_20_v137"/>
+ <triangular vertex1="Petrischale_Füllvolumen_113_20_v137" vertex2="Petrischale_Füllvolumen_113_20_v145" vertex3="Petrischale_Füllvolumen_113_20_v132"/>
+ <triangular vertex1="Petrischale_Füllvolumen_113_20_v144" vertex2="Petrischale_Füllvolumen_113_20_v145" vertex3="Petrischale_Füllvolumen_113_20_v137"/>
+ <triangular vertex1="Petrischale_Füllvolumen_113_20_v203" vertex2="Petrischale_Füllvolumen_113_20_v201" vertex3="Petrischale_Füllvolumen_113_20_v202"/>
+ <triangular vertex1="Petrischale_Füllvolumen_113_20_v203" vertex2="Petrischale_Füllvolumen_113_20_v200" vertex3="Petrischale_Füllvolumen_113_20_v201"/>
+ <triangular vertex1="Petrischale_Füllvolumen_113_20_v146" vertex2="Petrischale_Füllvolumen_113_20_v147" vertex3="Petrischale_Füllvolumen_113_20_v145"/>
+ <triangular vertex1="Petrischale_Füllvolumen_113_20_v148" vertex2="Petrischale_Füllvolumen_113_20_v149" vertex3="Petrischale_Füllvolumen_113_20_v147"/>
+ <triangular vertex1="Petrischale_Füllvolumen_113_20_v147" vertex2="Petrischale_Füllvolumen_113_20_v149" vertex3="Petrischale_Füllvolumen_113_20_v145"/>
+ <triangular vertex1="Petrischale_Füllvolumen_113_20_v199" vertex2="Petrischale_Füllvolumen_113_20_v197" vertex3="Petrischale_Füllvolumen_113_20_v198"/>
+ <triangular vertex1="Petrischale_Füllvolumen_113_20_v200" vertex2="Petrischale_Füllvolumen_113_20_v196" vertex3="Petrischale_Füllvolumen_113_20_v199"/>
+ <triangular vertex1="Petrischale_Füllvolumen_113_20_v203" vertex2="Petrischale_Füllvolumen_113_20_v196" vertex3="Petrischale_Füllvolumen_113_20_v200"/>
+ <triangular vertex1="Petrischale_Füllvolumen_113_20_v199" vertex2="Petrischale_Füllvolumen_113_20_v196" vertex3="Petrischale_Füllvolumen_113_20_v197"/>
+ <triangular vertex1="Petrischale_Füllvolumen_113_20_v150" vertex2="Petrischale_Füllvolumen_113_20_v151" vertex3="Petrischale_Füllvolumen_113_20_v149"/>
+ <triangular vertex1="Petrischale_Füllvolumen_113_20_v152" vertex2="Petrischale_Füllvolumen_113_20_v154" vertex3="Petrischale_Füllvolumen_113_20_v151"/>
+ <triangular vertex1="Petrischale_Füllvolumen_113_20_v153" vertex2="Petrischale_Füllvolumen_113_20_v154" vertex3="Petrischale_Füllvolumen_113_20_v152"/>
+ <triangular vertex1="Petrischale_Füllvolumen_113_20_v194" vertex2="Petrischale_Füllvolumen_113_20_v192" vertex3="Petrischale_Füllvolumen_113_20_v193"/>
+ <triangular vertex1="Petrischale_Füllvolumen_113_20_v195" vertex2="Petrischale_Füllvolumen_113_20_v192" vertex3="Petrischale_Füllvolumen_113_20_v194"/>
+ <triangular vertex1="Petrischale_Füllvolumen_113_20_v196" vertex2="Petrischale_Füllvolumen_113_20_v192" vertex3="Petrischale_Füllvolumen_113_20_v195"/>
+ <triangular vertex1="Petrischale_Füllvolumen_113_20_v203" vertex2="Petrischale_Füllvolumen_113_20_v192" vertex3="Petrischale_Füllvolumen_113_20_v196"/>
+ <triangular vertex1="Petrischale_Füllvolumen_113_20_v243" vertex2="Petrischale_Füllvolumen_113_20_v191" vertex3="Petrischale_Füllvolumen_113_20_v203"/>
+ <triangular vertex1="Petrischale_Füllvolumen_113_20_v248" vertex2="Petrischale_Füllvolumen_113_20_v191" vertex3="Petrischale_Füllvolumen_113_20_v243"/>
+ <triangular vertex1="Petrischale_Füllvolumen_113_20_v203" vertex2="Petrischale_Füllvolumen_113_20_v191" vertex3="Petrischale_Füllvolumen_113_20_v192"/>
+ <triangular vertex1="Petrischale_Füllvolumen_113_20_v248" vertex2="Petrischale_Füllvolumen_113_20_v190" vertex3="Petrischale_Füllvolumen_113_20_v191"/>
+ <triangular vertex1="Petrischale_Füllvolumen_113_20_v155" vertex2="Petrischale_Füllvolumen_113_20_v157" vertex3="Petrischale_Füllvolumen_113_20_v154"/>
+ <triangular vertex1="Petrischale_Füllvolumen_113_20_v156" vertex2="Petrischale_Füllvolumen_113_20_v157" vertex3="Petrischale_Füllvolumen_113_20_v155"/>
+ <triangular vertex1="Petrischale_Füllvolumen_113_20_v157" vertex2="Petrischale_Füllvolumen_113_20_v158" vertex3="Petrischale_Füllvolumen_113_20_v154"/>
+ <triangular vertex1="Petrischale_Füllvolumen_113_20_v190" vertex2="Petrischale_Füllvolumen_113_20_v188" vertex3="Petrischale_Füllvolumen_113_20_v189"/>
+ <triangular vertex1="Petrischale_Füllvolumen_113_20_v187" vertex2="Petrischale_Füllvolumen_113_20_v185" vertex3="Petrischale_Füllvolumen_113_20_v186"/>
+ <triangular vertex1="Petrischale_Füllvolumen_113_20_v158" vertex2="Petrischale_Füllvolumen_113_20_v162" vertex3="Petrischale_Füllvolumen_113_20_v154"/>
+ <triangular vertex1="Petrischale_Füllvolumen_113_20_v159" vertex2="Petrischale_Füllvolumen_113_20_v162" vertex3="Petrischale_Füllvolumen_113_20_v158"/>
+ <triangular vertex1="Petrischale_Füllvolumen_113_20_v160" vertex2="Petrischale_Füllvolumen_113_20_v162" vertex3="Petrischale_Füllvolumen_113_20_v159"/>
+ <triangular vertex1="Petrischale_Füllvolumen_113_20_v161" vertex2="Petrischale_Füllvolumen_113_20_v162" vertex3="Petrischale_Füllvolumen_113_20_v160"/>
+ <triangular vertex1="Petrischale_Füllvolumen_113_20_v149" vertex2="Petrischale_Füllvolumen_113_20_v162" vertex3="Petrischale_Füllvolumen_113_20_v145"/>
+ <triangular vertex1="Petrischale_Füllvolumen_113_20_v151" vertex2="Petrischale_Füllvolumen_113_20_v162" vertex3="Petrischale_Füllvolumen_113_20_v149"/>
+ <triangular vertex1="Petrischale_Füllvolumen_113_20_v154" vertex2="Petrischale_Füllvolumen_113_20_v162" vertex3="Petrischale_Füllvolumen_113_20_v151"/>
+ <triangular vertex1="Petrischale_Füllvolumen_113_20_v187" vertex2="Petrischale_Füllvolumen_113_20_v183" vertex3="Petrischale_Füllvolumen_113_20_v185"/>
+ <triangular vertex1="Petrischale_Füllvolumen_113_20_v185" vertex2="Petrischale_Füllvolumen_113_20_v183" vertex3="Petrischale_Füllvolumen_113_20_v184"/>
+ <triangular vertex1="Petrischale_Füllvolumen_113_20_v163" vertex2="Petrischale_Füllvolumen_113_20_v164" vertex3="Petrischale_Füllvolumen_113_20_v162"/>
+ <triangular vertex1="Petrischale_Füllvolumen_113_20_v132" vertex2="Petrischale_Füllvolumen_113_20_v182" vertex3="Petrischale_Füllvolumen_113_20_v248"/>
+ <triangular vertex1="Petrischale_Füllvolumen_113_20_v190" vertex2="Petrischale_Füllvolumen_113_20_v182" vertex3="Petrischale_Füllvolumen_113_20_v188"/>
+ <triangular vertex1="Petrischale_Füllvolumen_113_20_v162" vertex2="Petrischale_Füllvolumen_113_20_v182" vertex3="Petrischale_Füllvolumen_113_20_v145"/>
+ <triangular vertex1="Petrischale_Füllvolumen_113_20_v187" vertex2="Petrischale_Füllvolumen_113_20_v182" vertex3="Petrischale_Füllvolumen_113_20_v183"/>
+ <triangular vertex1="Petrischale_Füllvolumen_113_20_v188" vertex2="Petrischale_Füllvolumen_113_20_v182" vertex3="Petrischale_Füllvolumen_113_20_v187"/>
+ <triangular vertex1="Petrischale_Füllvolumen_113_20_v145" vertex2="Petrischale_Füllvolumen_113_20_v182" vertex3="Petrischale_Füllvolumen_113_20_v132"/>
+ <triangular vertex1="Petrischale_Füllvolumen_113_20_v248" vertex2="Petrischale_Füllvolumen_113_20_v182" vertex3="Petrischale_Füllvolumen_113_20_v190"/>
+ <triangular vertex1="Petrischale_Füllvolumen_113_20_v164" vertex2="Petrischale_Füllvolumen_113_20_v165" vertex3="Petrischale_Füllvolumen_113_20_v162"/>
+ <triangular vertex1="Petrischale_Füllvolumen_113_20_v165" vertex2="Petrischale_Füllvolumen_113_20_v166" vertex3="Petrischale_Füllvolumen_113_20_v162"/>
+ <triangular vertex1="Petrischale_Füllvolumen_113_20_v166" vertex2="Petrischale_Füllvolumen_113_20_v167" vertex3="Petrischale_Füllvolumen_113_20_v162"/>
+ <triangular vertex1="Petrischale_Füllvolumen_113_20_v181" vertex2="Petrischale_Füllvolumen_113_20_v179" vertex3="Petrischale_Füllvolumen_113_20_v180"/>
+ <triangular vertex1="Petrischale_Füllvolumen_113_20_v162" vertex2="Petrischale_Füllvolumen_113_20_v178" vertex3="Petrischale_Füllvolumen_113_20_v182"/>
+ <triangular vertex1="Petrischale_Füllvolumen_113_20_v182" vertex2="Petrischale_Füllvolumen_113_20_v178" vertex3="Petrischale_Füllvolumen_113_20_v181"/>
+ <triangular vertex1="Petrischale_Füllvolumen_113_20_v181" vertex2="Petrischale_Füllvolumen_113_20_v178" vertex3="Petrischale_Füllvolumen_113_20_v179"/>
+ <triangular vertex1="Petrischale_Füllvolumen_113_20_v168" vertex2="Petrischale_Füllvolumen_113_20_v171" vertex3="Petrischale_Füllvolumen_113_20_v167"/>
+ <triangular vertex1="Petrischale_Füllvolumen_113_20_v169" vertex2="Petrischale_Füllvolumen_113_20_v171" vertex3="Petrischale_Füllvolumen_113_20_v168"/>
+ <triangular vertex1="Petrischale_Füllvolumen_113_20_v170" vertex2="Petrischale_Füllvolumen_113_20_v171" vertex3="Petrischale_Füllvolumen_113_20_v169"/>
+ <triangular vertex1="Petrischale_Füllvolumen_113_20_v177" vertex2="Petrischale_Füllvolumen_113_20_v175" vertex3="Petrischale_Füllvolumen_113_20_v176"/>
+ <triangular vertex1="Petrischale_Füllvolumen_113_20_v178" vertex2="Petrischale_Füllvolumen_113_20_v175" vertex3="Petrischale_Füllvolumen_113_20_v177"/>
+ <triangular vertex1="Petrischale_Füllvolumen_113_20_v162" vertex2="Petrischale_Füllvolumen_113_20_v174" vertex3="Petrischale_Füllvolumen_113_20_v178"/>
+ <triangular vertex1="Petrischale_Füllvolumen_113_20_v178" vertex2="Petrischale_Füllvolumen_113_20_v174" vertex3="Petrischale_Füllvolumen_113_20_v175"/>
+ <triangular vertex1="Petrischale_Füllvolumen_113_20_v172" vertex2="Petrischale_Füllvolumen_113_20_v173" vertex3="Petrischale_Füllvolumen_113_20_v171"/>
+ <triangular vertex1="Petrischale_Füllvolumen_113_20_v167" vertex2="Petrischale_Füllvolumen_113_20_v173" vertex3="Petrischale_Füllvolumen_113_20_v162"/>
+ <triangular vertex1="Petrischale_Füllvolumen_113_20_v171" vertex2="Petrischale_Füllvolumen_113_20_v173" vertex3="Petrischale_Füllvolumen_113_20_v167"/>
+ <triangular vertex1="Petrischale_Füllvolumen_113_20_v162" vertex2="Petrischale_Füllvolumen_113_20_v173" vertex3="Petrischale_Füllvolumen_113_20_v174"/>
+ </tessellated>
+ <box lunit="mm" name="worldsolid" x="1000" y="1000" z="1000"/>
+ </solids>
+ <structure>
+ <volume name="Petrischale_Füllvolumen_113_20">
+ <materialref ref="G4_Si"/>
+ <solidref ref="Petrischale_Füllvolumen_113_20_solid"/>
+ </volume>
+ </structure>
+ <setup name="Default" version="1.0">
+ <world ref="Petrischale_Füllvolumen_113_20"/>
+ </setup>
+</gdml>

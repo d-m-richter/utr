@@ -36,6 +36,7 @@ struct HPGe_Coaxial_Properties {
   G4double detector_radius; // Radius of the detector crystal
   G4double detector_length; // Length of the detector crystal, including the rounded part
   G4double detector_face_radius; // Rounding radius of the crystal face
+  G4double detector_back_radius; // Rounding radius of the crystal back
   G4double hole_radius; // Radius of the hole in the crystal which is penetrated by the cold finger
   G4double hole_depth; // Depth of the hole, measured from the base of the crystal, including the rounded part
   G4double hole_face_radius; // Rounding radius of the tip of the hole. Most probably the same as the hole radius

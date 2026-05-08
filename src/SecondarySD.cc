@@ -109,6 +109,9 @@ G4bool SecondarySD::ProcessHits(G4Step *aStep, G4TouchableHistory *) {
 #ifdef EVENT_MOMZ
     analysisManager->FillNtupleDColumn(nentry, track->GetMomentum().z());
 #endif
+//#ifdef EVENT_TIME
+//    analysisManager->FillNtupleDColumn(nentry, track->GetGlobalTime());
+//#endif
 
     analysisManager->AddNtupleRow();
   }

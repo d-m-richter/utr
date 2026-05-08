@@ -26,6 +26,9 @@
 #cmakedefine EM_PENELOPE
 #cmakedefine EM_EXTRA
 
+#cmakedefine DECAY_PHYSICS
+#cmakedefine RADIOACTIVE_DECAY_PHYSICS
+
 #cmakedefine HADRON_ELASTIC_STANDARD
 #cmakedefine HADRON_ELASTIC_HP
 #cmakedefine HADRON_ELASTIC_LEND

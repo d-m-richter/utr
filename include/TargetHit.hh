@@ -47,6 +47,7 @@ class TargetHit : public G4VHit {
   void SetEventID(G4int id) { eventID = id; };
   void SetPosition(G4ThreeVector p) { pos = p; };
   void SetMomentum(G4ThreeVector momentum) { mom = momentum; };
+  //void SetGlobalTime (G4double time) {globalTime = time; };
 
   G4double GetKineticEnergy() { return ekin; };
   G4double GetEnergyDeposition() { return edep; };
@@ -55,6 +56,7 @@ class TargetHit : public G4VHit {
   G4int GetEventID() { return eventID; };
   G4ThreeVector GetPosition() { return pos; };
   G4ThreeVector GetMomentum() { return mom; };
+  //G4double GetGlobalTime( ) {return globalTime; };
 
   private:
   G4double ekin;
@@ -64,6 +66,7 @@ class TargetHit : public G4VHit {
   G4int eventID;
   G4ThreeVector pos;
   G4ThreeVector mom;
+  //G4double globalTime;
 };
 
 typedef G4THitsCollection<TargetHit> TargetHitsCollection;

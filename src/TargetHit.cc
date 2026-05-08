@@ -35,6 +35,7 @@ TargetHit::TargetHit(const TargetHit &right) : G4VHit() {
   detectorID = right.detectorID;
   pos = right.pos;
   mom = right.mom;
+  //globalTime = right.globalTime;
 }
 
 const TargetHit &TargetHit::operator=(const TargetHit &right) {
@@ -45,6 +46,7 @@ const TargetHit &TargetHit::operator=(const TargetHit &right) {
   detectorID = right.detectorID;
   pos = right.pos;
   mom = right.mom;
+  //globalTime = right.globalTime;
 
   return *this;
 }

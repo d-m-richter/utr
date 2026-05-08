@@ -1,0 +1,46 @@
+#[generalConfig]
+#outputDir={{folder}}
+
+#[environmentVariables]
+#filenamePrefix=Efficiency_
+#filenameSuffix=_MeV
+#filenameTemplate={filenamePrefix}
+
+#[utrBuildOptions]
+#CAMPAIGN=Others
+#DETECTOR_CONSTRUCTION=Efficiency
+#USE_TARGETS=OFF
+#GENERATOR_ANGCORR=OFF
+#GENERATOR_ANGDIST=OFF
+#EVENT_EDEP=ON 
+#EVENT_EKIN=OFF
+#EVENT_EVENTWISE=OFF
+
+#[getHistogramArgs]
+#quantity=edep
+#maxenergy=10
+#maxid=0 ### when there are more detectors, this number has to change to 1 for two detectors and so on
+
+#[histogramToTxtArgs]
+#end=0
+
+## The required magic string signals the end of the configuration header
+#START_OF_MACRO
+
+/utr/setUseFilenameID False
+
+/run/initialize
+
+/gps/particle ion
+/gps/ion 27 60
+/gps/pos/type Volume
+/gps/pos/shape Cylinder
+/gps/pos/radius 40 mm
+/gps/pos/halfz 0.4 mm #248 mm
+/gps/ang/type iso
+/gps/pos/confine Folie
+/gps/pos/centre 0. 0. -{{position}} mm #{{x_variation}} {{y_variation}} {{z_variation}} mm #-83.025 mm # -6.44 mm für Folie unten; -21.79 mm für Folie oben
+
+# Never simulate more than 2^32= 4294967296 particles using /run/beamOn, since this causes an overflow in the random number seed, giving you in principle the same results over and over again.
+# In such cases execute the same simulation multiple times instead.
+/run/beamOn 10000

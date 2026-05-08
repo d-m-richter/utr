@@ -1,0 +1,244 @@
+#!/usr/bin/env utrwrapper.py
+## An (utrwrapper.py) extended macro starts with a configuration header embedded in comment lines (preceded by a single '#')
+## For real comment lines in the header use multiple '#'s
+## Run utrwrapper.py -h for a list of all available configuration options and their effects
+
+## This macro is an example of using utrwrapper.py to prepare utr for and execute an efficiency simulation looping over the source energy
+
+#[generalConfig]
+#outputDir={{folder}}
+
+#[environmentVariables]
+#filenamePrefix=Efficiency_
+#filenameSuffix=_MeV
+#filenameTemplate={filenamePrefix}{loopVar}{filenameSuffix}
+#setterCmd=/gps/ene/mono {loopVar} MeV
+
+#[utrBuildOptions]
+#CAMPAIGN=Others
+#DETECTOR_CONSTRUCTION=Efficiency
+#USE_TARGETS=OFF
+#GENERATOR_ANGCORR=OFF
+#GENERATOR_ANGDIST=OFF
+#EVENT_EDEP=ON 
+#EVENT_EKIN=OFF
+#EVENT_EVENTWISE=OFF
+
+#[getHistogramArgs]
+#quantity=edep
+#maxenergy=10
+#maxid=0 ### when there are more detectors, this number has to change to 1 for two detectors and so on
+
+#[histogramToTxtArgs]
+#end=0
+
+## The required magic string signals the end of the configuration header
+#START_OF_MACRO
+
+# Never simulate more than 2^32= 4294967296 particles using /run/beamOn, since this causes an overflow in the random number seed, giving you in principle the same results over and over again.
+# In such cases execute the same simulation multiple times instead.
+/control/alias beamOnStatistics 10000000 #100000000
+
+# Get the filenamePrefix and filenameSuffix variables defined in the configuration header as GEANT4 aliases
+/control/getEnv filenamePrefix
+/control/getEnv filenameSuffix
+
+# Disable appendage of additional IDs to filenames (as unique filenames containing the simulated energy will be used for each beamOn)
+/utr/setUseFilenameID False
+# Set the number of required decimal places for padding of loopVar
+/control/alias appendZerosToVarPadding 2
+
+
+# Do the usual initialization steps for an efficiency simulation
+/run/initialize
+
+#/gps/source/add 1
+/gps/particle gamma
+/gps/ene/type Mono
+/gps/pos/type Volume
+/gps/pos/shape Cylinder
+/gps/pos/radius 40 mm
+/gps/pos/halfz 0.4 mm #248 mm
+#/gps/pos/halfz 15 mm #248 mm
+#/gps/pos/halfz 150 mm #248 mm
+/gps/ang/type iso
+/gps/pos/confine Folie
+#/gps/pos/confine Petrischale_inner
+#/gps/pos/confine Plastic_Bottle_Filled
+/gps/pos/centre 0. 0. -53.12 mm #
+
+#/gps/source/add 2
+#/gps/particle gamma
+#/gps/ene/type Mono
+#/gps/pos/type Volume
+#/gps/pos/shape Cylinder
+#/gps/pos/radius 65 mm
+#/gps/pos/halfz 15 mm #248 mm
+#/gps/ang/type iso
+#/gps/pos/confine Petrischale_inner1
+#/gps/pos/centre 0. 0. -23.025 mm #-125.0 mm {{source_placement}} mm -12. mm
+
+#/gps/source/add 3
+#/gps/particle gamma
+#/gps/ene/type Mono
+#/gps/pos/type Volume
+#/gps/pos/shape Cylinder
+#/gps/pos/radius 65 mm
+#/gps/pos/halfz 15 mm #248 mm
+#/gps/ang/type iso
+#/gps/pos/confine Petrischale_inner2
+#/gps/pos/centre 0. 0. -38.375 mm #-125.0 mm {{source_placement}} mm -12. mm
+
+#/gps/source/add 4
+#/gps/particle gamma
+#/gps/ene/type Mono
+#/gps/pos/type Volume
+#/gps/pos/shape Cylinder
+#/gps/pos/radius 65 mm
+#/gps/pos/halfz 15 mm #248 mm
+#/gps/ang/type iso
+#/gps/pos/confine Petrischale_inner3
+#/gps/pos/centre 0. 0. -53.725 mm #-125.0 mm {{source_placement}} mm -12. mm
+
+#/gps/source/add 5
+#/gps/particle gamma
+#/gps/ene/type Mono
+#/gps/pos/type Volume
+#/gps/pos/shape Cylinder
+#/gps/pos/radius 65 mm
+#/gps/pos/halfz 15 mm #248 mm
+#/gps/ang/type iso
+#/gps/pos/confine Petrischale_inner4
+#/gps/pos/centre 0. 0. -69.075 mm #-125.0 mm {{source_placement}} mm -12. mm
+
+#/gps/source/add 6
+#/gps/particle gamma
+#/gps/ene/type Mono
+#/gps/pos/type Volume
+#/gps/pos/shape Cylinder
+#/gps/pos/radius 65 mm
+#/gps/pos/halfz 15 mm #248 mm
+#/gps/ang/type iso
+#/gps/pos/confine Petrischale_inner5
+#/gps/pos/centre 0. 0. -84.425 mm #-125.0 mm {{source_placement}} mm -12. mm
+
+#/gps/source/add 7
+#/gps/particle gamma
+#/gps/ene/type Mono
+#/gps/pos/type Volume
+#/gps/pos/shape Cylinder
+#/gps/pos/radius 65 mm
+#/gps/pos/halfz 15 mm #248 mm
+#/gps/ang/type iso
+#/gps/pos/confine Petrischale_inner6
+#/gps/pos/centre 0. 0. -99.775 mm #-125.0 mm {{source_placement}} mm -12. mm
+
+#/gps/source/add 8
+#/gps/particle gamma
+#/gps/ene/type Mono
+#/gps/pos/type Volume
+#/gps/pos/shape Cylinder
+#/gps/pos/radius 65 mm
+#/gps/pos/halfz 15 mm #248 mm
+#/gps/ang/type iso
+#/gps/pos/confine Petrischale_inner7
+#/gps/pos/centre 0. 0. -115.125 mm #-125.0 mm {{source_placement}} mm -12. mm
+
+#/gps/source/add 9
+#/gps/particle gamma
+#/gps/ene/type Mono
+#/gps/pos/type Volume
+#/gps/pos/shape Cylinder
+#/gps/pos/radius 65 mm
+#/gps/pos/halfz 15 mm #248 mm
+#/gps/ang/type iso
+#/gps/pos/confine Petrischale_inner8
+#/gps/pos/centre 0. 0. -130.475 mm #-125.0 mm {{source_placement}} mm -12. mm
+
+#/gps/source/add 10
+#/gps/particle gamma
+#/gps/ene/type Mono
+#/gps/pos/type Volume
+#/gps/pos/shape Cylinder
+#/gps/pos/radius 65 mm
+#/gps/pos/halfz 15 mm #248 mm
+#/gps/ang/type iso
+#/gps/pos/confine Petrischale_inner9
+#/gps/pos/centre 0. 0. -145.825 mm #-125.0 mm {{source_placement}} mm -12. mm
+
+#/gps/source/add 11
+#/gps/particle gamma
+#/gps/ene/type Mono
+#/gps/pos/type Volume
+#/gps/pos/shape Cylinder
+#/gps/pos/radius 65 mm
+#/gps/pos/halfz 15 mm #248 mm
+#/gps/ang/type iso
+#/gps/pos/confine Petrischale_inner10
+#/gps/pos/centre 0. 0. -161.175 mm #-125.0 mm {{source_placement}} mm -12. mm
+
+#/gps/source/add 12
+#/gps/particle gamma
+#/gps/ene/type Mono
+#/gps/pos/type Volume
+#/gps/pos/shape Cylinder
+#/gps/pos/radius 65 mm
+#/gps/pos/halfz 15 mm #248 mm
+#/gps/ang/type iso
+#/gps/pos/confine Petrischale_inner11
+#/gps/pos/centre 0. 0. -176.525 mm #-125.0 mm {{source_placement}} mm -12. mm
+
+#/gps/source/add 13
+#/gps/particle gamma
+#/gps/ene/type Mono
+#/gps/pos/type Volume
+#/gps/pos/shape Cylinder
+#/gps/pos/radius 65 mm
+#/gps/pos/halfz 15 mm #248 mm
+#/gps/ang/type iso
+#/gps/pos/confine Petrischale_inner12
+#/gps/pos/centre 0. 0. -191.875 mm #-125.0 mm {{source_placement}} mm -12. mm
+
+#/gps/source/add 14
+#/gps/particle gamma
+#/gps/ene/type Mono
+#/gps/pos/type Volume
+#/gps/pos/shape Cylinder
+#/gps/pos/radius 65 mm
+#/gps/pos/halfz 15 mm #248 mm
+#/gps/ang/type iso
+#/gps/pos/confine Petrischale_inner13
+#/gps/pos/centre 0. 0. -207.225 mm #-125.0 mm {{source_placement}} mm -12. mm
+
+#/gps/source/add 15
+#/gps/particle gamma
+#/gps/ene/type Mono
+#/gps/pos/type Volume
+#/gps/pos/shape Cylinder
+#/gps/pos/radius 65 mm
+#/gps/pos/halfz 15 mm #248 mm
+#/gps/ang/type iso
+#/gps/pos/confine Petrischale_inner14
+#/gps/pos/centre 0. 0. -222.575 mm #-125.0 mm {{source_placement}} mm -12. mm
+
+#/gps/source/add 16
+#/gps/particle gamma
+#/gps/ene/type Mono
+#/gps/pos/type Volume
+#/gps/pos/shape Cylinder
+#/gps/pos/radius 65 mm
+#/gps/pos/halfz 15 mm #248 mm
+#/gps/ang/type iso
+#/gps/pos/confine Petrischale_inner15
+#/gps/pos/centre 0. 0. -237.925 mm #-125.0 mm {{source_placement}} mm -12. mm
+
+#/gps/source/multiplevertex true
+#/gps/source/flatsampling true
+
+# Run the generic macro in a loop
+# loop Syntax: /control/loop MacroFile Variable Start End Increment
+# for each Syntax: /control/foreach MacroFile Variable ValueList
+# To use the variable in the macro to be looped refer to it wrapped in {} as {Variable} in the macro
+# Remember that due to the numerical inaccuracies when adding float numbers, a loop might generate a run more or less than expected!
+/control/foreach macros/examples/genericLoopable.mac loopVar 0.05954 0.08803 0.12206 0.16586 0.39169 0.51401 0.661657 0.89804 1.17324 1.3325 1.83606 #0.13647 0.25512 2.734 # MeV 
+#/control/loop macros/examples/genericLoopable.mac loopVar 10. 15. 2.5

@@ -41,6 +41,14 @@ along with utr.  If not, see <http://www.gnu.org/licenses/>.
 #include "G4EmStandardPhysics_option4.hh"
 #endif
 
+// Decay physics
+#ifdef DECAY_PHYSICS
+#include "G4DecayPhysics.hh"
+#endif
+#ifdef RADIOACTIVE_DECAY_PHYSICS
+#include "G4RadioactiveDecayPhysics.hh"
+#endif
+
 // Hadronic elastic modular physics lists
 #ifdef HADRON_ELASTIC_STANDARD
 #include "G4HadronElasticPhysics.hh"
@@ -131,6 +139,17 @@ Physics::Physics() {
 #ifdef HADRON_INELASTIC_LEND
   G4cout << "\tG4HadronPhysicsShieldingLEND ..." << G4endl;
   RegisterPhysics(new G4HadronPhysicsShieldingLEND());
+#endif
+
+// Decay physics
+#ifdef DECAY_PHYSICS
+  G4cout << "\tG4DecayPhysics.hh ..." << G4endl;
+  RegisterPhysics(new G4DecayPhysics());
+#endif
+
+#ifdef RADIOACTIVE_DECAY_PHYSICS
+  G4cout << "\tG4RadiactiveDecayPhysics.hh ..." << G4endl;
+  RegisterPhysics(new G4RadioactiveDecayPhysics());
 #endif
 
   G4cout << "================================================================"

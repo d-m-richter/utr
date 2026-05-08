@@ -19,6 +19,11 @@ along with utr.  If not, see <http://www.gnu.org/licenses/>.
 */
 #pragma once
 
+//#include <chrono>
+
+//using std::chrono::system_clock;
+//using std::chrono::time_point;
+
 #include "G4UserRunAction.hh"
 #include "globals.hh"
 
@@ -49,5 +54,10 @@ class RunAction : public G4UserRunAction {
   virtual void BeginOfRunAction(const G4Run *);
   virtual void EndOfRunAction(const G4Run *);
 
+  //time_point<system_clock> get_start_time() { return start_time; };
+
   G4String GetOutputFlagName(unsigned int n);
+
+  //private:
+  //  const time_point<system_clock> start_time;
 };

@@ -7,7 +7,7 @@
 
 # Execute a very generic setter command (stored in an environment variable e.g. $setterCmd=/gps/ene/mono {loopVar} MeV
 # This is however a bit buggy and requires a meaningless '/control/alias loopVar {loopVar}' to get rid of an "Alias <loopVar> not found -- command ignored" message
-/control/alias loopVar {loopVar}
+/control/alias loopVar "{loopVar}"
 /control/getEnv setterCmd
 {setterCmd}
 
@@ -15,20 +15,70 @@
 ## (Note that /gps/ene/mono uses keV as the default unit when the unit is not specified)
 #{setterCmd} {loopVar}
 
+# Setze die Energie der ersten Quelle
+#/gps/source/set 1
+#/gps/ene/mono {loopVar} MeV
+
+# Setze die Energie der zweiten Quelle (kann entweder dieselbe oder eine separate Energie verwenden)
+#/gps/source/set 2
+#/gps/ene/mono {loopVar} MeV
+
+#/gps/source/set 3
+#/gps/ene/mono {loopVar} MeV
+
+#/gps/source/set 4
+#/gps/ene/mono {loopVar} MeV
+
+#/gps/source/set 5
+#/gps/ene/mono {loopVar} MeV
+
+#/gps/source/set 6
+#/gps/ene/mono {loopVar} MeV
+
+#/gps/source/set 7
+#/gps/ene/mono {loopVar} MeV
+
+#/gps/source/set 8
+#/gps/ene/mono {loopVar} MeV
+
+#/gps/source/set 9
+#/gps/ene/mono {loopVar} MeV
+
+#/gps/source/set 10
+#/gps/ene/mono {loopVar} MeV
+
+#/gps/source/set 11
+#/gps/ene/mono {loopVar} MeV
+
+#/gps/source/set 12
+#/gps/ene/mono {loopVar} MeV
+
+#/gps/source/set 13
+#/gps/ene/mono {loopVar} MeV
+
+#/gps/source/set 14
+#/gps/ene/mono {loopVar} MeV
+
+#/gps/source/set 15
+#/gps/ene/mono {loopVar} MeV
+
+#/gps/source/set 16
+#/gps/ene/mono {loopVar} MeV
+
 ## Execute only known commands in a rather explicit way (does not warn about unknown commands however!)
 #/control/strdoif {setterCmd} == /ang/delta23 /ang/delta23 {loopVar}
 #/control/strdoif {setterCmd} == /gps/ene/mono /gps/ene/mono {loopVar} MeV
 
 
 # Set the output filename to contain the simulated energy in an uniform number format
-/utr/appendZerosToVar loopVar {loopVar} {appendZerosToVarPadding}
+/utr/appendZerosToVar loopVar "{loopVar}" {appendZerosToVarPadding}
 /control/getEnv filenameTemplate
 /utr/setFilename {filenameTemplate}
 
 ## Example of an alternative way to set the output filename not using environment variables:
 ## For this to work, however, all GEANT4 aliases must still be defined (e.g. just set filenameSuffix=NOTUSED)
-#/control/strdoif {filenameStyle} == full /utr/setFilename {filenamePrefix}{loopVar}{filenameSuffix}
-#/control/strdoif {filenameStyle} == noSuffix /utr/setFilename {filenamePrefix}{loopVar}
+##/control/strdoif {filenameStyle} == full /utr/setFilename {filenamePrefix}{loopVar}{filenameSuffix}
+##/control/strdoif {filenameStyle} == noSuffix /utr/setFilename {filenamePrefix}{loopVar}
 
 # Never simulate more than 2^32= 4294967296 particles using /run/beamOn, since this causes an overflow in the random number seed, giving you in principle the same results over and over again.
 # In such cases execute the same simulation multiple times instead.

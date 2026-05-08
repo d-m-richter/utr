@@ -39,7 +39,7 @@ along with utr.  If not, see <http://www.gnu.org/licenses/>.
 
 /*********************** Aluminumgehäuse ****************************/
 
-class AluFront_out {
+class GEM_AluFront_out {
   private:
   G4LogicalVolume *World_Logical;
 
@@ -56,7 +56,7 @@ class AluFront_out {
   G4double M;
   G4double S;
 
-  AluFront_out(G4LogicalVolume *world_Logical) {
+  GEM_AluFront_out(G4LogicalVolume *world_Logical) {
     L = 300. * mm;
     M = 10. * mm;
     S = 302. * mm;
@@ -77,7 +77,7 @@ class AluFront_out {
     rot = new G4RotationMatrix();
   }
 
-  ~AluFront_out(){};
+  ~GEM_AluFront_out(){};
 
   void Put(G4double x, G4double y, G4double z) {
     new G4PVPlacement(0, G4ThreeVector(x, y, z), AluFront_Logical,
@@ -97,7 +97,7 @@ class AluFront_out {
   }
 };
 
-class AluSide_out {
+class GEM_AluSide_out {
   private:
   G4LogicalVolume *World_Logical;
 
@@ -114,7 +114,7 @@ class AluSide_out {
   G4double M;
   G4double S;
 
-  AluSide_out(G4LogicalVolume *world_Logical) {
+  GEM_AluSide_out(G4LogicalVolume *world_Logical) {
     L = 300. * mm;
     M = 10. * mm;
     S = 322. * mm;
@@ -135,7 +135,7 @@ class AluSide_out {
     rot = new G4RotationMatrix();
   }
 
-  ~AluSide_out(){};
+  ~GEM_AluSide_out(){};
 
   void Put(G4double x, G4double y, G4double z) {
     new G4PVPlacement(0, G4ThreeVector(x, y, z), AluSide_Logical,
@@ -155,7 +155,7 @@ class AluSide_out {
   }
 };
 
-class AluFront_in {
+class GEM_AluFront_in {
   private:
   G4LogicalVolume *World_Logical;
 
@@ -172,7 +172,7 @@ class AluFront_in {
   G4double M;
   G4double S;
 
-  AluFront_in(G4LogicalVolume *world_Logical) {
+  GEM_AluFront_in(G4LogicalVolume *world_Logical) {
     L = 300. * mm;
     M = 10. * mm;
     S = 182. * mm;
@@ -193,7 +193,7 @@ class AluFront_in {
     rot = new G4RotationMatrix();
   }
 
-  ~AluFront_in(){};
+  ~GEM_AluFront_in(){};
 
   void Put(G4double x, G4double y, G4double z) {
     new G4PVPlacement(0, G4ThreeVector(x, y, z), AluFront_Logical,
@@ -213,7 +213,7 @@ class AluFront_in {
   }
 };
 
-class AluSide_in {
+class GEM_AluSide_in {
   private:
   G4LogicalVolume *World_Logical;
 
@@ -230,7 +230,7 @@ class AluSide_in {
   G4double M;
   G4double S;
 
-  AluSide_in(G4LogicalVolume *world_Logical) {
+  GEM_AluSide_in(G4LogicalVolume *world_Logical) {
     L = 300. * mm;
     M = 10. * mm;
     S = 202. * mm;
@@ -251,7 +251,7 @@ class AluSide_in {
     rot = new G4RotationMatrix();
   }
 
-  ~AluSide_in(){};
+  ~GEM_AluSide_in(){};
 
   void Put(G4double x, G4double y, G4double z) {
     new G4PVPlacement(0, G4ThreeVector(x, y, z), AluSide_Logical,
@@ -271,7 +271,7 @@ class AluSide_in {
   }
 };
 
-class AluTop {
+class GEM_AluTop {
   private:
   G4LogicalVolume *World_Logical;
 
@@ -288,7 +288,7 @@ class AluTop {
   G4double M;
   G4double S;
 
-  AluTop(G4LogicalVolume *world_Logical) {
+  GEM_AluTop(G4LogicalVolume *world_Logical) {
     L = 325. * mm;
     M = 15. * mm;
     S = 325. * mm;
@@ -309,7 +309,7 @@ class AluTop {
     rot = new G4RotationMatrix();
   }
 
-  ~AluTop(){};
+  ~GEM_AluTop(){};
 
   void Put(G4double x, G4double y, G4double z) {
     new G4PVPlacement(0, G4ThreeVector(x, y, z), AluTop_Logical,
@@ -329,7 +329,7 @@ class AluTop {
   }
 };
 
-class AluBottom_withHole {
+class GEM_AluBottom_withHole {
   private:
   G4LogicalVolume *World_Logical;
 
@@ -352,7 +352,7 @@ class AluBottom_withHole {
   G4double Rout;
   G4double H;
 
-  AluBottom_withHole(G4LogicalVolume *world_Logical) {
+  GEM_AluBottom_withHole(G4LogicalVolume *world_Logical) {
     L = 5. * mm;
     M = 175. * mm;
     S = 175. * mm;
@@ -380,7 +380,7 @@ class AluBottom_withHole {
     rot = new G4RotationMatrix();
   }
 
-  ~AluBottom_withHole(){};
+  ~GEM_AluBottom_withHole(){};
 
   void Put(G4double x, G4double y, G4double z) {
     new G4PVPlacement(0, G4ThreeVector(x, y, z), AluBottom_Logical,
@@ -402,7 +402,7 @@ class AluBottom_withHole {
 
 /********************* Bleiblöcke **************************/
 
-class NormBrick {
+class GEM_NormBrick {
   private:
   G4LogicalVolume *World_Logical;
 
@@ -419,12 +419,12 @@ class NormBrick {
   G4double M;
   G4double S;
 
-  NormBrick(G4LogicalVolume *world_Logical) {
+  GEM_NormBrick(G4LogicalVolume *world_Logical) {
     L = 200. * mm;
     M = 100. * mm;
     S = 50. * mm;
 
-    G4Colour yellow(1., 1., 0.);
+    G4Colour magenta(1.0, 0.0, 1.0);
 
     G4NistManager *nist = G4NistManager::Instance();
     G4Material *Pb = nist->FindOrBuildMaterial("G4_Pb");
@@ -435,12 +435,12 @@ class NormBrick {
     NormBrick_Logical = new G4LogicalVolume(NormBrick_Solid, Pb,
                                             "NormBrick_Logical", 0, 0, 0);
 
-    NormBrick_Logical->SetVisAttributes(new G4VisAttributes(yellow));
+    NormBrick_Logical->SetVisAttributes(new G4VisAttributes(magenta));
 
     rot = new G4RotationMatrix();
   }
 
-  ~NormBrick(){};
+  ~GEM_NormBrick(){};
 
   void Put(G4double x, G4double y, G4double z) {
     new G4PVPlacement(0, G4ThreeVector(x, y, z), NormBrick_Logical,
@@ -460,7 +460,7 @@ class NormBrick {
   }
 };
 
-class ShortNormBrick {
+class GEM_ShortNormBrick {
   private:
   G4LogicalVolume *World_Logical;
 
@@ -477,12 +477,12 @@ class ShortNormBrick {
   G4double M;
   G4double S;
 
-  ShortNormBrick(G4LogicalVolume *world_Logical) {
+  GEM_ShortNormBrick(G4LogicalVolume *world_Logical) {
     L = 100. * mm;
     M = 100. * mm;
     S = 50. * mm;
 
-    G4Colour yellow(1., 1., 0.);
+    G4Colour magenta(1.0, 0.0, 1.0);
 
     G4NistManager *nist = G4NistManager::Instance();
     G4Material *Pb = nist->FindOrBuildMaterial("G4_Pb");
@@ -494,12 +494,12 @@ class ShortNormBrick {
     ShortNormBrick_Logical = new G4LogicalVolume(
         ShortNormBrick_Solid, Pb, "ShortNormBrick_Logical", 0, 0, 0);
 
-    ShortNormBrick_Logical->SetVisAttributes(new G4VisAttributes(yellow));
+    ShortNormBrick_Logical->SetVisAttributes(new G4VisAttributes(magenta));
 
     rot = new G4RotationMatrix();
   }
 
-  ~ShortNormBrick(){};
+  ~GEM_ShortNormBrick(){};
 
   void Put(G4double x, G4double y, G4double z) {
     new G4PVPlacement(0, G4ThreeVector(x, y, z), ShortNormBrick_Logical,
@@ -519,7 +519,7 @@ class ShortNormBrick {
   }
 };
 
-class ShortShortNormBrick {
+class GEM_ShortShortNormBrick {
   private:
   G4LogicalVolume *World_Logical;
 
@@ -536,12 +536,12 @@ class ShortShortNormBrick {
   G4double M;
   G4double S;
 
-  ShortShortNormBrick(G4LogicalVolume *world_Logical) {
+  GEM_ShortShortNormBrick(G4LogicalVolume *world_Logical) {
     L = 50. * mm;
     M = 100. * mm;
     S = 50. * mm;
 
-    G4Colour yellow(1., 1., 0.);
+    G4Colour magenta(1.0, 0.0, 1.0);
 
     G4NistManager *nist = G4NistManager::Instance();
     G4Material *Pb = nist->FindOrBuildMaterial("G4_Pb");
@@ -553,12 +553,12 @@ class ShortShortNormBrick {
     ShortNormBrick_Logical = new G4LogicalVolume(
         ShortNormBrick_Solid, Pb, "ShortNormBrick_Logical", 0, 0, 0);
 
-    ShortNormBrick_Logical->SetVisAttributes(new G4VisAttributes(yellow));
+    ShortNormBrick_Logical->SetVisAttributes(new G4VisAttributes(magenta));
 
     rot = new G4RotationMatrix();
   }
 
-  ~ShortShortNormBrick(){};
+  ~GEM_ShortShortNormBrick(){};
 
   void Put(G4double x, G4double y, G4double z) {
     new G4PVPlacement(0, G4ThreeVector(x, y, z), ShortNormBrick_Logical,

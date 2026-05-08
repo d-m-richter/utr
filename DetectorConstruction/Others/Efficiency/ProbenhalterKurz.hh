@@ -93,7 +93,7 @@ class ProbenhalterKurz {
     //Zylinder_Solid = new G4Tubs("Zylinder_Solid", zylinder_inner_radius, zylinder_outer_radius, zylinder_lenght, sphi, dphi);
     //Hohlzylinder_Solid = new G4Tubs("Hohlzylinder_Solid", hohlzylinder_inner_radius, hohlzylinder_outer_radius, hohlzylinder_lenght, sphi, dphi);
     
-    gdmlFileName = "../utr-jonny/DetectorConstruction/Others/Efficiency/Volumes/ProbenhalterKurz.gdml";
+    gdmlFileName = "../utr-radiationprotection/DetectorConstruction/Others/Efficiency/Volumes/ProbenhalterKurz.gdml";
     parser.Read(gdmlFileName);
     G4VPhysicalVolume* gdmlWorld = parser.GetWorldVolume();
 

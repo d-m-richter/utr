@@ -61,13 +61,17 @@ class Hohlzylinder {
 
     World_Logical = world_Logical;
 
+    G4NistManager *nist = G4NistManager::Instance();
+    G4Material *polyvinylchloride = nist->FindOrBuildMaterial("G4_POLYVINYL_CHLORIDE");
+
+
     std::filesystem::path currentPath = std::filesystem::current_path();
     std::string currentPathString = currentPath.string();
-    //if (currentPathString == "/home/drichter/HOME/local/utr-jonny") {
+    //if (currentPathString == "/home/drichter/HOME/local/utr-radiationprotection") {
     if (currentPathString == "/nfs/ldas02/zh02/home/drichter/utr") {
       gdmlFileName = "../utr/DetectorConstruction/Others/Efficiency/Volumes/Hohlzylinder.gdml";
     }
-    //else if (currentPathString == "/home/drichter/HOME/local/utr-jonny/build") {
+    //else if (currentPathString == "/home/drichter/HOME/local/utr-radiationprotection/build") {
     else if (currentPathString == "/nfs/ldas02/zh02/home/drichter/utr/build") {
       gdmlFileName = "../DetectorConstruction/Others/Efficiency/Volumes/Hohlzylinder.gdml";
     } 
@@ -78,6 +82,7 @@ class Hohlzylinder {
     Hohlzylinder_Logical = gdmlWorld->GetLogicalVolume();
     
     Hohlzylinder_Logical->SetVisAttributes(new G4VisAttributes(blue));
+    Hohlzylinder_Logical->SetMaterial(polyvinylchloride);
    
     rot = new G4RotationMatrix();
   }
@@ -101,5 +106,70 @@ class Hohlzylinder {
 
     new G4PVPlacement(rot, G4ThreeVector(x, y, z), Hohlzylinder_Logical,
                       "Hohlzylinder", World_Logical, false, 0);
+  }
+};
+
+class Hohlzylinder_GEM {
+  private:
+  G4LogicalVolume *World_Logical;
+  G4LogicalVolume *Hohlzylinder_GEM_Logical;
+
+  G4RotationMatrix *rot;
+  G4GDMLParser parser;
+
+  public:
+  G4String gdmlFileName;
+
+  Hohlzylinder_GEM(G4LogicalVolume *world_Logical) {
+
+    // color of Hohlzylinder_GEM
+    G4Colour blue(0., 0., 1.);
+
+    World_Logical = world_Logical;
+
+    G4NistManager *nist = G4NistManager::Instance();
+    G4Material *polyethylene = nist->FindOrBuildMaterial("G4_POLYETHYLENE");
+
+    std::filesystem::path currentPath = std::filesystem::current_path();
+    std::string currentPathString = currentPath.string();
+    //if (currentPathString == "/home/drichter/HOME/local/utr-radiationprotection") {
+    if (currentPathString == "/nfs/ldas02/zh02/home/drichter/utr") {
+      gdmlFileName = "../utr/DetectorConstruction/Others/Efficiency/Volumes/Hohlzylinder_GEM.gdml";
+    }
+    //else if (currentPathString == "/home/drichter/HOME/local/utr-radiationprotection/build") {
+    else if (currentPathString == "/nfs/ldas02/zh02/home/drichter/utr/build") {
+      gdmlFileName = "../DetectorConstruction/Others/Efficiency/Volumes/Hohlzylinder_GEM.gdml";
+    } 
+
+    parser.Read(gdmlFileName);
+    G4VPhysicalVolume* gdmlWorld = parser.GetWorldVolume();
+
+    Hohlzylinder_GEM_Logical = gdmlWorld->GetLogicalVolume();
+    
+    Hohlzylinder_GEM_Logical->SetVisAttributes(new G4VisAttributes(blue));
+    Hohlzylinder_GEM_Logical->SetMaterial(polyethylene);
+   
+    rot = new G4RotationMatrix();
+  }
+
+  ~Hohlzylinder_GEM(){};
+
+  // placing the ProbenhalterKurz in the detector world with Put() methode
+  // use ProbenhalterKurz *probenhalterKurz = new ProbenhalterKurz(world_logical) and probenhalterKurz->Put(0., 0., 90.)
+  void Put(G4double x, G4double y, G4double z) {
+    new G4PVPlacement(0, G4ThreeVector(x, y, z), Hohlzylinder_GEM_Logical,
+                      "Hohlzylinder_GEM", World_Logical, false, 0);
+  }
+
+  void Put(G4double x, G4double y, G4double z, G4double angle_x,
+           G4double angle_y, G4double angle_z) {
+
+    rot = new G4RotationMatrix();
+    rot->rotateX(angle_x);
+    rot->rotateY(angle_y);
+    rot->rotateZ(angle_z);
+
+    new G4PVPlacement(rot, G4ThreeVector(x, y, z), Hohlzylinder_GEM_Logical,
+                      "Hohlzylinder_GEM", World_Logical, false, 0);
   }
 };

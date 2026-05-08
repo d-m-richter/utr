@@ -1,0 +1,1532 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<gdml xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://service-spi.web.cern.ch/service-spi/app/releases/GDML/schema/gdml.xsd">
+ <define>
+ <position name="Aluminium_Strahlrohr1_v0" unit="mm" x="14.661037436596441" y="-13.60345475541848" z="0.0"/>
+ <position name="Aluminium_Strahlrohr1_v1" unit="mm" x="17.455920452151705" y="-17.896671231493073" z="-1.7347234759768e-15"/>
+ <position name="Aluminium_Strahlrohr1_v2" unit="mm" x="13.964736361721364" y="-14.31733698519446" z="0.0"/>
+ <position name="Aluminium_Strahlrohr1_v3" unit="mm" x="19.15111107797435" y="-16.0696902421636" z="-1.7347234759768e-15"/>
+ <position name="Aluminium_Strahlrohr1_v4" unit="mm" x="18.32629679574555" y="-17.0043184442731" z="-1.7347234759768e-15"/>
+ <position name="Aluminium_Strahlrohr1_v5" unit="mm" x="13.233716751937088" y="-14.995624059354773" z="0.0"/>
+ <position name="Aluminium_Strahlrohr1_v6" unit="mm" x="16.54214593992136" y="-18.744530074193467" z="-1.7347234759768e-15"/>
+ <position name="Aluminium_Strahlrohr1_v7" unit="mm" x="15.587245046468201" y="-19.545787061700853" z="-1.7347234759768e-15"/>
+ <position name="Aluminium_Strahlrohr1_v8" unit="mm" x="15.32088886237948" y="-12.855752193730881" z="0.0"/>
+ <position name="Aluminium_Strahlrohr1_v9" unit="mm" x="12.46979603717456" y="-15.636629649360682" z="0.0"/>
+ <position name="Aluminium_Strahlrohr1_v10" unit="mm" x="15.942650144458376" y="-12.076088206509644" z="0.0"/>
+ <position name="Aluminium_Strahlrohr1_v11" unit="mm" x="19.928312680572972" y="-15.095110258137053" z="-1.7347234759768e-15"/>
+ <position name="Aluminium_Strahlrohr1_v12" unit="mm" x="11.674873444695681" y="-16.238760114317213" z="0.0"/>
+ <position name="Aluminium_Strahlrohr1_v13" unit="mm" x="14.593591805869602" y="-20.298450142896517" z="-1.7347234759768e-15"/>
+ <position name="Aluminium_Strahlrohr1_v14" unit="mm" x="16.524775486319832" y="-11.266401161272537" z="0.0"/>
+ <position name="Aluminium_Strahlrohr1_v15" unit="mm" x="21.33227204080382" y="-13.035880084487573" z="-1.7347234759768e-15"/>
+ <position name="Aluminium_Strahlrohr1_v16" unit="mm" x="20.65596935789979" y="-14.083001451590672" z="-1.7347234759768e-15"/>
+ <position name="Aluminium_Strahlrohr1_v17" unit="mm" x="10.850925277315064" y="-16.800518463015507" z="0.0"/>
+ <position name="Aluminium_Strahlrohr1_v18" unit="mm" x="13.563656596643831" y="-21.000648078769384" z="-1.7347234759768e-15"/>
+ <position name="Aluminium_Strahlrohr1_v19" unit="mm" x="17.065817632643054" y="-10.428704067590058" z="0.0"/>
+ <position name="Aluminium_Strahlrohr1_v20" unit="mm" x="9.999999999999869" y="-17.32050807568885" z="0.0"/>
+ <position name="Aluminium_Strahlrohr1_v21" unit="mm" x="12.499999999999837" y="-21.650635094611058" z="-1.7347234759768e-15"/>
+ <position name="Aluminium_Strahlrohr1_v22" unit="mm" x="11.405266433828903" y="-22.246795220286803" z="-1.7347234759768e-15"/>
+ <position name="Aluminium_Strahlrohr1_v23" unit="mm" x="17.56443146740452" y="-9.565079572426459" z="0.0"/>
+ <position name="Aluminium_Strahlrohr1_v24" unit="mm" x="22.524221697560424" y="-10.847093477939069" z="-1.7347234759768e-15"/>
+ <position name="Aluminium_Strahlrohr1_v25" unit="mm" x="21.95553933425565" y="-11.956349465533075" z="-1.7347234759768e-15"/>
+ <position name="Aluminium_Strahlrohr1_v26" unit="mm" x="9.124213147063122" y="-17.797436176229443" z="0.0"/>
+ <position name="Aluminium_Strahlrohr1_v27" unit="mm" x="18.019377358048338" y="-8.677674782351255" z="0.0"/>
+ <position name="Aluminium_Strahlrohr1_v28" unit="mm" x="8.225742062612087" y="-18.230117046233527" z="0.0"/>
+ <position name="Aluminium_Strahlrohr1_v29" unit="mm" x="10.282177578265108" y="-22.78764630779191" z="-1.7347234759768e-15"/>
+ <position name="Aluminium_Strahlrohr1_v30" unit="mm" x="18.429524237408113" y="-7.768695925493986" z="0.0"/>
+ <position name="Aluminium_Strahlrohr1_v31" unit="mm" x="23.49231551964767" y="-8.55050358314183" z="-1.7347234759768e-15"/>
+ <position name="Aluminium_Strahlrohr1_v32" unit="mm" x="23.036905296760143" y="-9.710869906867483" z="-1.7347234759768e-15"/>
+ <position name="Aluminium_Strahlrohr1_v33" unit="mm" x="7.306820487327749" y="-18.617474972884146" z="0.0"/>
+ <position name="Aluminium_Strahlrohr1_v34" unit="mm" x="9.133525609159685" y="-23.27184371610518" z="-1.7347234759768e-15"/>
+ <position name="Aluminium_Strahlrohr1_v35" unit="mm" x="7.962166256291914" y="-23.698183654178358" z="-1.7347234759768e-15"/>
+ <position name="Aluminium_Strahlrohr1_v36" unit="mm" x="18.793852415718135" y="-6.8404028665134655" z="0.0"/>
+ <position name="Aluminium_Strahlrohr1_v37" unit="mm" x="23.889320144653485" y="-7.3688793602727145" z="-1.7347234759768e-15"/>
+ <position name="Aluminium_Strahlrohr1_v38" unit="mm" x="6.369733005033531" y="-18.958546923342688" z="0.0"/>
+ <position name="Aluminium_Strahlrohr1_v39" unit="mm" x="19.11145611572279" y="-5.895103488218172" z="0.0"/>
+ <position name="Aluminium_Strahlrohr1_v40" unit="mm" x="5.416809362859939" y="-19.252484939000286" z="0.0"/>
+ <position name="Aluminium_Strahlrohr1_v41" unit="mm" x="6.771011703574923" y="-24.06560617375036" z="-1.7347234759768e-15"/>
+ <position name="Aluminium_Strahlrohr1_v42" unit="mm" x="19.381545724581535" y="-4.935147953805958" z="0.0"/>
+ <position name="Aluminium_Strahlrohr1_v43" unit="mm" x="24.22693215572692" y="-6.168934942257448" z="-1.7347234759768e-15"/>
+ <position name="Aluminium_Strahlrohr1_v44" unit="mm" x="4.450418679126119" y="-19.49855824363651" z="0.0"/>
+ <position name="Aluminium_Strahlrohr1_v45" unit="mm" x="5.563023348907648" y="-24.373197804545637" z="-1.7347234759768e-15"/>
+ <position name="Aluminium_Strahlrohr1_v46" unit="mm" x="19.60344975697086" y="-3.9629228639880343" z="0.0"/>
+ <position name="Aluminium_Strahlrohr1_v47" unit="mm" x="24.7207706556282" y="-3.72605665440446" z="-1.7347234759768e-15"/>
+ <position name="Aluminium_Strahlrohr1_v48" unit="mm" x="24.504312196213576" y="-4.953653579985043" z="-1.7347234759768e-15"/>
+ <position name="Aluminium_Strahlrohr1_v49" unit="mm" x="3.472963553338432" y="-19.69615506024419" z="0.0"/>
+ <position name="Aluminium_Strahlrohr1_v50" unit="mm" x="4.34120444167304" y="-24.62019382530524" z="-1.7347234759768e-15"/>
+ <position name="Aluminium_Strahlrohr1_v51" unit="mm" x="19.776616524502558" y="-2.9808453235235683" z="0.0"/>
+ <position name="Aluminium_Strahlrohr1_v52" unit="mm" x="2.486874092949523" y="-19.844784132003465" z="0.0"/>
+ <position name="Aluminium_Strahlrohr1_v53" unit="mm" x="3.1085926161869035" y="-24.80598016500433" z="-1.7347234759768e-15"/>
+ <position name="Aluminium_Strahlrohr1_v54" unit="mm" x="19.90061550730802" y="-1.9913569319164093" z="0.0"/>
+ <position name="Aluminium_Strahlrohr1_v55" unit="mm" x="24.875769384135026" y="-2.4891961648955117" z="-1.7347234759768e-15"/>
+ <position name="Aluminium_Strahlrohr1_v56" unit="mm" x="1.4946018717282996" y="-19.944075943623616" z="0.0"/>
+ <position name="Aluminium_Strahlrohr1_v57" unit="mm" x="1.8682523396603745" y="-24.93009492952952" z="-1.7347234759768e-15"/>
+ <position name="Aluminium_Strahlrohr1_v58" unit="mm" x="19.975138424378443" y="-0.9969177132140157" z="0.0"/>
+ <position name="Aluminium_Strahlrohr1_v59" unit="mm" x="24.968923030473057" y="-1.2461471415175196" z="-1.7347234759768e-15"/>
+ <position name="Aluminium_Strahlrohr1_v60" unit="mm" x="0.4986138347612678" y="-19.99378364001633" z="0.0"/>
+ <position name="Aluminium_Strahlrohr1_v61" unit="mm" x="0.6232672934515847" y="-24.99222955002041" z="-1.7347234759768e-15"/>
+ <position name="Aluminium_Strahlrohr1_v62" unit="mm" x="-0.6232672934520639" y="-24.9922295500204" z="-1.7347234759768e-15"/>
+ <position name="Aluminium_Strahlrohr1_v63" unit="mm" x="20.0" y="-6.860497997771532e-14" z="0.0"/>
+ <position name="Aluminium_Strahlrohr1_v64" unit="mm" x="25.0" y="-8.575622497214414e-14" z="-1.7347234759768e-15"/>
+ <position name="Aluminium_Strahlrohr1_v65" unit="mm" x="-0.4986138347616511" y="-19.99378364001632" z="0.0"/>
+ <position name="Aluminium_Strahlrohr1_v66" unit="mm" x="19.97513842437845" y="0.9969177132138786" z="0.0"/>
+ <position name="Aluminium_Strahlrohr1_v67" unit="mm" x="24.968923030473064" y="1.2461471415173482" z="-1.7347234759768e-15"/>
+ <position name="Aluminium_Strahlrohr1_v68" unit="mm" x="-1.4946018717286822" y="-19.944075943623588" z="0.0"/>
+ <position name="Aluminium_Strahlrohr1_v69" unit="mm" x="-1.8682523396608526" y="-24.930094929529485" z="-1.7347234759768e-15"/>
+ <position name="Aluminium_Strahlrohr1_v70" unit="mm" x="19.900615507308036" y="1.9913569319162727" z="0.0"/>
+ <position name="Aluminium_Strahlrohr1_v71" unit="mm" x="24.720770655628225" y="3.726056654404291" z="-1.7347234759768e-15"/>
+ <position name="Aluminium_Strahlrohr1_v72" unit="mm" x="24.875769384135044" y="2.4891961648953407" z="-1.7347234759768e-15"/>
+ <position name="Aluminium_Strahlrohr1_v73" unit="mm" x="-2.486874092949903" y="-19.84478413200342" z="0.0"/>
+ <position name="Aluminium_Strahlrohr1_v74" unit="mm" x="-3.108592616187379" y="-24.80598016500427" z="-1.7347234759768e-15"/>
+ <position name="Aluminium_Strahlrohr1_v75" unit="mm" x="19.77661652450258" y="2.980845323523433" z="0.0"/>
+ <position name="Aluminium_Strahlrohr1_v76" unit="mm" x="24.50431219621361" y="4.953653579984875" z="-1.7347234759768e-15"/>
+ <position name="Aluminium_Strahlrohr1_v77" unit="mm" x="-3.4729635533388095" y="-19.696155060244124" z="0.0"/>
+ <position name="Aluminium_Strahlrohr1_v78" unit="mm" x="-4.341204441673511" y="-24.620193825305154" z="-1.7347234759768e-15"/>
+ <position name="Aluminium_Strahlrohr1_v79" unit="mm" x="19.60344975697089" y="3.9629228639878997" z="0.0"/>
+ <position name="Aluminium_Strahlrohr1_v80" unit="mm" x="-4.450418679126492" y="-19.498558243636424" z="0.0"/>
+ <position name="Aluminium_Strahlrohr1_v81" unit="mm" x="-5.563023348908115" y="-24.373197804545534" z="-1.7347234759768e-15"/>
+ <position name="Aluminium_Strahlrohr1_v82" unit="mm" x="19.38154572458157" y="4.935147953805825" z="0.0"/>
+ <position name="Aluminium_Strahlrohr1_v83" unit="mm" x="24.226932155726963" y="6.168934942257281" z="-1.7347234759768e-15"/>
+ <position name="Aluminium_Strahlrohr1_v84" unit="mm" x="-5.416809362860308" y="-19.252484939000183" z="0.0"/>
+ <position name="Aluminium_Strahlrohr1_v85" unit="mm" x="-6.771011703575384" y="-24.06560617375023" z="-1.7347234759768e-15"/>
+ <position name="Aluminium_Strahlrohr1_v86" unit="mm" x="-7.962166256292368" y="-23.698183654178205" z="-1.7347234759768e-15"/>
+ <position name="Aluminium_Strahlrohr1_v87" unit="mm" x="19.111456115722827" y="5.895103488218041" z="0.0"/>
+ <position name="Aluminium_Strahlrohr1_v88" unit="mm" x="23.49231551964773" y="8.55050358314167" z="-1.7347234759768e-15"/>
+ <position name="Aluminium_Strahlrohr1_v89" unit="mm" x="23.889320144653535" y="7.368879360272551" z="-1.7347234759768e-15"/>
+ <position name="Aluminium_Strahlrohr1_v90" unit="mm" x="-6.369733005033894" y="-18.958546923342567" z="0.0"/>
+ <position name="Aluminium_Strahlrohr1_v91" unit="mm" x="18.79385241571818" y="6.840402866513335" z="0.0"/>
+ <position name="Aluminium_Strahlrohr1_v92" unit="mm" x="-7.306820487328106" y="-18.617474972884004" z="0.0"/>
+ <position name="Aluminium_Strahlrohr1_v93" unit="mm" x="-9.133525609160133" y="-23.271843716105007" z="-1.7347234759768e-15"/>
+ <position name="Aluminium_Strahlrohr1_v94" unit="mm" x="18.429524237408167" y="7.76869592549386" z="0.0"/>
+ <position name="Aluminium_Strahlrohr1_v95" unit="mm" x="23.03690529676021" y="9.710869906867325" z="-1.7347234759768e-15"/>
+ <position name="Aluminium_Strahlrohr1_v96" unit="mm" x="-8.225742062612436" y="-18.23011704623337" z="0.0"/>
+ <position name="Aluminium_Strahlrohr1_v97" unit="mm" x="-10.282177578265545" y="-22.78764630779171" z="-1.7347234759768e-15"/>
+ <position name="Aluminium_Strahlrohr1_v98" unit="mm" x="-11.405266433829327" y="-22.246795220286586" z="-1.7347234759768e-15"/>
+ <position name="Aluminium_Strahlrohr1_v99" unit="mm" x="18.019377358048395" y="8.677674782351133" z="0.0"/>
+ <position name="Aluminium_Strahlrohr1_v100" unit="mm" x="22.524221697560495" y="10.847093477938916" z="-1.7347234759768e-15"/>
+ <position name="Aluminium_Strahlrohr1_v101" unit="mm" x="-9.124213147063463" y="-17.79743617622927" z="0.0"/>
+ <position name="Aluminium_Strahlrohr1_v102" unit="mm" x="17.564431467404585" y="9.565079572426338" z="0.0"/>
+ <position name="Aluminium_Strahlrohr1_v103" unit="mm" x="21.95553933425573" y="11.956349465532924" z="-1.7347234759768e-15"/>
+ <position name="Aluminium_Strahlrohr1_v104" unit="mm" x="-10.000000000000203" y="-17.320508075688657" z="0.0"/>
+ <position name="Aluminium_Strahlrohr1_v105" unit="mm" x="-12.500000000000252" y="-21.65063509461082" z="-1.7347234759768e-15"/>
+ <position name="Aluminium_Strahlrohr1_v106" unit="mm" x="17.065817632643125" y="10.42870406758994" z="0.0"/>
+ <position name="Aluminium_Strahlrohr1_v107" unit="mm" x="21.332272040803907" y="13.035880084487426" z="-1.7347234759768e-15"/>
+ <position name="Aluminium_Strahlrohr1_v108" unit="mm" x="-10.850925277315387" y="-16.8005184630153" z="0.0"/>
+ <position name="Aluminium_Strahlrohr1_v109" unit="mm" x="-13.563656596644233" y="-21.000648078769128" z="-1.7347234759768e-15"/>
+ <position name="Aluminium_Strahlrohr1_v110" unit="mm" x="16.52477548631991" y="11.266401161272423" z="0.0"/>
+ <position name="Aluminium_Strahlrohr1_v111" unit="mm" x="20.655969357899888" y="14.08300145159053" z="-1.7347234759768e-15"/>
+ <position name="Aluminium_Strahlrohr1_v112" unit="mm" x="-11.674873444695992" y="-16.23876011431699" z="0.0"/>
+ <position name="Aluminium_Strahlrohr1_v113" unit="mm" x="-14.593591805869991" y="-20.298450142896236" z="-1.7347234759768e-15"/>
+ <position name="Aluminium_Strahlrohr1_v114" unit="mm" x="15.942650144458462" y="12.076088206509535" z="0.0"/>
+ <position name="Aluminium_Strahlrohr1_v115" unit="mm" x="19.928312680573075" y="15.095110258136918" z="-1.7347234759768e-15"/>
+ <position name="Aluminium_Strahlrohr1_v116" unit="mm" x="-12.469796037174863" y="-15.636629649360444" z="0.0"/>
+ <position name="Aluminium_Strahlrohr1_v117" unit="mm" x="-15.587245046468578" y="-19.545787061700555" z="-1.7347234759768e-15"/>
+ <position name="Aluminium_Strahlrohr1_v118" unit="mm" x="15.320888862379569" y="12.855752193730776" z="0.0"/>
+ <position name="Aluminium_Strahlrohr1_v119" unit="mm" x="19.151111077974463" y="16.06969024216347" z="-1.7347234759768e-15"/>
+ <position name="Aluminium_Strahlrohr1_v120" unit="mm" x="-13.233716751937374" y="-14.995624059354519" z="0.0"/>
+ <position name="Aluminium_Strahlrohr1_v121" unit="mm" x="-16.542145939921717" y="-18.74453007419315" z="-1.7347234759768e-15"/>
+ <position name="Aluminium_Strahlrohr1_v122" unit="mm" x="18.326296795745666" y="17.004318444272975" z="-1.7347234759768e-15"/>
+ <position name="Aluminium_Strahlrohr1_v123" unit="mm" x="14.661037436596533" y="13.60345475541838" z="0.0"/>
+ <position name="Aluminium_Strahlrohr1_v124" unit="mm" x="-13.964736361721638" y="-14.317336985194194" z="0.0"/>
+ <position name="Aluminium_Strahlrohr1_v125" unit="mm" x="-17.455920452152046" y="-17.896671231492743" z="-1.7347234759768e-15"/>
+ <position name="Aluminium_Strahlrohr1_v126" unit="mm" x="13.964736361721462" y="14.317336985194364" z="0.0"/>
+ <position name="Aluminium_Strahlrohr1_v127" unit="mm" x="17.455920452151826" y="17.896671231492956" z="-1.7347234759768e-15"/>
+ <position name="Aluminium_Strahlrohr1_v128" unit="mm" x="-18.326296795745876" y="-17.00431844427275" z="-1.7347234759768e-15"/>
+ <position name="Aluminium_Strahlrohr1_v129" unit="mm" x="-14.6610374365967" y="-13.6034547554182" z="0.0"/>
+ <position name="Aluminium_Strahlrohr1_v130" unit="mm" x="16.542145939921486" y="18.744530074193353" z="-1.7347234759768e-15"/>
+ <position name="Aluminium_Strahlrohr1_v131" unit="mm" x="13.233716751937191" y="14.995624059354682" z="0.0"/>
+ <position name="Aluminium_Strahlrohr1_v132" unit="mm" x="-15.320888862379727" y="-12.855752193730588" z="0.0"/>
+ <position name="Aluminium_Strahlrohr1_v133" unit="mm" x="-19.151111077974658" y="-16.069690242163233" z="-1.7347234759768e-15"/>
+ <position name="Aluminium_Strahlrohr1_v134" unit="mm" x="-15.94265014445861" y="-12.076088206509336" z="0.0"/>
+ <position name="Aluminium_Strahlrohr1_v135" unit="mm" x="15.587245046468338" y="19.545787061700747" z="-1.7347234759768e-15"/>
+ <position name="Aluminium_Strahlrohr1_v136" unit="mm" x="12.46979603717467" y="15.636629649360598" z="0.0"/>
+ <position name="Aluminium_Strahlrohr1_v137" unit="mm" x="11.674873444695793" y="16.23876011431713" z="0.0"/>
+ <position name="Aluminium_Strahlrohr1_v138" unit="mm" x="-19.928312680573264" y="-15.095110258136671" z="-1.7347234759768e-15"/>
+ <position name="Aluminium_Strahlrohr1_v139" unit="mm" x="14.59359180586974" y="20.298450142896414" z="-1.7347234759768e-15"/>
+ <position name="Aluminium_Strahlrohr1_v140" unit="mm" x="10.85092527731518" y="16.800518463015436" z="0.0"/>
+ <position name="Aluminium_Strahlrohr1_v141" unit="mm" x="-20.655969357900062" y="-14.083001451590274" z="-1.7347234759768e-15"/>
+ <position name="Aluminium_Strahlrohr1_v142" unit="mm" x="-16.52477548632005" y="-11.266401161272219" z="0.0"/>
+ <position name="Aluminium_Strahlrohr1_v143" unit="mm" x="13.563656596643975" y="21.000648078769295" z="-1.7347234759768e-15"/>
+ <position name="Aluminium_Strahlrohr1_v144" unit="mm" x="-21.332272040804067" y="-13.035880084487161" z="-1.7347234759768e-15"/>
+ <position name="Aluminium_Strahlrohr1_v145" unit="mm" x="-17.065817632643252" y="-10.42870406758973" z="0.0"/>
+ <position name="Aluminium_Strahlrohr1_v146" unit="mm" x="12.499999999999984" y="21.650635094610973" z="-1.7347234759768e-15"/>
+ <position name="Aluminium_Strahlrohr1_v147" unit="mm" x="9.999999999999988" y="17.320508075688778" z="0.0"/>
+ <position name="Aluminium_Strahlrohr1_v148" unit="mm" x="-21.955539334255878" y="-11.956349465532652" z="-1.7347234759768e-15"/>
+ <position name="Aluminium_Strahlrohr1_v149" unit="mm" x="-17.564431467404702" y="-9.565079572426122" z="0.0"/>
+ <position name="Aluminium_Strahlrohr1_v150" unit="mm" x="11.405266433829055" y="22.246795220286725" z="-1.7347234759768e-15"/>
+ <position name="Aluminium_Strahlrohr1_v151" unit="mm" x="9.124213147063244" y="17.79743617622938" z="0.0"/>
+ <position name="Aluminium_Strahlrohr1_v152" unit="mm" x="-22.524221697560627" y="-10.847093477938637" z="-1.7347234759768e-15"/>
+ <position name="Aluminium_Strahlrohr1_v153" unit="mm" x="-18.0193773580485" y="-8.67767478235091" z="0.0"/>
+ <position name="Aluminium_Strahlrohr1_v154" unit="mm" x="10.28217757826527" y="22.787646307791835" z="-1.7347234759768e-15"/>
+ <position name="Aluminium_Strahlrohr1_v155" unit="mm" x="8.225742062612216" y="18.23011704623347" z="0.0"/>
+ <position name="Aluminium_Strahlrohr1_v156" unit="mm" x="7.306820487327885" y="18.617474972884093" z="0.0"/>
+ <position name="Aluminium_Strahlrohr1_v157" unit="mm" x="-23.03690529676033" y="-9.71086990686704" z="-1.7347234759768e-15"/>
+ <position name="Aluminium_Strahlrohr1_v158" unit="mm" x="-18.429524237408263" y="-7.768695925493633" z="0.0"/>
+ <position name="Aluminium_Strahlrohr1_v159" unit="mm" x="9.133525609159857" y="23.271843716105113" z="-1.7347234759768e-15"/>
+ <position name="Aluminium_Strahlrohr1_v160" unit="mm" x="6.369733005033673" y="18.95854692334264" z="0.0"/>
+ <position name="Aluminium_Strahlrohr1_v161" unit="mm" x="-23.492315519647832" y="-8.550503583141381" z="-1.7347234759768e-15"/>
+ <position name="Aluminium_Strahlrohr1_v162" unit="mm" x="-18.793852415718266" y="-6.840402866513104" z="0.0"/>
+ <position name="Aluminium_Strahlrohr1_v163" unit="mm" x="-19.111456115722902" y="-5.8951034882178055" z="0.0"/>
+ <position name="Aluminium_Strahlrohr1_v164" unit="mm" x="7.962166256292091" y="23.6981836541783" z="-1.7347234759768e-15"/>
+ <position name="Aluminium_Strahlrohr1_v165" unit="mm" x="-23.889320144653624" y="-7.368879360272257" z="-1.7347234759768e-15"/>
+ <position name="Aluminium_Strahlrohr1_v166" unit="mm" x="-19.38154572458163" y="-4.935147953805586" z="0.0"/>
+ <position name="Aluminium_Strahlrohr1_v167" unit="mm" x="6.77101170357511" y="24.065606173750307" z="-1.7347234759768e-15"/>
+ <position name="Aluminium_Strahlrohr1_v168" unit="mm" x="5.4168093628600875" y="19.252484939000244" z="0.0"/>
+ <position name="Aluminium_Strahlrohr1_v169" unit="mm" x="-24.22693215572704" y="-6.168934942256983" z="-1.7347234759768e-15"/>
+ <position name="Aluminium_Strahlrohr1_v170" unit="mm" x="-19.603449756970935" y="-3.9629228639876586" z="0.0"/>
+ <position name="Aluminium_Strahlrohr1_v171" unit="mm" x="5.5630233489078424" y="24.373197804545594" z="-1.7347234759768e-15"/>
+ <position name="Aluminium_Strahlrohr1_v172" unit="mm" x="4.450418679126274" y="19.498558243636474" z="0.0"/>
+ <position name="Aluminium_Strahlrohr1_v173" unit="mm" x="3.4729635533385927" y="19.696155060244163" z="0.0"/>
+ <position name="Aluminium_Strahlrohr1_v174" unit="mm" x="-24.50431219621367" y="-4.953653579984573" z="-1.7347234759768e-15"/>
+ <position name="Aluminium_Strahlrohr1_v175" unit="mm" x="-19.776616524502618" y="-2.980845323523189" z="0.0"/>
+ <position name="Aluminium_Strahlrohr1_v176" unit="mm" x="4.341204441673241" y="24.620193825305204" z="-1.7347234759768e-15"/>
+ <position name="Aluminium_Strahlrohr1_v177" unit="mm" x="-24.72077065562827" y="-3.7260566544039864" z="-1.7347234759768e-15"/>
+ <position name="Aluminium_Strahlrohr1_v178" unit="mm" x="3.1085926161871122" y="24.805980165004303" z="-1.7347234759768e-15"/>
+ <position name="Aluminium_Strahlrohr1_v179" unit="mm" x="2.48687409294969" y="19.844784132003443" z="0.0"/>
+ <position name="Aluminium_Strahlrohr1_v180" unit="mm" x="-24.875769384135076" y="-2.4891961648950347" z="-1.7347234759768e-15"/>
+ <position name="Aluminium_Strahlrohr1_v181" unit="mm" x="-19.90061550730806" y="-1.9913569319160276" z="0.0"/>
+ <position name="Aluminium_Strahlrohr1_v182" unit="mm" x="-19.975138424378464" y="-0.9969177132136327" z="0.0"/>
+ <position name="Aluminium_Strahlrohr1_v183" unit="mm" x="1.8682523396605901" y="24.930094929529506" z="-1.7347234759768e-15"/>
+ <position name="Aluminium_Strahlrohr1_v184" unit="mm" x="1.494601871728472" y="19.944075943623606" z="0.0"/>
+ <position name="Aluminium_Strahlrohr1_v185" unit="mm" x="-24.96892303047308" y="-1.2461471415170409" z="-1.7347234759768e-15"/>
+ <position name="Aluminium_Strahlrohr1_v186" unit="mm" x="0.6232672934518062" y="24.992229550020404" z="-1.7347234759768e-15"/>
+ <position name="Aluminium_Strahlrohr1_v187" unit="mm" x="0.49861383476144494" y="19.993783640016325" z="0.0"/>
+ <position name="Aluminium_Strahlrohr1_v188" unit="mm" x="-25.0" y="0.0" z="-1.7347234759768e-15"/>
+ <position name="Aluminium_Strahlrohr1_v189" unit="mm" x="-20.0" y="0.0" z="0.0"/>
+ <position name="Aluminium_Strahlrohr1_v190" unit="mm" x="-0.623267293451837" y="24.992229550020404" z="-1.7347234759768e-15"/>
+ <position name="Aluminium_Strahlrohr1_v191" unit="mm" x="-0.4986138347614696" y="19.993783640016325" z="0.0"/>
+ <position name="Aluminium_Strahlrohr1_v192" unit="mm" x="-1.4946018717284963" y="19.944075943623602" z="0.0"/>
+ <position name="Aluminium_Strahlrohr1_v193" unit="mm" x="-24.968923030473057" y="1.246147141517429" z="-1.7347234759768e-15"/>
+ <position name="Aluminium_Strahlrohr1_v194" unit="mm" x="-19.975138424378446" y="0.9969177132139433" z="0.0"/>
+ <position name="Aluminium_Strahlrohr1_v195" unit="mm" x="-1.8682523396606205" y="24.930094929529503" z="-1.7347234759768e-15"/>
+ <position name="Aluminium_Strahlrohr1_v196" unit="mm" x="-24.875769384135037" y="2.4891961648954166" z="-1.7347234759768e-15"/>
+ <position name="Aluminium_Strahlrohr1_v197" unit="mm" x="-19.90061550730803" y="1.9913569319163331" z="0.0"/>
+ <position name="Aluminium_Strahlrohr1_v198" unit="mm" x="-3.108592616187143" y="24.8059801650043" z="-1.7347234759768e-15"/>
+ <position name="Aluminium_Strahlrohr1_v199" unit="mm" x="-2.4868740929497144" y="19.84478413200344" z="0.0"/>
+ <position name="Aluminium_Strahlrohr1_v200" unit="mm" x="-24.720770655628215" y="3.726056654404361" z="-1.7347234759768e-15"/>
+ <position name="Aluminium_Strahlrohr1_v201" unit="mm" x="-19.776616524502572" y="2.980845323523489" z="0.0"/>
+ <position name="Aluminium_Strahlrohr1_v202" unit="mm" x="-4.341204441673272" y="24.6201938253052" z="-1.7347234759768e-15"/>
+ <position name="Aluminium_Strahlrohr1_v203" unit="mm" x="-3.472963553338617" y="19.69615506024416" z="0.0"/>
+ <position name="Aluminium_Strahlrohr1_v204" unit="mm" x="-24.504312196213597" y="4.953653579984939" z="-1.7347234759768e-15"/>
+ <position name="Aluminium_Strahlrohr1_v205" unit="mm" x="-19.603449756970875" y="3.9629228639879517" z="0.0"/>
+ <position name="Aluminium_Strahlrohr1_v206" unit="mm" x="-5.563023348907873" y="24.373197804545587" z="-1.7347234759768e-15"/>
+ <position name="Aluminium_Strahlrohr1_v207" unit="mm" x="-4.450418679126297" y="19.49855824363647" z="0.0"/>
+ <position name="Aluminium_Strahlrohr1_v208" unit="mm" x="-24.22693215572695" y="6.168934942257341" z="-1.7347234759768e-15"/>
+ <position name="Aluminium_Strahlrohr1_v209" unit="mm" x="-19.38154572458156" y="4.935147953805873" z="0.0"/>
+ <position name="Aluminium_Strahlrohr1_v210" unit="mm" x="-6.771011703575139" y="24.065606173750297" z="-1.7347234759768e-15"/>
+ <position name="Aluminium_Strahlrohr1_v211" unit="mm" x="-5.416809362860111" y="19.25248493900024" z="0.0"/>
+ <position name="Aluminium_Strahlrohr1_v212" unit="mm" x="-6.369733005033696" y="18.95854692334263" z="0.0"/>
+ <position name="Aluminium_Strahlrohr1_v213" unit="mm" x="-23.889320144653517" y="7.368879360272605" z="-1.7347234759768e-15"/>
+ <position name="Aluminium_Strahlrohr1_v214" unit="mm" x="-19.111456115722813" y="5.895103488218084" z="0.0"/>
+ <position name="Aluminium_Strahlrohr1_v215" unit="mm" x="-18.793852415718167" y="6.840402866513376" z="0.0"/>
+ <position name="Aluminium_Strahlrohr1_v216" unit="mm" x="-7.962166256292121" y="23.69818365417829" z="-1.7347234759768e-15"/>
+ <position name="Aluminium_Strahlrohr1_v217" unit="mm" x="-7.306820487327909" y="18.617474972884082" z="0.0"/>
+ <position name="Aluminium_Strahlrohr1_v218" unit="mm" x="-23.492315519647708" y="8.550503583141719" z="-1.7347234759768e-15"/>
+ <position name="Aluminium_Strahlrohr1_v219" unit="mm" x="-9.133525609159886" y="23.271843716105103" z="-1.7347234759768e-15"/>
+ <position name="Aluminium_Strahlrohr1_v220" unit="mm" x="-8.225742062612238" y="18.23011704623346" z="0.0"/>
+ <position name="Aluminium_Strahlrohr1_v221" unit="mm" x="-23.03690529676019" y="9.710869906867368" z="-1.7347234759768e-15"/>
+ <position name="Aluminium_Strahlrohr1_v222" unit="mm" x="-18.429524237408152" y="7.768695925493895" z="0.0"/>
+ <position name="Aluminium_Strahlrohr1_v223" unit="mm" x="-18.019377358048384" y="8.677674782351163" z="0.0"/>
+ <position name="Aluminium_Strahlrohr1_v224" unit="mm" x="-10.282177578265298" y="22.787646307791825" z="-1.7347234759768e-15"/>
+ <position name="Aluminium_Strahlrohr1_v225" unit="mm" x="-22.524221697560478" y="10.847093477938953" z="-1.7347234759768e-15"/>
+ <position name="Aluminium_Strahlrohr1_v226" unit="mm" x="-11.405266433829082" y="22.24679522028671" z="-1.7347234759768e-15"/>
+ <position name="Aluminium_Strahlrohr1_v227" unit="mm" x="-9.124213147063266" y="17.79743617622937" z="0.0"/>
+ <position name="Aluminium_Strahlrohr1_v228" unit="mm" x="-10.000000000000007" y="17.32050807568877" z="0.0"/>
+ <position name="Aluminium_Strahlrohr1_v229" unit="mm" x="-21.955539334255715" y="11.956349465532954" z="-1.7347234759768e-15"/>
+ <position name="Aluminium_Strahlrohr1_v230" unit="mm" x="-17.56443146740457" y="9.565079572426363" z="0.0"/>
+ <position name="Aluminium_Strahlrohr1_v231" unit="mm" x="-17.065817632643114" y="10.42870406758996" z="0.0"/>
+ <position name="Aluminium_Strahlrohr1_v232" unit="mm" x="-12.500000000000009" y="21.650635094610962" z="-1.7347234759768e-15"/>
+ <position name="Aluminium_Strahlrohr1_v233" unit="mm" x="-21.332272040803893" y="13.03588008448745" z="-1.7347234759768e-15"/>
+ <position name="Aluminium_Strahlrohr1_v234" unit="mm" x="-13.563656596643991" y="21.00064807876928" z="-1.7347234759768e-15"/>
+ <position name="Aluminium_Strahlrohr1_v235" unit="mm" x="-10.850925277315193" y="16.800518463015425" z="0.0"/>
+ <position name="Aluminium_Strahlrohr1_v236" unit="mm" x="-20.655969357899874" y="14.08300145159055" z="-1.7347234759768e-15"/>
+ <position name="Aluminium_Strahlrohr1_v237" unit="mm" x="-16.524775486319896" y="11.266401161272439" z="0.0"/>
+ <position name="Aluminium_Strahlrohr1_v238" unit="mm" x="-14.593591805869751" y="20.298450142896407" z="-1.7347234759768e-15"/>
+ <position name="Aluminium_Strahlrohr1_v239" unit="mm" x="-11.674873444695802" y="16.238760114317124" z="0.0"/>
+ <position name="Aluminium_Strahlrohr1_v240" unit="mm" x="-12.469796037174675" y="15.636629649360593" z="0.0"/>
+ <position name="Aluminium_Strahlrohr1_v241" unit="mm" x="-19.92831268057306" y="15.095110258136932" z="-1.7347234759768e-15"/>
+ <position name="Aluminium_Strahlrohr1_v242" unit="mm" x="-15.942650144458451" y="12.076088206509546" z="0.0"/>
+ <position name="Aluminium_Strahlrohr1_v243" unit="mm" x="-15.587245046468343" y="19.545787061700743" z="-1.7347234759768e-15"/>
+ <position name="Aluminium_Strahlrohr1_v244" unit="mm" x="-19.151111077974452" y="16.06969024216348" z="-1.7347234759768e-15"/>
+ <position name="Aluminium_Strahlrohr1_v245" unit="mm" x="-15.320888862379562" y="12.855752193730785" z="0.0"/>
+ <position name="Aluminium_Strahlrohr1_v246" unit="mm" x="-16.54214593992149" y="18.74453007419335" z="-1.7347234759768e-15"/>
+ <position name="Aluminium_Strahlrohr1_v247" unit="mm" x="-13.233716751937193" y="14.995624059354679" z="0.0"/>
+ <position name="Aluminium_Strahlrohr1_v248" unit="mm" x="-18.326296795745662" y="17.004318444272982" z="-1.7347234759768e-15"/>
+ <position name="Aluminium_Strahlrohr1_v249" unit="mm" x="-14.66103743659653" y="13.603454755418385" z="0.0"/>
+ <position name="Aluminium_Strahlrohr1_v250" unit="mm" x="-13.96473636172146" y="14.317336985194366" z="0.0"/>
+ <position name="Aluminium_Strahlrohr1_v251" unit="mm" x="-17.455920452151823" y="17.89667123149296" z="-1.7347234759768e-15"/>
+ <position name="Aluminium_Strahlrohr1_v252" unit="mm" x="-20.0" y="0.0" z="37.0"/>
+ <position name="Aluminium_Strahlrohr1_v253" unit="mm" x="-19.975138424378446" y="0.9969177132139433" z="37.0"/>
+ <position name="Aluminium_Strahlrohr1_v254" unit="mm" x="-19.90061550730803" y="1.9913569319163331" z="37.0"/>
+ <position name="Aluminium_Strahlrohr1_v255" unit="mm" x="-19.776616524502572" y="2.980845323523489" z="37.0"/>
+ <position name="Aluminium_Strahlrohr1_v256" unit="mm" x="-19.603449756970875" y="3.9629228639879517" z="37.0"/>
+ <position name="Aluminium_Strahlrohr1_v257" unit="mm" x="-19.38154572458156" y="4.935147953805873" z="37.0"/>
+ <position name="Aluminium_Strahlrohr1_v258" unit="mm" x="-19.111456115722813" y="5.895103488218084" z="37.0"/>
+ <position name="Aluminium_Strahlrohr1_v259" unit="mm" x="-18.793852415718167" y="6.840402866513376" z="37.0"/>
+ <position name="Aluminium_Strahlrohr1_v260" unit="mm" x="-18.429524237408152" y="7.768695925493895" z="37.0"/>
+ <position name="Aluminium_Strahlrohr1_v261" unit="mm" x="-18.019377358048384" y="8.677674782351163" z="37.0"/>
+ <position name="Aluminium_Strahlrohr1_v262" unit="mm" x="-17.56443146740457" y="9.565079572426363" z="37.0"/>
+ <position name="Aluminium_Strahlrohr1_v263" unit="mm" x="-17.065817632643114" y="10.42870406758996" z="37.0"/>
+ <position name="Aluminium_Strahlrohr1_v264" unit="mm" x="-16.524775486319896" y="11.266401161272439" z="37.0"/>
+ <position name="Aluminium_Strahlrohr1_v265" unit="mm" x="-15.942650144458451" y="12.076088206509546" z="37.0"/>
+ <position name="Aluminium_Strahlrohr1_v266" unit="mm" x="-15.320888862379562" y="12.855752193730785" z="37.0"/>
+ <position name="Aluminium_Strahlrohr1_v267" unit="mm" x="-14.66103743659653" y="13.603454755418385" z="37.0"/>
+ <position name="Aluminium_Strahlrohr1_v268" unit="mm" x="-13.96473636172146" y="14.317336985194366" z="37.0"/>
+ <position name="Aluminium_Strahlrohr1_v269" unit="mm" x="-13.233716751937193" y="14.995624059354679" z="37.0"/>
+ <position name="Aluminium_Strahlrohr1_v270" unit="mm" x="-12.469796037174675" y="15.636629649360593" z="37.0"/>
+ <position name="Aluminium_Strahlrohr1_v271" unit="mm" x="-11.674873444695802" y="16.238760114317124" z="37.0"/>
+ <position name="Aluminium_Strahlrohr1_v272" unit="mm" x="-10.850925277315193" y="16.800518463015425" z="37.0"/>
+ <position name="Aluminium_Strahlrohr1_v273" unit="mm" x="-10.000000000000007" y="17.32050807568877" z="37.0"/>
+ <position name="Aluminium_Strahlrohr1_v274" unit="mm" x="-9.124213147063266" y="17.79743617622937" z="37.0"/>
+ <position name="Aluminium_Strahlrohr1_v275" unit="mm" x="-8.225742062612238" y="18.23011704623346" z="37.0"/>
+ <position name="Aluminium_Strahlrohr1_v276" unit="mm" x="-7.306820487327909" y="18.617474972884082" z="37.0"/>
+ <position name="Aluminium_Strahlrohr1_v277" unit="mm" x="-6.369733005033696" y="18.95854692334263" z="37.0"/>
+ <position name="Aluminium_Strahlrohr1_v278" unit="mm" x="-5.416809362860111" y="19.25248493900024" z="37.0"/>
+ <position name="Aluminium_Strahlrohr1_v279" unit="mm" x="-4.450418679126297" y="19.49855824363647" z="37.0"/>
+ <position name="Aluminium_Strahlrohr1_v280" unit="mm" x="-3.472963553338617" y="19.69615506024416" z="37.0"/>
+ <position name="Aluminium_Strahlrohr1_v281" unit="mm" x="-2.4868740929497144" y="19.84478413200344" z="37.0"/>
+ <position name="Aluminium_Strahlrohr1_v282" unit="mm" x="-1.4946018717284963" y="19.944075943623602" z="37.0"/>
+ <position name="Aluminium_Strahlrohr1_v283" unit="mm" x="-0.4986138347614696" y="19.993783640016325" z="37.0"/>
+ <position name="Aluminium_Strahlrohr1_v284" unit="mm" x="0.49861383476144494" y="19.993783640016325" z="37.0"/>
+ <position name="Aluminium_Strahlrohr1_v285" unit="mm" x="1.494601871728472" y="19.944075943623606" z="37.0"/>
+ <position name="Aluminium_Strahlrohr1_v286" unit="mm" x="2.48687409294969" y="19.844784132003443" z="37.0"/>
+ <position name="Aluminium_Strahlrohr1_v287" unit="mm" x="3.4729635533385927" y="19.696155060244163" z="37.0"/>
+ <position name="Aluminium_Strahlrohr1_v288" unit="mm" x="4.450418679126274" y="19.498558243636474" z="37.0"/>
+ <position name="Aluminium_Strahlrohr1_v289" unit="mm" x="5.4168093628600875" y="19.252484939000244" z="37.0"/>
+ <position name="Aluminium_Strahlrohr1_v290" unit="mm" x="6.369733005033673" y="18.95854692334264" z="37.0"/>
+ <position name="Aluminium_Strahlrohr1_v291" unit="mm" x="7.306820487327885" y="18.617474972884093" z="37.0"/>
+ <position name="Aluminium_Strahlrohr1_v292" unit="mm" x="8.225742062612216" y="18.23011704623347" z="37.0"/>
+ <position name="Aluminium_Strahlrohr1_v293" unit="mm" x="9.124213147063244" y="17.79743617622938" z="37.0"/>
+ <position name="Aluminium_Strahlrohr1_v294" unit="mm" x="9.999999999999988" y="17.320508075688778" z="37.0"/>
+ <position name="Aluminium_Strahlrohr1_v295" unit="mm" x="10.85092527731518" y="16.800518463015436" z="37.0"/>
+ <position name="Aluminium_Strahlrohr1_v296" unit="mm" x="11.674873444695793" y="16.23876011431713" z="37.0"/>
+ <position name="Aluminium_Strahlrohr1_v297" unit="mm" x="12.46979603717467" y="15.636629649360598" z="37.0"/>
+ <position name="Aluminium_Strahlrohr1_v298" unit="mm" x="13.233716751937191" y="14.995624059354682" z="37.0"/>
+ <position name="Aluminium_Strahlrohr1_v299" unit="mm" x="13.964736361721462" y="14.317336985194364" z="37.0"/>
+ <position name="Aluminium_Strahlrohr1_v300" unit="mm" x="14.661037436596533" y="13.60345475541838" z="37.0"/>
+ <position name="Aluminium_Strahlrohr1_v301" unit="mm" x="15.320888862379569" y="12.855752193730776" z="37.0"/>
+ <position name="Aluminium_Strahlrohr1_v302" unit="mm" x="15.942650144458462" y="12.076088206509535" z="37.0"/>
+ <position name="Aluminium_Strahlrohr1_v303" unit="mm" x="16.52477548631991" y="11.266401161272423" z="37.0"/>
+ <position name="Aluminium_Strahlrohr1_v304" unit="mm" x="17.065817632643125" y="10.42870406758994" z="37.0"/>
+ <position name="Aluminium_Strahlrohr1_v305" unit="mm" x="17.564431467404585" y="9.565079572426338" z="37.0"/>
+ <position name="Aluminium_Strahlrohr1_v306" unit="mm" x="18.019377358048395" y="8.677674782351133" z="37.0"/>
+ <position name="Aluminium_Strahlrohr1_v307" unit="mm" x="18.429524237408167" y="7.76869592549386" z="37.0"/>
+ <position name="Aluminium_Strahlrohr1_v308" unit="mm" x="18.79385241571818" y="6.840402866513335" z="37.0"/>
+ <position name="Aluminium_Strahlrohr1_v309" unit="mm" x="19.111456115722827" y="5.895103488218041" z="37.0"/>
+ <position name="Aluminium_Strahlrohr1_v310" unit="mm" x="19.38154572458157" y="4.935147953805825" z="37.0"/>
+ <position name="Aluminium_Strahlrohr1_v311" unit="mm" x="19.60344975697089" y="3.9629228639878997" z="37.0"/>
+ <position name="Aluminium_Strahlrohr1_v312" unit="mm" x="19.77661652450258" y="2.980845323523433" z="37.0"/>
+ <position name="Aluminium_Strahlrohr1_v313" unit="mm" x="19.900615507308036" y="1.9913569319162727" z="37.0"/>
+ <position name="Aluminium_Strahlrohr1_v314" unit="mm" x="19.97513842437845" y="0.9969177132138786" z="37.0"/>
+ <position name="Aluminium_Strahlrohr1_v315" unit="mm" x="20.0" y="-6.860497997771532e-14" z="37.0"/>
+ <position name="Aluminium_Strahlrohr1_v316" unit="mm" x="19.975138424378443" y="-0.9969177132140157" z="37.0"/>
+ <position name="Aluminium_Strahlrohr1_v317" unit="mm" x="19.90061550730802" y="-1.9913569319164093" z="37.0"/>
+ <position name="Aluminium_Strahlrohr1_v318" unit="mm" x="19.776616524502558" y="-2.9808453235235683" z="37.0"/>
+ <position name="Aluminium_Strahlrohr1_v319" unit="mm" x="19.60344975697086" y="-3.9629228639880343" z="37.0"/>
+ <position name="Aluminium_Strahlrohr1_v320" unit="mm" x="19.381545724581535" y="-4.935147953805958" z="37.0"/>
+ <position name="Aluminium_Strahlrohr1_v321" unit="mm" x="19.11145611572279" y="-5.895103488218172" z="37.0"/>
+ <position name="Aluminium_Strahlrohr1_v322" unit="mm" x="18.793852415718135" y="-6.8404028665134655" z="37.0"/>
+ <position name="Aluminium_Strahlrohr1_v323" unit="mm" x="18.429524237408113" y="-7.768695925493986" z="37.0"/>
+ <position name="Aluminium_Strahlrohr1_v324" unit="mm" x="18.019377358048338" y="-8.677674782351255" z="37.0"/>
+ <position name="Aluminium_Strahlrohr1_v325" unit="mm" x="17.56443146740452" y="-9.565079572426459" z="37.0"/>
+ <position name="Aluminium_Strahlrohr1_v326" unit="mm" x="17.065817632643054" y="-10.428704067590058" z="37.0"/>
+ <position name="Aluminium_Strahlrohr1_v327" unit="mm" x="16.524775486319832" y="-11.266401161272537" z="37.0"/>
+ <position name="Aluminium_Strahlrohr1_v328" unit="mm" x="15.942650144458376" y="-12.076088206509644" z="37.0"/>
+ <position name="Aluminium_Strahlrohr1_v329" unit="mm" x="15.32088886237948" y="-12.855752193730881" z="37.0"/>
+ <position name="Aluminium_Strahlrohr1_v330" unit="mm" x="14.661037436596441" y="-13.60345475541848" z="37.0"/>
+ <position name="Aluminium_Strahlrohr1_v331" unit="mm" x="13.964736361721364" y="-14.31733698519446" z="37.0"/>
+ <position name="Aluminium_Strahlrohr1_v332" unit="mm" x="13.233716751937088" y="-14.995624059354773" z="37.0"/>
+ <position name="Aluminium_Strahlrohr1_v333" unit="mm" x="12.46979603717456" y="-15.636629649360682" z="37.0"/>
+ <position name="Aluminium_Strahlrohr1_v334" unit="mm" x="11.674873444695681" y="-16.238760114317213" z="37.0"/>
+ <position name="Aluminium_Strahlrohr1_v335" unit="mm" x="10.850925277315064" y="-16.800518463015507" z="37.0"/>
+ <position name="Aluminium_Strahlrohr1_v336" unit="mm" x="9.999999999999869" y="-17.32050807568885" z="37.0"/>
+ <position name="Aluminium_Strahlrohr1_v337" unit="mm" x="9.124213147063122" y="-17.797436176229443" z="37.0"/>
+ <position name="Aluminium_Strahlrohr1_v338" unit="mm" x="8.225742062612087" y="-18.230117046233527" z="37.0"/>
+ <position name="Aluminium_Strahlrohr1_v339" unit="mm" x="7.306820487327749" y="-18.617474972884146" z="37.0"/>
+ <position name="Aluminium_Strahlrohr1_v340" unit="mm" x="6.369733005033531" y="-18.958546923342688" z="37.0"/>
+ <position name="Aluminium_Strahlrohr1_v341" unit="mm" x="5.416809362859939" y="-19.252484939000286" z="37.0"/>
+ <position name="Aluminium_Strahlrohr1_v342" unit="mm" x="4.450418679126119" y="-19.49855824363651" z="37.0"/>
+ <position name="Aluminium_Strahlrohr1_v343" unit="mm" x="3.472963553338432" y="-19.69615506024419" z="37.0"/>
+ <position name="Aluminium_Strahlrohr1_v344" unit="mm" x="2.486874092949523" y="-19.844784132003465" z="37.0"/>
+ <position name="Aluminium_Strahlrohr1_v345" unit="mm" x="1.4946018717282996" y="-19.944075943623616" z="37.0"/>
+ <position name="Aluminium_Strahlrohr1_v346" unit="mm" x="0.4986138347612678" y="-19.99378364001633" z="37.0"/>
+ <position name="Aluminium_Strahlrohr1_v347" unit="mm" x="-0.4986138347616511" y="-19.99378364001632" z="37.0"/>
+ <position name="Aluminium_Strahlrohr1_v348" unit="mm" x="-1.4946018717286822" y="-19.944075943623588" z="37.0"/>
+ <position name="Aluminium_Strahlrohr1_v349" unit="mm" x="-2.486874092949903" y="-19.84478413200342" z="37.0"/>
+ <position name="Aluminium_Strahlrohr1_v350" unit="mm" x="-3.4729635533388095" y="-19.696155060244124" z="37.0"/>
+ <position name="Aluminium_Strahlrohr1_v351" unit="mm" x="-4.450418679126492" y="-19.498558243636424" z="37.0"/>
+ <position name="Aluminium_Strahlrohr1_v352" unit="mm" x="-5.416809362860308" y="-19.252484939000183" z="37.0"/>
+ <position name="Aluminium_Strahlrohr1_v353" unit="mm" x="-6.369733005033894" y="-18.958546923342567" z="37.0"/>
+ <position name="Aluminium_Strahlrohr1_v354" unit="mm" x="-7.306820487328106" y="-18.617474972884004" z="37.0"/>
+ <position name="Aluminium_Strahlrohr1_v355" unit="mm" x="-8.225742062612436" y="-18.23011704623337" z="37.0"/>
+ <position name="Aluminium_Strahlrohr1_v356" unit="mm" x="-9.124213147063463" y="-17.79743617622927" z="37.0"/>
+ <position name="Aluminium_Strahlrohr1_v357" unit="mm" x="-10.000000000000203" y="-17.320508075688657" z="37.0"/>
+ <position name="Aluminium_Strahlrohr1_v358" unit="mm" x="-10.850925277315387" y="-16.8005184630153" z="37.0"/>
+ <position name="Aluminium_Strahlrohr1_v359" unit="mm" x="-11.674873444695992" y="-16.23876011431699" z="37.0"/>
+ <position name="Aluminium_Strahlrohr1_v360" unit="mm" x="-12.469796037174863" y="-15.636629649360444" z="37.0"/>
+ <position name="Aluminium_Strahlrohr1_v361" unit="mm" x="-13.233716751937374" y="-14.995624059354519" z="37.0"/>
+ <position name="Aluminium_Strahlrohr1_v362" unit="mm" x="-13.964736361721638" y="-14.317336985194194" z="37.0"/>
+ <position name="Aluminium_Strahlrohr1_v363" unit="mm" x="-14.6610374365967" y="-13.6034547554182" z="37.0"/>
+ <position name="Aluminium_Strahlrohr1_v364" unit="mm" x="-15.320888862379727" y="-12.855752193730588" z="37.0"/>
+ <position name="Aluminium_Strahlrohr1_v365" unit="mm" x="-15.94265014445861" y="-12.076088206509336" z="37.0"/>
+ <position name="Aluminium_Strahlrohr1_v366" unit="mm" x="-16.52477548632005" y="-11.266401161272219" z="37.0"/>
+ <position name="Aluminium_Strahlrohr1_v367" unit="mm" x="-17.065817632643252" y="-10.42870406758973" z="37.0"/>
+ <position name="Aluminium_Strahlrohr1_v368" unit="mm" x="-17.564431467404702" y="-9.565079572426122" z="37.0"/>
+ <position name="Aluminium_Strahlrohr1_v369" unit="mm" x="-18.0193773580485" y="-8.67767478235091" z="37.0"/>
+ <position name="Aluminium_Strahlrohr1_v370" unit="mm" x="-18.429524237408263" y="-7.768695925493633" z="37.0"/>
+ <position name="Aluminium_Strahlrohr1_v371" unit="mm" x="-18.793852415718266" y="-6.840402866513104" z="37.0"/>
+ <position name="Aluminium_Strahlrohr1_v372" unit="mm" x="-19.111456115722902" y="-5.8951034882178055" z="37.0"/>
+ <position name="Aluminium_Strahlrohr1_v373" unit="mm" x="-19.38154572458163" y="-4.935147953805586" z="37.0"/>
+ <position name="Aluminium_Strahlrohr1_v374" unit="mm" x="-19.603449756970935" y="-3.9629228639876586" z="37.0"/>
+ <position name="Aluminium_Strahlrohr1_v375" unit="mm" x="-19.776616524502618" y="-2.980845323523189" z="37.0"/>
+ <position name="Aluminium_Strahlrohr1_v376" unit="mm" x="-19.90061550730806" y="-1.9913569319160276" z="37.0"/>
+ <position name="Aluminium_Strahlrohr1_v377" unit="mm" x="-19.975138424378464" y="-0.9969177132136327" z="37.0"/>
+ <position name="Aluminium_Strahlrohr1_v378" unit="mm" x="-17.455920452152046" y="-17.896671231492743" z="37.0"/>
+ <position name="Aluminium_Strahlrohr1_v379" unit="mm" x="-16.542145939921717" y="-18.74453007419315" z="37.0"/>
+ <position name="Aluminium_Strahlrohr1_v380" unit="mm" x="-18.326296795745876" y="-17.00431844427275" z="37.0"/>
+ <position name="Aluminium_Strahlrohr1_v381" unit="mm" x="-19.151111077974658" y="-16.069690242163233" z="37.0"/>
+ <position name="Aluminium_Strahlrohr1_v382" unit="mm" x="-15.587245046468578" y="-19.545787061700555" z="37.0"/>
+ <position name="Aluminium_Strahlrohr1_v383" unit="mm" x="-14.593591805869991" y="-20.298450142896236" z="37.0"/>
+ <position name="Aluminium_Strahlrohr1_v384" unit="mm" x="-19.928312680573264" y="-15.095110258136671" z="37.0"/>
+ <position name="Aluminium_Strahlrohr1_v385" unit="mm" x="-20.655969357900062" y="-14.083001451590274" z="37.0"/>
+ <position name="Aluminium_Strahlrohr1_v386" unit="mm" x="-21.332272040804067" y="-13.035880084487161" z="37.0"/>
+ <position name="Aluminium_Strahlrohr1_v387" unit="mm" x="-13.563656596644233" y="-21.000648078769128" z="37.0"/>
+ <position name="Aluminium_Strahlrohr1_v388" unit="mm" x="-12.500000000000252" y="-21.65063509461082" z="37.0"/>
+ <position name="Aluminium_Strahlrohr1_v389" unit="mm" x="-21.955539334255878" y="-11.956349465532652" z="37.0"/>
+ <position name="Aluminium_Strahlrohr1_v390" unit="mm" x="-11.405266433829327" y="-22.246795220286586" z="37.0"/>
+ <position name="Aluminium_Strahlrohr1_v391" unit="mm" x="-10.282177578265545" y="-22.78764630779171" z="37.0"/>
+ <position name="Aluminium_Strahlrohr1_v392" unit="mm" x="-22.524221697560627" y="-10.847093477938637" z="37.0"/>
+ <position name="Aluminium_Strahlrohr1_v393" unit="mm" x="-23.03690529676033" y="-9.71086990686704" z="37.0"/>
+ <position name="Aluminium_Strahlrohr1_v394" unit="mm" x="-9.133525609160133" y="-23.271843716105007" z="37.0"/>
+ <position name="Aluminium_Strahlrohr1_v395" unit="mm" x="-7.962166256292368" y="-23.698183654178205" z="37.0"/>
+ <position name="Aluminium_Strahlrohr1_v396" unit="mm" x="-23.492315519647832" y="-8.550503583141381" z="37.0"/>
+ <position name="Aluminium_Strahlrohr1_v397" unit="mm" x="-23.889320144653624" y="-7.368879360272257" z="37.0"/>
+ <position name="Aluminium_Strahlrohr1_v398" unit="mm" x="-6.771011703575384" y="-24.06560617375023" z="37.0"/>
+ <position name="Aluminium_Strahlrohr1_v399" unit="mm" x="-24.22693215572704" y="-6.168934942256983" z="37.0"/>
+ <position name="Aluminium_Strahlrohr1_v400" unit="mm" x="-24.50431219621367" y="-4.953653579984573" z="37.0"/>
+ <position name="Aluminium_Strahlrohr1_v401" unit="mm" x="-5.563023348908115" y="-24.373197804545534" z="37.0"/>
+ <position name="Aluminium_Strahlrohr1_v402" unit="mm" x="-4.341204441673511" y="-24.620193825305154" z="37.0"/>
+ <position name="Aluminium_Strahlrohr1_v403" unit="mm" x="-24.72077065562827" y="-3.7260566544039864" z="37.0"/>
+ <position name="Aluminium_Strahlrohr1_v404" unit="mm" x="-3.108592616187379" y="-24.80598016500427" z="37.0"/>
+ <position name="Aluminium_Strahlrohr1_v405" unit="mm" x="-1.8682523396608526" y="-24.930094929529485" z="37.0"/>
+ <position name="Aluminium_Strahlrohr1_v406" unit="mm" x="-24.875769384135076" y="-2.4891961648950347" z="37.0"/>
+ <position name="Aluminium_Strahlrohr1_v407" unit="mm" x="-24.96892303047308" y="-1.2461471415170409" z="37.0"/>
+ <position name="Aluminium_Strahlrohr1_v408" unit="mm" x="-0.6232672934520639" y="-24.9922295500204" z="37.0"/>
+ <position name="Aluminium_Strahlrohr1_v409" unit="mm" x="-24.968923030473057" y="1.246147141517429" z="37.0"/>
+ <position name="Aluminium_Strahlrohr1_v410" unit="mm" x="-25.0" y="0.0" z="37.0"/>
+ <position name="Aluminium_Strahlrohr1_v411" unit="mm" x="0.6232672934515847" y="-24.99222955002041" z="37.0"/>
+ <position name="Aluminium_Strahlrohr1_v412" unit="mm" x="1.8682523396603745" y="-24.93009492952952" z="37.0"/>
+ <position name="Aluminium_Strahlrohr1_v413" unit="mm" x="-24.875769384135037" y="2.4891961648954166" z="37.0"/>
+ <position name="Aluminium_Strahlrohr1_v414" unit="mm" x="3.1085926161869035" y="-24.80598016500433" z="37.0"/>
+ <position name="Aluminium_Strahlrohr1_v415" unit="mm" x="-24.720770655628215" y="3.726056654404361" z="37.0"/>
+ <position name="Aluminium_Strahlrohr1_v416" unit="mm" x="-24.504312196213597" y="4.953653579984939" z="37.0"/>
+ <position name="Aluminium_Strahlrohr1_v417" unit="mm" x="4.34120444167304" y="-24.62019382530524" z="37.0"/>
+ <position name="Aluminium_Strahlrohr1_v418" unit="mm" x="5.563023348907648" y="-24.373197804545637" z="37.0"/>
+ <position name="Aluminium_Strahlrohr1_v419" unit="mm" x="-24.22693215572695" y="6.168934942257341" z="37.0"/>
+ <position name="Aluminium_Strahlrohr1_v420" unit="mm" x="6.771011703574923" y="-24.06560617375036" z="37.0"/>
+ <position name="Aluminium_Strahlrohr1_v421" unit="mm" x="-23.889320144653517" y="7.368879360272605" z="37.0"/>
+ <position name="Aluminium_Strahlrohr1_v422" unit="mm" x="-23.492315519647708" y="8.550503583141719" z="37.0"/>
+ <position name="Aluminium_Strahlrohr1_v423" unit="mm" x="7.962166256291914" y="-23.698183654178358" z="37.0"/>
+ <position name="Aluminium_Strahlrohr1_v424" unit="mm" x="-23.03690529676019" y="9.710869906867368" z="37.0"/>
+ <position name="Aluminium_Strahlrohr1_v425" unit="mm" x="9.133525609159685" y="-23.27184371610518" z="37.0"/>
+ <position name="Aluminium_Strahlrohr1_v426" unit="mm" x="10.282177578265108" y="-22.78764630779191" z="37.0"/>
+ <position name="Aluminium_Strahlrohr1_v427" unit="mm" x="11.405266433828903" y="-22.246795220286803" z="37.0"/>
+ <position name="Aluminium_Strahlrohr1_v428" unit="mm" x="-22.524221697560478" y="10.847093477938953" z="37.0"/>
+ <position name="Aluminium_Strahlrohr1_v429" unit="mm" x="-21.955539334255715" y="11.956349465532954" z="37.0"/>
+ <position name="Aluminium_Strahlrohr1_v430" unit="mm" x="12.499999999999837" y="-21.650635094611058" z="37.0"/>
+ <position name="Aluminium_Strahlrohr1_v431" unit="mm" x="-21.332272040803893" y="13.03588008448745" z="37.0"/>
+ <position name="Aluminium_Strahlrohr1_v432" unit="mm" x="13.563656596643831" y="-21.000648078769384" z="37.0"/>
+ <position name="Aluminium_Strahlrohr1_v433" unit="mm" x="-20.655969357899874" y="14.08300145159055" z="37.0"/>
+ <position name="Aluminium_Strahlrohr1_v434" unit="mm" x="14.593591805869602" y="-20.298450142896517" z="37.0"/>
+ <position name="Aluminium_Strahlrohr1_v435" unit="mm" x="-19.92831268057306" y="15.095110258136932" z="37.0"/>
+ <position name="Aluminium_Strahlrohr1_v436" unit="mm" x="15.587245046468201" y="-19.545787061700853" z="37.0"/>
+ <position name="Aluminium_Strahlrohr1_v437" unit="mm" x="-19.151111077974452" y="16.06969024216348" z="37.0"/>
+ <position name="Aluminium_Strahlrohr1_v438" unit="mm" x="16.54214593992136" y="-18.744530074193467" z="37.0"/>
+ <position name="Aluminium_Strahlrohr1_v439" unit="mm" x="-18.326296795745662" y="17.004318444272982" z="37.0"/>
+ <position name="Aluminium_Strahlrohr1_v440" unit="mm" x="17.455920452151705" y="-17.896671231493073" z="37.0"/>
+ <position name="Aluminium_Strahlrohr1_v441" unit="mm" x="-17.455920452151823" y="17.89667123149296" z="37.0"/>
+ <position name="Aluminium_Strahlrohr1_v442" unit="mm" x="18.32629679574555" y="-17.0043184442731" z="37.0"/>
+ <position name="Aluminium_Strahlrohr1_v443" unit="mm" x="-16.54214593992149" y="18.74453007419335" z="37.0"/>
+ <position name="Aluminium_Strahlrohr1_v444" unit="mm" x="19.15111107797435" y="-16.0696902421636" z="37.0"/>
+ <position name="Aluminium_Strahlrohr1_v445" unit="mm" x="-15.587245046468343" y="19.545787061700743" z="37.0"/>
+ <position name="Aluminium_Strahlrohr1_v446" unit="mm" x="19.928312680572972" y="-15.095110258137053" z="37.0"/>
+ <position name="Aluminium_Strahlrohr1_v447" unit="mm" x="-14.593591805869751" y="20.298450142896407" z="37.0"/>
+ <position name="Aluminium_Strahlrohr1_v448" unit="mm" x="20.65596935789979" y="-14.083001451590672" z="37.0"/>
+ <position name="Aluminium_Strahlrohr1_v449" unit="mm" x="-13.563656596643991" y="21.00064807876928" z="37.0"/>
+ <position name="Aluminium_Strahlrohr1_v450" unit="mm" x="21.33227204080382" y="-13.035880084487573" z="37.0"/>
+ <position name="Aluminium_Strahlrohr1_v451" unit="mm" x="-12.500000000000009" y="21.650635094610962" z="37.0"/>
+ <position name="Aluminium_Strahlrohr1_v452" unit="mm" x="21.95553933425565" y="-11.956349465533075" z="37.0"/>
+ <position name="Aluminium_Strahlrohr1_v453" unit="mm" x="-11.405266433829082" y="22.24679522028671" z="37.0"/>
+ <position name="Aluminium_Strahlrohr1_v454" unit="mm" x="22.524221697560424" y="-10.847093477939069" z="37.0"/>
+ <position name="Aluminium_Strahlrohr1_v455" unit="mm" x="-10.282177578265298" y="22.787646307791825" z="37.0"/>
+ <position name="Aluminium_Strahlrohr1_v456" unit="mm" x="23.036905296760143" y="-9.710869906867483" z="37.0"/>
+ <position name="Aluminium_Strahlrohr1_v457" unit="mm" x="-9.133525609159886" y="23.271843716105103" z="37.0"/>
+ <position name="Aluminium_Strahlrohr1_v458" unit="mm" x="23.49231551964767" y="-8.55050358314183" z="37.0"/>
+ <position name="Aluminium_Strahlrohr1_v459" unit="mm" x="-7.962166256292121" y="23.69818365417829" z="37.0"/>
+ <position name="Aluminium_Strahlrohr1_v460" unit="mm" x="23.889320144653485" y="-7.3688793602727145" z="37.0"/>
+ <position name="Aluminium_Strahlrohr1_v461" unit="mm" x="-6.771011703575139" y="24.065606173750297" z="37.0"/>
+ <position name="Aluminium_Strahlrohr1_v462" unit="mm" x="24.22693215572692" y="-6.168934942257448" z="37.0"/>
+ <position name="Aluminium_Strahlrohr1_v463" unit="mm" x="-5.563023348907873" y="24.373197804545587" z="37.0"/>
+ <position name="Aluminium_Strahlrohr1_v464" unit="mm" x="24.504312196213576" y="-4.953653579985043" z="37.0"/>
+ <position name="Aluminium_Strahlrohr1_v465" unit="mm" x="-4.341204441673272" y="24.6201938253052" z="37.0"/>
+ <position name="Aluminium_Strahlrohr1_v466" unit="mm" x="24.7207706556282" y="-3.72605665440446" z="37.0"/>
+ <position name="Aluminium_Strahlrohr1_v467" unit="mm" x="-3.108592616187143" y="24.8059801650043" z="37.0"/>
+ <position name="Aluminium_Strahlrohr1_v468" unit="mm" x="24.875769384135026" y="-2.4891961648955117" z="37.0"/>
+ <position name="Aluminium_Strahlrohr1_v469" unit="mm" x="-1.8682523396606205" y="24.930094929529503" z="37.0"/>
+ <position name="Aluminium_Strahlrohr1_v470" unit="mm" x="24.968923030473057" y="-1.2461471415175196" z="37.0"/>
+ <position name="Aluminium_Strahlrohr1_v471" unit="mm" x="-0.623267293451837" y="24.992229550020404" z="37.0"/>
+ <position name="Aluminium_Strahlrohr1_v472" unit="mm" x="25.0" y="-8.575622497214414e-14" z="37.0"/>
+ <position name="Aluminium_Strahlrohr1_v473" unit="mm" x="0.6232672934518062" y="24.992229550020404" z="37.0"/>
+ <position name="Aluminium_Strahlrohr1_v474" unit="mm" x="24.968923030473064" y="1.2461471415173482" z="37.0"/>
+ <position name="Aluminium_Strahlrohr1_v475" unit="mm" x="1.8682523396605901" y="24.930094929529506" z="37.0"/>
+ <position name="Aluminium_Strahlrohr1_v476" unit="mm" x="24.875769384135044" y="2.4891961648953407" z="37.0"/>
+ <position name="Aluminium_Strahlrohr1_v477" unit="mm" x="3.1085926161871122" y="24.805980165004303" z="37.0"/>
+ <position name="Aluminium_Strahlrohr1_v478" unit="mm" x="24.720770655628225" y="3.726056654404291" z="37.0"/>
+ <position name="Aluminium_Strahlrohr1_v479" unit="mm" x="4.341204441673241" y="24.620193825305204" z="37.0"/>
+ <position name="Aluminium_Strahlrohr1_v480" unit="mm" x="24.50431219621361" y="4.953653579984875" z="37.0"/>
+ <position name="Aluminium_Strahlrohr1_v481" unit="mm" x="5.5630233489078424" y="24.373197804545594" z="37.0"/>
+ <position name="Aluminium_Strahlrohr1_v482" unit="mm" x="24.226932155726963" y="6.168934942257281" z="37.0"/>
+ <position name="Aluminium_Strahlrohr1_v483" unit="mm" x="6.77101170357511" y="24.065606173750307" z="37.0"/>
+ <position name="Aluminium_Strahlrohr1_v484" unit="mm" x="23.889320144653535" y="7.368879360272551" z="37.0"/>
+ <position name="Aluminium_Strahlrohr1_v485" unit="mm" x="7.962166256292091" y="23.6981836541783" z="37.0"/>
+ <position name="Aluminium_Strahlrohr1_v486" unit="mm" x="23.49231551964773" y="8.55050358314167" z="37.0"/>
+ <position name="Aluminium_Strahlrohr1_v487" unit="mm" x="9.133525609159857" y="23.271843716105113" z="37.0"/>
+ <position name="Aluminium_Strahlrohr1_v488" unit="mm" x="23.03690529676021" y="9.710869906867325" z="37.0"/>
+ <position name="Aluminium_Strahlrohr1_v489" unit="mm" x="10.28217757826527" y="22.787646307791835" z="37.0"/>
+ <position name="Aluminium_Strahlrohr1_v490" unit="mm" x="22.524221697560495" y="10.847093477938916" z="37.0"/>
+ <position name="Aluminium_Strahlrohr1_v491" unit="mm" x="11.405266433829055" y="22.246795220286725" z="37.0"/>
+ <position name="Aluminium_Strahlrohr1_v492" unit="mm" x="21.95553933425573" y="11.956349465532924" z="37.0"/>
+ <position name="Aluminium_Strahlrohr1_v493" unit="mm" x="12.499999999999984" y="21.650635094610973" z="37.0"/>
+ <position name="Aluminium_Strahlrohr1_v494" unit="mm" x="21.332272040803907" y="13.035880084487426" z="37.0"/>
+ <position name="Aluminium_Strahlrohr1_v495" unit="mm" x="13.563656596643975" y="21.000648078769295" z="37.0"/>
+ <position name="Aluminium_Strahlrohr1_v496" unit="mm" x="20.655969357899888" y="14.08300145159053" z="37.0"/>
+ <position name="Aluminium_Strahlrohr1_v497" unit="mm" x="14.59359180586974" y="20.298450142896414" z="37.0"/>
+ <position name="Aluminium_Strahlrohr1_v498" unit="mm" x="19.928312680573075" y="15.095110258136918" z="37.0"/>
+ <position name="Aluminium_Strahlrohr1_v499" unit="mm" x="15.587245046468338" y="19.545787061700747" z="37.0"/>
+ <position name="Aluminium_Strahlrohr1_v500" unit="mm" x="19.151111077974463" y="16.06969024216347" z="37.0"/>
+ <position name="Aluminium_Strahlrohr1_v501" unit="mm" x="16.542145939921486" y="18.744530074193353" z="37.0"/>
+ <position name="Aluminium_Strahlrohr1_v502" unit="mm" x="18.326296795745666" y="17.004318444272975" z="37.0"/>
+ <position name="Aluminium_Strahlrohr1_v503" unit="mm" x="17.455920452151826" y="17.896671231492956" z="37.0"/>
+ </define>
+
+ <solids>
+ <tessellated aunit="deg" lunit="mm" name="Aluminium_Strahlrohr1_solid">
+ <triangular vertex1="Aluminium_Strahlrohr1_v0" vertex2="Aluminium_Strahlrohr1_v1" vertex3="Aluminium_Strahlrohr1_v2"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v0" vertex2="Aluminium_Strahlrohr1_v3" vertex3="Aluminium_Strahlrohr1_v4"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v0" vertex2="Aluminium_Strahlrohr1_v4" vertex3="Aluminium_Strahlrohr1_v1"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v5" vertex2="Aluminium_Strahlrohr1_v2" vertex3="Aluminium_Strahlrohr1_v1"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v5" vertex2="Aluminium_Strahlrohr1_v1" vertex3="Aluminium_Strahlrohr1_v6"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v5" vertex2="Aluminium_Strahlrohr1_v6" vertex3="Aluminium_Strahlrohr1_v7"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v8" vertex2="Aluminium_Strahlrohr1_v3" vertex3="Aluminium_Strahlrohr1_v0"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v9" vertex2="Aluminium_Strahlrohr1_v5" vertex3="Aluminium_Strahlrohr1_v7"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v10" vertex2="Aluminium_Strahlrohr1_v11" vertex3="Aluminium_Strahlrohr1_v3"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v10" vertex2="Aluminium_Strahlrohr1_v3" vertex3="Aluminium_Strahlrohr1_v8"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v12" vertex2="Aluminium_Strahlrohr1_v9" vertex3="Aluminium_Strahlrohr1_v7"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v12" vertex2="Aluminium_Strahlrohr1_v7" vertex3="Aluminium_Strahlrohr1_v13"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v14" vertex2="Aluminium_Strahlrohr1_v11" vertex3="Aluminium_Strahlrohr1_v10"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v14" vertex2="Aluminium_Strahlrohr1_v15" vertex3="Aluminium_Strahlrohr1_v16"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v14" vertex2="Aluminium_Strahlrohr1_v16" vertex3="Aluminium_Strahlrohr1_v11"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v17" vertex2="Aluminium_Strahlrohr1_v12" vertex3="Aluminium_Strahlrohr1_v13"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v17" vertex2="Aluminium_Strahlrohr1_v13" vertex3="Aluminium_Strahlrohr1_v18"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v19" vertex2="Aluminium_Strahlrohr1_v15" vertex3="Aluminium_Strahlrohr1_v14"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v20" vertex2="Aluminium_Strahlrohr1_v17" vertex3="Aluminium_Strahlrohr1_v18"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v20" vertex2="Aluminium_Strahlrohr1_v18" vertex3="Aluminium_Strahlrohr1_v21"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v20" vertex2="Aluminium_Strahlrohr1_v21" vertex3="Aluminium_Strahlrohr1_v22"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v23" vertex2="Aluminium_Strahlrohr1_v24" vertex3="Aluminium_Strahlrohr1_v25"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v23" vertex2="Aluminium_Strahlrohr1_v25" vertex3="Aluminium_Strahlrohr1_v15"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v23" vertex2="Aluminium_Strahlrohr1_v15" vertex3="Aluminium_Strahlrohr1_v19"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v26" vertex2="Aluminium_Strahlrohr1_v20" vertex3="Aluminium_Strahlrohr1_v22"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v27" vertex2="Aluminium_Strahlrohr1_v24" vertex3="Aluminium_Strahlrohr1_v23"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v28" vertex2="Aluminium_Strahlrohr1_v26" vertex3="Aluminium_Strahlrohr1_v22"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v28" vertex2="Aluminium_Strahlrohr1_v22" vertex3="Aluminium_Strahlrohr1_v29"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v30" vertex2="Aluminium_Strahlrohr1_v31" vertex3="Aluminium_Strahlrohr1_v32"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v30" vertex2="Aluminium_Strahlrohr1_v32" vertex3="Aluminium_Strahlrohr1_v24"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v30" vertex2="Aluminium_Strahlrohr1_v24" vertex3="Aluminium_Strahlrohr1_v27"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v33" vertex2="Aluminium_Strahlrohr1_v28" vertex3="Aluminium_Strahlrohr1_v29"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v33" vertex2="Aluminium_Strahlrohr1_v29" vertex3="Aluminium_Strahlrohr1_v34"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v33" vertex2="Aluminium_Strahlrohr1_v34" vertex3="Aluminium_Strahlrohr1_v35"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v36" vertex2="Aluminium_Strahlrohr1_v31" vertex3="Aluminium_Strahlrohr1_v30"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v36" vertex2="Aluminium_Strahlrohr1_v37" vertex3="Aluminium_Strahlrohr1_v31"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v38" vertex2="Aluminium_Strahlrohr1_v33" vertex3="Aluminium_Strahlrohr1_v35"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v39" vertex2="Aluminium_Strahlrohr1_v37" vertex3="Aluminium_Strahlrohr1_v36"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v40" vertex2="Aluminium_Strahlrohr1_v38" vertex3="Aluminium_Strahlrohr1_v35"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v40" vertex2="Aluminium_Strahlrohr1_v35" vertex3="Aluminium_Strahlrohr1_v41"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v42" vertex2="Aluminium_Strahlrohr1_v37" vertex3="Aluminium_Strahlrohr1_v39"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v42" vertex2="Aluminium_Strahlrohr1_v43" vertex3="Aluminium_Strahlrohr1_v37"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v44" vertex2="Aluminium_Strahlrohr1_v40" vertex3="Aluminium_Strahlrohr1_v41"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v44" vertex2="Aluminium_Strahlrohr1_v41" vertex3="Aluminium_Strahlrohr1_v45"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v46" vertex2="Aluminium_Strahlrohr1_v43" vertex3="Aluminium_Strahlrohr1_v42"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v46" vertex2="Aluminium_Strahlrohr1_v47" vertex3="Aluminium_Strahlrohr1_v48"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v46" vertex2="Aluminium_Strahlrohr1_v48" vertex3="Aluminium_Strahlrohr1_v43"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v49" vertex2="Aluminium_Strahlrohr1_v44" vertex3="Aluminium_Strahlrohr1_v45"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v49" vertex2="Aluminium_Strahlrohr1_v45" vertex3="Aluminium_Strahlrohr1_v50"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v51" vertex2="Aluminium_Strahlrohr1_v47" vertex3="Aluminium_Strahlrohr1_v46"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v52" vertex2="Aluminium_Strahlrohr1_v50" vertex3="Aluminium_Strahlrohr1_v53"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v52" vertex2="Aluminium_Strahlrohr1_v49" vertex3="Aluminium_Strahlrohr1_v50"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v54" vertex2="Aluminium_Strahlrohr1_v55" vertex3="Aluminium_Strahlrohr1_v47"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v54" vertex2="Aluminium_Strahlrohr1_v47" vertex3="Aluminium_Strahlrohr1_v51"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v56" vertex2="Aluminium_Strahlrohr1_v52" vertex3="Aluminium_Strahlrohr1_v53"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v56" vertex2="Aluminium_Strahlrohr1_v53" vertex3="Aluminium_Strahlrohr1_v57"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v58" vertex2="Aluminium_Strahlrohr1_v55" vertex3="Aluminium_Strahlrohr1_v54"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v58" vertex2="Aluminium_Strahlrohr1_v59" vertex3="Aluminium_Strahlrohr1_v55"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v60" vertex2="Aluminium_Strahlrohr1_v56" vertex3="Aluminium_Strahlrohr1_v57"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v60" vertex2="Aluminium_Strahlrohr1_v57" vertex3="Aluminium_Strahlrohr1_v61"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v60" vertex2="Aluminium_Strahlrohr1_v61" vertex3="Aluminium_Strahlrohr1_v62"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v63" vertex2="Aluminium_Strahlrohr1_v59" vertex3="Aluminium_Strahlrohr1_v58"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v63" vertex2="Aluminium_Strahlrohr1_v64" vertex3="Aluminium_Strahlrohr1_v59"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v65" vertex2="Aluminium_Strahlrohr1_v60" vertex3="Aluminium_Strahlrohr1_v62"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v66" vertex2="Aluminium_Strahlrohr1_v64" vertex3="Aluminium_Strahlrohr1_v63"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v66" vertex2="Aluminium_Strahlrohr1_v67" vertex3="Aluminium_Strahlrohr1_v64"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v68" vertex2="Aluminium_Strahlrohr1_v65" vertex3="Aluminium_Strahlrohr1_v62"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v68" vertex2="Aluminium_Strahlrohr1_v62" vertex3="Aluminium_Strahlrohr1_v69"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v70" vertex2="Aluminium_Strahlrohr1_v67" vertex3="Aluminium_Strahlrohr1_v66"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v70" vertex2="Aluminium_Strahlrohr1_v71" vertex3="Aluminium_Strahlrohr1_v72"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v70" vertex2="Aluminium_Strahlrohr1_v72" vertex3="Aluminium_Strahlrohr1_v67"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v73" vertex2="Aluminium_Strahlrohr1_v69" vertex3="Aluminium_Strahlrohr1_v74"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v73" vertex2="Aluminium_Strahlrohr1_v68" vertex3="Aluminium_Strahlrohr1_v69"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v75" vertex2="Aluminium_Strahlrohr1_v76" vertex3="Aluminium_Strahlrohr1_v71"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v75" vertex2="Aluminium_Strahlrohr1_v71" vertex3="Aluminium_Strahlrohr1_v70"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v77" vertex2="Aluminium_Strahlrohr1_v73" vertex3="Aluminium_Strahlrohr1_v74"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v77" vertex2="Aluminium_Strahlrohr1_v74" vertex3="Aluminium_Strahlrohr1_v78"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v79" vertex2="Aluminium_Strahlrohr1_v76" vertex3="Aluminium_Strahlrohr1_v75"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v80" vertex2="Aluminium_Strahlrohr1_v77" vertex3="Aluminium_Strahlrohr1_v78"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v80" vertex2="Aluminium_Strahlrohr1_v78" vertex3="Aluminium_Strahlrohr1_v81"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v82" vertex2="Aluminium_Strahlrohr1_v76" vertex3="Aluminium_Strahlrohr1_v79"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v82" vertex2="Aluminium_Strahlrohr1_v83" vertex3="Aluminium_Strahlrohr1_v76"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v84" vertex2="Aluminium_Strahlrohr1_v85" vertex3="Aluminium_Strahlrohr1_v86"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v84" vertex2="Aluminium_Strahlrohr1_v80" vertex3="Aluminium_Strahlrohr1_v81"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v84" vertex2="Aluminium_Strahlrohr1_v81" vertex3="Aluminium_Strahlrohr1_v85"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v87" vertex2="Aluminium_Strahlrohr1_v83" vertex3="Aluminium_Strahlrohr1_v82"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v87" vertex2="Aluminium_Strahlrohr1_v88" vertex3="Aluminium_Strahlrohr1_v89"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v87" vertex2="Aluminium_Strahlrohr1_v89" vertex3="Aluminium_Strahlrohr1_v83"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v90" vertex2="Aluminium_Strahlrohr1_v84" vertex3="Aluminium_Strahlrohr1_v86"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v91" vertex2="Aluminium_Strahlrohr1_v88" vertex3="Aluminium_Strahlrohr1_v87"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v92" vertex2="Aluminium_Strahlrohr1_v86" vertex3="Aluminium_Strahlrohr1_v93"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v92" vertex2="Aluminium_Strahlrohr1_v90" vertex3="Aluminium_Strahlrohr1_v86"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v94" vertex2="Aluminium_Strahlrohr1_v88" vertex3="Aluminium_Strahlrohr1_v91"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v94" vertex2="Aluminium_Strahlrohr1_v95" vertex3="Aluminium_Strahlrohr1_v88"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v96" vertex2="Aluminium_Strahlrohr1_v93" vertex3="Aluminium_Strahlrohr1_v97"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v96" vertex2="Aluminium_Strahlrohr1_v97" vertex3="Aluminium_Strahlrohr1_v98"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v96" vertex2="Aluminium_Strahlrohr1_v92" vertex3="Aluminium_Strahlrohr1_v93"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v99" vertex2="Aluminium_Strahlrohr1_v95" vertex3="Aluminium_Strahlrohr1_v94"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v99" vertex2="Aluminium_Strahlrohr1_v100" vertex3="Aluminium_Strahlrohr1_v95"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v101" vertex2="Aluminium_Strahlrohr1_v96" vertex3="Aluminium_Strahlrohr1_v98"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v102" vertex2="Aluminium_Strahlrohr1_v103" vertex3="Aluminium_Strahlrohr1_v100"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v102" vertex2="Aluminium_Strahlrohr1_v100" vertex3="Aluminium_Strahlrohr1_v99"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v104" vertex2="Aluminium_Strahlrohr1_v98" vertex3="Aluminium_Strahlrohr1_v105"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v104" vertex2="Aluminium_Strahlrohr1_v101" vertex3="Aluminium_Strahlrohr1_v98"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v106" vertex2="Aluminium_Strahlrohr1_v107" vertex3="Aluminium_Strahlrohr1_v103"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v106" vertex2="Aluminium_Strahlrohr1_v103" vertex3="Aluminium_Strahlrohr1_v102"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v108" vertex2="Aluminium_Strahlrohr1_v105" vertex3="Aluminium_Strahlrohr1_v109"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v108" vertex2="Aluminium_Strahlrohr1_v104" vertex3="Aluminium_Strahlrohr1_v105"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v110" vertex2="Aluminium_Strahlrohr1_v107" vertex3="Aluminium_Strahlrohr1_v106"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v110" vertex2="Aluminium_Strahlrohr1_v111" vertex3="Aluminium_Strahlrohr1_v107"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v112" vertex2="Aluminium_Strahlrohr1_v109" vertex3="Aluminium_Strahlrohr1_v113"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v112" vertex2="Aluminium_Strahlrohr1_v108" vertex3="Aluminium_Strahlrohr1_v109"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v114" vertex2="Aluminium_Strahlrohr1_v115" vertex3="Aluminium_Strahlrohr1_v111"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v114" vertex2="Aluminium_Strahlrohr1_v111" vertex3="Aluminium_Strahlrohr1_v110"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v116" vertex2="Aluminium_Strahlrohr1_v113" vertex3="Aluminium_Strahlrohr1_v117"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v116" vertex2="Aluminium_Strahlrohr1_v112" vertex3="Aluminium_Strahlrohr1_v113"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v118" vertex2="Aluminium_Strahlrohr1_v119" vertex3="Aluminium_Strahlrohr1_v115"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v118" vertex2="Aluminium_Strahlrohr1_v115" vertex3="Aluminium_Strahlrohr1_v114"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v120" vertex2="Aluminium_Strahlrohr1_v117" vertex3="Aluminium_Strahlrohr1_v121"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v120" vertex2="Aluminium_Strahlrohr1_v116" vertex3="Aluminium_Strahlrohr1_v117"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v122" vertex2="Aluminium_Strahlrohr1_v119" vertex3="Aluminium_Strahlrohr1_v118"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v123" vertex2="Aluminium_Strahlrohr1_v122" vertex3="Aluminium_Strahlrohr1_v118"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v124" vertex2="Aluminium_Strahlrohr1_v121" vertex3="Aluminium_Strahlrohr1_v125"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v124" vertex2="Aluminium_Strahlrohr1_v120" vertex3="Aluminium_Strahlrohr1_v121"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v126" vertex2="Aluminium_Strahlrohr1_v122" vertex3="Aluminium_Strahlrohr1_v123"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v127" vertex2="Aluminium_Strahlrohr1_v122" vertex3="Aluminium_Strahlrohr1_v126"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v128" vertex2="Aluminium_Strahlrohr1_v124" vertex3="Aluminium_Strahlrohr1_v125"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v128" vertex2="Aluminium_Strahlrohr1_v129" vertex3="Aluminium_Strahlrohr1_v124"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v130" vertex2="Aluminium_Strahlrohr1_v127" vertex3="Aluminium_Strahlrohr1_v126"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v130" vertex2="Aluminium_Strahlrohr1_v126" vertex3="Aluminium_Strahlrohr1_v131"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v132" vertex2="Aluminium_Strahlrohr1_v129" vertex3="Aluminium_Strahlrohr1_v128"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v133" vertex2="Aluminium_Strahlrohr1_v132" vertex3="Aluminium_Strahlrohr1_v128"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v134" vertex2="Aluminium_Strahlrohr1_v132" vertex3="Aluminium_Strahlrohr1_v133"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v135" vertex2="Aluminium_Strahlrohr1_v130" vertex3="Aluminium_Strahlrohr1_v131"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v135" vertex2="Aluminium_Strahlrohr1_v131" vertex3="Aluminium_Strahlrohr1_v136"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v137" vertex2="Aluminium_Strahlrohr1_v135" vertex3="Aluminium_Strahlrohr1_v136"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v138" vertex2="Aluminium_Strahlrohr1_v134" vertex3="Aluminium_Strahlrohr1_v133"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v139" vertex2="Aluminium_Strahlrohr1_v135" vertex3="Aluminium_Strahlrohr1_v137"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v140" vertex2="Aluminium_Strahlrohr1_v139" vertex3="Aluminium_Strahlrohr1_v137"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v141" vertex2="Aluminium_Strahlrohr1_v134" vertex3="Aluminium_Strahlrohr1_v138"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v141" vertex2="Aluminium_Strahlrohr1_v142" vertex3="Aluminium_Strahlrohr1_v134"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v143" vertex2="Aluminium_Strahlrohr1_v139" vertex3="Aluminium_Strahlrohr1_v140"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v144" vertex2="Aluminium_Strahlrohr1_v142" vertex3="Aluminium_Strahlrohr1_v141"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v144" vertex2="Aluminium_Strahlrohr1_v145" vertex3="Aluminium_Strahlrohr1_v142"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v146" vertex2="Aluminium_Strahlrohr1_v143" vertex3="Aluminium_Strahlrohr1_v140"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v146" vertex2="Aluminium_Strahlrohr1_v140" vertex3="Aluminium_Strahlrohr1_v147"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v148" vertex2="Aluminium_Strahlrohr1_v145" vertex3="Aluminium_Strahlrohr1_v144"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v148" vertex2="Aluminium_Strahlrohr1_v149" vertex3="Aluminium_Strahlrohr1_v145"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v150" vertex2="Aluminium_Strahlrohr1_v146" vertex3="Aluminium_Strahlrohr1_v147"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v150" vertex2="Aluminium_Strahlrohr1_v147" vertex3="Aluminium_Strahlrohr1_v151"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v152" vertex2="Aluminium_Strahlrohr1_v153" vertex3="Aluminium_Strahlrohr1_v149"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v152" vertex2="Aluminium_Strahlrohr1_v149" vertex3="Aluminium_Strahlrohr1_v148"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v154" vertex2="Aluminium_Strahlrohr1_v150" vertex3="Aluminium_Strahlrohr1_v151"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v154" vertex2="Aluminium_Strahlrohr1_v155" vertex3="Aluminium_Strahlrohr1_v156"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v154" vertex2="Aluminium_Strahlrohr1_v151" vertex3="Aluminium_Strahlrohr1_v155"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v157" vertex2="Aluminium_Strahlrohr1_v158" vertex3="Aluminium_Strahlrohr1_v153"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v157" vertex2="Aluminium_Strahlrohr1_v153" vertex3="Aluminium_Strahlrohr1_v152"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v159" vertex2="Aluminium_Strahlrohr1_v154" vertex3="Aluminium_Strahlrohr1_v156"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v159" vertex2="Aluminium_Strahlrohr1_v156" vertex3="Aluminium_Strahlrohr1_v160"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v161" vertex2="Aluminium_Strahlrohr1_v162" vertex3="Aluminium_Strahlrohr1_v158"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v161" vertex2="Aluminium_Strahlrohr1_v163" vertex3="Aluminium_Strahlrohr1_v162"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v161" vertex2="Aluminium_Strahlrohr1_v158" vertex3="Aluminium_Strahlrohr1_v157"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v164" vertex2="Aluminium_Strahlrohr1_v159" vertex3="Aluminium_Strahlrohr1_v160"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v165" vertex2="Aluminium_Strahlrohr1_v166" vertex3="Aluminium_Strahlrohr1_v163"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v165" vertex2="Aluminium_Strahlrohr1_v163" vertex3="Aluminium_Strahlrohr1_v161"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v167" vertex2="Aluminium_Strahlrohr1_v160" vertex3="Aluminium_Strahlrohr1_v168"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v167" vertex2="Aluminium_Strahlrohr1_v164" vertex3="Aluminium_Strahlrohr1_v160"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v169" vertex2="Aluminium_Strahlrohr1_v170" vertex3="Aluminium_Strahlrohr1_v166"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v169" vertex2="Aluminium_Strahlrohr1_v166" vertex3="Aluminium_Strahlrohr1_v165"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v171" vertex2="Aluminium_Strahlrohr1_v167" vertex3="Aluminium_Strahlrohr1_v168"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v171" vertex2="Aluminium_Strahlrohr1_v172" vertex3="Aluminium_Strahlrohr1_v173"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v171" vertex2="Aluminium_Strahlrohr1_v168" vertex3="Aluminium_Strahlrohr1_v172"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v174" vertex2="Aluminium_Strahlrohr1_v175" vertex3="Aluminium_Strahlrohr1_v170"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v174" vertex2="Aluminium_Strahlrohr1_v170" vertex3="Aluminium_Strahlrohr1_v169"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v176" vertex2="Aluminium_Strahlrohr1_v171" vertex3="Aluminium_Strahlrohr1_v173"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v177" vertex2="Aluminium_Strahlrohr1_v175" vertex3="Aluminium_Strahlrohr1_v174"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v178" vertex2="Aluminium_Strahlrohr1_v176" vertex3="Aluminium_Strahlrohr1_v173"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v178" vertex2="Aluminium_Strahlrohr1_v173" vertex3="Aluminium_Strahlrohr1_v179"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v180" vertex2="Aluminium_Strahlrohr1_v175" vertex3="Aluminium_Strahlrohr1_v177"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v180" vertex2="Aluminium_Strahlrohr1_v181" vertex3="Aluminium_Strahlrohr1_v175"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v180" vertex2="Aluminium_Strahlrohr1_v182" vertex3="Aluminium_Strahlrohr1_v181"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v183" vertex2="Aluminium_Strahlrohr1_v178" vertex3="Aluminium_Strahlrohr1_v179"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v183" vertex2="Aluminium_Strahlrohr1_v179" vertex3="Aluminium_Strahlrohr1_v184"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v185" vertex2="Aluminium_Strahlrohr1_v182" vertex3="Aluminium_Strahlrohr1_v180"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v186" vertex2="Aluminium_Strahlrohr1_v183" vertex3="Aluminium_Strahlrohr1_v184"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v186" vertex2="Aluminium_Strahlrohr1_v184" vertex3="Aluminium_Strahlrohr1_v187"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v188" vertex2="Aluminium_Strahlrohr1_v182" vertex3="Aluminium_Strahlrohr1_v185"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v188" vertex2="Aluminium_Strahlrohr1_v189" vertex3="Aluminium_Strahlrohr1_v182"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v190" vertex2="Aluminium_Strahlrohr1_v186" vertex3="Aluminium_Strahlrohr1_v187"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v190" vertex2="Aluminium_Strahlrohr1_v191" vertex3="Aluminium_Strahlrohr1_v192"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v190" vertex2="Aluminium_Strahlrohr1_v187" vertex3="Aluminium_Strahlrohr1_v191"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v193" vertex2="Aluminium_Strahlrohr1_v189" vertex3="Aluminium_Strahlrohr1_v188"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v193" vertex2="Aluminium_Strahlrohr1_v194" vertex3="Aluminium_Strahlrohr1_v189"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v195" vertex2="Aluminium_Strahlrohr1_v190" vertex3="Aluminium_Strahlrohr1_v192"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v196" vertex2="Aluminium_Strahlrohr1_v197" vertex3="Aluminium_Strahlrohr1_v194"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v196" vertex2="Aluminium_Strahlrohr1_v194" vertex3="Aluminium_Strahlrohr1_v193"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v198" vertex2="Aluminium_Strahlrohr1_v192" vertex3="Aluminium_Strahlrohr1_v199"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v198" vertex2="Aluminium_Strahlrohr1_v195" vertex3="Aluminium_Strahlrohr1_v192"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v200" vertex2="Aluminium_Strahlrohr1_v201" vertex3="Aluminium_Strahlrohr1_v197"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v200" vertex2="Aluminium_Strahlrohr1_v197" vertex3="Aluminium_Strahlrohr1_v196"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v202" vertex2="Aluminium_Strahlrohr1_v198" vertex3="Aluminium_Strahlrohr1_v199"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v202" vertex2="Aluminium_Strahlrohr1_v199" vertex3="Aluminium_Strahlrohr1_v203"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v204" vertex2="Aluminium_Strahlrohr1_v205" vertex3="Aluminium_Strahlrohr1_v201"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v204" vertex2="Aluminium_Strahlrohr1_v201" vertex3="Aluminium_Strahlrohr1_v200"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v206" vertex2="Aluminium_Strahlrohr1_v202" vertex3="Aluminium_Strahlrohr1_v203"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v206" vertex2="Aluminium_Strahlrohr1_v203" vertex3="Aluminium_Strahlrohr1_v207"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v208" vertex2="Aluminium_Strahlrohr1_v205" vertex3="Aluminium_Strahlrohr1_v204"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v208" vertex2="Aluminium_Strahlrohr1_v209" vertex3="Aluminium_Strahlrohr1_v205"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v210" vertex2="Aluminium_Strahlrohr1_v206" vertex3="Aluminium_Strahlrohr1_v207"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v210" vertex2="Aluminium_Strahlrohr1_v211" vertex3="Aluminium_Strahlrohr1_v212"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v210" vertex2="Aluminium_Strahlrohr1_v207" vertex3="Aluminium_Strahlrohr1_v211"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v213" vertex2="Aluminium_Strahlrohr1_v214" vertex3="Aluminium_Strahlrohr1_v209"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v213" vertex2="Aluminium_Strahlrohr1_v215" vertex3="Aluminium_Strahlrohr1_v214"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v213" vertex2="Aluminium_Strahlrohr1_v209" vertex3="Aluminium_Strahlrohr1_v208"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v216" vertex2="Aluminium_Strahlrohr1_v210" vertex3="Aluminium_Strahlrohr1_v212"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v216" vertex2="Aluminium_Strahlrohr1_v212" vertex3="Aluminium_Strahlrohr1_v217"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v218" vertex2="Aluminium_Strahlrohr1_v215" vertex3="Aluminium_Strahlrohr1_v213"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v219" vertex2="Aluminium_Strahlrohr1_v216" vertex3="Aluminium_Strahlrohr1_v217"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v219" vertex2="Aluminium_Strahlrohr1_v217" vertex3="Aluminium_Strahlrohr1_v220"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v221" vertex2="Aluminium_Strahlrohr1_v215" vertex3="Aluminium_Strahlrohr1_v218"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v221" vertex2="Aluminium_Strahlrohr1_v222" vertex3="Aluminium_Strahlrohr1_v215"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v221" vertex2="Aluminium_Strahlrohr1_v223" vertex3="Aluminium_Strahlrohr1_v222"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v224" vertex2="Aluminium_Strahlrohr1_v219" vertex3="Aluminium_Strahlrohr1_v220"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v225" vertex2="Aluminium_Strahlrohr1_v223" vertex3="Aluminium_Strahlrohr1_v221"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v226" vertex2="Aluminium_Strahlrohr1_v224" vertex3="Aluminium_Strahlrohr1_v220"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v226" vertex2="Aluminium_Strahlrohr1_v227" vertex3="Aluminium_Strahlrohr1_v228"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v226" vertex2="Aluminium_Strahlrohr1_v220" vertex3="Aluminium_Strahlrohr1_v227"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v229" vertex2="Aluminium_Strahlrohr1_v230" vertex3="Aluminium_Strahlrohr1_v223"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v229" vertex2="Aluminium_Strahlrohr1_v231" vertex3="Aluminium_Strahlrohr1_v230"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v229" vertex2="Aluminium_Strahlrohr1_v223" vertex3="Aluminium_Strahlrohr1_v225"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v232" vertex2="Aluminium_Strahlrohr1_v226" vertex3="Aluminium_Strahlrohr1_v228"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v233" vertex2="Aluminium_Strahlrohr1_v231" vertex3="Aluminium_Strahlrohr1_v229"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v234" vertex2="Aluminium_Strahlrohr1_v232" vertex3="Aluminium_Strahlrohr1_v228"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v234" vertex2="Aluminium_Strahlrohr1_v228" vertex3="Aluminium_Strahlrohr1_v235"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v236" vertex2="Aluminium_Strahlrohr1_v237" vertex3="Aluminium_Strahlrohr1_v231"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v236" vertex2="Aluminium_Strahlrohr1_v231" vertex3="Aluminium_Strahlrohr1_v233"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v238" vertex2="Aluminium_Strahlrohr1_v234" vertex3="Aluminium_Strahlrohr1_v235"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v238" vertex2="Aluminium_Strahlrohr1_v239" vertex3="Aluminium_Strahlrohr1_v240"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v238" vertex2="Aluminium_Strahlrohr1_v235" vertex3="Aluminium_Strahlrohr1_v239"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v241" vertex2="Aluminium_Strahlrohr1_v237" vertex3="Aluminium_Strahlrohr1_v236"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v241" vertex2="Aluminium_Strahlrohr1_v242" vertex3="Aluminium_Strahlrohr1_v237"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v243" vertex2="Aluminium_Strahlrohr1_v238" vertex3="Aluminium_Strahlrohr1_v240"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v244" vertex2="Aluminium_Strahlrohr1_v242" vertex3="Aluminium_Strahlrohr1_v241"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v244" vertex2="Aluminium_Strahlrohr1_v245" vertex3="Aluminium_Strahlrohr1_v242"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v246" vertex2="Aluminium_Strahlrohr1_v243" vertex3="Aluminium_Strahlrohr1_v240"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v246" vertex2="Aluminium_Strahlrohr1_v240" vertex3="Aluminium_Strahlrohr1_v247"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v248" vertex2="Aluminium_Strahlrohr1_v249" vertex3="Aluminium_Strahlrohr1_v245"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v248" vertex2="Aluminium_Strahlrohr1_v250" vertex3="Aluminium_Strahlrohr1_v249"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v248" vertex2="Aluminium_Strahlrohr1_v245" vertex3="Aluminium_Strahlrohr1_v244"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v251" vertex2="Aluminium_Strahlrohr1_v247" vertex3="Aluminium_Strahlrohr1_v250"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v251" vertex2="Aluminium_Strahlrohr1_v246" vertex3="Aluminium_Strahlrohr1_v247"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v251" vertex2="Aluminium_Strahlrohr1_v250" vertex3="Aluminium_Strahlrohr1_v248"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v252" vertex2="Aluminium_Strahlrohr1_v189" vertex3="Aluminium_Strahlrohr1_v253"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v189" vertex2="Aluminium_Strahlrohr1_v194" vertex3="Aluminium_Strahlrohr1_v253"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v253" vertex2="Aluminium_Strahlrohr1_v197" vertex3="Aluminium_Strahlrohr1_v254"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v194" vertex2="Aluminium_Strahlrohr1_v197" vertex3="Aluminium_Strahlrohr1_v253"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v254" vertex2="Aluminium_Strahlrohr1_v201" vertex3="Aluminium_Strahlrohr1_v255"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v255" vertex2="Aluminium_Strahlrohr1_v201" vertex3="Aluminium_Strahlrohr1_v256"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v197" vertex2="Aluminium_Strahlrohr1_v201" vertex3="Aluminium_Strahlrohr1_v254"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v201" vertex2="Aluminium_Strahlrohr1_v205" vertex3="Aluminium_Strahlrohr1_v256"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v256" vertex2="Aluminium_Strahlrohr1_v209" vertex3="Aluminium_Strahlrohr1_v257"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v205" vertex2="Aluminium_Strahlrohr1_v209" vertex3="Aluminium_Strahlrohr1_v256"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v257" vertex2="Aluminium_Strahlrohr1_v214" vertex3="Aluminium_Strahlrohr1_v258"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v258" vertex2="Aluminium_Strahlrohr1_v214" vertex3="Aluminium_Strahlrohr1_v259"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v209" vertex2="Aluminium_Strahlrohr1_v214" vertex3="Aluminium_Strahlrohr1_v257"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v214" vertex2="Aluminium_Strahlrohr1_v215" vertex3="Aluminium_Strahlrohr1_v259"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v259" vertex2="Aluminium_Strahlrohr1_v222" vertex3="Aluminium_Strahlrohr1_v260"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v260" vertex2="Aluminium_Strahlrohr1_v222" vertex3="Aluminium_Strahlrohr1_v261"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v215" vertex2="Aluminium_Strahlrohr1_v222" vertex3="Aluminium_Strahlrohr1_v259"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v222" vertex2="Aluminium_Strahlrohr1_v223" vertex3="Aluminium_Strahlrohr1_v261"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v261" vertex2="Aluminium_Strahlrohr1_v230" vertex3="Aluminium_Strahlrohr1_v262"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v223" vertex2="Aluminium_Strahlrohr1_v230" vertex3="Aluminium_Strahlrohr1_v261"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v230" vertex2="Aluminium_Strahlrohr1_v231" vertex3="Aluminium_Strahlrohr1_v262"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v262" vertex2="Aluminium_Strahlrohr1_v231" vertex3="Aluminium_Strahlrohr1_v263"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v231" vertex2="Aluminium_Strahlrohr1_v237" vertex3="Aluminium_Strahlrohr1_v263"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v263" vertex2="Aluminium_Strahlrohr1_v237" vertex3="Aluminium_Strahlrohr1_v264"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v237" vertex2="Aluminium_Strahlrohr1_v242" vertex3="Aluminium_Strahlrohr1_v264"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v264" vertex2="Aluminium_Strahlrohr1_v242" vertex3="Aluminium_Strahlrohr1_v265"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v242" vertex2="Aluminium_Strahlrohr1_v245" vertex3="Aluminium_Strahlrohr1_v265"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v265" vertex2="Aluminium_Strahlrohr1_v245" vertex3="Aluminium_Strahlrohr1_v266"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v245" vertex2="Aluminium_Strahlrohr1_v249" vertex3="Aluminium_Strahlrohr1_v266"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v266" vertex2="Aluminium_Strahlrohr1_v249" vertex3="Aluminium_Strahlrohr1_v267"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v249" vertex2="Aluminium_Strahlrohr1_v250" vertex3="Aluminium_Strahlrohr1_v267"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v267" vertex2="Aluminium_Strahlrohr1_v250" vertex3="Aluminium_Strahlrohr1_v268"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v268" vertex2="Aluminium_Strahlrohr1_v250" vertex3="Aluminium_Strahlrohr1_v269"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v250" vertex2="Aluminium_Strahlrohr1_v247" vertex3="Aluminium_Strahlrohr1_v269"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v247" vertex2="Aluminium_Strahlrohr1_v240" vertex3="Aluminium_Strahlrohr1_v269"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v269" vertex2="Aluminium_Strahlrohr1_v240" vertex3="Aluminium_Strahlrohr1_v270"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v240" vertex2="Aluminium_Strahlrohr1_v239" vertex3="Aluminium_Strahlrohr1_v270"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v270" vertex2="Aluminium_Strahlrohr1_v239" vertex3="Aluminium_Strahlrohr1_v271"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v239" vertex2="Aluminium_Strahlrohr1_v235" vertex3="Aluminium_Strahlrohr1_v271"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v271" vertex2="Aluminium_Strahlrohr1_v235" vertex3="Aluminium_Strahlrohr1_v272"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v235" vertex2="Aluminium_Strahlrohr1_v228" vertex3="Aluminium_Strahlrohr1_v272"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v272" vertex2="Aluminium_Strahlrohr1_v228" vertex3="Aluminium_Strahlrohr1_v273"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v228" vertex2="Aluminium_Strahlrohr1_v227" vertex3="Aluminium_Strahlrohr1_v273"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v273" vertex2="Aluminium_Strahlrohr1_v227" vertex3="Aluminium_Strahlrohr1_v274"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v274" vertex2="Aluminium_Strahlrohr1_v220" vertex3="Aluminium_Strahlrohr1_v275"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v227" vertex2="Aluminium_Strahlrohr1_v220" vertex3="Aluminium_Strahlrohr1_v274"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v275" vertex2="Aluminium_Strahlrohr1_v217" vertex3="Aluminium_Strahlrohr1_v276"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v220" vertex2="Aluminium_Strahlrohr1_v217" vertex3="Aluminium_Strahlrohr1_v275"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v276" vertex2="Aluminium_Strahlrohr1_v212" vertex3="Aluminium_Strahlrohr1_v277"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v217" vertex2="Aluminium_Strahlrohr1_v212" vertex3="Aluminium_Strahlrohr1_v276"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v277" vertex2="Aluminium_Strahlrohr1_v211" vertex3="Aluminium_Strahlrohr1_v278"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v278" vertex2="Aluminium_Strahlrohr1_v211" vertex3="Aluminium_Strahlrohr1_v279"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v212" vertex2="Aluminium_Strahlrohr1_v211" vertex3="Aluminium_Strahlrohr1_v277"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v211" vertex2="Aluminium_Strahlrohr1_v207" vertex3="Aluminium_Strahlrohr1_v279"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v279" vertex2="Aluminium_Strahlrohr1_v203" vertex3="Aluminium_Strahlrohr1_v280"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v207" vertex2="Aluminium_Strahlrohr1_v203" vertex3="Aluminium_Strahlrohr1_v279"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v280" vertex2="Aluminium_Strahlrohr1_v199" vertex3="Aluminium_Strahlrohr1_v281"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v203" vertex2="Aluminium_Strahlrohr1_v199" vertex3="Aluminium_Strahlrohr1_v280"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v281" vertex2="Aluminium_Strahlrohr1_v192" vertex3="Aluminium_Strahlrohr1_v282"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v199" vertex2="Aluminium_Strahlrohr1_v192" vertex3="Aluminium_Strahlrohr1_v281"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v282" vertex2="Aluminium_Strahlrohr1_v191" vertex3="Aluminium_Strahlrohr1_v283"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v192" vertex2="Aluminium_Strahlrohr1_v191" vertex3="Aluminium_Strahlrohr1_v282"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v283" vertex2="Aluminium_Strahlrohr1_v187" vertex3="Aluminium_Strahlrohr1_v284"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v284" vertex2="Aluminium_Strahlrohr1_v187" vertex3="Aluminium_Strahlrohr1_v285"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v191" vertex2="Aluminium_Strahlrohr1_v187" vertex3="Aluminium_Strahlrohr1_v283"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v187" vertex2="Aluminium_Strahlrohr1_v184" vertex3="Aluminium_Strahlrohr1_v285"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v285" vertex2="Aluminium_Strahlrohr1_v179" vertex3="Aluminium_Strahlrohr1_v286"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v184" vertex2="Aluminium_Strahlrohr1_v179" vertex3="Aluminium_Strahlrohr1_v285"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v286" vertex2="Aluminium_Strahlrohr1_v173" vertex3="Aluminium_Strahlrohr1_v287"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v287" vertex2="Aluminium_Strahlrohr1_v173" vertex3="Aluminium_Strahlrohr1_v288"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v179" vertex2="Aluminium_Strahlrohr1_v173" vertex3="Aluminium_Strahlrohr1_v286"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v173" vertex2="Aluminium_Strahlrohr1_v172" vertex3="Aluminium_Strahlrohr1_v288"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v172" vertex2="Aluminium_Strahlrohr1_v168" vertex3="Aluminium_Strahlrohr1_v288"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v288" vertex2="Aluminium_Strahlrohr1_v168" vertex3="Aluminium_Strahlrohr1_v289"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v168" vertex2="Aluminium_Strahlrohr1_v160" vertex3="Aluminium_Strahlrohr1_v289"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v289" vertex2="Aluminium_Strahlrohr1_v160" vertex3="Aluminium_Strahlrohr1_v290"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v160" vertex2="Aluminium_Strahlrohr1_v156" vertex3="Aluminium_Strahlrohr1_v290"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v290" vertex2="Aluminium_Strahlrohr1_v156" vertex3="Aluminium_Strahlrohr1_v291"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v156" vertex2="Aluminium_Strahlrohr1_v155" vertex3="Aluminium_Strahlrohr1_v291"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v291" vertex2="Aluminium_Strahlrohr1_v155" vertex3="Aluminium_Strahlrohr1_v292"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v155" vertex2="Aluminium_Strahlrohr1_v151" vertex3="Aluminium_Strahlrohr1_v292"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v292" vertex2="Aluminium_Strahlrohr1_v151" vertex3="Aluminium_Strahlrohr1_v293"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v151" vertex2="Aluminium_Strahlrohr1_v147" vertex3="Aluminium_Strahlrohr1_v293"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v293" vertex2="Aluminium_Strahlrohr1_v147" vertex3="Aluminium_Strahlrohr1_v294"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v147" vertex2="Aluminium_Strahlrohr1_v140" vertex3="Aluminium_Strahlrohr1_v294"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v294" vertex2="Aluminium_Strahlrohr1_v140" vertex3="Aluminium_Strahlrohr1_v295"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v140" vertex2="Aluminium_Strahlrohr1_v137" vertex3="Aluminium_Strahlrohr1_v295"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v295" vertex2="Aluminium_Strahlrohr1_v137" vertex3="Aluminium_Strahlrohr1_v296"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v137" vertex2="Aluminium_Strahlrohr1_v136" vertex3="Aluminium_Strahlrohr1_v296"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v296" vertex2="Aluminium_Strahlrohr1_v136" vertex3="Aluminium_Strahlrohr1_v297"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v136" vertex2="Aluminium_Strahlrohr1_v131" vertex3="Aluminium_Strahlrohr1_v297"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v297" vertex2="Aluminium_Strahlrohr1_v131" vertex3="Aluminium_Strahlrohr1_v298"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v131" vertex2="Aluminium_Strahlrohr1_v126" vertex3="Aluminium_Strahlrohr1_v298"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v298" vertex2="Aluminium_Strahlrohr1_v126" vertex3="Aluminium_Strahlrohr1_v299"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v126" vertex2="Aluminium_Strahlrohr1_v123" vertex3="Aluminium_Strahlrohr1_v299"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v299" vertex2="Aluminium_Strahlrohr1_v123" vertex3="Aluminium_Strahlrohr1_v300"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v123" vertex2="Aluminium_Strahlrohr1_v118" vertex3="Aluminium_Strahlrohr1_v300"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v300" vertex2="Aluminium_Strahlrohr1_v118" vertex3="Aluminium_Strahlrohr1_v301"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v118" vertex2="Aluminium_Strahlrohr1_v114" vertex3="Aluminium_Strahlrohr1_v301"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v301" vertex2="Aluminium_Strahlrohr1_v114" vertex3="Aluminium_Strahlrohr1_v302"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v114" vertex2="Aluminium_Strahlrohr1_v110" vertex3="Aluminium_Strahlrohr1_v302"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v302" vertex2="Aluminium_Strahlrohr1_v110" vertex3="Aluminium_Strahlrohr1_v303"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v110" vertex2="Aluminium_Strahlrohr1_v106" vertex3="Aluminium_Strahlrohr1_v303"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v303" vertex2="Aluminium_Strahlrohr1_v106" vertex3="Aluminium_Strahlrohr1_v304"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v106" vertex2="Aluminium_Strahlrohr1_v102" vertex3="Aluminium_Strahlrohr1_v304"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v304" vertex2="Aluminium_Strahlrohr1_v102" vertex3="Aluminium_Strahlrohr1_v305"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v102" vertex2="Aluminium_Strahlrohr1_v99" vertex3="Aluminium_Strahlrohr1_v305"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v305" vertex2="Aluminium_Strahlrohr1_v99" vertex3="Aluminium_Strahlrohr1_v306"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v306" vertex2="Aluminium_Strahlrohr1_v99" vertex3="Aluminium_Strahlrohr1_v307"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v99" vertex2="Aluminium_Strahlrohr1_v94" vertex3="Aluminium_Strahlrohr1_v307"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v94" vertex2="Aluminium_Strahlrohr1_v91" vertex3="Aluminium_Strahlrohr1_v307"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v307" vertex2="Aluminium_Strahlrohr1_v91" vertex3="Aluminium_Strahlrohr1_v308"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v91" vertex2="Aluminium_Strahlrohr1_v87" vertex3="Aluminium_Strahlrohr1_v308"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v308" vertex2="Aluminium_Strahlrohr1_v87" vertex3="Aluminium_Strahlrohr1_v309"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v309" vertex2="Aluminium_Strahlrohr1_v82" vertex3="Aluminium_Strahlrohr1_v310"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v87" vertex2="Aluminium_Strahlrohr1_v82" vertex3="Aluminium_Strahlrohr1_v309"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v310" vertex2="Aluminium_Strahlrohr1_v79" vertex3="Aluminium_Strahlrohr1_v311"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v82" vertex2="Aluminium_Strahlrohr1_v79" vertex3="Aluminium_Strahlrohr1_v310"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v311" vertex2="Aluminium_Strahlrohr1_v75" vertex3="Aluminium_Strahlrohr1_v312"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v79" vertex2="Aluminium_Strahlrohr1_v75" vertex3="Aluminium_Strahlrohr1_v311"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v312" vertex2="Aluminium_Strahlrohr1_v70" vertex3="Aluminium_Strahlrohr1_v313"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v75" vertex2="Aluminium_Strahlrohr1_v70" vertex3="Aluminium_Strahlrohr1_v312"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v70" vertex2="Aluminium_Strahlrohr1_v66" vertex3="Aluminium_Strahlrohr1_v313"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v313" vertex2="Aluminium_Strahlrohr1_v66" vertex3="Aluminium_Strahlrohr1_v314"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v314" vertex2="Aluminium_Strahlrohr1_v66" vertex3="Aluminium_Strahlrohr1_v315"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v66" vertex2="Aluminium_Strahlrohr1_v63" vertex3="Aluminium_Strahlrohr1_v315"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v63" vertex2="Aluminium_Strahlrohr1_v58" vertex3="Aluminium_Strahlrohr1_v315"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v315" vertex2="Aluminium_Strahlrohr1_v58" vertex3="Aluminium_Strahlrohr1_v316"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v58" vertex2="Aluminium_Strahlrohr1_v54" vertex3="Aluminium_Strahlrohr1_v316"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v316" vertex2="Aluminium_Strahlrohr1_v54" vertex3="Aluminium_Strahlrohr1_v317"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v54" vertex2="Aluminium_Strahlrohr1_v51" vertex3="Aluminium_Strahlrohr1_v317"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v317" vertex2="Aluminium_Strahlrohr1_v51" vertex3="Aluminium_Strahlrohr1_v318"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v318" vertex2="Aluminium_Strahlrohr1_v51" vertex3="Aluminium_Strahlrohr1_v319"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v51" vertex2="Aluminium_Strahlrohr1_v46" vertex3="Aluminium_Strahlrohr1_v319"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v46" vertex2="Aluminium_Strahlrohr1_v42" vertex3="Aluminium_Strahlrohr1_v319"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v319" vertex2="Aluminium_Strahlrohr1_v42" vertex3="Aluminium_Strahlrohr1_v320"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v320" vertex2="Aluminium_Strahlrohr1_v42" vertex3="Aluminium_Strahlrohr1_v321"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v42" vertex2="Aluminium_Strahlrohr1_v39" vertex3="Aluminium_Strahlrohr1_v321"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v321" vertex2="Aluminium_Strahlrohr1_v39" vertex3="Aluminium_Strahlrohr1_v322"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v39" vertex2="Aluminium_Strahlrohr1_v36" vertex3="Aluminium_Strahlrohr1_v322"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v36" vertex2="Aluminium_Strahlrohr1_v30" vertex3="Aluminium_Strahlrohr1_v322"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v322" vertex2="Aluminium_Strahlrohr1_v30" vertex3="Aluminium_Strahlrohr1_v323"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v323" vertex2="Aluminium_Strahlrohr1_v30" vertex3="Aluminium_Strahlrohr1_v324"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v30" vertex2="Aluminium_Strahlrohr1_v27" vertex3="Aluminium_Strahlrohr1_v324"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v27" vertex2="Aluminium_Strahlrohr1_v23" vertex3="Aluminium_Strahlrohr1_v324"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v324" vertex2="Aluminium_Strahlrohr1_v23" vertex3="Aluminium_Strahlrohr1_v325"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v23" vertex2="Aluminium_Strahlrohr1_v19" vertex3="Aluminium_Strahlrohr1_v325"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v325" vertex2="Aluminium_Strahlrohr1_v19" vertex3="Aluminium_Strahlrohr1_v326"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v326" vertex2="Aluminium_Strahlrohr1_v14" vertex3="Aluminium_Strahlrohr1_v327"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v19" vertex2="Aluminium_Strahlrohr1_v14" vertex3="Aluminium_Strahlrohr1_v326"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v327" vertex2="Aluminium_Strahlrohr1_v10" vertex3="Aluminium_Strahlrohr1_v328"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v14" vertex2="Aluminium_Strahlrohr1_v10" vertex3="Aluminium_Strahlrohr1_v327"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v328" vertex2="Aluminium_Strahlrohr1_v8" vertex3="Aluminium_Strahlrohr1_v329"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v10" vertex2="Aluminium_Strahlrohr1_v8" vertex3="Aluminium_Strahlrohr1_v328"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v329" vertex2="Aluminium_Strahlrohr1_v0" vertex3="Aluminium_Strahlrohr1_v330"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v8" vertex2="Aluminium_Strahlrohr1_v0" vertex3="Aluminium_Strahlrohr1_v329"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v330" vertex2="Aluminium_Strahlrohr1_v2" vertex3="Aluminium_Strahlrohr1_v331"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v0" vertex2="Aluminium_Strahlrohr1_v2" vertex3="Aluminium_Strahlrohr1_v330"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v331" vertex2="Aluminium_Strahlrohr1_v5" vertex3="Aluminium_Strahlrohr1_v332"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v2" vertex2="Aluminium_Strahlrohr1_v5" vertex3="Aluminium_Strahlrohr1_v331"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v332" vertex2="Aluminium_Strahlrohr1_v9" vertex3="Aluminium_Strahlrohr1_v333"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v5" vertex2="Aluminium_Strahlrohr1_v9" vertex3="Aluminium_Strahlrohr1_v332"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v333" vertex2="Aluminium_Strahlrohr1_v12" vertex3="Aluminium_Strahlrohr1_v334"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v334" vertex2="Aluminium_Strahlrohr1_v12" vertex3="Aluminium_Strahlrohr1_v335"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v9" vertex2="Aluminium_Strahlrohr1_v12" vertex3="Aluminium_Strahlrohr1_v333"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v12" vertex2="Aluminium_Strahlrohr1_v17" vertex3="Aluminium_Strahlrohr1_v335"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v335" vertex2="Aluminium_Strahlrohr1_v20" vertex3="Aluminium_Strahlrohr1_v336"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v17" vertex2="Aluminium_Strahlrohr1_v20" vertex3="Aluminium_Strahlrohr1_v335"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v336" vertex2="Aluminium_Strahlrohr1_v26" vertex3="Aluminium_Strahlrohr1_v337"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v20" vertex2="Aluminium_Strahlrohr1_v26" vertex3="Aluminium_Strahlrohr1_v336"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v337" vertex2="Aluminium_Strahlrohr1_v28" vertex3="Aluminium_Strahlrohr1_v338"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v26" vertex2="Aluminium_Strahlrohr1_v28" vertex3="Aluminium_Strahlrohr1_v337"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v338" vertex2="Aluminium_Strahlrohr1_v33" vertex3="Aluminium_Strahlrohr1_v339"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v28" vertex2="Aluminium_Strahlrohr1_v33" vertex3="Aluminium_Strahlrohr1_v338"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v33" vertex2="Aluminium_Strahlrohr1_v38" vertex3="Aluminium_Strahlrohr1_v339"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v339" vertex2="Aluminium_Strahlrohr1_v38" vertex3="Aluminium_Strahlrohr1_v340"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v38" vertex2="Aluminium_Strahlrohr1_v40" vertex3="Aluminium_Strahlrohr1_v340"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v340" vertex2="Aluminium_Strahlrohr1_v40" vertex3="Aluminium_Strahlrohr1_v341"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v40" vertex2="Aluminium_Strahlrohr1_v44" vertex3="Aluminium_Strahlrohr1_v341"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v341" vertex2="Aluminium_Strahlrohr1_v44" vertex3="Aluminium_Strahlrohr1_v342"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v44" vertex2="Aluminium_Strahlrohr1_v49" vertex3="Aluminium_Strahlrohr1_v342"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v342" vertex2="Aluminium_Strahlrohr1_v49" vertex3="Aluminium_Strahlrohr1_v343"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v343" vertex2="Aluminium_Strahlrohr1_v52" vertex3="Aluminium_Strahlrohr1_v344"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v49" vertex2="Aluminium_Strahlrohr1_v52" vertex3="Aluminium_Strahlrohr1_v343"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v344" vertex2="Aluminium_Strahlrohr1_v56" vertex3="Aluminium_Strahlrohr1_v345"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v52" vertex2="Aluminium_Strahlrohr1_v56" vertex3="Aluminium_Strahlrohr1_v344"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v345" vertex2="Aluminium_Strahlrohr1_v60" vertex3="Aluminium_Strahlrohr1_v346"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v56" vertex2="Aluminium_Strahlrohr1_v60" vertex3="Aluminium_Strahlrohr1_v345"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v346" vertex2="Aluminium_Strahlrohr1_v65" vertex3="Aluminium_Strahlrohr1_v347"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v60" vertex2="Aluminium_Strahlrohr1_v65" vertex3="Aluminium_Strahlrohr1_v346"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v347" vertex2="Aluminium_Strahlrohr1_v68" vertex3="Aluminium_Strahlrohr1_v348"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v65" vertex2="Aluminium_Strahlrohr1_v68" vertex3="Aluminium_Strahlrohr1_v347"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v348" vertex2="Aluminium_Strahlrohr1_v73" vertex3="Aluminium_Strahlrohr1_v349"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v349" vertex2="Aluminium_Strahlrohr1_v73" vertex3="Aluminium_Strahlrohr1_v350"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v68" vertex2="Aluminium_Strahlrohr1_v73" vertex3="Aluminium_Strahlrohr1_v348"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v73" vertex2="Aluminium_Strahlrohr1_v77" vertex3="Aluminium_Strahlrohr1_v350"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v350" vertex2="Aluminium_Strahlrohr1_v80" vertex3="Aluminium_Strahlrohr1_v351"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v77" vertex2="Aluminium_Strahlrohr1_v80" vertex3="Aluminium_Strahlrohr1_v350"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v351" vertex2="Aluminium_Strahlrohr1_v84" vertex3="Aluminium_Strahlrohr1_v352"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v80" vertex2="Aluminium_Strahlrohr1_v84" vertex3="Aluminium_Strahlrohr1_v351"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v352" vertex2="Aluminium_Strahlrohr1_v90" vertex3="Aluminium_Strahlrohr1_v353"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v84" vertex2="Aluminium_Strahlrohr1_v90" vertex3="Aluminium_Strahlrohr1_v352"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v353" vertex2="Aluminium_Strahlrohr1_v92" vertex3="Aluminium_Strahlrohr1_v354"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v90" vertex2="Aluminium_Strahlrohr1_v92" vertex3="Aluminium_Strahlrohr1_v353"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v354" vertex2="Aluminium_Strahlrohr1_v96" vertex3="Aluminium_Strahlrohr1_v355"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v92" vertex2="Aluminium_Strahlrohr1_v96" vertex3="Aluminium_Strahlrohr1_v354"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v355" vertex2="Aluminium_Strahlrohr1_v101" vertex3="Aluminium_Strahlrohr1_v356"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v96" vertex2="Aluminium_Strahlrohr1_v101" vertex3="Aluminium_Strahlrohr1_v355"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v356" vertex2="Aluminium_Strahlrohr1_v104" vertex3="Aluminium_Strahlrohr1_v357"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v101" vertex2="Aluminium_Strahlrohr1_v104" vertex3="Aluminium_Strahlrohr1_v356"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v357" vertex2="Aluminium_Strahlrohr1_v108" vertex3="Aluminium_Strahlrohr1_v358"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v104" vertex2="Aluminium_Strahlrohr1_v108" vertex3="Aluminium_Strahlrohr1_v357"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v358" vertex2="Aluminium_Strahlrohr1_v112" vertex3="Aluminium_Strahlrohr1_v359"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v108" vertex2="Aluminium_Strahlrohr1_v112" vertex3="Aluminium_Strahlrohr1_v358"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v359" vertex2="Aluminium_Strahlrohr1_v116" vertex3="Aluminium_Strahlrohr1_v360"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v112" vertex2="Aluminium_Strahlrohr1_v116" vertex3="Aluminium_Strahlrohr1_v359"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v360" vertex2="Aluminium_Strahlrohr1_v120" vertex3="Aluminium_Strahlrohr1_v361"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v116" vertex2="Aluminium_Strahlrohr1_v120" vertex3="Aluminium_Strahlrohr1_v360"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v361" vertex2="Aluminium_Strahlrohr1_v124" vertex3="Aluminium_Strahlrohr1_v362"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v120" vertex2="Aluminium_Strahlrohr1_v124" vertex3="Aluminium_Strahlrohr1_v361"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v362" vertex2="Aluminium_Strahlrohr1_v129" vertex3="Aluminium_Strahlrohr1_v363"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v124" vertex2="Aluminium_Strahlrohr1_v129" vertex3="Aluminium_Strahlrohr1_v362"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v363" vertex2="Aluminium_Strahlrohr1_v132" vertex3="Aluminium_Strahlrohr1_v364"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v129" vertex2="Aluminium_Strahlrohr1_v132" vertex3="Aluminium_Strahlrohr1_v363"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v132" vertex2="Aluminium_Strahlrohr1_v134" vertex3="Aluminium_Strahlrohr1_v364"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v364" vertex2="Aluminium_Strahlrohr1_v134" vertex3="Aluminium_Strahlrohr1_v365"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v134" vertex2="Aluminium_Strahlrohr1_v142" vertex3="Aluminium_Strahlrohr1_v365"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v365" vertex2="Aluminium_Strahlrohr1_v142" vertex3="Aluminium_Strahlrohr1_v366"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v142" vertex2="Aluminium_Strahlrohr1_v145" vertex3="Aluminium_Strahlrohr1_v366"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v366" vertex2="Aluminium_Strahlrohr1_v145" vertex3="Aluminium_Strahlrohr1_v367"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v145" vertex2="Aluminium_Strahlrohr1_v149" vertex3="Aluminium_Strahlrohr1_v367"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v367" vertex2="Aluminium_Strahlrohr1_v149" vertex3="Aluminium_Strahlrohr1_v368"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v149" vertex2="Aluminium_Strahlrohr1_v153" vertex3="Aluminium_Strahlrohr1_v368"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v368" vertex2="Aluminium_Strahlrohr1_v153" vertex3="Aluminium_Strahlrohr1_v369"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v153" vertex2="Aluminium_Strahlrohr1_v158" vertex3="Aluminium_Strahlrohr1_v369"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v369" vertex2="Aluminium_Strahlrohr1_v158" vertex3="Aluminium_Strahlrohr1_v370"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v158" vertex2="Aluminium_Strahlrohr1_v162" vertex3="Aluminium_Strahlrohr1_v370"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v370" vertex2="Aluminium_Strahlrohr1_v162" vertex3="Aluminium_Strahlrohr1_v371"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v162" vertex2="Aluminium_Strahlrohr1_v163" vertex3="Aluminium_Strahlrohr1_v371"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v371" vertex2="Aluminium_Strahlrohr1_v163" vertex3="Aluminium_Strahlrohr1_v372"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v163" vertex2="Aluminium_Strahlrohr1_v166" vertex3="Aluminium_Strahlrohr1_v372"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v372" vertex2="Aluminium_Strahlrohr1_v166" vertex3="Aluminium_Strahlrohr1_v373"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v166" vertex2="Aluminium_Strahlrohr1_v170" vertex3="Aluminium_Strahlrohr1_v373"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v373" vertex2="Aluminium_Strahlrohr1_v170" vertex3="Aluminium_Strahlrohr1_v374"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v170" vertex2="Aluminium_Strahlrohr1_v175" vertex3="Aluminium_Strahlrohr1_v374"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v374" vertex2="Aluminium_Strahlrohr1_v175" vertex3="Aluminium_Strahlrohr1_v375"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v175" vertex2="Aluminium_Strahlrohr1_v181" vertex3="Aluminium_Strahlrohr1_v375"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v375" vertex2="Aluminium_Strahlrohr1_v181" vertex3="Aluminium_Strahlrohr1_v376"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v376" vertex2="Aluminium_Strahlrohr1_v182" vertex3="Aluminium_Strahlrohr1_v377"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v181" vertex2="Aluminium_Strahlrohr1_v182" vertex3="Aluminium_Strahlrohr1_v376"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v377" vertex2="Aluminium_Strahlrohr1_v182" vertex3="Aluminium_Strahlrohr1_v252"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v182" vertex2="Aluminium_Strahlrohr1_v189" vertex3="Aluminium_Strahlrohr1_v252"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v362" vertex2="Aluminium_Strahlrohr1_v378" vertex3="Aluminium_Strahlrohr1_v379"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v363" vertex2="Aluminium_Strahlrohr1_v380" vertex3="Aluminium_Strahlrohr1_v378"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v363" vertex2="Aluminium_Strahlrohr1_v378" vertex3="Aluminium_Strahlrohr1_v362"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v361" vertex2="Aluminium_Strahlrohr1_v362" vertex3="Aluminium_Strahlrohr1_v379"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v364" vertex2="Aluminium_Strahlrohr1_v381" vertex3="Aluminium_Strahlrohr1_v380"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v364" vertex2="Aluminium_Strahlrohr1_v380" vertex3="Aluminium_Strahlrohr1_v363"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v360" vertex2="Aluminium_Strahlrohr1_v382" vertex3="Aluminium_Strahlrohr1_v383"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v360" vertex2="Aluminium_Strahlrohr1_v379" vertex3="Aluminium_Strahlrohr1_v382"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v360" vertex2="Aluminium_Strahlrohr1_v361" vertex3="Aluminium_Strahlrohr1_v379"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v365" vertex2="Aluminium_Strahlrohr1_v381" vertex3="Aluminium_Strahlrohr1_v364"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v365" vertex2="Aluminium_Strahlrohr1_v384" vertex3="Aluminium_Strahlrohr1_v381"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v365" vertex2="Aluminium_Strahlrohr1_v385" vertex3="Aluminium_Strahlrohr1_v384"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v359" vertex2="Aluminium_Strahlrohr1_v360" vertex3="Aluminium_Strahlrohr1_v383"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v366" vertex2="Aluminium_Strahlrohr1_v386" vertex3="Aluminium_Strahlrohr1_v385"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v366" vertex2="Aluminium_Strahlrohr1_v385" vertex3="Aluminium_Strahlrohr1_v365"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v358" vertex2="Aluminium_Strahlrohr1_v387" vertex3="Aluminium_Strahlrohr1_v388"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v358" vertex2="Aluminium_Strahlrohr1_v383" vertex3="Aluminium_Strahlrohr1_v387"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v358" vertex2="Aluminium_Strahlrohr1_v359" vertex3="Aluminium_Strahlrohr1_v383"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v367" vertex2="Aluminium_Strahlrohr1_v386" vertex3="Aluminium_Strahlrohr1_v366"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v357" vertex2="Aluminium_Strahlrohr1_v358" vertex3="Aluminium_Strahlrohr1_v388"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v368" vertex2="Aluminium_Strahlrohr1_v389" vertex3="Aluminium_Strahlrohr1_v386"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v368" vertex2="Aluminium_Strahlrohr1_v386" vertex3="Aluminium_Strahlrohr1_v367"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v356" vertex2="Aluminium_Strahlrohr1_v390" vertex3="Aluminium_Strahlrohr1_v391"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v356" vertex2="Aluminium_Strahlrohr1_v388" vertex3="Aluminium_Strahlrohr1_v390"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v356" vertex2="Aluminium_Strahlrohr1_v357" vertex3="Aluminium_Strahlrohr1_v388"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v369" vertex2="Aluminium_Strahlrohr1_v389" vertex3="Aluminium_Strahlrohr1_v368"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v369" vertex2="Aluminium_Strahlrohr1_v392" vertex3="Aluminium_Strahlrohr1_v389"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v355" vertex2="Aluminium_Strahlrohr1_v356" vertex3="Aluminium_Strahlrohr1_v391"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v370" vertex2="Aluminium_Strahlrohr1_v393" vertex3="Aluminium_Strahlrohr1_v392"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v370" vertex2="Aluminium_Strahlrohr1_v392" vertex3="Aluminium_Strahlrohr1_v369"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v354" vertex2="Aluminium_Strahlrohr1_v394" vertex3="Aluminium_Strahlrohr1_v395"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v354" vertex2="Aluminium_Strahlrohr1_v391" vertex3="Aluminium_Strahlrohr1_v394"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v354" vertex2="Aluminium_Strahlrohr1_v355" vertex3="Aluminium_Strahlrohr1_v391"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v371" vertex2="Aluminium_Strahlrohr1_v396" vertex3="Aluminium_Strahlrohr1_v393"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v371" vertex2="Aluminium_Strahlrohr1_v393" vertex3="Aluminium_Strahlrohr1_v370"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v353" vertex2="Aluminium_Strahlrohr1_v354" vertex3="Aluminium_Strahlrohr1_v395"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v372" vertex2="Aluminium_Strahlrohr1_v397" vertex3="Aluminium_Strahlrohr1_v396"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v372" vertex2="Aluminium_Strahlrohr1_v396" vertex3="Aluminium_Strahlrohr1_v371"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v352" vertex2="Aluminium_Strahlrohr1_v395" vertex3="Aluminium_Strahlrohr1_v398"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v352" vertex2="Aluminium_Strahlrohr1_v353" vertex3="Aluminium_Strahlrohr1_v395"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v373" vertex2="Aluminium_Strahlrohr1_v399" vertex3="Aluminium_Strahlrohr1_v397"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v373" vertex2="Aluminium_Strahlrohr1_v400" vertex3="Aluminium_Strahlrohr1_v399"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v373" vertex2="Aluminium_Strahlrohr1_v397" vertex3="Aluminium_Strahlrohr1_v372"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v351" vertex2="Aluminium_Strahlrohr1_v352" vertex3="Aluminium_Strahlrohr1_v398"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v351" vertex2="Aluminium_Strahlrohr1_v401" vertex3="Aluminium_Strahlrohr1_v402"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v351" vertex2="Aluminium_Strahlrohr1_v398" vertex3="Aluminium_Strahlrohr1_v401"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v374" vertex2="Aluminium_Strahlrohr1_v400" vertex3="Aluminium_Strahlrohr1_v373"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v350" vertex2="Aluminium_Strahlrohr1_v351" vertex3="Aluminium_Strahlrohr1_v402"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v375" vertex2="Aluminium_Strahlrohr1_v400" vertex3="Aluminium_Strahlrohr1_v374"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v375" vertex2="Aluminium_Strahlrohr1_v403" vertex3="Aluminium_Strahlrohr1_v400"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v349" vertex2="Aluminium_Strahlrohr1_v350" vertex3="Aluminium_Strahlrohr1_v402"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v349" vertex2="Aluminium_Strahlrohr1_v404" vertex3="Aluminium_Strahlrohr1_v405"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v349" vertex2="Aluminium_Strahlrohr1_v402" vertex3="Aluminium_Strahlrohr1_v404"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v376" vertex2="Aluminium_Strahlrohr1_v406" vertex3="Aluminium_Strahlrohr1_v403"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v376" vertex2="Aluminium_Strahlrohr1_v407" vertex3="Aluminium_Strahlrohr1_v406"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v376" vertex2="Aluminium_Strahlrohr1_v403" vertex3="Aluminium_Strahlrohr1_v375"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v348" vertex2="Aluminium_Strahlrohr1_v349" vertex3="Aluminium_Strahlrohr1_v405"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v377" vertex2="Aluminium_Strahlrohr1_v407" vertex3="Aluminium_Strahlrohr1_v376"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v347" vertex2="Aluminium_Strahlrohr1_v348" vertex3="Aluminium_Strahlrohr1_v405"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v347" vertex2="Aluminium_Strahlrohr1_v405" vertex3="Aluminium_Strahlrohr1_v408"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v252" vertex2="Aluminium_Strahlrohr1_v409" vertex3="Aluminium_Strahlrohr1_v410"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v252" vertex2="Aluminium_Strahlrohr1_v410" vertex3="Aluminium_Strahlrohr1_v407"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v252" vertex2="Aluminium_Strahlrohr1_v407" vertex3="Aluminium_Strahlrohr1_v377"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v346" vertex2="Aluminium_Strahlrohr1_v347" vertex3="Aluminium_Strahlrohr1_v408"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v346" vertex2="Aluminium_Strahlrohr1_v408" vertex3="Aluminium_Strahlrohr1_v411"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v253" vertex2="Aluminium_Strahlrohr1_v409" vertex3="Aluminium_Strahlrohr1_v252"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v345" vertex2="Aluminium_Strahlrohr1_v411" vertex3="Aluminium_Strahlrohr1_v412"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v345" vertex2="Aluminium_Strahlrohr1_v346" vertex3="Aluminium_Strahlrohr1_v411"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v254" vertex2="Aluminium_Strahlrohr1_v413" vertex3="Aluminium_Strahlrohr1_v409"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v254" vertex2="Aluminium_Strahlrohr1_v409" vertex3="Aluminium_Strahlrohr1_v253"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v344" vertex2="Aluminium_Strahlrohr1_v345" vertex3="Aluminium_Strahlrohr1_v412"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v344" vertex2="Aluminium_Strahlrohr1_v412" vertex3="Aluminium_Strahlrohr1_v414"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v255" vertex2="Aluminium_Strahlrohr1_v415" vertex3="Aluminium_Strahlrohr1_v413"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v255" vertex2="Aluminium_Strahlrohr1_v416" vertex3="Aluminium_Strahlrohr1_v415"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v255" vertex2="Aluminium_Strahlrohr1_v413" vertex3="Aluminium_Strahlrohr1_v254"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v343" vertex2="Aluminium_Strahlrohr1_v344" vertex3="Aluminium_Strahlrohr1_v414"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v343" vertex2="Aluminium_Strahlrohr1_v414" vertex3="Aluminium_Strahlrohr1_v417"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v256" vertex2="Aluminium_Strahlrohr1_v416" vertex3="Aluminium_Strahlrohr1_v255"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v342" vertex2="Aluminium_Strahlrohr1_v343" vertex3="Aluminium_Strahlrohr1_v417"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v342" vertex2="Aluminium_Strahlrohr1_v417" vertex3="Aluminium_Strahlrohr1_v418"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v257" vertex2="Aluminium_Strahlrohr1_v419" vertex3="Aluminium_Strahlrohr1_v416"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v257" vertex2="Aluminium_Strahlrohr1_v416" vertex3="Aluminium_Strahlrohr1_v256"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v341" vertex2="Aluminium_Strahlrohr1_v342" vertex3="Aluminium_Strahlrohr1_v418"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v341" vertex2="Aluminium_Strahlrohr1_v418" vertex3="Aluminium_Strahlrohr1_v420"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v258" vertex2="Aluminium_Strahlrohr1_v421" vertex3="Aluminium_Strahlrohr1_v419"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v258" vertex2="Aluminium_Strahlrohr1_v422" vertex3="Aluminium_Strahlrohr1_v421"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v258" vertex2="Aluminium_Strahlrohr1_v419" vertex3="Aluminium_Strahlrohr1_v257"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v340" vertex2="Aluminium_Strahlrohr1_v341" vertex3="Aluminium_Strahlrohr1_v420"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v340" vertex2="Aluminium_Strahlrohr1_v420" vertex3="Aluminium_Strahlrohr1_v423"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v259" vertex2="Aluminium_Strahlrohr1_v422" vertex3="Aluminium_Strahlrohr1_v258"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v259" vertex2="Aluminium_Strahlrohr1_v424" vertex3="Aluminium_Strahlrohr1_v422"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v339" vertex2="Aluminium_Strahlrohr1_v340" vertex3="Aluminium_Strahlrohr1_v423"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v339" vertex2="Aluminium_Strahlrohr1_v423" vertex3="Aluminium_Strahlrohr1_v425"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v260" vertex2="Aluminium_Strahlrohr1_v424" vertex3="Aluminium_Strahlrohr1_v259"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v338" vertex2="Aluminium_Strahlrohr1_v339" vertex3="Aluminium_Strahlrohr1_v425"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v338" vertex2="Aluminium_Strahlrohr1_v426" vertex3="Aluminium_Strahlrohr1_v427"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v338" vertex2="Aluminium_Strahlrohr1_v425" vertex3="Aluminium_Strahlrohr1_v426"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v261" vertex2="Aluminium_Strahlrohr1_v428" vertex3="Aluminium_Strahlrohr1_v424"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v261" vertex2="Aluminium_Strahlrohr1_v424" vertex3="Aluminium_Strahlrohr1_v260"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v337" vertex2="Aluminium_Strahlrohr1_v338" vertex3="Aluminium_Strahlrohr1_v427"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v262" vertex2="Aluminium_Strahlrohr1_v429" vertex3="Aluminium_Strahlrohr1_v428"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v262" vertex2="Aluminium_Strahlrohr1_v428" vertex3="Aluminium_Strahlrohr1_v261"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v336" vertex2="Aluminium_Strahlrohr1_v337" vertex3="Aluminium_Strahlrohr1_v427"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v336" vertex2="Aluminium_Strahlrohr1_v427" vertex3="Aluminium_Strahlrohr1_v430"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v263" vertex2="Aluminium_Strahlrohr1_v431" vertex3="Aluminium_Strahlrohr1_v429"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v263" vertex2="Aluminium_Strahlrohr1_v429" vertex3="Aluminium_Strahlrohr1_v262"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v335" vertex2="Aluminium_Strahlrohr1_v336" vertex3="Aluminium_Strahlrohr1_v430"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v335" vertex2="Aluminium_Strahlrohr1_v430" vertex3="Aluminium_Strahlrohr1_v432"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v264" vertex2="Aluminium_Strahlrohr1_v433" vertex3="Aluminium_Strahlrohr1_v431"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v264" vertex2="Aluminium_Strahlrohr1_v431" vertex3="Aluminium_Strahlrohr1_v263"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v334" vertex2="Aluminium_Strahlrohr1_v335" vertex3="Aluminium_Strahlrohr1_v432"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v334" vertex2="Aluminium_Strahlrohr1_v432" vertex3="Aluminium_Strahlrohr1_v434"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v265" vertex2="Aluminium_Strahlrohr1_v435" vertex3="Aluminium_Strahlrohr1_v433"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v265" vertex2="Aluminium_Strahlrohr1_v433" vertex3="Aluminium_Strahlrohr1_v264"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v333" vertex2="Aluminium_Strahlrohr1_v434" vertex3="Aluminium_Strahlrohr1_v436"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v333" vertex2="Aluminium_Strahlrohr1_v334" vertex3="Aluminium_Strahlrohr1_v434"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v437" vertex2="Aluminium_Strahlrohr1_v435" vertex3="Aluminium_Strahlrohr1_v265"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v266" vertex2="Aluminium_Strahlrohr1_v437" vertex3="Aluminium_Strahlrohr1_v265"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v332" vertex2="Aluminium_Strahlrohr1_v436" vertex3="Aluminium_Strahlrohr1_v438"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v332" vertex2="Aluminium_Strahlrohr1_v333" vertex3="Aluminium_Strahlrohr1_v436"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v267" vertex2="Aluminium_Strahlrohr1_v439" vertex3="Aluminium_Strahlrohr1_v437"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v267" vertex2="Aluminium_Strahlrohr1_v437" vertex3="Aluminium_Strahlrohr1_v266"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v440" vertex2="Aluminium_Strahlrohr1_v332" vertex3="Aluminium_Strahlrohr1_v438"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v331" vertex2="Aluminium_Strahlrohr1_v332" vertex3="Aluminium_Strahlrohr1_v440"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v441" vertex2="Aluminium_Strahlrohr1_v267" vertex3="Aluminium_Strahlrohr1_v268"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v441" vertex2="Aluminium_Strahlrohr1_v439" vertex3="Aluminium_Strahlrohr1_v267"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v330" vertex2="Aluminium_Strahlrohr1_v331" vertex3="Aluminium_Strahlrohr1_v440"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v442" vertex2="Aluminium_Strahlrohr1_v330" vertex3="Aluminium_Strahlrohr1_v440"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v269" vertex2="Aluminium_Strahlrohr1_v441" vertex3="Aluminium_Strahlrohr1_v268"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v443" vertex2="Aluminium_Strahlrohr1_v441" vertex3="Aluminium_Strahlrohr1_v269"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v444" vertex2="Aluminium_Strahlrohr1_v329" vertex3="Aluminium_Strahlrohr1_v330"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v444" vertex2="Aluminium_Strahlrohr1_v330" vertex3="Aluminium_Strahlrohr1_v442"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v445" vertex2="Aluminium_Strahlrohr1_v443" vertex3="Aluminium_Strahlrohr1_v269"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v445" vertex2="Aluminium_Strahlrohr1_v269" vertex3="Aluminium_Strahlrohr1_v270"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v446" vertex2="Aluminium_Strahlrohr1_v328" vertex3="Aluminium_Strahlrohr1_v329"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v446" vertex2="Aluminium_Strahlrohr1_v329" vertex3="Aluminium_Strahlrohr1_v444"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v447" vertex2="Aluminium_Strahlrohr1_v445" vertex3="Aluminium_Strahlrohr1_v270"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v447" vertex2="Aluminium_Strahlrohr1_v270" vertex3="Aluminium_Strahlrohr1_v271"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v448" vertex2="Aluminium_Strahlrohr1_v327" vertex3="Aluminium_Strahlrohr1_v328"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v448" vertex2="Aluminium_Strahlrohr1_v328" vertex3="Aluminium_Strahlrohr1_v446"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v449" vertex2="Aluminium_Strahlrohr1_v447" vertex3="Aluminium_Strahlrohr1_v271"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v449" vertex2="Aluminium_Strahlrohr1_v271" vertex3="Aluminium_Strahlrohr1_v272"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v450" vertex2="Aluminium_Strahlrohr1_v327" vertex3="Aluminium_Strahlrohr1_v448"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v450" vertex2="Aluminium_Strahlrohr1_v326" vertex3="Aluminium_Strahlrohr1_v327"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v451" vertex2="Aluminium_Strahlrohr1_v449" vertex3="Aluminium_Strahlrohr1_v272"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v451" vertex2="Aluminium_Strahlrohr1_v272" vertex3="Aluminium_Strahlrohr1_v273"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v452" vertex2="Aluminium_Strahlrohr1_v326" vertex3="Aluminium_Strahlrohr1_v450"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v452" vertex2="Aluminium_Strahlrohr1_v325" vertex3="Aluminium_Strahlrohr1_v326"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v453" vertex2="Aluminium_Strahlrohr1_v273" vertex3="Aluminium_Strahlrohr1_v274"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v453" vertex2="Aluminium_Strahlrohr1_v451" vertex3="Aluminium_Strahlrohr1_v273"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v454" vertex2="Aluminium_Strahlrohr1_v325" vertex3="Aluminium_Strahlrohr1_v452"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v454" vertex2="Aluminium_Strahlrohr1_v323" vertex3="Aluminium_Strahlrohr1_v324"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v454" vertex2="Aluminium_Strahlrohr1_v324" vertex3="Aluminium_Strahlrohr1_v325"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v455" vertex2="Aluminium_Strahlrohr1_v274" vertex3="Aluminium_Strahlrohr1_v275"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v455" vertex2="Aluminium_Strahlrohr1_v275" vertex3="Aluminium_Strahlrohr1_v276"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v455" vertex2="Aluminium_Strahlrohr1_v453" vertex3="Aluminium_Strahlrohr1_v274"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v456" vertex2="Aluminium_Strahlrohr1_v323" vertex3="Aluminium_Strahlrohr1_v454"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v457" vertex2="Aluminium_Strahlrohr1_v455" vertex3="Aluminium_Strahlrohr1_v276"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v458" vertex2="Aluminium_Strahlrohr1_v323" vertex3="Aluminium_Strahlrohr1_v456"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v458" vertex2="Aluminium_Strahlrohr1_v321" vertex3="Aluminium_Strahlrohr1_v322"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v458" vertex2="Aluminium_Strahlrohr1_v322" vertex3="Aluminium_Strahlrohr1_v323"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v459" vertex2="Aluminium_Strahlrohr1_v276" vertex3="Aluminium_Strahlrohr1_v277"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v459" vertex2="Aluminium_Strahlrohr1_v457" vertex3="Aluminium_Strahlrohr1_v276"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v460" vertex2="Aluminium_Strahlrohr1_v321" vertex3="Aluminium_Strahlrohr1_v458"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v461" vertex2="Aluminium_Strahlrohr1_v277" vertex3="Aluminium_Strahlrohr1_v278"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v461" vertex2="Aluminium_Strahlrohr1_v278" vertex3="Aluminium_Strahlrohr1_v279"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v461" vertex2="Aluminium_Strahlrohr1_v459" vertex3="Aluminium_Strahlrohr1_v277"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v462" vertex2="Aluminium_Strahlrohr1_v321" vertex3="Aluminium_Strahlrohr1_v460"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v462" vertex2="Aluminium_Strahlrohr1_v320" vertex3="Aluminium_Strahlrohr1_v321"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v463" vertex2="Aluminium_Strahlrohr1_v461" vertex3="Aluminium_Strahlrohr1_v279"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v464" vertex2="Aluminium_Strahlrohr1_v320" vertex3="Aluminium_Strahlrohr1_v462"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v464" vertex2="Aluminium_Strahlrohr1_v318" vertex3="Aluminium_Strahlrohr1_v319"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v464" vertex2="Aluminium_Strahlrohr1_v319" vertex3="Aluminium_Strahlrohr1_v320"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v465" vertex2="Aluminium_Strahlrohr1_v463" vertex3="Aluminium_Strahlrohr1_v279"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v465" vertex2="Aluminium_Strahlrohr1_v279" vertex3="Aluminium_Strahlrohr1_v280"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v465" vertex2="Aluminium_Strahlrohr1_v280" vertex3="Aluminium_Strahlrohr1_v281"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v466" vertex2="Aluminium_Strahlrohr1_v318" vertex3="Aluminium_Strahlrohr1_v464"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v467" vertex2="Aluminium_Strahlrohr1_v465" vertex3="Aluminium_Strahlrohr1_v281"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v468" vertex2="Aluminium_Strahlrohr1_v318" vertex3="Aluminium_Strahlrohr1_v466"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v468" vertex2="Aluminium_Strahlrohr1_v317" vertex3="Aluminium_Strahlrohr1_v318"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v469" vertex2="Aluminium_Strahlrohr1_v467" vertex3="Aluminium_Strahlrohr1_v281"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v469" vertex2="Aluminium_Strahlrohr1_v281" vertex3="Aluminium_Strahlrohr1_v282"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v470" vertex2="Aluminium_Strahlrohr1_v317" vertex3="Aluminium_Strahlrohr1_v468"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v470" vertex2="Aluminium_Strahlrohr1_v316" vertex3="Aluminium_Strahlrohr1_v317"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v471" vertex2="Aluminium_Strahlrohr1_v469" vertex3="Aluminium_Strahlrohr1_v282"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v471" vertex2="Aluminium_Strahlrohr1_v282" vertex3="Aluminium_Strahlrohr1_v283"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v472" vertex2="Aluminium_Strahlrohr1_v316" vertex3="Aluminium_Strahlrohr1_v470"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v472" vertex2="Aluminium_Strahlrohr1_v315" vertex3="Aluminium_Strahlrohr1_v316"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v473" vertex2="Aluminium_Strahlrohr1_v471" vertex3="Aluminium_Strahlrohr1_v283"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v473" vertex2="Aluminium_Strahlrohr1_v283" vertex3="Aluminium_Strahlrohr1_v284"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v474" vertex2="Aluminium_Strahlrohr1_v315" vertex3="Aluminium_Strahlrohr1_v472"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v474" vertex2="Aluminium_Strahlrohr1_v314" vertex3="Aluminium_Strahlrohr1_v315"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v475" vertex2="Aluminium_Strahlrohr1_v473" vertex3="Aluminium_Strahlrohr1_v284"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v475" vertex2="Aluminium_Strahlrohr1_v284" vertex3="Aluminium_Strahlrohr1_v285"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v475" vertex2="Aluminium_Strahlrohr1_v285" vertex3="Aluminium_Strahlrohr1_v286"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v476" vertex2="Aluminium_Strahlrohr1_v314" vertex3="Aluminium_Strahlrohr1_v474"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v476" vertex2="Aluminium_Strahlrohr1_v313" vertex3="Aluminium_Strahlrohr1_v314"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v477" vertex2="Aluminium_Strahlrohr1_v475" vertex3="Aluminium_Strahlrohr1_v286"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v478" vertex2="Aluminium_Strahlrohr1_v313" vertex3="Aluminium_Strahlrohr1_v476"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v478" vertex2="Aluminium_Strahlrohr1_v312" vertex3="Aluminium_Strahlrohr1_v313"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v479" vertex2="Aluminium_Strahlrohr1_v286" vertex3="Aluminium_Strahlrohr1_v287"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v479" vertex2="Aluminium_Strahlrohr1_v287" vertex3="Aluminium_Strahlrohr1_v288"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v479" vertex2="Aluminium_Strahlrohr1_v477" vertex3="Aluminium_Strahlrohr1_v286"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v480" vertex2="Aluminium_Strahlrohr1_v312" vertex3="Aluminium_Strahlrohr1_v478"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v480" vertex2="Aluminium_Strahlrohr1_v310" vertex3="Aluminium_Strahlrohr1_v311"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v480" vertex2="Aluminium_Strahlrohr1_v311" vertex3="Aluminium_Strahlrohr1_v312"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v481" vertex2="Aluminium_Strahlrohr1_v479" vertex3="Aluminium_Strahlrohr1_v288"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v482" vertex2="Aluminium_Strahlrohr1_v310" vertex3="Aluminium_Strahlrohr1_v480"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v483" vertex2="Aluminium_Strahlrohr1_v288" vertex3="Aluminium_Strahlrohr1_v289"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v483" vertex2="Aluminium_Strahlrohr1_v481" vertex3="Aluminium_Strahlrohr1_v288"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v484" vertex2="Aluminium_Strahlrohr1_v310" vertex3="Aluminium_Strahlrohr1_v482"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v484" vertex2="Aluminium_Strahlrohr1_v309" vertex3="Aluminium_Strahlrohr1_v310"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v485" vertex2="Aluminium_Strahlrohr1_v289" vertex3="Aluminium_Strahlrohr1_v290"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v485" vertex2="Aluminium_Strahlrohr1_v483" vertex3="Aluminium_Strahlrohr1_v289"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v486" vertex2="Aluminium_Strahlrohr1_v309" vertex3="Aluminium_Strahlrohr1_v484"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v486" vertex2="Aluminium_Strahlrohr1_v308" vertex3="Aluminium_Strahlrohr1_v309"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v487" vertex2="Aluminium_Strahlrohr1_v290" vertex3="Aluminium_Strahlrohr1_v291"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v487" vertex2="Aluminium_Strahlrohr1_v485" vertex3="Aluminium_Strahlrohr1_v290"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v488" vertex2="Aluminium_Strahlrohr1_v308" vertex3="Aluminium_Strahlrohr1_v486"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v488" vertex2="Aluminium_Strahlrohr1_v306" vertex3="Aluminium_Strahlrohr1_v307"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v488" vertex2="Aluminium_Strahlrohr1_v307" vertex3="Aluminium_Strahlrohr1_v308"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v489" vertex2="Aluminium_Strahlrohr1_v291" vertex3="Aluminium_Strahlrohr1_v292"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v489" vertex2="Aluminium_Strahlrohr1_v292" vertex3="Aluminium_Strahlrohr1_v293"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v489" vertex2="Aluminium_Strahlrohr1_v487" vertex3="Aluminium_Strahlrohr1_v291"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v490" vertex2="Aluminium_Strahlrohr1_v306" vertex3="Aluminium_Strahlrohr1_v488"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v491" vertex2="Aluminium_Strahlrohr1_v489" vertex3="Aluminium_Strahlrohr1_v293"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v492" vertex2="Aluminium_Strahlrohr1_v306" vertex3="Aluminium_Strahlrohr1_v490"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v492" vertex2="Aluminium_Strahlrohr1_v304" vertex3="Aluminium_Strahlrohr1_v305"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v492" vertex2="Aluminium_Strahlrohr1_v305" vertex3="Aluminium_Strahlrohr1_v306"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v493" vertex2="Aluminium_Strahlrohr1_v491" vertex3="Aluminium_Strahlrohr1_v293"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v493" vertex2="Aluminium_Strahlrohr1_v293" vertex3="Aluminium_Strahlrohr1_v294"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v494" vertex2="Aluminium_Strahlrohr1_v304" vertex3="Aluminium_Strahlrohr1_v492"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v495" vertex2="Aluminium_Strahlrohr1_v493" vertex3="Aluminium_Strahlrohr1_v294"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v495" vertex2="Aluminium_Strahlrohr1_v294" vertex3="Aluminium_Strahlrohr1_v295"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v495" vertex2="Aluminium_Strahlrohr1_v295" vertex3="Aluminium_Strahlrohr1_v296"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v496" vertex2="Aluminium_Strahlrohr1_v304" vertex3="Aluminium_Strahlrohr1_v494"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v496" vertex2="Aluminium_Strahlrohr1_v303" vertex3="Aluminium_Strahlrohr1_v304"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v497" vertex2="Aluminium_Strahlrohr1_v495" vertex3="Aluminium_Strahlrohr1_v296"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v498" vertex2="Aluminium_Strahlrohr1_v303" vertex3="Aluminium_Strahlrohr1_v496"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v498" vertex2="Aluminium_Strahlrohr1_v302" vertex3="Aluminium_Strahlrohr1_v303"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v499" vertex2="Aluminium_Strahlrohr1_v497" vertex3="Aluminium_Strahlrohr1_v296"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v499" vertex2="Aluminium_Strahlrohr1_v296" vertex3="Aluminium_Strahlrohr1_v297"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v500" vertex2="Aluminium_Strahlrohr1_v302" vertex3="Aluminium_Strahlrohr1_v498"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v500" vertex2="Aluminium_Strahlrohr1_v301" vertex3="Aluminium_Strahlrohr1_v302"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v501" vertex2="Aluminium_Strahlrohr1_v499" vertex3="Aluminium_Strahlrohr1_v297"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v501" vertex2="Aluminium_Strahlrohr1_v297" vertex3="Aluminium_Strahlrohr1_v298"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v502" vertex2="Aluminium_Strahlrohr1_v301" vertex3="Aluminium_Strahlrohr1_v500"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v502" vertex2="Aluminium_Strahlrohr1_v300" vertex3="Aluminium_Strahlrohr1_v301"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v503" vertex2="Aluminium_Strahlrohr1_v501" vertex3="Aluminium_Strahlrohr1_v298"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v503" vertex2="Aluminium_Strahlrohr1_v300" vertex3="Aluminium_Strahlrohr1_v502"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v503" vertex2="Aluminium_Strahlrohr1_v298" vertex3="Aluminium_Strahlrohr1_v299"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v503" vertex2="Aluminium_Strahlrohr1_v299" vertex3="Aluminium_Strahlrohr1_v300"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v188" vertex2="Aluminium_Strahlrohr1_v410" vertex3="Aluminium_Strahlrohr1_v409"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v193" vertex2="Aluminium_Strahlrohr1_v188" vertex3="Aluminium_Strahlrohr1_v409"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v196" vertex2="Aluminium_Strahlrohr1_v409" vertex3="Aluminium_Strahlrohr1_v413"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v196" vertex2="Aluminium_Strahlrohr1_v193" vertex3="Aluminium_Strahlrohr1_v409"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v200" vertex2="Aluminium_Strahlrohr1_v413" vertex3="Aluminium_Strahlrohr1_v415"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v200" vertex2="Aluminium_Strahlrohr1_v415" vertex3="Aluminium_Strahlrohr1_v416"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v200" vertex2="Aluminium_Strahlrohr1_v196" vertex3="Aluminium_Strahlrohr1_v413"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v204" vertex2="Aluminium_Strahlrohr1_v200" vertex3="Aluminium_Strahlrohr1_v416"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v208" vertex2="Aluminium_Strahlrohr1_v416" vertex3="Aluminium_Strahlrohr1_v419"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v208" vertex2="Aluminium_Strahlrohr1_v204" vertex3="Aluminium_Strahlrohr1_v416"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v213" vertex2="Aluminium_Strahlrohr1_v419" vertex3="Aluminium_Strahlrohr1_v421"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v213" vertex2="Aluminium_Strahlrohr1_v421" vertex3="Aluminium_Strahlrohr1_v422"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v213" vertex2="Aluminium_Strahlrohr1_v208" vertex3="Aluminium_Strahlrohr1_v419"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v218" vertex2="Aluminium_Strahlrohr1_v213" vertex3="Aluminium_Strahlrohr1_v422"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v221" vertex2="Aluminium_Strahlrohr1_v422" vertex3="Aluminium_Strahlrohr1_v424"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v221" vertex2="Aluminium_Strahlrohr1_v424" vertex3="Aluminium_Strahlrohr1_v428"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v221" vertex2="Aluminium_Strahlrohr1_v218" vertex3="Aluminium_Strahlrohr1_v422"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v225" vertex2="Aluminium_Strahlrohr1_v221" vertex3="Aluminium_Strahlrohr1_v428"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v229" vertex2="Aluminium_Strahlrohr1_v428" vertex3="Aluminium_Strahlrohr1_v429"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v229" vertex2="Aluminium_Strahlrohr1_v225" vertex3="Aluminium_Strahlrohr1_v428"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v233" vertex2="Aluminium_Strahlrohr1_v229" vertex3="Aluminium_Strahlrohr1_v429"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v233" vertex2="Aluminium_Strahlrohr1_v429" vertex3="Aluminium_Strahlrohr1_v431"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v236" vertex2="Aluminium_Strahlrohr1_v233" vertex3="Aluminium_Strahlrohr1_v431"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v236" vertex2="Aluminium_Strahlrohr1_v431" vertex3="Aluminium_Strahlrohr1_v433"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v241" vertex2="Aluminium_Strahlrohr1_v236" vertex3="Aluminium_Strahlrohr1_v433"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v241" vertex2="Aluminium_Strahlrohr1_v433" vertex3="Aluminium_Strahlrohr1_v435"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v244" vertex2="Aluminium_Strahlrohr1_v435" vertex3="Aluminium_Strahlrohr1_v437"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v244" vertex2="Aluminium_Strahlrohr1_v241" vertex3="Aluminium_Strahlrohr1_v435"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v248" vertex2="Aluminium_Strahlrohr1_v437" vertex3="Aluminium_Strahlrohr1_v439"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v248" vertex2="Aluminium_Strahlrohr1_v244" vertex3="Aluminium_Strahlrohr1_v437"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v251" vertex2="Aluminium_Strahlrohr1_v439" vertex3="Aluminium_Strahlrohr1_v441"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v251" vertex2="Aluminium_Strahlrohr1_v441" vertex3="Aluminium_Strahlrohr1_v443"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v251" vertex2="Aluminium_Strahlrohr1_v248" vertex3="Aluminium_Strahlrohr1_v439"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v246" vertex2="Aluminium_Strahlrohr1_v251" vertex3="Aluminium_Strahlrohr1_v443"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v243" vertex2="Aluminium_Strahlrohr1_v443" vertex3="Aluminium_Strahlrohr1_v445"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v243" vertex2="Aluminium_Strahlrohr1_v246" vertex3="Aluminium_Strahlrohr1_v443"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v238" vertex2="Aluminium_Strahlrohr1_v445" vertex3="Aluminium_Strahlrohr1_v447"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v238" vertex2="Aluminium_Strahlrohr1_v243" vertex3="Aluminium_Strahlrohr1_v445"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v234" vertex2="Aluminium_Strahlrohr1_v447" vertex3="Aluminium_Strahlrohr1_v449"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v234" vertex2="Aluminium_Strahlrohr1_v238" vertex3="Aluminium_Strahlrohr1_v447"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v232" vertex2="Aluminium_Strahlrohr1_v449" vertex3="Aluminium_Strahlrohr1_v451"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v232" vertex2="Aluminium_Strahlrohr1_v234" vertex3="Aluminium_Strahlrohr1_v449"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v226" vertex2="Aluminium_Strahlrohr1_v451" vertex3="Aluminium_Strahlrohr1_v453"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v226" vertex2="Aluminium_Strahlrohr1_v232" vertex3="Aluminium_Strahlrohr1_v451"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v224" vertex2="Aluminium_Strahlrohr1_v453" vertex3="Aluminium_Strahlrohr1_v455"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v224" vertex2="Aluminium_Strahlrohr1_v226" vertex3="Aluminium_Strahlrohr1_v453"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v219" vertex2="Aluminium_Strahlrohr1_v455" vertex3="Aluminium_Strahlrohr1_v457"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v219" vertex2="Aluminium_Strahlrohr1_v224" vertex3="Aluminium_Strahlrohr1_v455"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v216" vertex2="Aluminium_Strahlrohr1_v457" vertex3="Aluminium_Strahlrohr1_v459"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v216" vertex2="Aluminium_Strahlrohr1_v219" vertex3="Aluminium_Strahlrohr1_v457"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v210" vertex2="Aluminium_Strahlrohr1_v459" vertex3="Aluminium_Strahlrohr1_v461"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v210" vertex2="Aluminium_Strahlrohr1_v461" vertex3="Aluminium_Strahlrohr1_v463"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v210" vertex2="Aluminium_Strahlrohr1_v216" vertex3="Aluminium_Strahlrohr1_v459"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v206" vertex2="Aluminium_Strahlrohr1_v210" vertex3="Aluminium_Strahlrohr1_v463"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v202" vertex2="Aluminium_Strahlrohr1_v463" vertex3="Aluminium_Strahlrohr1_v465"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v202" vertex2="Aluminium_Strahlrohr1_v206" vertex3="Aluminium_Strahlrohr1_v463"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v198" vertex2="Aluminium_Strahlrohr1_v465" vertex3="Aluminium_Strahlrohr1_v467"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v198" vertex2="Aluminium_Strahlrohr1_v202" vertex3="Aluminium_Strahlrohr1_v465"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v195" vertex2="Aluminium_Strahlrohr1_v467" vertex3="Aluminium_Strahlrohr1_v469"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v195" vertex2="Aluminium_Strahlrohr1_v198" vertex3="Aluminium_Strahlrohr1_v467"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v190" vertex2="Aluminium_Strahlrohr1_v469" vertex3="Aluminium_Strahlrohr1_v471"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v190" vertex2="Aluminium_Strahlrohr1_v195" vertex3="Aluminium_Strahlrohr1_v469"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v186" vertex2="Aluminium_Strahlrohr1_v471" vertex3="Aluminium_Strahlrohr1_v473"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v186" vertex2="Aluminium_Strahlrohr1_v473" vertex3="Aluminium_Strahlrohr1_v475"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v186" vertex2="Aluminium_Strahlrohr1_v190" vertex3="Aluminium_Strahlrohr1_v471"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v183" vertex2="Aluminium_Strahlrohr1_v186" vertex3="Aluminium_Strahlrohr1_v475"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v178" vertex2="Aluminium_Strahlrohr1_v475" vertex3="Aluminium_Strahlrohr1_v477"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v178" vertex2="Aluminium_Strahlrohr1_v183" vertex3="Aluminium_Strahlrohr1_v475"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v176" vertex2="Aluminium_Strahlrohr1_v477" vertex3="Aluminium_Strahlrohr1_v479"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v176" vertex2="Aluminium_Strahlrohr1_v479" vertex3="Aluminium_Strahlrohr1_v481"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v176" vertex2="Aluminium_Strahlrohr1_v178" vertex3="Aluminium_Strahlrohr1_v477"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v171" vertex2="Aluminium_Strahlrohr1_v176" vertex3="Aluminium_Strahlrohr1_v481"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v167" vertex2="Aluminium_Strahlrohr1_v171" vertex3="Aluminium_Strahlrohr1_v481"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v167" vertex2="Aluminium_Strahlrohr1_v481" vertex3="Aluminium_Strahlrohr1_v483"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v164" vertex2="Aluminium_Strahlrohr1_v167" vertex3="Aluminium_Strahlrohr1_v483"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v164" vertex2="Aluminium_Strahlrohr1_v483" vertex3="Aluminium_Strahlrohr1_v485"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v159" vertex2="Aluminium_Strahlrohr1_v164" vertex3="Aluminium_Strahlrohr1_v485"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v159" vertex2="Aluminium_Strahlrohr1_v485" vertex3="Aluminium_Strahlrohr1_v487"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v154" vertex2="Aluminium_Strahlrohr1_v159" vertex3="Aluminium_Strahlrohr1_v487"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v154" vertex2="Aluminium_Strahlrohr1_v487" vertex3="Aluminium_Strahlrohr1_v489"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v150" vertex2="Aluminium_Strahlrohr1_v154" vertex3="Aluminium_Strahlrohr1_v489"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v150" vertex2="Aluminium_Strahlrohr1_v489" vertex3="Aluminium_Strahlrohr1_v491"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v146" vertex2="Aluminium_Strahlrohr1_v150" vertex3="Aluminium_Strahlrohr1_v491"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v146" vertex2="Aluminium_Strahlrohr1_v491" vertex3="Aluminium_Strahlrohr1_v493"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v143" vertex2="Aluminium_Strahlrohr1_v146" vertex3="Aluminium_Strahlrohr1_v493"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v143" vertex2="Aluminium_Strahlrohr1_v493" vertex3="Aluminium_Strahlrohr1_v495"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v139" vertex2="Aluminium_Strahlrohr1_v143" vertex3="Aluminium_Strahlrohr1_v495"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v139" vertex2="Aluminium_Strahlrohr1_v495" vertex3="Aluminium_Strahlrohr1_v497"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v135" vertex2="Aluminium_Strahlrohr1_v139" vertex3="Aluminium_Strahlrohr1_v497"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v135" vertex2="Aluminium_Strahlrohr1_v497" vertex3="Aluminium_Strahlrohr1_v499"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v130" vertex2="Aluminium_Strahlrohr1_v135" vertex3="Aluminium_Strahlrohr1_v499"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v130" vertex2="Aluminium_Strahlrohr1_v499" vertex3="Aluminium_Strahlrohr1_v501"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v127" vertex2="Aluminium_Strahlrohr1_v130" vertex3="Aluminium_Strahlrohr1_v501"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v127" vertex2="Aluminium_Strahlrohr1_v501" vertex3="Aluminium_Strahlrohr1_v503"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v122" vertex2="Aluminium_Strahlrohr1_v503" vertex3="Aluminium_Strahlrohr1_v502"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v122" vertex2="Aluminium_Strahlrohr1_v127" vertex3="Aluminium_Strahlrohr1_v503"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v119" vertex2="Aluminium_Strahlrohr1_v502" vertex3="Aluminium_Strahlrohr1_v500"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v119" vertex2="Aluminium_Strahlrohr1_v122" vertex3="Aluminium_Strahlrohr1_v502"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v115" vertex2="Aluminium_Strahlrohr1_v500" vertex3="Aluminium_Strahlrohr1_v498"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v115" vertex2="Aluminium_Strahlrohr1_v119" vertex3="Aluminium_Strahlrohr1_v500"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v111" vertex2="Aluminium_Strahlrohr1_v498" vertex3="Aluminium_Strahlrohr1_v496"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v111" vertex2="Aluminium_Strahlrohr1_v115" vertex3="Aluminium_Strahlrohr1_v498"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v107" vertex2="Aluminium_Strahlrohr1_v496" vertex3="Aluminium_Strahlrohr1_v494"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v107" vertex2="Aluminium_Strahlrohr1_v111" vertex3="Aluminium_Strahlrohr1_v496"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v103" vertex2="Aluminium_Strahlrohr1_v494" vertex3="Aluminium_Strahlrohr1_v492"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v103" vertex2="Aluminium_Strahlrohr1_v107" vertex3="Aluminium_Strahlrohr1_v494"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v100" vertex2="Aluminium_Strahlrohr1_v492" vertex3="Aluminium_Strahlrohr1_v490"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v100" vertex2="Aluminium_Strahlrohr1_v490" vertex3="Aluminium_Strahlrohr1_v488"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v100" vertex2="Aluminium_Strahlrohr1_v103" vertex3="Aluminium_Strahlrohr1_v492"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v95" vertex2="Aluminium_Strahlrohr1_v100" vertex3="Aluminium_Strahlrohr1_v488"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v88" vertex2="Aluminium_Strahlrohr1_v488" vertex3="Aluminium_Strahlrohr1_v486"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v88" vertex2="Aluminium_Strahlrohr1_v95" vertex3="Aluminium_Strahlrohr1_v488"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v89" vertex2="Aluminium_Strahlrohr1_v486" vertex3="Aluminium_Strahlrohr1_v484"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v89" vertex2="Aluminium_Strahlrohr1_v88" vertex3="Aluminium_Strahlrohr1_v486"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v83" vertex2="Aluminium_Strahlrohr1_v484" vertex3="Aluminium_Strahlrohr1_v482"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v83" vertex2="Aluminium_Strahlrohr1_v89" vertex3="Aluminium_Strahlrohr1_v484"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v76" vertex2="Aluminium_Strahlrohr1_v482" vertex3="Aluminium_Strahlrohr1_v480"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v76" vertex2="Aluminium_Strahlrohr1_v83" vertex3="Aluminium_Strahlrohr1_v482"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v71" vertex2="Aluminium_Strahlrohr1_v480" vertex3="Aluminium_Strahlrohr1_v478"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v71" vertex2="Aluminium_Strahlrohr1_v76" vertex3="Aluminium_Strahlrohr1_v480"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v72" vertex2="Aluminium_Strahlrohr1_v478" vertex3="Aluminium_Strahlrohr1_v476"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v72" vertex2="Aluminium_Strahlrohr1_v71" vertex3="Aluminium_Strahlrohr1_v478"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v67" vertex2="Aluminium_Strahlrohr1_v476" vertex3="Aluminium_Strahlrohr1_v474"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v67" vertex2="Aluminium_Strahlrohr1_v474" vertex3="Aluminium_Strahlrohr1_v472"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v67" vertex2="Aluminium_Strahlrohr1_v72" vertex3="Aluminium_Strahlrohr1_v476"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v64" vertex2="Aluminium_Strahlrohr1_v67" vertex3="Aluminium_Strahlrohr1_v472"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v59" vertex2="Aluminium_Strahlrohr1_v64" vertex3="Aluminium_Strahlrohr1_v472"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v59" vertex2="Aluminium_Strahlrohr1_v472" vertex3="Aluminium_Strahlrohr1_v470"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v55" vertex2="Aluminium_Strahlrohr1_v59" vertex3="Aluminium_Strahlrohr1_v470"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v55" vertex2="Aluminium_Strahlrohr1_v470" vertex3="Aluminium_Strahlrohr1_v468"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v47" vertex2="Aluminium_Strahlrohr1_v55" vertex3="Aluminium_Strahlrohr1_v468"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v47" vertex2="Aluminium_Strahlrohr1_v468" vertex3="Aluminium_Strahlrohr1_v466"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v47" vertex2="Aluminium_Strahlrohr1_v466" vertex3="Aluminium_Strahlrohr1_v464"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v48" vertex2="Aluminium_Strahlrohr1_v47" vertex3="Aluminium_Strahlrohr1_v464"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v43" vertex2="Aluminium_Strahlrohr1_v48" vertex3="Aluminium_Strahlrohr1_v464"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v43" vertex2="Aluminium_Strahlrohr1_v464" vertex3="Aluminium_Strahlrohr1_v462"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v43" vertex2="Aluminium_Strahlrohr1_v462" vertex3="Aluminium_Strahlrohr1_v460"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v37" vertex2="Aluminium_Strahlrohr1_v43" vertex3="Aluminium_Strahlrohr1_v460"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v37" vertex2="Aluminium_Strahlrohr1_v460" vertex3="Aluminium_Strahlrohr1_v458"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v31" vertex2="Aluminium_Strahlrohr1_v37" vertex3="Aluminium_Strahlrohr1_v458"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v32" vertex2="Aluminium_Strahlrohr1_v31" vertex3="Aluminium_Strahlrohr1_v458"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v32" vertex2="Aluminium_Strahlrohr1_v458" vertex3="Aluminium_Strahlrohr1_v456"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v32" vertex2="Aluminium_Strahlrohr1_v456" vertex3="Aluminium_Strahlrohr1_v454"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v24" vertex2="Aluminium_Strahlrohr1_v32" vertex3="Aluminium_Strahlrohr1_v454"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v25" vertex2="Aluminium_Strahlrohr1_v24" vertex3="Aluminium_Strahlrohr1_v454"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v25" vertex2="Aluminium_Strahlrohr1_v454" vertex3="Aluminium_Strahlrohr1_v452"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v15" vertex2="Aluminium_Strahlrohr1_v25" vertex3="Aluminium_Strahlrohr1_v452"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v15" vertex2="Aluminium_Strahlrohr1_v452" vertex3="Aluminium_Strahlrohr1_v450"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v16" vertex2="Aluminium_Strahlrohr1_v15" vertex3="Aluminium_Strahlrohr1_v450"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v16" vertex2="Aluminium_Strahlrohr1_v450" vertex3="Aluminium_Strahlrohr1_v448"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v11" vertex2="Aluminium_Strahlrohr1_v16" vertex3="Aluminium_Strahlrohr1_v448"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v11" vertex2="Aluminium_Strahlrohr1_v448" vertex3="Aluminium_Strahlrohr1_v446"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v3" vertex2="Aluminium_Strahlrohr1_v11" vertex3="Aluminium_Strahlrohr1_v446"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v3" vertex2="Aluminium_Strahlrohr1_v446" vertex3="Aluminium_Strahlrohr1_v444"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v4" vertex2="Aluminium_Strahlrohr1_v3" vertex3="Aluminium_Strahlrohr1_v444"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v4" vertex2="Aluminium_Strahlrohr1_v444" vertex3="Aluminium_Strahlrohr1_v442"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v1" vertex2="Aluminium_Strahlrohr1_v4" vertex3="Aluminium_Strahlrohr1_v442"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v1" vertex2="Aluminium_Strahlrohr1_v442" vertex3="Aluminium_Strahlrohr1_v440"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v6" vertex2="Aluminium_Strahlrohr1_v1" vertex3="Aluminium_Strahlrohr1_v440"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v6" vertex2="Aluminium_Strahlrohr1_v440" vertex3="Aluminium_Strahlrohr1_v438"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v7" vertex2="Aluminium_Strahlrohr1_v6" vertex3="Aluminium_Strahlrohr1_v438"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v7" vertex2="Aluminium_Strahlrohr1_v438" vertex3="Aluminium_Strahlrohr1_v436"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v13" vertex2="Aluminium_Strahlrohr1_v7" vertex3="Aluminium_Strahlrohr1_v436"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v13" vertex2="Aluminium_Strahlrohr1_v436" vertex3="Aluminium_Strahlrohr1_v434"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v13" vertex2="Aluminium_Strahlrohr1_v434" vertex3="Aluminium_Strahlrohr1_v432"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v18" vertex2="Aluminium_Strahlrohr1_v13" vertex3="Aluminium_Strahlrohr1_v432"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v21" vertex2="Aluminium_Strahlrohr1_v432" vertex3="Aluminium_Strahlrohr1_v430"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v21" vertex2="Aluminium_Strahlrohr1_v18" vertex3="Aluminium_Strahlrohr1_v432"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v22" vertex2="Aluminium_Strahlrohr1_v430" vertex3="Aluminium_Strahlrohr1_v427"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v22" vertex2="Aluminium_Strahlrohr1_v21" vertex3="Aluminium_Strahlrohr1_v430"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v29" vertex2="Aluminium_Strahlrohr1_v427" vertex3="Aluminium_Strahlrohr1_v426"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v29" vertex2="Aluminium_Strahlrohr1_v22" vertex3="Aluminium_Strahlrohr1_v427"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v34" vertex2="Aluminium_Strahlrohr1_v426" vertex3="Aluminium_Strahlrohr1_v425"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v34" vertex2="Aluminium_Strahlrohr1_v29" vertex3="Aluminium_Strahlrohr1_v426"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v35" vertex2="Aluminium_Strahlrohr1_v34" vertex3="Aluminium_Strahlrohr1_v425"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v35" vertex2="Aluminium_Strahlrohr1_v425" vertex3="Aluminium_Strahlrohr1_v423"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v41" vertex2="Aluminium_Strahlrohr1_v35" vertex3="Aluminium_Strahlrohr1_v423"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v41" vertex2="Aluminium_Strahlrohr1_v423" vertex3="Aluminium_Strahlrohr1_v420"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v45" vertex2="Aluminium_Strahlrohr1_v41" vertex3="Aluminium_Strahlrohr1_v420"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v45" vertex2="Aluminium_Strahlrohr1_v420" vertex3="Aluminium_Strahlrohr1_v418"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v50" vertex2="Aluminium_Strahlrohr1_v45" vertex3="Aluminium_Strahlrohr1_v418"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v50" vertex2="Aluminium_Strahlrohr1_v418" vertex3="Aluminium_Strahlrohr1_v417"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v53" vertex2="Aluminium_Strahlrohr1_v50" vertex3="Aluminium_Strahlrohr1_v417"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v53" vertex2="Aluminium_Strahlrohr1_v417" vertex3="Aluminium_Strahlrohr1_v414"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v57" vertex2="Aluminium_Strahlrohr1_v53" vertex3="Aluminium_Strahlrohr1_v414"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v57" vertex2="Aluminium_Strahlrohr1_v414" vertex3="Aluminium_Strahlrohr1_v412"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v61" vertex2="Aluminium_Strahlrohr1_v57" vertex3="Aluminium_Strahlrohr1_v412"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v61" vertex2="Aluminium_Strahlrohr1_v412" vertex3="Aluminium_Strahlrohr1_v411"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v62" vertex2="Aluminium_Strahlrohr1_v61" vertex3="Aluminium_Strahlrohr1_v411"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v62" vertex2="Aluminium_Strahlrohr1_v411" vertex3="Aluminium_Strahlrohr1_v408"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v69" vertex2="Aluminium_Strahlrohr1_v62" vertex3="Aluminium_Strahlrohr1_v408"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v69" vertex2="Aluminium_Strahlrohr1_v408" vertex3="Aluminium_Strahlrohr1_v405"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v74" vertex2="Aluminium_Strahlrohr1_v69" vertex3="Aluminium_Strahlrohr1_v405"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v74" vertex2="Aluminium_Strahlrohr1_v405" vertex3="Aluminium_Strahlrohr1_v404"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v74" vertex2="Aluminium_Strahlrohr1_v404" vertex3="Aluminium_Strahlrohr1_v402"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v78" vertex2="Aluminium_Strahlrohr1_v74" vertex3="Aluminium_Strahlrohr1_v402"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v81" vertex2="Aluminium_Strahlrohr1_v78" vertex3="Aluminium_Strahlrohr1_v402"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v81" vertex2="Aluminium_Strahlrohr1_v402" vertex3="Aluminium_Strahlrohr1_v401"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v85" vertex2="Aluminium_Strahlrohr1_v81" vertex3="Aluminium_Strahlrohr1_v401"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v85" vertex2="Aluminium_Strahlrohr1_v401" vertex3="Aluminium_Strahlrohr1_v398"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v86" vertex2="Aluminium_Strahlrohr1_v398" vertex3="Aluminium_Strahlrohr1_v395"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v86" vertex2="Aluminium_Strahlrohr1_v85" vertex3="Aluminium_Strahlrohr1_v398"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v93" vertex2="Aluminium_Strahlrohr1_v395" vertex3="Aluminium_Strahlrohr1_v394"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v93" vertex2="Aluminium_Strahlrohr1_v86" vertex3="Aluminium_Strahlrohr1_v395"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v97" vertex2="Aluminium_Strahlrohr1_v394" vertex3="Aluminium_Strahlrohr1_v391"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v97" vertex2="Aluminium_Strahlrohr1_v93" vertex3="Aluminium_Strahlrohr1_v394"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v98" vertex2="Aluminium_Strahlrohr1_v391" vertex3="Aluminium_Strahlrohr1_v390"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v98" vertex2="Aluminium_Strahlrohr1_v97" vertex3="Aluminium_Strahlrohr1_v391"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v105" vertex2="Aluminium_Strahlrohr1_v390" vertex3="Aluminium_Strahlrohr1_v388"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v105" vertex2="Aluminium_Strahlrohr1_v98" vertex3="Aluminium_Strahlrohr1_v390"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v109" vertex2="Aluminium_Strahlrohr1_v388" vertex3="Aluminium_Strahlrohr1_v387"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v109" vertex2="Aluminium_Strahlrohr1_v105" vertex3="Aluminium_Strahlrohr1_v388"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v113" vertex2="Aluminium_Strahlrohr1_v387" vertex3="Aluminium_Strahlrohr1_v383"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v113" vertex2="Aluminium_Strahlrohr1_v109" vertex3="Aluminium_Strahlrohr1_v387"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v117" vertex2="Aluminium_Strahlrohr1_v383" vertex3="Aluminium_Strahlrohr1_v382"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v117" vertex2="Aluminium_Strahlrohr1_v113" vertex3="Aluminium_Strahlrohr1_v383"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v121" vertex2="Aluminium_Strahlrohr1_v382" vertex3="Aluminium_Strahlrohr1_v379"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v121" vertex2="Aluminium_Strahlrohr1_v117" vertex3="Aluminium_Strahlrohr1_v382"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v125" vertex2="Aluminium_Strahlrohr1_v379" vertex3="Aluminium_Strahlrohr1_v378"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v125" vertex2="Aluminium_Strahlrohr1_v121" vertex3="Aluminium_Strahlrohr1_v379"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v128" vertex2="Aluminium_Strahlrohr1_v378" vertex3="Aluminium_Strahlrohr1_v380"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v128" vertex2="Aluminium_Strahlrohr1_v125" vertex3="Aluminium_Strahlrohr1_v378"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v133" vertex2="Aluminium_Strahlrohr1_v380" vertex3="Aluminium_Strahlrohr1_v381"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v133" vertex2="Aluminium_Strahlrohr1_v128" vertex3="Aluminium_Strahlrohr1_v380"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v138" vertex2="Aluminium_Strahlrohr1_v133" vertex3="Aluminium_Strahlrohr1_v381"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v138" vertex2="Aluminium_Strahlrohr1_v381" vertex3="Aluminium_Strahlrohr1_v384"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v141" vertex2="Aluminium_Strahlrohr1_v138" vertex3="Aluminium_Strahlrohr1_v384"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v141" vertex2="Aluminium_Strahlrohr1_v384" vertex3="Aluminium_Strahlrohr1_v385"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v144" vertex2="Aluminium_Strahlrohr1_v141" vertex3="Aluminium_Strahlrohr1_v385"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v144" vertex2="Aluminium_Strahlrohr1_v385" vertex3="Aluminium_Strahlrohr1_v386"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v148" vertex2="Aluminium_Strahlrohr1_v144" vertex3="Aluminium_Strahlrohr1_v386"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v148" vertex2="Aluminium_Strahlrohr1_v386" vertex3="Aluminium_Strahlrohr1_v389"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v152" vertex2="Aluminium_Strahlrohr1_v389" vertex3="Aluminium_Strahlrohr1_v392"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v152" vertex2="Aluminium_Strahlrohr1_v148" vertex3="Aluminium_Strahlrohr1_v389"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v157" vertex2="Aluminium_Strahlrohr1_v392" vertex3="Aluminium_Strahlrohr1_v393"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v157" vertex2="Aluminium_Strahlrohr1_v152" vertex3="Aluminium_Strahlrohr1_v392"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v161" vertex2="Aluminium_Strahlrohr1_v393" vertex3="Aluminium_Strahlrohr1_v396"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v161" vertex2="Aluminium_Strahlrohr1_v157" vertex3="Aluminium_Strahlrohr1_v393"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v165" vertex2="Aluminium_Strahlrohr1_v396" vertex3="Aluminium_Strahlrohr1_v397"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v165" vertex2="Aluminium_Strahlrohr1_v161" vertex3="Aluminium_Strahlrohr1_v396"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v169" vertex2="Aluminium_Strahlrohr1_v397" vertex3="Aluminium_Strahlrohr1_v399"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v169" vertex2="Aluminium_Strahlrohr1_v165" vertex3="Aluminium_Strahlrohr1_v397"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v174" vertex2="Aluminium_Strahlrohr1_v399" vertex3="Aluminium_Strahlrohr1_v400"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v174" vertex2="Aluminium_Strahlrohr1_v169" vertex3="Aluminium_Strahlrohr1_v399"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v177" vertex2="Aluminium_Strahlrohr1_v400" vertex3="Aluminium_Strahlrohr1_v403"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v177" vertex2="Aluminium_Strahlrohr1_v174" vertex3="Aluminium_Strahlrohr1_v400"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v180" vertex2="Aluminium_Strahlrohr1_v403" vertex3="Aluminium_Strahlrohr1_v406"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v180" vertex2="Aluminium_Strahlrohr1_v177" vertex3="Aluminium_Strahlrohr1_v403"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v185" vertex2="Aluminium_Strahlrohr1_v406" vertex3="Aluminium_Strahlrohr1_v407"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v185" vertex2="Aluminium_Strahlrohr1_v407" vertex3="Aluminium_Strahlrohr1_v410"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v185" vertex2="Aluminium_Strahlrohr1_v180" vertex3="Aluminium_Strahlrohr1_v406"/>
+ <triangular vertex1="Aluminium_Strahlrohr1_v188" vertex2="Aluminium_Strahlrohr1_v185" vertex3="Aluminium_Strahlrohr1_v410"/>
+ </tessellated>
+ <box lunit="mm" name="worldsolid" x="1000" y="1000" z="1000"/>
+ </solids>
+ <structure>
+ <volume name="Aluminium_Strahlrohr1">
+ <materialref ref="G4_Si"/>
+ <solidref ref="Aluminium_Strahlrohr1_solid"/>
+ </volume>
+ </structure>
+ <setup name="Default" version="1.0">
+ <world ref="Aluminium_Strahlrohr1"/>
+ </setup>
+</gdml>

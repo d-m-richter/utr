@@ -44,6 +44,8 @@ void RunAction::BeginOfRunAction(const G4Run *) {
   // Get analysis manager
   G4RootAnalysisManager *analysisManager = G4RootAnalysisManager::Instance();
 
+  //const time_t start_time_t = system_clock::to_time_t(start_time);
+
 #ifdef EVENT_EVENTWISE
   analysisManager->CreateNtuple("edep", "Energy Deposition");
   auto max_sensitive_detector_ID = ((DetectorConstruction *)G4RunManager::GetRunManager()->GetUserDetectorConstruction())->Max_Sensitive_Detector_ID;
@@ -85,6 +87,9 @@ void RunAction::BeginOfRunAction(const G4Run *) {
 #ifdef EVENT_MOMZ
   analysisManager->CreateNtupleDColumn("vz");
 #endif
+//#ifdef EVENT_TIME
+//  analysisManager->CreateNtupleDColumn("time");
+//#endif
 #endif
   analysisManager->FinishNtuple();
 
@@ -154,6 +159,8 @@ G4String RunAction::GetOutputFlagName(unsigned int n) {
       return "MOMY";
     case MOMZ:
       return "MOMZ";
+    //case TIME:
+    //  return "TIME";
     default:
       G4cout << "RunAction: Error! Output flag index not found." << G4endl;
       return "";

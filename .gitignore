@@ -25,10 +25,23 @@ build1
 # GDML Directory
 gdml
 
+# Images
+images
+
+# Notebooks and python codes for evaluation of simulation output
+Jupyter_notebooks
+python_lib
+Old_python_codes
+Edelstahlzylinder.ipynb
+
+# Output
+output
+Spektren
+
 # in DetectorConstruction
 Bleiburgtest.hh
 Detector_Dimensions_Calculation.py
-DetectorConstruction.cc
+
 
 # in Volumes
 Quellenhalter_new.gdml
@@ -37,7 +50,7 @@ Hohlzylinder_new.gdml
 Hohlzylinder.gdml
 
 # in macros
-utrwrapper-efficiency-jonny.xmac
+utrwrapper-efficiency-radiationprotection.xmac
 
 # C++ objects
 unit_test/AngularDistributionGenerator/AngularDistribution.o
@@ -72,3 +85,9 @@ output/*
 
 # VS Code directory
 .vscode
+
+# tmux session
+tmux_run_code.py
+
+# jupyter notebook
+Jupyter_notebooks/Unsicherheiten.ipynb
