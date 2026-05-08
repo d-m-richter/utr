@@ -26,9 +26,10 @@ build1
 gdml
 
 # Volumes because the file size is too big
-DetectorConstruction/Others/Efficiency/Volumes/Deckel-Petrischale21.gdml
-DetectorConstruction/Others/Efficiency/Volumes/Gesamte_Petrischale.gdml
-DetectorConstruction/Others/Efficiency/Volumes/Petrischale1.gdml
+Save_folder
+#DetectorConstruction/Others/Efficiency/Volumes/Gesamte_Petrischale.gdml
+#DetectorConstruction/Others/Efficiency/Volumes/Petrischale1.gdml
+#DetectorConstruction/Others/Efficiency/Volumes/Deckel-Petrischale21.gdml
 
 # Images
 images
