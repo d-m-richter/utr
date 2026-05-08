@@ -25,6 +25,11 @@ build1
 # GDML Directory
 gdml
 
+# Volumes because the file size is too big
+VolumesDeckel-Petrischale21.gdml
+Gesamte_Petrischale.gdml
+Petrischale1.gdml
+
 # Images
 images
 
